@@ -1,42 +1,154 @@
-# VectorDeckPPT
+<div align="center">
+  <a href="examples/project-intro-deck/project-intro.pptx">
+    <img width="100%" src="doc/assets/readme/hero.png" alt="VectorDeckPPT 项目介绍演示文稿封面">
+  </a>
 
-VectorDeckPPT 是一个面向 AI Agent 的可编辑 PowerPoint 生成 Skill。宿主 Agent 负责理解资料、规划叙事、定义视觉系统并将每一页设计成结构化 SVG；仓库中的确定性脚本负责校验、渲染预览、编译 PPTX 和检查交付文件。
+  <h1>VectorDeckPPT</h1>
 
-项目不调用任何 AI Provider SDK，也不把整页截图作为默认 PPT 内容。`SVG <text>`、基础图形和图片会尽可能编译为 PowerPoint 原生对象，以保留编辑能力；无法安全转换的可见元素必须回退为嵌入式 SVG 或明确报错，不能静默丢失。
+  <p>把资料变成可编辑、可审阅、可复现的 PowerPoint。</p>
 
-## 核心流程
+  <p>
+    <a href="https://github.com/AaaBinfinity/VectorDeckPPT/releases/latest"><img src="https://img.shields.io/github/v/release/AaaBinfinity/VectorDeckPPT?style=flat-square&color=2563EB" alt="Latest release"></a>
+    <img src="https://img.shields.io/badge/Python-3.12%2B-0EA5E9?style=flat-square&logo=python&logoColor=white" alt="Python 3.12+">
+    <img src="https://img.shields.io/badge/Agent%20Skill-Vector--first-14B8A6?style=flat-square" alt="Vector-first Agent Skill">
+    <a href="LICENSE"><img src="https://img.shields.io/github/license/AaaBinfinity/VectorDeckPPT?style=flat-square&color=22C55E" alt="MIT License"></a>
+  </p>
 
-```text
-澄清需求 -> 完整文字版 -> 用户批准文字
-         -> 代表性视觉样稿（最多 3 页）-> 用户批准视觉
-         -> 全量 SVG -> validate -> render -> visual review -> revise
-         -> compile editable PPTX -> validate -> deliver
-```
+  <p>
+    <a href="#preview"><strong>效果预览</strong></a> ·
+    <a href="#quick-start"><strong>快速开始</strong></a> ·
+    <a href="#workflow"><strong>工作流</strong></a> ·
+    <a href="#capabilities"><strong>能力边界</strong></a> ·
+    <a href="#documentation"><strong>文档导航</strong></a>
+  </p>
+</div>
 
-## 目录
+---
 
-```text
-.agents/skills/vectordeckppt/
-  SKILL.md                 Agent 操作规程
-  agents/openai.yaml       Skill 界面元数据
-  references/              按需读取的设计与工具链规则
-  scripts/                 确定性 SVG/PPTX 工具
-  assets/                  少量可复用主题、图标和示例资产
-tests/                     单元与集成测试
-examples/basic-deck/       可编译的示例演示文稿
-examples/project-intro-deck/  10 页项目介绍（可编辑 PPTX、源 SVG 与编译报告）
-doc/PRD.md                 产品与实现规范
-```
+VectorDeckPPT 是面向 AI Agent 的向量优先 PowerPoint 生成 Skill。宿主 Agent 负责阅读资料、规划叙事、定义视觉系统和逐页设计；仓库中的确定性工具链负责 SVG 校验、PNG 渲染、PPTX 编译和交付验证。
 
-## 安装
+> VectorDeckPPT 不是另一个 AI API 应用，也不调用 AI Provider SDK。每一页 SVG 都是视觉真源；文本与基础图形优先转换为 PowerPoint 原生对象，无法可靠转换的可见元素必须明确降级或报错，绝不静默丢失。
 
-需要 Python 3.12+。可以使用 [uv](https://docs.astral.sh/uv/)：
+## 为什么是 VectorDeckPPT
+
+| 视觉真源 | 原生可编辑 | 工程可验证 |
+|---|---|---|
+| 一页一份结构化 SVG，设计、预览和后续修改都回到同一源文件 | 文本、基础图形、图片和直线段 freeform 优先编译为 PowerPoint 原生对象 | 校验、渲染、逐页复审、编译报告和 PPTX 包验证形成完整证据链 |
+
+同时保留两道独立确认门：
+
+- 先确认完整的文字版逐页内容；
+- 再确认最多 3 页代表性视觉样稿；
+- 两次批准后才生成全套 SVG 和最终 PPTX。
+
+这让内容方向、视觉质量和批量生产彼此解耦，避免一开始就生成整套错误页面。
+
+<a id="preview"></a>
+
+## 效果预览
+
+下面的图片来自仓库内同一套 10 页项目介绍 Deck，均由源 SVG 重新渲染。图片不是不可编辑的交付替代品：仓库同时提供源 SVG、可编辑 PPTX 和编译报告。
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="examples/project-intro-deck/slides/slide_06.svg">
+        <img width="100%" src="doc/assets/readme/editability.png" alt="VectorDeckPPT 可编辑转换与显式降级策略">
+      </a>
+      <br><strong>编辑能力可解释</strong>
+      <br><sub>原生 PowerPoint → Office SVG 降级 → 明确失败</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="examples/project-intro-deck/slides/slide_09.svg">
+        <img width="100%" src="doc/assets/readme/quality.png" alt="VectorDeckPPT 测试、示例与编译报告">
+      </a>
+      <br><strong>质量证据可复现</strong>
+      <br><sub>测试、双安装路径、示例 Deck 与编译报告</sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <a href="examples/project-intro-deck/slides/slide_10.svg">
+        <img width="76%" src="doc/assets/readme/quickstart.png" alt="使用 vectordeckppt Skill 生成完整演示文稿">
+      </a>
+      <br><strong>一句调用，交付完整演示资产</strong>
+      <br><sub>PPTX、逐页源 SVG、PNG 预览、文字稿与 compilation-report.json</sub>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="examples/project-intro-deck/project-intro.pptx"><strong>下载可编辑示例 PPTX</strong></a> ·
+  <a href="examples/project-intro-deck/slides/">查看 10 页源 SVG</a> ·
+  <a href="examples/project-intro-deck/compilation-report.json">查看编译报告</a>
+</p>
+
+### 五套内置视觉方向
+
+这些图片是供 Agent 提取视觉语法的参考，不是固定页壳或整页背景。Agent 会根据真实内容重新建立字体、空间、色彩、图像和构图规则。
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/bright-tech-systems.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/bright-tech-systems.png" alt="明亮科技系统视觉方向">
+      </a>
+      <br><strong>Bright Tech Systems</strong>
+      <br><sub>技术产品 · AI 工作流 · 产品能力</sub>
+    </td>
+    <td width="33%" align="center">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/editorial-intelligence.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/editorial-intelligence.png" alt="编辑研究视觉方向">
+      </a>
+      <br><strong>Editorial Intelligence</strong>
+      <br><sub>研究报告 · 策略分析 · 数据叙事</sub>
+    </td>
+    <td width="33%" align="center">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/dark-engineered-systems.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/dark-engineered-systems.png" alt="深色工程系统视觉方向">
+      </a>
+      <br><strong>Dark Engineered Systems</strong>
+      <br><sub>架构评审 · 基础设施 · 安全工程</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/human-documentary.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/human-documentary.png" alt="人文纪实视觉方向">
+      </a>
+      <br><strong>Human Documentary</strong>
+      <br><sub>品牌故事 · 公共议题 · 人物现场</sub>
+    </td>
+    <td width="33%" align="center">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/expressive-cultural.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/expressive-cultural.png" alt="表现型文化发布视觉方向">
+      </a>
+      <br><strong>Expressive Cultural</strong>
+      <br><sub>发布会 · 创意提案 · 文化与消费品牌</sub>
+    </td>
+    <td width="33%" valign="middle">
+      <strong>模板负责启发，不负责替代判断。</strong>
+      <br><br>
+      Agent 必须根据受众、目标、证据和叙事角色重新设计页面，不得为了套模板伪造图表、百分比或事实。
+    </td>
+  </tr>
+</table>
+
+完整视觉规则见 [style-templates.md](.agents/skills/vectordeckppt/references/style-templates.md)。
+
+<a id="quick-start"></a>
+
+## 60 秒快速开始
+
+### 1. 安装依赖
+
+需要 Python 3.12+。推荐使用 uv：
 
 ```bash
 uv sync
 ```
 
-也可以使用标准 `pip`：
+也支持标准 pip：
 
 ```bash
 python -m venv .venv
@@ -44,239 +156,136 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-如果创建了虚拟环境，请先激活它，或将上面的 `python` 替换为 `.venv` 中的 Python 可执行文件。`requirements.txt` 从 `uv.lock` 导出，包含运行、测试与 lint 所需的锁定依赖，因此不安装 `uv` 也能使用项目。
+`requirements.txt` 从已提交的 `uv.lock` 导出，包含运行、测试和 lint 所需的锁定依赖。
 
-## 使用 Skill
+### 2. 调用 Skill
 
-### 1. 让 Agent 发现 VectorDeckPPT
-
-在 Codex 中打开本仓库时，仓库级 Skill 位于：
+在 Codex 中打开本仓库后，直接提出：
 
 ```text
-.agents/skills/vectordeckppt/
+使用 $vectordeckppt 根据 doc/PRD.md 制作一套 10 页中文项目介绍 PPT。
+受众是开发者和潜在用户，目标是讲清项目定位、工作流、核心能力和使用方式。
+视觉采用明亮科技系统，白底、深蓝与青色强调，内容丰富。
+默认交付到当前目录的 pptoutput/。
 ```
 
-Codex 可以在当前仓库中发现它。若希望在其他项目中也能使用，可以将整个 `vectordeckppt` 目录复制或链接到个人 Skill 目录：
+Skill 会先提交完整文字版供确认；文字批准后只制作代表性视觉样稿；视觉批准后再完成全套页面。
+
+为了让叙事更准确，建议同时说明主要受众的身份、受众知识水平与决策权，以及演示结束后希望推动的具体行动。
+
+<details>
+<summary><strong>在其他项目中全局使用</strong></summary>
+
+将完整目录复制或链接到个人 Skill 目录：
 
 ```text
 $CODEX_HOME/skills/vectordeckppt/
 ```
 
-未设置 `CODEX_HOME` 时，通常使用：
+未设置 `CODEX_HOME` 时通常是：
 
 ```text
 ~/.codex/skills/vectordeckppt/
 ```
 
-不要只复制 `SKILL.md`；`references/`、`scripts/` 和 `assets/` 都是完整工作流的一部分。全局复制 Skill 后，还需要让执行脚本所用的 Python 环境安装本仓库依赖，例如先在仓库中执行 `python -m pip install -r requirements.txt`。Skill 会从 `SKILL.md` 所在目录解析脚本位置，不依赖当前项目中存在 `.agents/` 路径。
+不要只复制 `SKILL.md`；`references/`、`scripts/` 和 `assets/` 都是工作流的一部分。脚本从 `SKILL.md` 所在目录解析，不要求目标项目中存在 `.agents/`。
 
-### 2. 在请求中调用 Skill
+</details>
 
-最稳定的调用方式是在请求开头显式写出 `$vectordeckppt`：
+更多完整请求模板与商业汇报、技术评审、路演、PPT 重设计示例见 [提示词示例](doc/prompt-examples.md)。
 
-```text
-使用 $vectordeckppt 根据这份 Markdown 制作一套 10 页中文项目汇报 PPT。
-```
+<a id="workflow"></a>
 
-也可以直接提出“制作 PPT、重新设计 PowerPoint、生成答辩演示文稿”等请求，让 Agent 根据 Skill 描述自动触发；如果需要确保使用本项目的向量工作流，建议始终显式写 `$vectordeckppt`。
+## 工作流
 
-### 3. 提供输入资料与准确需求
+<p align="center">
+  <a href="examples/project-intro-deck/slides/slide_04.svg">
+    <img width="100%" src="doc/assets/readme/workflow.png" alt="VectorDeckPPT 五阶段工作流">
+  </a>
+</p>
 
-可以在请求中附加文件，或给出 Agent 能访问的本地路径。支持作为内容来源的资料包括：
+| 阶段 | Agent / 工具的责任 | 质量门 |
+|---|---|---|
+| 1. 理解资料 | 提取事实、证据、受众、约束和可用素材 | 关键描述不准确或存在实质歧义时先提问 |
+| 2. 规划叙事 | 生成完整的文字版逐页内容 | 等待用户明确批准文字内容 |
+| 3. 定义视觉 | 建立艺术方向和设计系统，只制作最多 3 页代表性样稿 | 等待用户明确批准视觉样稿 |
+| 4. 逐页 SVG | 完成所有页面，逐页校验、渲染和视觉复审 | 问题回到 SVG 源文件修订 |
+| 5. 编译交付 | 生成原生优先的 PPTX、编译报告并验证包结构 | `failed` 必须为 `0` |
 
-- Markdown、TXT 和已有文案；
-- PDF、DOCX 和现有 PPTX；
-- CSV、Excel、表格与数据摘要；
-- 图片、截图、Logo 和品牌素材；
-- PRD、研究报告、技术文档及多份混合资料。
+**默认内容密度：**普通内容页包含明确结论、解释、证据和真正承担说明作用的图表或图解。没有真实数据时使用流程、矩阵、定性对比或概念图；不得为了好看伪造数字、百分比或趋势。
 
-同时说明哪些内容属于不可改写的事实、哪些数字必须保留、哪些图片可以使用，以及是否有品牌字体、颜色或保密限制。Agent 会先读取资料，再规划演示文稿，不应在未理解来源时直接绘制页面。
+## 交付物
 
-如果描述存在残缺、矛盾或会产生明显不同的理解，Skill 会先提出少量具体问题并等待回答。例如，“受众是开发者和潜在用户”仍可能需要明确谁是主要受众、双方的身份与知识水平，以及这套 PPT 最终要推动谁做什么。非关键缺省会使用合理默认值，不会把所有偏好都变成问卷。
-
-### 4. 推荐请求模板
-
-```text
-使用 $vectordeckppt 根据【资料或文件路径】制作一套【页数】页的【语言】PPT。
-
-主要受众身份/角色：
-受众知识水平与决策权：
-次要受众：
-演示场景：
-沟通目标或期望行动：
-必须保留的事实或数据：
-希望采用的视觉性格：
-不要出现的视觉风格：
-品牌与素材约束：
-可编辑性要求：
-内容密度：默认内容丰富，核心页优先使用文字解释、图表、图解和证据标注
-最终交付目录：默认使用当前目录下的 pptoutput/
-
-请先提交完整的文字版逐页内容供我确认；文字内容批准后，只生成最多 3 页有代表性的
-SVG/PNG 视觉样稿供我确认；两次批准后再生成全套页面、编译并验证 PPTX，同时保留
-源 SVG、PNG 预览和 compilation-report.json。
-```
-
-其中只有资料和核心目标是必需的；页数、视觉方向等非关键信息缺失时，Skill 会采用合理默认值继续工作。
-
-### 5. Skill 会执行什么
-
-一次完整任务包含两个明确的用户确认节点：
-
-1. 检查需求是否准确；关键描述不清时先提问并等待回答；
-2. 阅读资料并提取结论、证据、数据和可用素材；
-3. 生成完整的文字版逐页内容并保存为 `pptoutput/slide-content.md`；
-4. **等待用户明确批准文字内容**，批准前不生成 SVG、PNG 或 PPTX；
-5. 建立统一的艺术方向和设计系统，生成 `min(3, 最终页数)` 页代表性 SVG/PNG 样稿；
-6. **等待用户明确批准视觉样稿**，根据意见反复修改这些样稿；
-7. 两次批准后生成所有最终 SVG，并逐页校验、渲染和视觉复审；
-8. 将文本、基础图形和图片尽可能编译为 PowerPoint 原生对象；
-9. 验证最终 PPTX，并报告影响编辑能力的 SVG 降级元素。
-
-文字批准和视觉批准相互独立，沉默或“继续”不会被自动当作两个阶段都已批准。用户对文字内容做实质修改后，受影响的视觉样稿需要重新确认。
-
-#### 默认内容密度
-
-除封面、章节过渡和刻意留白的强调页外，普通内容页默认采用较丰富的信息密度：包含明确结论、简短解释或 2–4 个支撑点、具体数据/示例/机制/权衡，并尽量配置一项真正承担说明作用的图表、流程、架构、对比、时间线、矩阵、表格或注释图片。核心正文中，至少一半页面应在资料允许时使用这类视觉证据。
-
-“内容丰富”不等于缩小字号或堆满卡片。内容放不下时应拆页。没有真实数值、单位、类别和来源时，不得为了好看伪造柱状图、趋势线或百分比；应改用概念图、定性对比或流程图。
-
-### 6. 典型交付内容
-
-未指定其他位置时，Skill 使用当前工作目录下的 `pptoutput/`：
+未指定其他位置时，产物保存在当前工作目录的 `pptoutput/`：
 
 ```text
 pptoutput/
-  slide-content.md
-  sample/
-    slides/
-      slide_01.svg
-      slide_05.svg
-      slide_08.svg
-    preview/
-      slide_01.png
-      slide_05.png
-      slide_08.png
-  slides/
-    slide_01.svg
-    slide_02.svg
-  assets/
-  preview/
-    slide_01.png
-    slide_02.png
-  compilation-report.json
-  final.pptx
+├── slide-content.md
+├── sample/
+│   ├── slides/
+│   └── preview/
+├── slides/
+├── assets/
+├── preview/
+├── compilation-report.json
+└── final.pptx
 ```
 
-- `final.pptx`：最终演示文稿；
-- `slide-content.md`：经用户确认的完整文字版逐页内容；
-- `sample/`：用于第二次确认的代表性视觉样稿（最多 3 页）；
-- `slides/`：每页的视觉源文件，也是后续修改入口；
-- `preview/`：用于逐页视觉复审的 PNG；
-- `compilation-report.json`：原生对象、SVG 降级和失败元素统计。
+| 产物 | 用途 |
+|---|---|
+| `slide-content.md` | 经用户批准的完整逐页文字内容 |
+| `sample/` | 第二次确认使用的代表性 SVG 与 PNG 样稿 |
+| `slides/` | 每页视觉真源，也是后续修改入口 |
+| `preview/` | 全尺寸 PNG，用于逐页视觉复审 |
+| `final.pptx` | 文本与基础图形尽可能原生可编辑的 PowerPoint |
+| `compilation-report.json` | `native`、`embedded_svg` 与 `failed` 的逐页统计 |
 
-当报告中的 `embedded_svg` 大于 `0` 时，相关对象只能进行整体编辑，内部路径不一定是 PowerPoint 原生对象；`failed` 必须为 `0` 才能交付。
+`embedded_svg > 0` 表示相关对象只能整体编辑；`failed > 0` 表示不能进入交付。
 
-### 7. 快速开始示例
+<a id="capabilities"></a>
 
-```text
-使用 $vectordeckppt 根据这份 Markdown 制作一套 10 页中文项目汇报 PPT。
-受众是管理层，目标是获得下一阶段预算批准。先提炼决策叙事，再定义一种
-克制、精确、编辑感强的视觉方向；不要使用通用蓝紫渐变、三卡片模板或无意义图标。
-先给我完整文字版逐页内容；我批准后制作封面、核心证据页和最复杂图解页这 3 页样稿；
-视觉批准后再完成全套。所有页面逐页渲染复审，最终交付到当前目录的 pptoutput/。
-```
+## 编译能力与边界
 
-如果只需要重新编译已经完成的 SVG，可以直接使用后文的命令行工具；命令行工具不会替代 Agent 的内容规划、艺术指导和视觉复审。
-
-### 8. 内置视觉方向
-
-Skill 内置五套 16:9 视觉参考。它们定义可观察的视觉语法，不是要贴到页面上的固定背景图；Agent 会用真实内容重新构建为可编辑 SVG，也可以在说明理由后混合相容的规则。
-
-| 中文名称 | 英文名称 | 适用场景 |
+| 结果 | 当前行为 | 典型内容 |
 |---|---|---|
-| 明亮科技系统 | Bright Tech Systems | 技术产品、AI 工作流、产品能力说明 |
-| 编辑研究 | Editorial Intelligence | 研究报告、策略分析、数据叙事 |
-| 深色工程系统 | Dark Engineered Systems | 架构评审、基础设施、安全与工程主题 |
-| 人文纪实 | Human Documentary | 品牌故事、公共议题、人物与现场叙事 |
-| 表现型文化发布 | Expressive Cultural | 发布会、创意提案、文化与消费品牌 |
+| 原生 PowerPoint | 可搜索、可复制、可逐项修改 | `text` / `tspan`、`rect`、`circle`、`ellipse`、`line`、`image`、直线段 `polygon` / `polyline` |
+| Office SVG 降级 | 外观保留，但内部路径不一定原生可编辑 | 复杂 `path`、marker、虚线 freeform、渐变、裁剪、旋转、斜切和不支持的文本基线 |
+| 明确失败 | 阻止半成品交付并给出诊断 | 不安全元素、远程资源、无法保真的可见内容或非法 PPTX 包关系 |
 
-可在请求中直接写“视觉采用明亮科技系统”，也可以附参考图并说明希望保留的特征与禁止项。完整规则见 [style-templates.md](.agents/skills/vectordeckppt/references/style-templates.md)。
-
-## 如何写出更好的请求
-
-VectorDeckPPT 会主动补全非关键缺失信息，但下面这些内容能显著提高结果质量：
-
-- **沟通任务**：观众听完后应该理解、相信、批准或采取什么行动；
-- **受众与场景**：专业背景、决策权、演讲时长、会议或投影环境；
-- **证据边界**：必须使用的数据、不可改写的结论、需要标注的不确定性；
-- **视觉性格**：用具体气质描述，例如“编辑感、理性、克制”，而不是只说“高级”；
-- **视觉禁区**：不希望出现的模板、配色、图像风格或行业陈词滥调；
-- **交付要求**：页数、语言、比例、可编辑程度以及是否保留源 SVG。
-
-### 商业汇报
-
-```text
-使用 $vectordeckppt 将附件整理成 12 页季度经营汇报。受众是 CEO 和业务负责人，
-核心任务是解释利润率下降的三个驱动因素并获得两项资源决策。叙事采用“信号—原因—
-风险—建议—负责人”的路径。视觉上采用数据优先的编辑风格：暖白底、深色正文、
-少量朱红用于风险和关键偏差，使用大数字、直接标注和有节奏的疏密变化；避免仪表盘、
-渐变和大量圆角卡片。所有结论必须能追溯到附件数据。
-```
-
-### 技术方案
-
-```text
-使用 $vectordeckppt 根据 PRD 和架构说明制作 15 页技术评审 PPT。受众是架构师和研发负责人，
-重点讲清系统边界、关键数据流、故障隔离和迁移风险。视觉方向要像一份严谨的工程图册：
-严格网格、清晰拓扑、低饱和中性色、钴蓝只表示主链路，禁止发光节点、赛博背景和装饰性
-电路线。架构页优先保证连接关系可读和对象可编辑，复杂路径降级时在报告中说明。
-```
-
-### 路演与产品发布
-
-```text
-使用 $vectordeckppt 把这份产品资料重构为 10 页路演 Deck。受众是产业投资人，目标是让他们
-相信需求真实、产品差异明确且商业路径可执行。视觉方向采用“高端克制 + 人文纪实”：
-大尺度标题、真实场景照片、深海军蓝背景与一处明亮酸橙色强调，页面保持强烈留白和电影式
-节奏；不要使用握手照片、火箭图标、虚假 3D 图表或统一三列布局。结尾明确融资用途和下一步。
-```
-
-### 重新设计已有 PPT
-
-```text
-使用 $vectordeckppt 重新设计现有 PPT，保留事实、页序和品牌色，但重写冗长标题并优化视觉
-叙事。先识别每页真正的结论，再为全套定义统一的字体、网格、图片裁剪和图表强调规则。
-减少边框、阴影、图标和卡片数量，让每页只有一个主要视觉焦点。交付前对 SVG 预览和最终
-PPTX 逐页比较，特别检查中文换行、图片裁剪和 PowerPoint 字体偏移。
-```
-
-## 美学与设计原则
-
-项目不把“好看”理解为增加装饰，而是要求视觉形式服务于叙事：从受众结果和证据出发，先确定视觉命题，再建立字体、空间、颜色、图像与几何规则。每页根据内容关系选择构图，并通过层级、比例、留白、节奏和克制形成辨识度。
-
-详细指导见 [art-direction.md](.agents/skills/vectordeckppt/references/art-direction.md)、[design-system.md](.agents/skills/vectordeckppt/references/design-system.md)、[slide-design.md](.agents/skills/vectordeckppt/references/slide-design.md) 和 [visual-review.md](.agents/skills/vectordeckppt/references/visual-review.md)。
+当前不承诺完整 SVG 规范、`filter`、`mask`、SVG 动画或 PowerPoint 动画。准确的作者约束与转换表见 [SVG 作者指南](.agents/skills/vectordeckppt/references/svg-authoring.md) 和 [SVG → PPTX 说明](.agents/skills/vectordeckppt/references/svg-to-pptx.md)。
 
 ## 命令行工具
 
 ```bash
-# 校验单页 SVG
+# 校验 SVG
 uv run python .agents/skills/vectordeckppt/scripts/validate_svg.py slide.svg
 
 # 渲染单页或整个目录
 uv run python .agents/skills/vectordeckppt/scripts/render_svg.py slide.svg
 uv run python .agents/skills/vectordeckppt/scripts/render_svg.py slides/ --output-dir preview/
 
-# 编译多页 PPTX 并输出编译报告
+# 编译 PPTX 并保存报告
 uv run python .agents/skills/vectordeckppt/scripts/compile_pptx.py slides/ --output final.pptx --report compilation-report.json
 
-# 校验 PPTX 包结构和引用
+# 验证 PPTX 包
 uv run python .agents/skills/vectordeckppt/scripts/validate_pptx.py final.pptx
 ```
 
-## 开发与验证
+命令行工具负责确定性执行，不替代 Agent 的资料阅读、叙事规划、艺术指导和视觉复审。
 
-使用 uv：
+<a id="documentation"></a>
+
+## 文档导航
+
+| 你想了解什么 | 推荐入口 |
+|---|---|
+| 如何调用 Skill | [SKILL.md](.agents/skills/vectordeckppt/SKILL.md) · [工作流](.agents/skills/vectordeckppt/references/workflow.md) · [提示词示例](doc/prompt-examples.md) |
+| 如何定义视觉 | [艺术方向](.agents/skills/vectordeckppt/references/art-direction.md) · [设计系统](.agents/skills/vectordeckppt/references/design-system.md) · [页面设计](.agents/skills/vectordeckppt/references/slide-design.md) |
+| 如何检查质量 | [视觉复审](.agents/skills/vectordeckppt/references/visual-review.md) · [故障排查](.agents/skills/vectordeckppt/references/troubleshooting.md) |
+| 编译器如何工作 | [SVG 作者指南](.agents/skills/vectordeckppt/references/svg-authoring.md) · [SVG → PPTX](.agents/skills/vectordeckppt/references/svg-to-pptx.md) |
+| 产品与版本 | [文档总览](doc/README.md) · [PRD](doc/PRD.md) · [CHANGELOG](CHANGELOG.md) · [V1.1 Release](doc/releases/v1.1.0.md) |
+
+## 开发与验证
 
 ```bash
 uv run ruff format .
@@ -284,31 +293,21 @@ uv run ruff check .
 uv run pytest
 ```
 
-使用 pip 环境：
-
-```bash
-python -m ruff format .
-python -m ruff check .
-python -m pytest
-```
-
-依赖发生变化时，先更新 `uv.lock`，再重新导出 pip 依赖：
+使用 pip 环境时，将 `uv run` 替换为 `python -m`。依赖发生变化时，先更新 `uv.lock`，再导出 `requirements.txt`：
 
 ```bash
 uv export --format requirements.txt --all-groups --no-emit-project --no-hashes --frozen --output-file requirements.txt
 ```
 
-请从仓库根目录执行导出命令；uv 会写入可重复生成的说明头，不要在命令中加入本机绝对路径。
-
-提交使用 Conventional Commits，并在提交前运行 `git diff --check`、Ruff 和 Pytest。完整维护约束见 `AGENTS.md`。
-
-## 当前 SVG 支持范围
-
-V1.1 原生支持 `text`、`tspan`、`rect`、圆角矩形、`circle`、`ellipse`、`line`、`image`、直线段 `polygon`/`polyline` freeform，以及基础 `g` 样式/变换。复杂 `path`、带 marker/虚线的 freeform、渐变、裁剪或旋转元素通过 Office SVG 关系降级并记录在编译报告中；`filter`、`mask`、动画、PowerPoint 动画与任意 SVG 规范完整兼容不在当前范围内。
+提交前运行 `git diff --check`、Ruff 和 Pytest。完整维护约束见 [AGENTS.md](AGENTS.md)。
 
 ## Roadmap
 
-- 扩展复杂 path 到 PowerPoint freeform 的转换
-- 提升复杂路径与渐变的可编辑转换能力
-- 扩展跨平台字体度量和文本基线校准
-- 增加更多真实 presentation 类型的 Skill 前向测试
+- 扩展复杂 `path` 到 PowerPoint freeform 的可编辑转换；
+- 提升渐变、复杂路径和文本基线的跨平台保真；
+- 增加更多真实演示类型的前向测试与示例 Deck；
+- 持续优化视觉复审、编译报告和交付可追溯性。
+
+## License
+
+VectorDeckPPT 使用 [MIT License](LICENSE)。

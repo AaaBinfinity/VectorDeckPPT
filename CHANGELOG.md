@@ -2,6 +2,13 @@
 
 All notable changes to VectorDeckPPT are documented in this file.
 
+## [Unreleased]
+
+### Documentation
+
+- Redesigned the README as a visual product overview with real generated slide previews, quick navigation, capability boundaries, and a shorter getting-started path.
+- Added a documentation index and moved reusable request templates into a dedicated prompt examples guide.
+
 ## [1.1.0] - 2026-08-09
 
 ### Added
@@ -51,5 +58,6 @@ All notable changes to VectorDeckPPT are documented in this file.
 - Unsupported visible elements are converted, preserved through explicit fallback, or reported as failures; they are never silently dropped.
 - The example workflow validates, renders, compiles, reopens, and validates the final PPTX.
 
+[Unreleased]: https://github.com/AaaBinfinity/VectorDeckPPT/compare/v1.1.0...HEAD
 [1.1.0]: https://github.com/AaaBinfinity/VectorDeckPPT/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/AaaBinfinity/VectorDeckPPT/releases/tag/v1.0.0
