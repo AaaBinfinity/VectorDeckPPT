@@ -1,34 +1,80 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-  <rect x="0" y="0" width="1600" height="900" fill="#F4F1EA"/>
+  <rect x="0" y="0" width="1600" height="900" fill="#F8FBFF"/>
   <g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
-    <text x="96" y="118" font-size="54" font-weight="700" fill="#111827">创造性判断与确定性执行，各做擅长的事</text>
-    <text x="96" y="166" font-size="22" fill="#6B7280">产品不是另一个 AI API，而是一套让宿主 Agent 正确工作的 Skill 与工具链。</text>
+    <rect x="152" y="24" width="58" height="86" rx="14" fill="#DCE9FF"/>
+    <rect x="36" y="24" width="150" height="86" rx="14" fill="#1263E6"/>
+    <rect x="36" y="24" width="150" height="18" rx="14" fill="#2C83F3"/>
+    <text x="111" y="88" text-anchor="middle" font-size="48" font-weight="700" fill="#FFFFFF">03</text>
+    <text x="238" y="88" font-size="40" font-weight="700" fill="#0A1B3E">这不是另一个 AI API，而是一套分层协作机制</text>
+    <text x="1504" y="58" text-anchor="end" font-size="20" font-weight="700" fill="#1263E6">VectorDeckPPT</text>
+    <text x="1504" y="84" text-anchor="end" font-size="17" fill="#64748B">ARCHITECTURE</text>
+    <line x1="36" y1="136" x2="1250" y2="136" stroke="#1263E6" stroke-width="5"/>
+    <line x1="1250" y1="136" x2="1504" y2="136" stroke="#D7E5FF" stroke-width="5"/>
 
-    <rect x="96" y="224" width="1408" height="246" fill="#111827"/>
-    <text x="136" y="278" font-size="22" font-weight="700" fill="#B8F34A">HOST AGENT · 创造性判断</text>
-    <line x1="549" y1="316" x2="549" y2="426" stroke="#4B5563" stroke-width="2"/>
-    <line x1="1017" y1="316" x2="1017" y2="426" stroke="#4B5563" stroke-width="2"/>
-    <text x="136" y="358" font-size="34" font-weight="700" fill="#FFFFFF">理解与提炼</text>
-    <text x="136" y="402" font-size="23" fill="#D1D5DB">读资料、辨证据、定受众</text>
-    <text x="604" y="358" font-size="34" font-weight="700" fill="#FFFFFF">叙事与艺术方向</text>
-    <text x="604" y="402" font-size="23" fill="#D1D5DB">组织故事、定义视觉命题</text>
-    <text x="1072" y="358" font-size="34" font-weight="700" fill="#FFFFFF">逐页视觉复审</text>
-    <text x="1072" y="402" font-size="23" fill="#D1D5DB">看实际渲染，不只看源码</text>
+    <rect x="168" y="184" width="1280" height="82" rx="18" fill="#DCEAFF"/>
+    <rect x="160" y="176" width="1280" height="82" rx="18" fill="#1263E6"/>
+    <rect x="1240" y="176" width="200" height="82" rx="18" fill="#2C83F3"/>
+    <circle cx="218" cy="217" r="25" fill="#FFFFFF" fill-opacity="0.18" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="218" y="226" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">↕</text>
+    <text x="260" y="228" font-size="31" font-weight="700" fill="#FFFFFF">Agent 做创造性判断，脚本做确定性执行，SVG 连接两层</text>
 
-    <rect x="96" y="486" width="1408" height="246" fill="#FFFFFF" stroke="#D4CFC4" stroke-width="2"/>
-    <text x="136" y="540" font-size="22" font-weight="700" fill="#155EEF">DETERMINISTIC TOOLS · 确定性执行</text>
-    <line x1="549" y1="578" x2="549" y2="688" stroke="#D4CFC4" stroke-width="2"/>
-    <line x1="1017" y1="578" x2="1017" y2="688" stroke="#D4CFC4" stroke-width="2"/>
-    <text x="136" y="620" font-size="34" font-weight="700" fill="#111827">SVG 校验</text>
-    <text x="136" y="664" font-size="23" fill="#6B7280">安全、尺寸、元素与资源</text>
-    <text x="604" y="620" font-size="34" font-weight="700" fill="#111827">渲染与编译</text>
-    <text x="604" y="664" font-size="23" fill="#6B7280">预览 PNG，生成可编辑 PPTX</text>
-    <text x="1072" y="620" font-size="34" font-weight="700" fill="#111827">PPTX 验证</text>
-    <text x="1072" y="664" font-size="23" fill="#6B7280">包结构、关系与对象检查</text>
+    <rect x="104" y="318" width="1400" height="210" rx="22" fill="#DCE9FF"/>
+    <rect x="96" y="310" width="1400" height="210" rx="22" fill="#0A1B3E"/>
+    <rect x="96" y="310" width="234" height="210" rx="22" fill="#1263E6"/>
+    <text x="132" y="364" font-size="19" font-weight="700" fill="#DCEAFF">HOST AGENT</text>
+    <text x="132" y="414" font-size="27" font-weight="700" fill="#FFFFFF">创造性判断</text>
+    <text x="132" y="452" font-size="18" fill="#DCEAFF">理解资料与受众</text>
+    <text x="132" y="482" font-size="18" fill="#DCEAFF">做内容和视觉决策</text>
 
-    <rect x="760" y="454" width="80" height="48" fill="#155EEF"/>
-    <text x="800" y="486" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">SVG</text>
-    <text x="96" y="832" font-size="20" fill="#6B7280">ONE RESPONSIBILITY PER LAYER</text>
-    <text x="1504" y="832" text-anchor="end" font-size="20" fill="#6B7280">03</text>
+    <rect x="362" y="338" width="338" height="154" rx="18" fill="#14284D" stroke="#3C5B8D" stroke-width="2"/>
+    <circle cx="410" cy="386" r="25" fill="#2C83F3"/>
+    <text x="410" y="395" text-anchor="middle" font-size="21" font-weight="700" fill="#FFFFFF">读</text>
+    <text x="450" y="390" font-size="26" font-weight="700" fill="#FFFFFF">理解与提炼</text>
+    <text x="394" y="438" font-size="18" fill="#C9D9F1">提取事实、证据、受众与约束</text>
+    <text x="394" y="468" font-size="18" fill="#C9D9F1">把资料转成演示文稿问题链</text>
+
+    <rect x="732" y="338" width="338" height="154" rx="18" fill="#14284D" stroke="#3C5B8D" stroke-width="2"/>
+    <circle cx="780" cy="386" r="25" fill="#12AABD"/>
+    <text x="780" y="395" text-anchor="middle" font-size="21" font-weight="700" fill="#FFFFFF">策</text>
+    <text x="820" y="390" font-size="26" font-weight="700" fill="#FFFFFF">叙事与艺术方向</text>
+    <text x="764" y="438" font-size="18" fill="#C9D9F1">定义视觉命题、节奏和页面层级</text>
+    <text x="764" y="468" font-size="18" fill="#C9D9F1">为每页选择最合适的视觉证明</text>
+
+    <rect x="1102" y="338" width="338" height="154" rx="18" fill="#14284D" stroke="#3C5B8D" stroke-width="2"/>
+    <circle cx="1150" cy="386" r="25" fill="#2DAA57"/>
+    <text x="1150" y="395" text-anchor="middle" font-size="21" font-weight="700" fill="#FFFFFF">审</text>
+    <text x="1190" y="390" font-size="26" font-weight="700" fill="#FFFFFF">逐页视觉复审</text>
+    <text x="1134" y="438" font-size="18" fill="#C9D9F1">直接检查实际 PNG 与 PPTX 渲染</text>
+    <text x="1134" y="468" font-size="18" fill="#C9D9F1">发现问题后回到 SVG 修订</text>
+
+    <rect x="104" y="566" width="1400" height="170" rx="22" fill="#E6F0FF"/>
+    <rect x="96" y="558" width="1400" height="170" rx="22" fill="#FFFFFF" stroke="#BFD6FF" stroke-width="2"/>
+    <rect x="96" y="558" width="234" height="170" rx="22" fill="#EDF4FF"/>
+    <text x="132" y="610" font-size="19" font-weight="700" fill="#1263E6">DETERMINISTIC TOOLS</text>
+    <text x="132" y="658" font-size="30" font-weight="700" fill="#0A1B3E">确定性执行</text>
+    <text x="132" y="696" font-size="18" fill="#64748B">结构化输入与稳定输出</text>
+
+    <line x1="370" y1="646" x2="1396" y2="646" stroke="#C9DCFC" stroke-width="5"/>
+    <circle cx="414" cy="646" r="38" fill="#1263E6"/>
+    <circle cx="680" cy="646" r="38" fill="#FFFFFF" stroke="#1263E6" stroke-width="4"/>
+    <circle cx="946" cy="646" r="38" fill="#12AABD"/>
+    <circle cx="1212" cy="646" r="38" fill="#FFFFFF" stroke="#2DAA57" stroke-width="4"/>
+    <text x="414" y="655" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">校</text>
+    <text x="680" y="655" text-anchor="middle" font-size="20" font-weight="700" fill="#1263E6">渲</text>
+    <text x="946" y="655" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">编</text>
+    <text x="1212" y="655" text-anchor="middle" font-size="20" font-weight="700" fill="#2DAA57">验</text>
+    <text x="414" y="704" text-anchor="middle" font-size="18" font-weight="700" fill="#173A73">SVG 校验</text>
+    <text x="680" y="704" text-anchor="middle" font-size="18" font-weight="700" fill="#173A73">PNG 渲染</text>
+    <text x="946" y="704" text-anchor="middle" font-size="18" font-weight="700" fill="#173A73">PPTX 编译</text>
+    <text x="1212" y="704" text-anchor="middle" font-size="18" font-weight="700" fill="#173A73">包结构验证</text>
+
+    <rect x="748" y="514" width="104" height="58" rx="15" fill="#12AABD"/>
+    <text x="800" y="552" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">SVG</text>
+
+    <rect x="96" y="772" width="1408" height="72" rx="18" fill="#EDF4FF" stroke="#C9DCFC" stroke-width="2"/>
+    <circle cx="144" cy="808" r="25" fill="#1263E6"/>
+    <text x="144" y="817" text-anchor="middle" font-size="21" font-weight="700" fill="#FFFFFF">!</text>
+    <text x="188" y="816" font-size="24" font-weight="700" fill="#173A73">架构边界越清楚，Skill 越容易移植、测试和维护。</text>
+    <text x="1452" y="816" text-anchor="end" font-size="18" fill="#94A3B8">03 / 10</text>
   </g>
 </svg>

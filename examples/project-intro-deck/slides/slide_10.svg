@@ -1,28 +1,96 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-  <rect x="0" y="0" width="1600" height="900" fill="#111827"/>
+  <rect x="0" y="0" width="1600" height="900" fill="#F8FBFF"/>
   <g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
-    <text x="96" y="118" font-size="22" font-weight="700" fill="#B8F34A">HOW TO USE</text>
-    <text x="96" y="242" font-size="62" font-weight="700" fill="#FFFFFF">一句调用，得到可继续维护的演示文稿</text>
+    <circle cx="1492" cy="78" r="72" fill="none" stroke="#E7F0FF" stroke-width="2"/>
+    <circle cx="1492" cy="78" r="52" fill="none" stroke="#EEF5FF" stroke-width="2"/>
+    <rect x="152" y="28" width="62" height="88" rx="12" fill="#D7E5FF"/>
+    <rect x="36" y="28" width="150" height="88" rx="12" fill="#1263E6"/>
+    <text x="111" y="91" text-anchor="middle" font-size="52" font-weight="700" fill="#FFFFFF">10</text>
+    <text x="238" y="89" font-size="32" font-weight="700" fill="#0A1B3E">一句调用，得到一套可继续维护的演示文稿资产</text>
+    <text x="1512" y="64" text-anchor="end" font-size="22" font-weight="700" fill="#1263E6">VectorDeckPPT · 开始使用</text>
+    <g fill="#BFD6FF">
+      <circle cx="1410" cy="91" r="4"/><circle cx="1430" cy="91" r="4"/><circle cx="1450" cy="91" r="4"/><circle cx="1470" cy="91" r="4"/><circle cx="1490" cy="91" r="4"/>
+      <circle cx="1410" cy="108" r="4"/><circle cx="1430" cy="108" r="4"/><circle cx="1450" cy="108" r="4"/><circle cx="1470" cy="108" r="4"/><circle cx="1490" cy="108" r="4"/>
+    </g>
+    <rect x="36" y="136" width="1280" height="5" rx="2" fill="#1263E6"/>
+    <rect x="1316" y="136" width="198" height="5" rx="2" fill="#D7E5FF"/>
 
-    <rect x="96" y="306" width="1408" height="150" fill="#0B1220" stroke="#4B5563" stroke-width="2"/>
-    <text x="136" y="372" font-family="Consolas, monospace" font-size="38" font-weight="700" fill="#B8F34A">$vectordeckppt</text>
-    <text x="136" y="418" font-size="26" fill="#FFFFFF">根据项目资料制作 10 页中文介绍，保留源 SVG、编译报告与可编辑 PPTX。</text>
+    <rect x="160" y="184" width="1280" height="82" rx="18" fill="#2C83F3"/>
+    <rect x="160" y="184" width="850" height="82" rx="18" fill="#1263E6"/>
+    <circle cx="224" cy="225" r="25" fill="#FFFFFF" fill-opacity="0.16" stroke="#BFD6FF" stroke-width="2"/>
+    <text x="224" y="234" text-anchor="middle" font-size="25" font-weight="700" fill="#FFFFFF">▶</text>
+    <text x="270" y="236" font-size="25" font-weight="700" fill="#FFFFFF">告诉 Agent 目标与资料，$vectordeckppt 会组织完整的向量优先工作流</text>
 
-    <line x1="252" y1="596" x2="1348" y2="596" stroke="#4B5563" stroke-width="4"/>
-    <circle cx="252" cy="596" r="44" fill="#155EEF"/>
-    <circle cx="617" cy="596" r="44" fill="#155EEF"/>
-    <circle cx="983" cy="596" r="44" fill="#155EEF"/>
-    <circle cx="1348" cy="596" r="44" fill="#B8F34A"/>
-    <text x="252" y="606" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">01</text>
-    <text x="617" y="606" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">02</text>
-    <text x="983" y="606" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">03</text>
-    <text x="1348" y="606" text-anchor="middle" font-size="22" font-weight="700" fill="#111827">04</text>
-    <text x="252" y="686" text-anchor="middle" font-size="26" font-weight="700" fill="#FFFFFF">输入资料</text>
-    <text x="617" y="686" text-anchor="middle" font-size="26" font-weight="700" fill="#FFFFFF">逐页 SVG</text>
-    <text x="983" y="686" text-anchor="middle" font-size="26" font-weight="700" fill="#FFFFFF">视觉复审</text>
-    <text x="1348" y="686" text-anchor="middle" font-size="26" font-weight="700" fill="#FFFFFF">PPTX + 报告</text>
+    <rect x="84" y="306" width="806" height="178" rx="22" fill="#9CBFFF"/>
+    <rect x="76" y="298" width="806" height="178" rx="22" fill="#0A1B3E"/>
+    <circle cx="112" cy="329" r="6" fill="#EA3B42"/><circle cx="132" cy="329" r="6" fill="#FFB21A"/><circle cx="152" cy="329" r="6" fill="#2DAA57"/>
+    <text x="112" y="382" font-family="Consolas, monospace" font-size="29" font-weight="700" fill="#53DB74">$vectordeckppt</text>
+    <text x="112" y="424" font-size="19" fill="#FFFFFF">根据项目资料制作 10 页中文介绍，风格明亮科技、内容丰富，</text>
+    <text x="112" y="454" font-size="19" fill="#FFFFFF">保留源 SVG、编译报告与可编辑 PPTX。</text>
 
-    <text x="96" y="804" font-size="34" font-weight="700" fill="#FFFFFF">让创意可见，让交付可验证。</text>
-    <text x="1504" y="832" text-anchor="end" font-size="20" fill="#9CA3AF">10</text>
+    <rect x="84" y="520" width="188" height="204" rx="20" fill="#DCE9FF"/>
+    <rect x="76" y="512" width="188" height="204" rx="20" fill="#FFFFFF" stroke="#BFD6FF" stroke-width="2"/>
+    <circle cx="170" cy="562" r="31" fill="#1263E6"/>
+    <text x="170" y="573" text-anchor="middle" font-size="27" font-weight="700" fill="#FFFFFF">01</text>
+    <text x="170" y="625" text-anchor="middle" font-size="22" font-weight="700" fill="#1263E6">输入资料</text>
+    <rect x="116" y="647" width="108" height="2" fill="#BFD6FF"/>
+    <text x="170" y="681" text-anchor="middle" font-size="16" fill="#52647F">PRD · README</text>
+    <text x="170" y="705" text-anchor="middle" font-size="16" fill="#52647F">图片 · 数据</text>
+
+    <text x="295" y="638" text-anchor="middle" font-size="54" font-weight="700" fill="#2C83F3">→</text>
+    <rect x="330" y="520" width="188" height="204" rx="20" fill="#D9F4F6"/>
+    <rect x="322" y="512" width="188" height="204" rx="20" fill="#FFFFFF" stroke="#9ADFE6" stroke-width="2"/>
+    <circle cx="416" cy="562" r="31" fill="#12AABD"/>
+    <text x="416" y="573" text-anchor="middle" font-size="27" font-weight="700" fill="#FFFFFF">02</text>
+    <text x="416" y="625" text-anchor="middle" font-size="22" font-weight="700" fill="#12AABD">逐页 SVG</text>
+    <rect x="362" y="647" width="108" height="2" fill="#9ADFE6"/>
+    <text x="416" y="681" text-anchor="middle" font-size="16" fill="#52647F">叙事 · 版式</text>
+    <text x="416" y="705" text-anchor="middle" font-size="16" fill="#52647F">设计系统</text>
+
+    <text x="541" y="638" text-anchor="middle" font-size="54" font-weight="700" fill="#12AABD">→</text>
+    <rect x="576" y="520" width="188" height="204" rx="20" fill="#DFF4E4"/>
+    <rect x="568" y="512" width="188" height="204" rx="20" fill="#FFFFFF" stroke="#A8DFB6" stroke-width="2"/>
+    <circle cx="662" cy="562" r="31" fill="#2DAA57"/>
+    <text x="662" y="573" text-anchor="middle" font-size="27" font-weight="700" fill="#FFFFFF">03</text>
+    <text x="662" y="625" text-anchor="middle" font-size="22" font-weight="700" fill="#2DAA57">视觉复审</text>
+    <rect x="608" y="647" width="108" height="2" fill="#A8DFB6"/>
+    <text x="662" y="681" text-anchor="middle" font-size="16" fill="#52647F">缩略图 · 全尺寸</text>
+    <text x="662" y="705" text-anchor="middle" font-size="16" fill="#52647F">修正再验证</text>
+
+    <text x="787" y="638" text-anchor="middle" font-size="54" font-weight="700" fill="#2DAA57">→</text>
+    <rect x="822" y="520" width="188" height="204" rx="20" fill="#FFF0D1"/>
+    <rect x="814" y="512" width="188" height="204" rx="20" fill="#FFFFFF" stroke="#FFD27C" stroke-width="2"/>
+    <circle cx="908" cy="562" r="31" fill="#FFB21A"/>
+    <text x="908" y="573" text-anchor="middle" font-size="27" font-weight="700" fill="#FFFFFF">04</text>
+    <text x="908" y="625" text-anchor="middle" font-size="22" font-weight="700" fill="#E28A00">编译交付</text>
+    <rect x="854" y="647" width="108" height="2" fill="#FFD27C"/>
+    <text x="908" y="681" text-anchor="middle" font-size="16" fill="#52647F">PPTX · 报告</text>
+    <text x="908" y="705" text-anchor="middle" font-size="16" fill="#52647F">可重新维护</text>
+
+    <rect x="1050" y="306" width="474" height="418" rx="22" fill="#DCE9FF"/>
+    <rect x="1042" y="298" width="474" height="418" rx="22" fill="#FFFFFF" stroke="#BFD6FF" stroke-width="2"/>
+    <text x="1086" y="350" font-size="21" font-weight="700" fill="#1263E6">DELIVERABLE PACKAGE</text>
+    <text x="1086" y="392" font-size="28" font-weight="700" fill="#0A1B3E">交付的不只是一份 PPTX</text>
+    <rect x="1086" y="430" width="386" height="72" rx="15" fill="#EAF2FF"/>
+    <circle cx="1125" cy="466" r="24" fill="#1263E6"/>
+    <text x="1125" y="475" text-anchor="middle" font-size="23" font-weight="700" fill="#FFFFFF">P</text>
+    <text x="1165" y="458" font-size="20" font-weight="700" fill="#0A1B3E">可编辑 PowerPoint</text>
+    <text x="1165" y="483" font-size="15" fill="#52647F">继续改文案、颜色、布局与对象</text>
+    <rect x="1086" y="516" width="386" height="72" rx="15" fill="#E6F8FA"/>
+    <circle cx="1125" cy="552" r="24" fill="#12AABD"/>
+    <text x="1125" y="561" text-anchor="middle" font-size="21" font-weight="700" fill="#FFFFFF">S</text>
+    <text x="1165" y="544" font-size="20" font-weight="700" fill="#0A1B3E">逐页源 SVG</text>
+    <text x="1165" y="569" font-size="15" fill="#52647F">视觉真源，方便追溯与再次编译</text>
+    <rect x="1086" y="602" width="386" height="72" rx="15" fill="#EAF7ED"/>
+    <circle cx="1125" cy="638" r="24" fill="#2DAA57"/>
+    <text x="1125" y="647" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">✓</text>
+    <text x="1165" y="630" font-size="20" font-weight="700" fill="#0A1B3E">校验与编译报告</text>
+    <text x="1165" y="655" font-size="15" fill="#52647F">把兼容性与失败信息显式交付</text>
+
+    <rect x="104" y="770" width="1412" height="84" rx="18" fill="#0A1B3E"/>
+    <circle cx="154" cy="812" r="28" fill="#1263E6" stroke="#77A9FF" stroke-width="2"/>
+    <text x="154" y="821" text-anchor="middle" font-size="26" font-weight="700" fill="#FFFFFF">V</text>
+    <text x="202" y="824" font-size="30" font-weight="700" fill="#FFFFFF">让创意可见，让交付可验证。</text>
+    <text x="1480" y="824" text-anchor="end" font-size="18" font-weight="700" fill="#77A9FF">10 / 10</text>
   </g>
 </svg>

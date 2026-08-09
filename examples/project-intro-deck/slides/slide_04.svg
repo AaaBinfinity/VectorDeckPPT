@@ -1,50 +1,94 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-  <rect x="0" y="0" width="1600" height="900" fill="#F4F1EA"/>
+  <rect x="0" y="0" width="1600" height="900" fill="#F8FBFF"/>
   <g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
-    <text x="96" y="118" font-size="54" font-weight="700" fill="#111827">从资料到 PPTX，每一步都有清晰质量门</text>
-    <text x="96" y="166" font-size="22" fill="#6B7280">工作流让创造性决策可见，也让工程结果可重复。</text>
+    <rect x="152" y="24" width="58" height="86" rx="14" fill="#DCE9FF"/>
+    <rect x="36" y="24" width="150" height="86" rx="14" fill="#1263E6"/>
+    <rect x="36" y="24" width="150" height="18" rx="14" fill="#2C83F3"/>
+    <text x="111" y="88" text-anchor="middle" font-size="48" font-weight="700" fill="#FFFFFF">04</text>
+    <text x="238" y="88" font-size="42" font-weight="700" fill="#0A1B3E">五个阶段，把资料稳定变成可编辑 PPTX</text>
+    <text x="1504" y="58" text-anchor="end" font-size="20" font-weight="700" fill="#1263E6">VectorDeckPPT</text>
+    <text x="1504" y="84" text-anchor="end" font-size="17" fill="#64748B">WORKFLOW</text>
+    <line x1="36" y1="136" x2="1250" y2="136" stroke="#1263E6" stroke-width="5"/>
+    <line x1="1250" y1="136" x2="1504" y2="136" stroke="#D7E5FF" stroke-width="5"/>
 
-    <line x1="150" y1="352" x2="1450" y2="352" stroke="#D4CFC4" stroke-width="6"/>
-    <line x1="150" y1="352" x2="800" y2="352" stroke="#155EEF" stroke-width="6"/>
+    <rect x="168" y="184" width="1280" height="82" rx="18" fill="#DCEAFF"/>
+    <rect x="160" y="176" width="1280" height="82" rx="18" fill="#1263E6"/>
+    <rect x="1240" y="176" width="200" height="82" rx="18" fill="#2C83F3"/>
+    <circle cx="218" cy="217" r="25" fill="#FFFFFF" fill-opacity="0.18" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="218" y="226" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">✓</text>
+    <text x="260" y="228" font-size="31" font-weight="700" fill="#FFFFFF">每一阶段都有明确输入、产物和质量门，问题可以被定位和回退</text>
 
-    <circle cx="150" cy="352" r="30" fill="#155EEF"/>
-    <circle cx="367" cy="352" r="30" fill="#155EEF"/>
-    <circle cx="584" cy="352" r="30" fill="#155EEF"/>
-    <circle cx="800" cy="352" r="30" fill="#155EEF"/>
-    <circle cx="1017" cy="352" r="30" fill="#FFFFFF" stroke="#111827" stroke-width="4"/>
-    <circle cx="1234" cy="352" r="30" fill="#FFFFFF" stroke="#111827" stroke-width="4"/>
-    <circle cx="1450" cy="352" r="30" fill="#B8F34A" stroke="#111827" stroke-width="4"/>
+    <line x1="236" y1="498" x2="1364" y2="498" stroke="#D7E5FF" stroke-width="9"/>
+    <text x="378" y="513" text-anchor="middle" font-size="40" font-weight="700" fill="#1263E6">›</text>
+    <text x="666" y="513" text-anchor="middle" font-size="40" font-weight="700" fill="#12AABD">›</text>
+    <text x="954" y="513" text-anchor="middle" font-size="40" font-weight="700" fill="#2DAA57">›</text>
+    <text x="1242" y="513" text-anchor="middle" font-size="40" font-weight="700" fill="#FFB21A">›</text>
 
-    <text x="150" y="362" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">01</text>
-    <text x="367" y="362" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">02</text>
-    <text x="584" y="362" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">03</text>
-    <text x="800" y="362" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">04</text>
-    <text x="1017" y="362" text-anchor="middle" font-size="20" font-weight="700" fill="#111827">05</text>
-    <text x="1234" y="362" text-anchor="middle" font-size="20" font-weight="700" fill="#111827">06</text>
-    <text x="1450" y="362" text-anchor="middle" font-size="20" font-weight="700" fill="#111827">07</text>
+    <rect x="112" y="362" width="248" height="342" rx="22" fill="#E5F0FF"/>
+    <rect x="104" y="354" width="248" height="342" rx="22" fill="#FFFFFF" stroke="#BFD6FF" stroke-width="2"/>
+    <circle cx="228" cy="354" r="48" fill="#1263E6"/>
+    <circle cx="228" cy="354" r="60" fill="none" stroke="#BFD6FF" stroke-width="3"/>
+    <text x="228" y="369" text-anchor="middle" font-size="30" font-weight="700" fill="#FFFFFF">01</text>
+    <circle cx="228" cy="470" r="46" fill="#E7F0FF"/>
+    <text x="228" y="480" text-anchor="middle" font-size="25" font-weight="700" fill="#1263E6">读</text>
+    <text x="228" y="554" text-anchor="middle" font-size="28" font-weight="700" fill="#1263E6">理解资料</text>
+    <line x1="196" y1="580" x2="260" y2="580" stroke="#1263E6" stroke-width="3"/>
+    <text x="228" y="622" text-anchor="middle" font-size="19" fill="#334155">事实、证据、受众</text>
+    <text x="228" y="652" text-anchor="middle" font-size="19" fill="#334155">约束与可用素材</text>
 
-    <text x="150" y="444" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">读资料</text>
-    <text x="367" y="444" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">定叙事</text>
-    <text x="584" y="444" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">定风格</text>
-    <text x="800" y="444" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">写 SVG</text>
-    <text x="1017" y="444" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">校验渲染</text>
-    <text x="1234" y="444" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">视觉复审</text>
-    <text x="1450" y="444" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">编译交付</text>
+    <rect x="400" y="362" width="248" height="342" rx="22" fill="#E5F0FF"/>
+    <rect x="392" y="354" width="248" height="342" rx="22" fill="#FFFFFF" stroke="#BFD6FF" stroke-width="2"/>
+    <circle cx="516" cy="354" r="48" fill="#1263E6"/>
+    <circle cx="516" cy="354" r="60" fill="none" stroke="#BFD6FF" stroke-width="3"/>
+    <text x="516" y="369" text-anchor="middle" font-size="30" font-weight="700" fill="#FFFFFF">02</text>
+    <circle cx="516" cy="470" r="46" fill="#E7F0FF"/>
+    <text x="516" y="480" text-anchor="middle" font-size="25" font-weight="700" fill="#1263E6">策</text>
+    <text x="516" y="554" text-anchor="middle" font-size="28" font-weight="700" fill="#1263E6">规划叙事</text>
+    <line x1="484" y1="580" x2="548" y2="580" stroke="#1263E6" stroke-width="3"/>
+    <text x="516" y="622" text-anchor="middle" font-size="19" fill="#334155">问题链、关键结论</text>
+    <text x="516" y="652" text-anchor="middle" font-size="19" fill="#334155">视觉命题与节奏</text>
 
-    <text x="150" y="486" text-anchor="middle" font-size="19" fill="#6B7280">理解事实</text>
-    <text x="367" y="486" text-anchor="middle" font-size="19" fill="#6B7280">建立问题链</text>
-    <text x="584" y="486" text-anchor="middle" font-size="19" fill="#6B7280">视觉命题</text>
-    <text x="800" y="486" text-anchor="middle" font-size="19" fill="#6B7280">一页一源</text>
-    <text x="1017" y="486" text-anchor="middle" font-size="19" fill="#6B7280">结构与预览</text>
-    <text x="1234" y="486" text-anchor="middle" font-size="19" fill="#6B7280">逐页修订</text>
-    <text x="1450" y="486" text-anchor="middle" font-size="19" fill="#6B7280">PPTX + 报告</text>
+    <rect x="688" y="362" width="248" height="342" rx="22" fill="#DFF7FA"/>
+    <rect x="680" y="354" width="248" height="342" rx="22" fill="#FFFFFF" stroke="#A8E6EE" stroke-width="2"/>
+    <circle cx="804" cy="354" r="48" fill="#12AABD"/>
+    <circle cx="804" cy="354" r="60" fill="none" stroke="#A8E6EE" stroke-width="3"/>
+    <text x="804" y="369" text-anchor="middle" font-size="30" font-weight="700" fill="#FFFFFF">03</text>
+    <circle cx="804" cy="470" r="46" fill="#E3F9FC"/>
+    <text x="804" y="480" text-anchor="middle" font-size="25" font-weight="700" fill="#12AABD">画</text>
+    <text x="804" y="554" text-anchor="middle" font-size="28" font-weight="700" fill="#12AABD">逐页 SVG</text>
+    <line x1="772" y1="580" x2="836" y2="580" stroke="#12AABD" stroke-width="3"/>
+    <text x="804" y="622" text-anchor="middle" font-size="19" fill="#334155">完整画布、可见文字</text>
+    <text x="804" y="652" text-anchor="middle" font-size="19" fill="#334155">统一色彩与组件规则</text>
 
-    <rect x="96" y="610" width="704" height="120" fill="#111827"/>
-    <text x="132" y="660" font-size="22" font-weight="700" fill="#B8F34A">CREATIVE GATES</text>
-    <text x="132" y="704" font-size="28" font-weight="600" fill="#FFFFFF">受众、论点、艺术方向、页面判断</text>
-    <rect x="800" y="610" width="704" height="120" fill="#FFFFFF" stroke="#D4CFC4" stroke-width="2"/>
-    <text x="836" y="660" font-size="22" font-weight="700" fill="#155EEF">QUALITY GATES</text>
-    <text x="836" y="704" font-size="28" font-weight="600" fill="#111827">SVG 安全、渲染、编译、PPTX 完整性</text>
-    <text x="1504" y="832" text-anchor="end" font-size="20" fill="#6B7280">04</text>
+    <rect x="976" y="362" width="248" height="342" rx="22" fill="#E3F5E8"/>
+    <rect x="968" y="354" width="248" height="342" rx="22" fill="#FFFFFF" stroke="#B6E3C2" stroke-width="2"/>
+    <circle cx="1092" cy="354" r="48" fill="#2DAA57"/>
+    <circle cx="1092" cy="354" r="60" fill="none" stroke="#B6E3C2" stroke-width="3"/>
+    <text x="1092" y="369" text-anchor="middle" font-size="30" font-weight="700" fill="#FFFFFF">04</text>
+    <circle cx="1092" cy="470" r="46" fill="#E7F7EC"/>
+    <text x="1092" y="480" text-anchor="middle" font-size="25" font-weight="700" fill="#2DAA57">审</text>
+    <text x="1092" y="554" text-anchor="middle" font-size="28" font-weight="700" fill="#2DAA57">验证复审</text>
+    <line x1="1060" y1="580" x2="1124" y2="580" stroke="#2DAA57" stroke-width="3"/>
+    <text x="1092" y="622" text-anchor="middle" font-size="19" fill="#334155">校验、渲染、逐页检查</text>
+    <text x="1092" y="652" text-anchor="middle" font-size="19" fill="#334155">问题回到源稿修订</text>
+
+    <rect x="1264" y="362" width="248" height="342" rx="22" fill="#FFF2D8"/>
+    <rect x="1256" y="354" width="248" height="342" rx="22" fill="#FFFFFF" stroke="#FFD688" stroke-width="2"/>
+    <circle cx="1380" cy="354" r="48" fill="#FFB21A"/>
+    <circle cx="1380" cy="354" r="60" fill="none" stroke="#FFD688" stroke-width="3"/>
+    <text x="1380" y="369" text-anchor="middle" font-size="30" font-weight="700" fill="#FFFFFF">05</text>
+    <circle cx="1380" cy="470" r="46" fill="#FFF5DF"/>
+    <text x="1380" y="480" text-anchor="middle" font-size="25" font-weight="700" fill="#E99500">交</text>
+    <text x="1380" y="554" text-anchor="middle" font-size="28" font-weight="700" fill="#E99500">编译交付</text>
+    <line x1="1348" y1="580" x2="1412" y2="580" stroke="#FFB21A" stroke-width="3"/>
+    <text x="1380" y="622" text-anchor="middle" font-size="19" fill="#334155">PPTX、源 SVG</text>
+    <text x="1380" y="652" text-anchor="middle" font-size="19" fill="#334155">编译报告与验证结果</text>
+
+    <rect x="96" y="762" width="1408" height="82" rx="18" fill="#EDF4FF" stroke="#C9DCFC" stroke-width="2"/>
+    <circle cx="144" cy="803" r="26" fill="#1263E6"/>
+    <text x="144" y="812" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">↺</text>
+    <text x="190" y="795" font-size="23" font-weight="700" fill="#173A73">发现问题就回到 SVG：源文件始终是后续修改的唯一入口。</text>
+    <text x="190" y="825" font-size="18" fill="#64748B">不复制无限版本，不用整页截图掩盖转换问题</text>
+    <text x="1452" y="812" text-anchor="end" font-size="18" fill="#94A3B8">04 / 10</text>
   </g>
 </svg>

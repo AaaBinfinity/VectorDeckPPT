@@ -1,25 +1,82 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-  <rect x="0" y="0" width="1600" height="900" fill="#111827"/>
+  <rect x="0" y="0" width="1600" height="900" fill="#F8FBFF"/>
   <g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
-    <text x="96" y="118" font-size="54" font-weight="700" fill="#FFFFFF">原生优先，复杂元素明确降级而不丢失</text>
-    <text x="96" y="166" font-size="22" fill="#9CA3AF">转换策略把编辑能力、视觉保真与失败边界都写进交付报告。</text>
+    <rect x="152" y="24" width="58" height="86" rx="14" fill="#DCE9FF"/>
+    <rect x="36" y="24" width="150" height="86" rx="14" fill="#1263E6"/>
+    <rect x="36" y="24" width="150" height="18" rx="14" fill="#2C83F3"/>
+    <text x="111" y="88" text-anchor="middle" font-size="48" font-weight="700" fill="#FFFFFF">06</text>
+    <text x="238" y="88" font-size="40" font-weight="700" fill="#0A1B3E">转换策略优先保留编辑能力，再保住视觉</text>
+    <text x="1504" y="58" text-anchor="end" font-size="20" font-weight="700" fill="#1263E6">VectorDeckPPT</text>
+    <text x="1504" y="84" text-anchor="end" font-size="17" fill="#64748B">EDITABILITY</text>
+    <line x1="36" y1="136" x2="1250" y2="136" stroke="#1263E6" stroke-width="5"/>
+    <line x1="1250" y1="136" x2="1504" y2="136" stroke="#D7E5FF" stroke-width="5"/>
 
-    <text x="96" y="294" font-size="23" font-weight="700" fill="#B8F34A">01 · NATIVE POWERPOINT</text>
-    <rect x="96" y="322" width="1120" height="112" fill="#155EEF"/>
-    <text x="136" y="374" font-size="32" font-weight="700" fill="#FFFFFF">文本 · 矩形 · 圆形 · 直线 · 图片 · 基础分组</text>
-    <text x="136" y="410" font-size="20" fill="#DCE8FF">内容可搜索、可复制、可逐项编辑</text>
-    <text x="1260" y="388" font-size="72" font-weight="700" fill="#FFFFFF">优先</text>
+    <rect x="168" y="184" width="1280" height="82" rx="18" fill="#DCEAFF"/>
+    <rect x="160" y="176" width="1280" height="82" rx="18" fill="#1263E6"/>
+    <rect x="1240" y="176" width="200" height="82" rx="18" fill="#2C83F3"/>
+    <circle cx="218" cy="217" r="25" fill="#FFFFFF" fill-opacity="0.18" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="218" y="226" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">⇢</text>
+    <text x="260" y="228" font-size="31" font-weight="700" fill="#FFFFFF">原生对象 → Office SVG 降级 → 明确失败；没有“悄悄丢掉”</text>
 
-    <text x="96" y="500" font-size="23" font-weight="700" fill="#D1D5DB">02 · OFFICE SVG FALLBACK</text>
-    <rect x="96" y="528" width="820" height="112" fill="#374151"/>
-    <text x="136" y="580" font-size="32" font-weight="700" fill="#FFFFFF">路径 · 渐变 · 裁剪 · 旋转</text>
-    <text x="136" y="616" font-size="20" fill="#D1D5DB">外观保留，对象整体可编辑；报告明确计数</text>
-    <text x="960" y="594" font-size="58" font-weight="700" fill="#D1D5DB">保真</text>
+    <rect x="104" y="322" width="424" height="400" rx="22" fill="#E5F0FF"/>
+    <rect x="96" y="314" width="424" height="400" rx="22" fill="#FFFFFF" stroke="#BFD6FF" stroke-width="2"/>
+    <rect x="96" y="314" width="424" height="92" rx="22" fill="#1263E6"/>
+    <rect x="96" y="384" width="424" height="22" fill="#1263E6"/>
+    <circle cx="154" cy="360" r="30" fill="#FFFFFF" fill-opacity="0.2" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="154" y="370" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">✓</text>
+    <text x="204" y="352" font-size="27" font-weight="700" fill="#FFFFFF">原生 PowerPoint</text>
+    <text x="204" y="384" font-size="18" fill="#DCEAFF">优先路径 · 逐项可编辑</text>
+    <text x="128" y="462" font-size="25" font-weight="700" fill="#173A73">文本与基础图形</text>
+    <text x="128" y="502" font-size="20" fill="#334155">• text / tspan</text>
+    <text x="128" y="536" font-size="20" fill="#334155">• rect / circle / ellipse / line</text>
+    <text x="128" y="570" font-size="20" fill="#334155">• image / 基础 group</text>
+    <line x1="128" y1="608" x2="488" y2="608" stroke="#D7E5FF" stroke-width="2"/>
+    <text x="128" y="650" font-size="21" font-weight="700" fill="#1263E6">结果</text>
+    <text x="190" y="650" font-size="18" fill="#334155">可搜索、可复制、可逐项修改</text>
+    <rect x="128" y="674" width="360" height="20" rx="10" fill="#E7F0FF"/>
+    <rect x="128" y="674" width="318" height="20" rx="10" fill="#1263E6"/>
 
-    <text x="96" y="706" font-size="23" font-weight="700" fill="#FCA5A5">03 · EXPLICIT FAILURE</text>
-    <rect x="96" y="734" width="520" height="72" fill="#111827" stroke="#EF4444" stroke-width="3"/>
-    <text x="136" y="780" font-size="26" font-weight="700" fill="#FFFFFF">无可靠路径：阻止交付并诊断</text>
-    <text x="660" y="780" font-size="34" font-weight="700" fill="#FCA5A5">绝不静默丢失</text>
-    <text x="1504" y="842" text-anchor="end" font-size="20" fill="#9CA3AF">06</text>
+    <rect x="596" y="322" width="424" height="400" rx="22" fill="#FFF2D8"/>
+    <rect x="588" y="314" width="424" height="400" rx="22" fill="#FFFFFF" stroke="#FFD688" stroke-width="2"/>
+    <rect x="588" y="314" width="424" height="92" rx="22" fill="#FFB21A"/>
+    <rect x="588" y="384" width="424" height="22" fill="#FFB21A"/>
+    <circle cx="646" cy="360" r="30" fill="#FFFFFF" fill-opacity="0.22" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="646" y="370" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">△</text>
+    <text x="696" y="352" font-size="30" font-weight="700" fill="#FFFFFF">Office SVG 降级</text>
+    <text x="696" y="384" font-size="18" fill="#FFF7E8">保真路径 · 整体可编辑</text>
+    <text x="620" y="462" font-size="25" font-weight="700" fill="#8B5B00">复杂视觉元素</text>
+    <text x="620" y="502" font-size="20" fill="#334155">• path / polygon / polyline</text>
+    <text x="620" y="536" font-size="20" fill="#334155">• 渐变 / 裁剪 / 旋转</text>
+    <text x="620" y="570" font-size="20" fill="#334155">• 兼容 PNG + Office SVG 关系</text>
+    <line x1="620" y1="608" x2="980" y2="608" stroke="#FFE1A8" stroke-width="2"/>
+    <text x="620" y="650" font-size="21" font-weight="700" fill="#E99500">结果</text>
+    <text x="682" y="650" font-size="18" fill="#334155">外观保留，内部路径不原生</text>
+    <rect x="620" y="674" width="360" height="20" rx="10" fill="#FFF2D8"/>
+    <rect x="620" y="674" width="230" height="20" rx="10" fill="#FFB21A"/>
+
+    <rect x="1088" y="322" width="424" height="400" rx="22" fill="#FDE8EA"/>
+    <rect x="1080" y="314" width="424" height="400" rx="22" fill="#FFFFFF" stroke="#F5B5BA" stroke-width="2"/>
+    <rect x="1080" y="314" width="424" height="92" rx="22" fill="#EA3B42"/>
+    <rect x="1080" y="384" width="424" height="22" fill="#EA3B42"/>
+    <circle cx="1138" cy="360" r="30" fill="#FFFFFF" fill-opacity="0.22" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="1138" y="370" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">!</text>
+    <text x="1188" y="352" font-size="30" font-weight="700" fill="#FFFFFF">明确失败</text>
+    <text x="1188" y="384" font-size="18" fill="#FFE9EA">阻断路径 · 给出诊断</text>
+    <text x="1112" y="462" font-size="25" font-weight="700" fill="#A52229">不可靠或不安全</text>
+    <text x="1112" y="502" font-size="20" fill="#334155">• 禁止元素或远程资源</text>
+    <text x="1112" y="536" font-size="20" fill="#334155">• 无法保真的可见内容</text>
+    <text x="1112" y="570" font-size="20" fill="#334155">• 非法 PPTX 包关系</text>
+    <line x1="1112" y1="608" x2="1472" y2="608" stroke="#FAD1D4" stroke-width="2"/>
+    <text x="1112" y="650" font-size="21" font-weight="700" fill="#EA3B42">结果</text>
+    <text x="1174" y="650" font-size="18" fill="#334155">不写出半成品，明确报错</text>
+    <rect x="1112" y="674" width="360" height="20" rx="10" fill="#FDE8EA"/>
+    <rect x="1112" y="674" width="88" height="20" rx="10" fill="#EA3B42"/>
+
+    <rect x="96" y="762" width="1408" height="82" rx="18" fill="#EDF4FF" stroke="#C9DCFC" stroke-width="2"/>
+    <circle cx="144" cy="803" r="26" fill="#1263E6"/>
+    <text x="144" y="812" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">#</text>
+    <text x="190" y="795" font-size="23" font-weight="700" fill="#173A73">编译报告始终记录 native、embedded_svg 与 failed。</text>
+    <text x="190" y="825" font-size="18" fill="#64748B">只要 failed 不为 0，就不能进入交付</text>
+    <text x="1452" y="812" text-anchor="end" font-size="18" fill="#94A3B8">06 / 10</text>
   </g>
 </svg>

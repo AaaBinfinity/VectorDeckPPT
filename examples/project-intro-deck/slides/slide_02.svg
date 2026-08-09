@@ -1,30 +1,73 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-  <rect x="0" y="0" width="1600" height="900" fill="#F4F1EA"/>
+  <rect x="0" y="0" width="1600" height="900" fill="#F8FBFF"/>
   <g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
-    <text x="96" y="118" font-size="54" font-weight="700" fill="#111827">演示文稿生成，不该在三件事之间妥协</text>
-    <text x="96" y="166" font-size="22" fill="#6B7280">传统自动化通常只优化“产出速度”，却牺牲后续修改或质量判断。</text>
+    <rect x="152" y="24" width="58" height="86" rx="14" fill="#DCE9FF"/>
+    <rect x="36" y="24" width="150" height="86" rx="14" fill="#1263E6"/>
+    <rect x="36" y="24" width="150" height="18" rx="14" fill="#2C83F3"/>
+    <text x="111" y="88" text-anchor="middle" font-size="48" font-weight="700" fill="#FFFFFF">02</text>
+    <text x="238" y="88" font-size="50" font-weight="700" fill="#0A1B3E">高质量生成，不该在三件事之间妥协</text>
+    <text x="1504" y="58" text-anchor="end" font-size="20" font-weight="700" fill="#1263E6">VectorDeckPPT</text>
+    <text x="1504" y="84" text-anchor="end" font-size="17" fill="#64748B">PROJECT INTRO</text>
+    <line x1="36" y1="136" x2="1250" y2="136" stroke="#1263E6" stroke-width="5"/>
+    <line x1="1250" y1="136" x2="1504" y2="136" stroke="#D7E5FF" stroke-width="5"/>
 
-    <line x1="566" y1="236" x2="566" y2="596" stroke="#D4CFC4" stroke-width="2"/>
-    <line x1="1034" y1="236" x2="1034" y2="596" stroke="#D4CFC4" stroke-width="2"/>
+    <rect x="168" y="184" width="1280" height="82" rx="18" fill="#DCEAFF"/>
+    <rect x="160" y="176" width="1280" height="82" rx="18" fill="#1263E6"/>
+    <rect x="1240" y="176" width="200" height="82" rx="18" fill="#2C83F3"/>
+    <circle cx="218" cy="217" r="25" fill="#FFFFFF" fill-opacity="0.18" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="218" y="226" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">!</text>
+    <text x="260" y="228" font-size="31" font-weight="700" fill="#FFFFFF">速度只有在审美、编辑能力和质量判断都保住时才有价值</text>
 
-    <text x="96" y="350" font-size="86" font-weight="700" fill="#111827">好看</text>
-    <rect x="96" y="410" width="278" height="12" fill="#155EEF"/>
-    <text x="96" y="470" font-size="26" fill="#374151">有叙事、有层级，</text>
-    <text x="96" y="510" font-size="26" fill="#374151">而不是模板拼装。</text>
+    <rect x="104" y="322" width="424" height="364" rx="22" fill="#E5F0FF"/>
+    <rect x="96" y="314" width="424" height="364" rx="22" fill="#FFFFFF" stroke="#BFD6FF" stroke-width="2"/>
+    <circle cx="160" cy="378" r="42" fill="#1263E6"/>
+    <circle cx="160" cy="378" r="52" fill="none" stroke="#BFD6FF" stroke-width="3"/>
+    <text x="160" y="391" text-anchor="middle" font-size="28" font-weight="700" fill="#FFFFFF">01</text>
+    <text x="224" y="388" font-size="38" font-weight="700" fill="#0A1B3E">好看</text>
+    <line x1="128" y1="444" x2="488" y2="444" stroke="#1263E6" stroke-width="5"/>
+    <circle cx="160" cy="504" r="28" fill="#E7F0FF"/>
+    <text x="160" y="513" text-anchor="middle" font-size="22" font-weight="700" fill="#1263E6">A</text>
+    <text x="206" y="500" font-size="24" font-weight="700" fill="#173A73">有叙事、有层级</text>
+    <text x="206" y="535" font-size="19" fill="#64748B">每页先表达一个清晰结论</text>
+    <text x="128" y="606" font-size="21" fill="#334155">不是模板拼装，也不是把文档</text>
+    <text x="128" y="638" font-size="21" fill="#334155">逐段搬进幻灯片。</text>
 
-    <text x="628" y="350" font-size="86" font-weight="700" fill="#111827">可编辑</text>
-    <rect x="628" y="410" width="278" height="12" fill="#155EEF"/>
-    <text x="628" y="470" font-size="26" fill="#374151">文字与基础图形，</text>
-    <text x="628" y="510" font-size="26" fill="#374151">仍是原生对象。</text>
+    <rect x="596" y="322" width="424" height="364" rx="22" fill="#DFF7FA"/>
+    <rect x="588" y="314" width="424" height="364" rx="22" fill="#FFFFFF" stroke="#A8E6EE" stroke-width="2"/>
+    <circle cx="652" cy="378" r="42" fill="#12AABD"/>
+    <circle cx="652" cy="378" r="52" fill="none" stroke="#A8E6EE" stroke-width="3"/>
+    <text x="652" y="391" text-anchor="middle" font-size="28" font-weight="700" fill="#FFFFFF">02</text>
+    <text x="716" y="388" font-size="38" font-weight="700" fill="#0A1B3E">可编辑</text>
+    <line x1="620" y1="444" x2="980" y2="444" stroke="#12AABD" stroke-width="5"/>
+    <circle cx="652" cy="504" r="28" fill="#E3F9FC"/>
+    <text x="652" y="513" text-anchor="middle" font-size="22" font-weight="700" fill="#12AABD">T</text>
+    <text x="698" y="500" font-size="24" font-weight="700" fill="#173A73">文字与图形保持原生</text>
+    <text x="698" y="535" font-size="19" fill="#64748B">后续仍可搜索、复制和修改</text>
+    <text x="620" y="606" font-size="21" fill="#334155">复杂视觉可以保真降级，但所有</text>
+    <text x="620" y="638" font-size="21" fill="#334155">权衡必须进入编译报告。</text>
 
-    <text x="1096" y="350" font-size="86" font-weight="700" fill="#111827">可验证</text>
-    <rect x="1096" y="410" width="310" height="12" fill="#B8F34A"/>
-    <text x="1096" y="470" font-size="26" fill="#374151">每一步有产物，</text>
-    <text x="1096" y="510" font-size="26" fill="#374151">每一次降级有记录。</text>
+    <rect x="1088" y="322" width="424" height="364" rx="22" fill="#E3F5E8"/>
+    <rect x="1080" y="314" width="424" height="364" rx="22" fill="#FFFFFF" stroke="#B6E3C2" stroke-width="2"/>
+    <circle cx="1144" cy="378" r="42" fill="#2DAA57"/>
+    <circle cx="1144" cy="378" r="52" fill="none" stroke="#B6E3C2" stroke-width="3"/>
+    <text x="1144" y="391" text-anchor="middle" font-size="28" font-weight="700" fill="#FFFFFF">03</text>
+    <text x="1208" y="388" font-size="38" font-weight="700" fill="#0A1B3E">可验证</text>
+    <line x1="1112" y1="444" x2="1472" y2="444" stroke="#2DAA57" stroke-width="5"/>
+    <circle cx="1144" cy="504" r="28" fill="#E7F7EC"/>
+    <text x="1144" y="513" text-anchor="middle" font-size="22" font-weight="700" fill="#2DAA57">✓</text>
+    <text x="1190" y="500" font-size="24" font-weight="700" fill="#173A73">每一步都有检查点</text>
+    <text x="1190" y="535" font-size="19" fill="#64748B">校验、渲染、复审、再编译</text>
+    <text x="1112" y="606" font-size="21" fill="#334155">SVG 与 PPTX 都需要看实际结果，</text>
+    <text x="1112" y="638" font-size="21" fill="#334155">不是“能打开”就算成功。</text>
 
-    <rect x="96" y="656" width="1408" height="132" fill="#111827"/>
-    <text x="136" y="715" font-size="22" font-weight="700" fill="#B8F34A">VECTORDECKPPT 的选择</text>
-    <text x="136" y="758" font-size="32" font-weight="600" fill="#FFFFFF">用一条可审查的向量工作流，同时保住三者。</text>
-    <text x="1504" y="842" text-anchor="end" font-size="20" fill="#6B7280">02</text>
+    <rect x="104" y="754" width="1400" height="90" rx="20" fill="#EAF2FF"/>
+    <rect x="96" y="746" width="1400" height="90" rx="20" fill="#FFFFFF" stroke="#C9DCFC" stroke-width="2"/>
+    <circle cx="148" cy="791" r="28" fill="#1263E6"/>
+    <text x="148" y="800" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">V</text>
+    <text x="198" y="786" font-size="22" font-weight="700" fill="#64748B">传统自动化：只优化产出速度</text>
+    <line x1="610" y1="770" x2="610" y2="814" stroke="#D7E5FF" stroke-width="2"/>
+    <text x="656" y="786" font-size="25" font-weight="700" fill="#1263E6">VectorDeckPPT：让三者同时成立</text>
+    <text x="656" y="818" font-size="18" fill="#64748B">一条可审查的向量工作流，把创意与工程质量连接起来</text>
+    <text x="1452" y="810" text-anchor="end" font-size="18" fill="#94A3B8">02 / 10</text>
   </g>
 </svg>

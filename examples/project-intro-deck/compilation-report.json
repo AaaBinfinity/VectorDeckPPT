@@ -3,14 +3,14 @@
   "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides",
   "output": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\project-intro.pptx",
   "slide_count": 10,
-  "native": 271,
+  "native": 748,
   "freeform": 0,
   "embedded_svg": 0,
   "failed": 0,
   "slides": [
     {
       "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_01.svg",
-      "native": 28,
+      "native": 73,
       "freeform": 0,
       "embedded_svg": 0,
       "failed": 0,
@@ -18,7 +18,7 @@
     },
     {
       "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_02.svg",
-      "native": 21,
+      "native": 64,
       "freeform": 0,
       "embedded_svg": 0,
       "failed": 0,
@@ -26,7 +26,7 @@
     },
     {
       "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_03.svg",
-      "native": 27,
+      "native": 67,
       "freeform": 0,
       "embedded_svg": 0,
       "failed": 0,
@@ -34,7 +34,7 @@
     },
     {
       "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_04.svg",
-      "native": 40,
+      "native": 82,
       "freeform": 0,
       "embedded_svg": 0,
       "failed": 0,
@@ -42,7 +42,7 @@
     },
     {
       "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_05.svg",
-      "native": 27,
+      "native": 62,
       "freeform": 0,
       "embedded_svg": 0,
       "failed": 0,
@@ -50,7 +50,7 @@
     },
     {
       "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_06.svg",
-      "native": 18,
+      "native": 73,
       "freeform": 0,
       "embedded_svg": 0,
       "failed": 0,
@@ -58,7 +58,7 @@
     },
     {
       "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_07.svg",
-      "native": 33,
+      "native": 79,
       "freeform": 0,
       "embedded_svg": 0,
       "failed": 0,
@@ -66,7 +66,7 @@
     },
     {
       "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_08.svg",
-      "native": 31,
+      "native": 72,
       "freeform": 0,
       "embedded_svg": 0,
       "failed": 0,
@@ -74,7 +74,7 @@
     },
     {
       "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_09.svg",
-      "native": 25,
+      "native": 84,
       "freeform": 0,
       "embedded_svg": 0,
       "failed": 0,
@@ -82,7 +82,7 @@
     },
     {
       "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_10.svg",
-      "native": 21,
+      "native": 92,
       "freeform": 0,
       "embedded_svg": 0,
       "failed": 0,

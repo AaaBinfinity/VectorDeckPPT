@@ -1,42 +1,83 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-  <rect x="0" y="0" width="1600" height="900" fill="#F4F1EA"/>
+  <rect x="0" y="0" width="1600" height="900" fill="#F8FBFF"/>
   <g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
-    <text x="96" y="118" font-size="54" font-weight="700" fill="#111827">指令、知识与工具分层，项目因此可维护</text>
-    <text x="96" y="166" font-size="22" fill="#6B7280">仓库结构本身就是产品边界：Agent 行为写进 Skill，确定性行为留在 scripts。</text>
+    <rect x="152" y="24" width="58" height="86" rx="14" fill="#DCE9FF"/>
+    <rect x="36" y="24" width="150" height="86" rx="14" fill="#1263E6"/>
+    <rect x="36" y="24" width="150" height="18" rx="14" fill="#2C83F3"/>
+    <text x="111" y="88" text-anchor="middle" font-size="48" font-weight="700" fill="#FFFFFF">08</text>
+    <text x="238" y="88" font-size="40" font-weight="700" fill="#0A1B3E">指令、知识与工具分层，仓库因此可维护</text>
+    <text x="1504" y="58" text-anchor="end" font-size="20" font-weight="700" fill="#1263E6">VectorDeckPPT</text>
+    <text x="1504" y="84" text-anchor="end" font-size="17" fill="#64748B">REPOSITORY</text>
+    <line x1="36" y1="136" x2="1250" y2="136" stroke="#1263E6" stroke-width="5"/>
+    <line x1="1250" y1="136" x2="1504" y2="136" stroke="#D7E5FF" stroke-width="5"/>
 
-    <text x="96" y="254" font-family="Consolas, monospace" font-size="25" font-weight="700" fill="#155EEF">.agents/skills/vectordeckppt/</text>
-    <line x1="126" y1="282" x2="126" y2="690" stroke="#111827" stroke-width="3"/>
+    <rect x="168" y="184" width="1280" height="82" rx="18" fill="#DCEAFF"/>
+    <rect x="160" y="176" width="1280" height="82" rx="18" fill="#1263E6"/>
+    <rect x="1240" y="176" width="200" height="82" rx="18" fill="#2C83F3"/>
+    <circle cx="218" cy="217" r="25" fill="#FFFFFF" fill-opacity="0.18" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="218" y="226" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">#</text>
+    <text x="260" y="228" font-size="26" font-weight="700" fill="#FFFFFF">仓库结构就是产品边界：Agent 行为写进 Skill，确定性行为留在 scripts</text>
 
-    <line x1="126" y1="338" x2="186" y2="338" stroke="#111827" stroke-width="3"/>
-    <circle cx="126" cy="338" r="8" fill="#155EEF"/>
-    <text x="214" y="348" font-family="Consolas, monospace" font-size="34" font-weight="700" fill="#111827">SKILL.md</text>
-    <text x="560" y="345" font-size="24" fill="#374151">完整工作流、职责边界与触发条件</text>
+    <rect x="104" y="318" width="590" height="420" rx="22" fill="#E5F0FF"/>
+    <rect x="96" y="310" width="590" height="420" rx="22" fill="#FFFFFF" stroke="#BFD6FF" stroke-width="2"/>
+    <rect x="96" y="310" width="590" height="70" rx="22" fill="#0A1B3E"/>
+    <rect x="96" y="360" width="590" height="20" fill="#0A1B3E"/>
+    <text x="132" y="355" font-family="Consolas, monospace" font-size="23" font-weight="700" fill="#FFFFFF">.agents/skills/vectordeckppt/</text>
+    <line x1="144" y1="418" x2="144" y2="684" stroke="#1263E6" stroke-width="3"/>
+    <line x1="144" y1="442" x2="194" y2="442" stroke="#1263E6" stroke-width="3"/>
+    <line x1="144" y1="508" x2="194" y2="508" stroke="#1263E6" stroke-width="3"/>
+    <line x1="144" y1="574" x2="194" y2="574" stroke="#1263E6" stroke-width="3"/>
+    <line x1="144" y1="640" x2="194" y2="640" stroke="#1263E6" stroke-width="3"/>
+    <circle cx="144" cy="442" r="8" fill="#1263E6"/>
+    <circle cx="144" cy="508" r="8" fill="#12AABD"/>
+    <circle cx="144" cy="574" r="8" fill="#2DAA57"/>
+    <circle cx="144" cy="640" r="8" fill="#FFB21A"/>
+    <text x="218" y="452" font-family="Consolas, monospace" font-size="28" font-weight="700" fill="#0A1B3E">SKILL.md</text>
+    <text x="218" y="485" font-size="18" fill="#64748B">触发条件、完整工作流与职责边界</text>
+    <text x="218" y="518" font-family="Consolas, monospace" font-size="28" font-weight="700" fill="#0A1B3E">references/</text>
+    <text x="218" y="551" font-size="18" fill="#64748B">叙事、艺术方向、SVG 与复审知识</text>
+    <text x="218" y="584" font-family="Consolas, monospace" font-size="28" font-weight="700" fill="#0A1B3E">scripts/</text>
+    <text x="218" y="617" font-size="18" fill="#64748B">校验、渲染、编译与包验证工具</text>
+    <text x="218" y="650" font-family="Consolas, monospace" font-size="28" font-weight="700" fill="#0A1B3E">assets/</text>
+    <text x="218" y="683" font-size="18" fill="#64748B">可复用主题、图标和项目资产</text>
 
-    <line x1="126" y1="436" x2="186" y2="436" stroke="#111827" stroke-width="3"/>
-    <circle cx="126" cy="436" r="8" fill="#155EEF"/>
-    <text x="214" y="446" font-family="Consolas, monospace" font-size="34" font-weight="700" fill="#111827">references/</text>
-    <text x="560" y="443" font-size="24" fill="#374151">叙事、艺术方向、SVG 与复审知识</text>
+    <rect x="734" y="318" width="362" height="132" rx="20" fill="#E5F0FF"/>
+    <rect x="726" y="310" width="362" height="132" rx="20" fill="#FFFFFF" stroke="#BFD6FF" stroke-width="2"/>
+    <circle cx="778" cy="376" r="30" fill="#1263E6"/>
+    <text x="778" y="386" text-anchor="middle" font-size="23" font-weight="700" fill="#FFFFFF">A</text>
+    <text x="828" y="366" font-size="27" font-weight="700" fill="#1263E6">Agent 做判断</text>
+    <text x="828" y="402" font-size="15" fill="#64748B">读资料、定叙事、定风格、做复审</text>
 
-    <line x1="126" y1="534" x2="186" y2="534" stroke="#111827" stroke-width="3"/>
-    <circle cx="126" cy="534" r="8" fill="#155EEF"/>
-    <text x="214" y="544" font-family="Consolas, monospace" font-size="34" font-weight="700" fill="#111827">scripts/</text>
-    <text x="560" y="541" font-size="24" fill="#374151">校验、渲染、编译与包验证工具</text>
+    <rect x="734" y="472" width="362" height="132" rx="20" fill="#DFF7FA"/>
+    <rect x="726" y="464" width="362" height="132" rx="20" fill="#FFFFFF" stroke="#A8E6EE" stroke-width="2"/>
+    <circle cx="778" cy="530" r="30" fill="#12AABD"/>
+    <text x="778" y="540" text-anchor="middle" font-size="23" font-weight="700" fill="#FFFFFF">S</text>
+    <text x="828" y="520" font-size="27" font-weight="700" fill="#12AABD">SVG 做真源</text>
+    <text x="828" y="556" font-size="15" fill="#64748B">一页一源，所有可见元素同坐标系</text>
 
-    <line x1="126" y1="632" x2="186" y2="632" stroke="#111827" stroke-width="3"/>
-    <circle cx="126" cy="632" r="8" fill="#155EEF"/>
-    <text x="214" y="642" font-family="Consolas, monospace" font-size="34" font-weight="700" fill="#111827">assets/</text>
-    <text x="560" y="639" font-size="24" fill="#374151">可复用主题、图标与项目资产</text>
+    <rect x="734" y="626" width="362" height="112" rx="20" fill="#E3F5E8"/>
+    <rect x="726" y="618" width="362" height="112" rx="20" fill="#FFFFFF" stroke="#B6E3C2" stroke-width="2"/>
+    <circle cx="778" cy="674" r="30" fill="#2DAA57"/>
+    <text x="778" y="684" text-anchor="middle" font-size="23" font-weight="700" fill="#FFFFFF">C</text>
+    <text x="828" y="664" font-size="27" font-weight="700" fill="#2DAA57">脚本做执行</text>
+    <text x="828" y="700" font-size="15" fill="#64748B">只做可重复、可测试的确定性行为</text>
 
-    <rect x="1030" y="256" width="474" height="364" fill="#111827"/>
-    <text x="1074" y="320" font-size="22" font-weight="700" fill="#B8F34A">ARCHITECTURE INVARIANT</text>
-    <text x="1074" y="396" font-size="38" font-weight="700" fill="#FFFFFF">Agent 做判断</text>
-    <line x1="1074" y1="426" x2="1458" y2="426" stroke="#4B5563" stroke-width="2"/>
-    <text x="1074" y="486" font-size="38" font-weight="700" fill="#FFFFFF">脚本做执行</text>
-    <line x1="1074" y1="516" x2="1458" y2="516" stroke="#4B5563" stroke-width="2"/>
-    <text x="1074" y="576" font-size="38" font-weight="700" fill="#FFFFFF">SVG 做真源</text>
+    <rect x="1140" y="318" width="372" height="420" rx="22" fill="#DFEBFF"/>
+    <rect x="1132" y="310" width="372" height="420" rx="22" fill="#0A1B3E"/>
+    <text x="1172" y="360" font-size="20" font-weight="700" fill="#BFD6FF">DELIVERABLES</text>
+    <text x="1172" y="410" font-size="31" font-weight="700" fill="#FFFFFF">结构化输入</text>
+    <rect x="1172" y="438" width="292" height="56" rx="12" fill="#14284D" stroke="#3C5B8D" stroke-width="2"/>
+    <text x="1200" y="474" font-size="20" font-weight="700" fill="#FFFFFF">10 × slide_NN.svg</text>
+    <text x="1172" y="544" font-size="31" font-weight="700" fill="#FFFFFF">确定性输出</text>
+    <rect x="1172" y="572" width="292" height="56" rx="12" fill="#14284D" stroke="#3C5B8D" stroke-width="2"/>
+    <text x="1200" y="608" font-size="20" font-weight="700" fill="#B7F24A">final.pptx</text>
+    <rect x="1172" y="644" width="292" height="56" rx="12" fill="#14284D" stroke="#3C5B8D" stroke-width="2"/>
+    <text x="1200" y="680" font-size="20" font-weight="700" fill="#FFFFFF">compilation-report.json</text>
 
-    <rect x="96" y="728" width="1408" height="64" fill="#155EEF"/>
-    <text x="800" y="770" text-anchor="middle" font-size="28" font-weight="700" fill="#FFFFFF">不引入 AI Provider SDK，边界因此清晰、可移植、可审查</text>
-    <text x="1504" y="842" text-anchor="end" font-size="20" fill="#6B7280">08</text>
+    <rect x="96" y="772" width="1408" height="72" rx="18" fill="#EDF4FF" stroke="#C9DCFC" stroke-width="2"/>
+    <circle cx="144" cy="808" r="25" fill="#1263E6"/>
+    <text x="144" y="817" text-anchor="middle" font-size="21" font-weight="700" fill="#FFFFFF">!</text>
+    <text x="188" y="816" font-size="24" font-weight="700" fill="#173A73">不引入 AI Provider SDK：边界清晰、可移植、可审查。</text>
+    <text x="1452" y="816" text-anchor="end" font-size="18" fill="#94A3B8">08 / 10</text>
   </g>
 </svg>
