@@ -1,0 +1,38 @@
+# Pinned runtime and development dependencies for pip.
+# Regenerate from uv.lock with:
+# uv export --format requirements.txt --all-groups --no-emit-project --no-hashes --frozen --no-header --output-file requirements.txt
+colorama==0.4.6 ; sys_platform == 'win32'
+    # via pytest
+coverage==7.15.4
+    # via pytest-cov
+iniconfig==2.3.0
+    # via pytest
+lxml==6.1.1
+    # via
+    #   python-pptx
+    #   vectordeckppt
+packaging==26.3
+    # via pytest
+pillow==12.3.0
+    # via
+    #   python-pptx
+    #   vectordeckppt
+pluggy==1.6.0
+    # via
+    #   pytest
+    #   pytest-cov
+pygments==2.20.0
+    # via pytest
+pytest==9.1.1
+    # via pytest-cov
+pytest-cov==7.1.0
+python-pptx==1.0.2
+    # via vectordeckppt
+pyyaml==6.0.3
+resvg-py==0.3.4
+    # via vectordeckppt
+ruff==0.16.2
+typing-extensions==4.16.0
+    # via python-pptx
+xlsxwriter==3.2.9
+    # via python-pptx

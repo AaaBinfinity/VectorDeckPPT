@@ -28,11 +28,21 @@ doc/PRD.md                 产品与实现规范
 
 ## 安装
 
-需要 Python 3.12+ 与 [uv](https://docs.astral.sh/uv/)。
+需要 Python 3.12+。可以使用 [uv](https://docs.astral.sh/uv/)：
 
 ```bash
 uv sync
 ```
+
+也可以使用标准 `pip`：
+
+```bash
+python -m venv .venv
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+如果创建了虚拟环境，请先激活它，或将上面的 `python` 替换为 `.venv` 中的 Python 可执行文件。`requirements.txt` 从 `uv.lock` 导出，包含运行、测试与 lint 所需的锁定依赖，因此不安装 `uv` 也能使用项目。
 
 在支持仓库 Skill 自动发现的 Agent 中打开本仓库，或将 `.agents/skills/vectordeckppt` 复制/链接到 Agent 的 Skill 目录。随后可直接请求：
 
@@ -116,11 +126,29 @@ uv run python .agents/skills/vectordeckppt/scripts/validate_pptx.py final.pptx
 
 ## 开发与验证
 
+使用 uv：
+
 ```bash
 uv run ruff format .
 uv run ruff check .
 uv run pytest
 ```
+
+使用 pip 环境：
+
+```bash
+python -m ruff format .
+python -m ruff check .
+python -m pytest
+```
+
+依赖发生变化时，先更新 `uv.lock`，再重新导出 pip 依赖：
+
+```bash
+uv export --format requirements.txt --all-groups --no-emit-project --no-hashes --frozen --no-header --output-file requirements.txt
+```
+
+保留 `requirements.txt` 顶部的说明注释，不要提交包含本机绝对路径的导出命令。
 
 提交使用 Conventional Commits，并在提交前运行 `git diff --check`、Ruff 和 Pytest。完整维护约束见 `AGENTS.md`。
 

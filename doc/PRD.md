@@ -1975,7 +1975,7 @@ AGENTS.md
 
 # 64. Python 项目管理
 
-使用：
+首选使用：
 
 ```text
 uv
@@ -1986,6 +1986,7 @@ uv
 ```text
 pyproject.toml
 uv.lock
+requirements.txt
 ```
 
 基本流程：
@@ -1993,6 +1994,14 @@ uv.lock
 ```bash
 uv sync
 ```
+
+同时必须支持不安装 uv 的标准 pip 环境：
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+`requirements.txt` 应从 `uv.lock` 导出并包含运行、测试和 Lint 所需依赖，禁止写入本机绝对路径。依赖发生变化时需要同步更新 `pyproject.toml`、`uv.lock` 和 `requirements.txt`。
 
 运行：
 
