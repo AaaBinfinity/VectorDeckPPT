@@ -2,8 +2,6 @@ from __future__ import annotations
 
 import unicodedata
 
-from .coordinates import css_px_to_points
-
 DEFAULT_FONT_FAMILY = "Microsoft YaHei"
 GENERIC_FONT_MAP = {
     "sans-serif": "Arial",
@@ -34,10 +32,6 @@ def is_bold(value: str | None) -> bool:
         return int(float(normalized)) >= 600
     except ValueError:
         return False
-
-
-def font_size_points(svg_font_size: float) -> float:
-    return css_px_to_points(svg_font_size)
 
 
 def estimate_text_width(text: str, font_size: float, *, bold: bool = False) -> float:

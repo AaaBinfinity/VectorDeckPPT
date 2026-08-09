@@ -10,7 +10,6 @@ from .coordinates import CoordinateMapper
 from .fonts import (
     baseline_to_top,
     estimate_text_width,
-    font_size_points,
     is_bold,
     line_box_height,
     primary_font,
@@ -127,7 +126,7 @@ def add_native_text(
             run.text = run_spec.text
             font_size = _font_size(run_spec.styles) * abs(item.transform.d)
             run.font.name = primary_font(run_spec.styles.get("font-family"))
-            run.font.size = Pt(font_size_points(font_size))
+            run.font.size = Pt(mapper.font_size_points(font_size))
             run.font.bold = is_bold(run_spec.styles.get("font-weight"))
             run.font.italic = run_spec.styles.get("font-style", "").lower() in {
                 "italic",

@@ -31,3 +31,11 @@ def test_invalid_canvas_is_rejected() -> None:
 
 def test_css_pixels_convert_to_points() -> None:
     assert css_px_to_points(96) == pytest.approx(72)
+
+
+def test_font_size_uses_canvas_to_slide_scale() -> None:
+    default_mapper = CoordinateMapper()
+    compact_viewbox_mapper = CoordinateMapper(canvas_width=800, canvas_height=450)
+
+    assert default_mapper.font_size_points(48) == pytest.approx(28.8)
+    assert compact_viewbox_mapper.font_size_points(48) == pytest.approx(57.6)

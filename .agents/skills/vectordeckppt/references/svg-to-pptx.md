@@ -55,7 +55,7 @@ All conversion lives in `scripts/lib/coordinates.py`. ViewBox origins are subtra
 
 ## Text strategy
 
-SVG `y` is an alphabetic baseline while a PowerPoint TextBox uses a top coordinate. The compiler applies a baseline-to-top estimate based on font size, converts CSS pixels to PowerPoint points, estimates line width, and positions the textbox using `text-anchor`.
+SVG `y` is an alphabetic baseline while a PowerPoint TextBox uses a top coordinate. The compiler applies a baseline-to-top estimate based on font size, converts the SVG font size through the same viewBox-to-slide scale used for geometry, estimates line width, and positions the textbox using `text-anchor`. On the default 1600 × 900 canvas, `font-size="48"` maps to `28.8 pt` in PowerPoint.
 
 Native text supports font family, size, bold weight, italic style, fill color, fill opacity, group opacity, and basic tspans. Chinese text remains searchable, copyable, and editable.
 

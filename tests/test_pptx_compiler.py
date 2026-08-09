@@ -66,6 +66,36 @@ def test_compile_multiple_slides_uses_natural_filename_order(tmp_path: Path) -> 
     assert titles == ["第一页", "第二页", "第十页"]
 
 
+@pytest.mark.parametrize(
+    ("view_box", "expected_points"),
+    [
+        ("0 0 1600 900", 28.8),
+        ("0 0 800 450", 57.6),
+    ],
+)
+def test_compiled_font_size_uses_viewbox_scale(
+    tmp_path: Path,
+    view_box: str,
+    expected_points: float,
+) -> None:
+    source = tmp_path / f"font-{view_box.split()[2]}.svg"
+    source.write_text(
+        '<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" '
+        f'viewBox="{view_box}"><text x="100" y="100" font-size="48">Scale</text></svg>',
+        encoding="utf-8",
+    )
+    output = source.with_suffix(".pptx")
+
+    report = compile_pptx(source, output)
+    deck = Presentation(output)
+    text_shape = next(shape for shape in deck.slides[0].shapes if shape.has_text_frame)
+    run = text_shape.text_frame.paragraphs[0].runs[0]
+
+    assert report.valid
+    assert run.font.size is not None
+    assert run.font.size.pt == pytest.approx(expected_points, abs=0.01)
+
+
 def test_complex_path_uses_office_svg_fallback(tmp_path: Path) -> None:
     output = tmp_path / "fallback.pptx"
     report = compile_pptx(FIXTURES / "fallback_path.svg", output)

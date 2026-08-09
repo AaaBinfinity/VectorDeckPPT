@@ -58,6 +58,11 @@ class CoordinateMapper:
     def height_inches(self, value: float) -> float:
         return value * self.y_inches_per_unit
 
+    def font_size_points(self, value: float) -> float:
+        """Map an SVG font size in canvas units to PowerPoint points."""
+
+        return self.height_inches(value) * POINTS_PER_INCH
+
     def x(self, value: float) -> int:
         return inches_to_emu(self.x_inches(value))
 
