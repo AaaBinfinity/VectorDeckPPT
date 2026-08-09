@@ -205,6 +205,14 @@ tempCodeRunnerFile.py
 
 # Ruff stuff:
 .ruff_cache/
+.uv-cache/
+
+# VectorDeckPPT generated artifacts
+output/
+
+# Operating system files
+.DS_Store
+Thumbs.db
 
 # PyPI configuration file
 .pypirc
