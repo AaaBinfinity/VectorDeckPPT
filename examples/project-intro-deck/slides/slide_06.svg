@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect x="0" y="0" width="1600" height="900" fill="#111827"/>
+  <g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
+    <text x="96" y="118" font-size="54" font-weight="700" fill="#FFFFFF">原生优先，复杂元素明确降级而不丢失</text>
+    <text x="96" y="166" font-size="22" fill="#9CA3AF">转换策略把编辑能力、视觉保真与失败边界都写进交付报告。</text>
+
+    <text x="96" y="294" font-size="23" font-weight="700" fill="#B8F34A">01 · NATIVE POWERPOINT</text>
+    <rect x="96" y="322" width="1120" height="112" fill="#155EEF"/>
+    <text x="136" y="374" font-size="32" font-weight="700" fill="#FFFFFF">文本 · 矩形 · 圆形 · 直线 · 图片 · 基础分组</text>
+    <text x="136" y="410" font-size="20" fill="#DCE8FF">内容可搜索、可复制、可逐项编辑</text>
+    <text x="1260" y="388" font-size="72" font-weight="700" fill="#FFFFFF">优先</text>
+
+    <text x="96" y="500" font-size="23" font-weight="700" fill="#D1D5DB">02 · OFFICE SVG FALLBACK</text>
+    <rect x="96" y="528" width="820" height="112" fill="#374151"/>
+    <text x="136" y="580" font-size="32" font-weight="700" fill="#FFFFFF">路径 · 渐变 · 裁剪 · 旋转</text>
+    <text x="136" y="616" font-size="20" fill="#D1D5DB">外观保留，对象整体可编辑；报告明确计数</text>
+    <text x="960" y="594" font-size="58" font-weight="700" fill="#D1D5DB">保真</text>
+
+    <text x="96" y="706" font-size="23" font-weight="700" fill="#FCA5A5">03 · EXPLICIT FAILURE</text>
+    <rect x="96" y="734" width="520" height="72" fill="#111827" stroke="#EF4444" stroke-width="3"/>
+    <text x="136" y="780" font-size="26" font-weight="700" fill="#FFFFFF">无可靠路径：阻止交付并诊断</text>
+    <text x="660" y="780" font-size="34" font-weight="700" fill="#FCA5A5">绝不静默丢失</text>
+    <text x="1504" y="842" text-anchor="end" font-size="20" fill="#9CA3AF">06</text>
+  </g>
+</svg>

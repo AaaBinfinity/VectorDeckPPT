@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect x="0" y="0" width="1600" height="900" fill="#111827"/>
+  <g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
+    <text x="96" y="118" font-size="22" font-weight="700" fill="#B8F34A">HOW TO USE</text>
+    <text x="96" y="242" font-size="62" font-weight="700" fill="#FFFFFF">一句调用，得到可继续维护的演示文稿</text>
+
+    <rect x="96" y="306" width="1408" height="150" fill="#0B1220" stroke="#4B5563" stroke-width="2"/>
+    <text x="136" y="372" font-family="Consolas, monospace" font-size="38" font-weight="700" fill="#B8F34A">$vectordeckppt</text>
+    <text x="136" y="418" font-size="26" fill="#FFFFFF">根据项目资料制作 10 页中文介绍，保留源 SVG、编译报告与可编辑 PPTX。</text>
+
+    <line x1="252" y1="596" x2="1348" y2="596" stroke="#4B5563" stroke-width="4"/>
+    <circle cx="252" cy="596" r="44" fill="#155EEF"/>
+    <circle cx="617" cy="596" r="44" fill="#155EEF"/>
+    <circle cx="983" cy="596" r="44" fill="#155EEF"/>
+    <circle cx="1348" cy="596" r="44" fill="#B8F34A"/>
+    <text x="252" y="606" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">01</text>
+    <text x="617" y="606" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">02</text>
+    <text x="983" y="606" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">03</text>
+    <text x="1348" y="606" text-anchor="middle" font-size="22" font-weight="700" fill="#111827">04</text>
+    <text x="252" y="686" text-anchor="middle" font-size="26" font-weight="700" fill="#FFFFFF">输入资料</text>
+    <text x="617" y="686" text-anchor="middle" font-size="26" font-weight="700" fill="#FFFFFF">逐页 SVG</text>
+    <text x="983" y="686" text-anchor="middle" font-size="26" font-weight="700" fill="#FFFFFF">视觉复审</text>
+    <text x="1348" y="686" text-anchor="middle" font-size="26" font-weight="700" fill="#FFFFFF">PPTX + 报告</text>
+
+    <text x="96" y="804" font-size="34" font-weight="700" fill="#FFFFFF">让创意可见，让交付可验证。</text>
+    <text x="1504" y="832" text-anchor="end" font-size="20" fill="#9CA3AF">10</text>
+  </g>
+</svg>

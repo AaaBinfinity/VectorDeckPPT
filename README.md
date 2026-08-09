@@ -23,6 +23,7 @@ source material -> Agent planning and design -> one SVG per slide
   assets/                  少量可复用主题、图标和示例资产
 tests/                     单元与集成测试
 examples/basic-deck/       可编译的示例演示文稿
+examples/project-intro-deck/  10 页项目介绍（可编辑 PPTX、源 SVG 与编译报告）
 doc/PRD.md                 产品与实现规范
 ```
 

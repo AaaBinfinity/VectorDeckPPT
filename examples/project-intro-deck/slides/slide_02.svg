@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect x="0" y="0" width="1600" height="900" fill="#F4F1EA"/>
+  <g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
+    <text x="96" y="118" font-size="54" font-weight="700" fill="#111827">演示文稿生成，不该在三件事之间妥协</text>
+    <text x="96" y="166" font-size="22" fill="#6B7280">传统自动化通常只优化“产出速度”，却牺牲后续修改或质量判断。</text>
+
+    <line x1="566" y1="236" x2="566" y2="596" stroke="#D4CFC4" stroke-width="2"/>
+    <line x1="1034" y1="236" x2="1034" y2="596" stroke="#D4CFC4" stroke-width="2"/>
+
+    <text x="96" y="350" font-size="86" font-weight="700" fill="#111827">好看</text>
+    <rect x="96" y="410" width="278" height="12" fill="#155EEF"/>
+    <text x="96" y="470" font-size="26" fill="#374151">有叙事、有层级，</text>
+    <text x="96" y="510" font-size="26" fill="#374151">而不是模板拼装。</text>
+
+    <text x="628" y="350" font-size="86" font-weight="700" fill="#111827">可编辑</text>
+    <rect x="628" y="410" width="278" height="12" fill="#155EEF"/>
+    <text x="628" y="470" font-size="26" fill="#374151">文字与基础图形，</text>
+    <text x="628" y="510" font-size="26" fill="#374151">仍是原生对象。</text>
+
+    <text x="1096" y="350" font-size="86" font-weight="700" fill="#111827">可验证</text>
+    <rect x="1096" y="410" width="310" height="12" fill="#B8F34A"/>
+    <text x="1096" y="470" font-size="26" fill="#374151">每一步有产物，</text>
+    <text x="1096" y="510" font-size="26" fill="#374151">每一次降级有记录。</text>
+
+    <rect x="96" y="656" width="1408" height="132" fill="#111827"/>
+    <text x="136" y="715" font-size="22" font-weight="700" fill="#B8F34A">VECTORDECKPPT 的选择</text>
+    <text x="136" y="758" font-size="32" font-weight="600" fill="#FFFFFF">用一条可审查的向量工作流，同时保住三者。</text>
+    <text x="1504" y="842" text-anchor="end" font-size="20" fill="#6B7280">02</text>
+  </g>
+</svg>

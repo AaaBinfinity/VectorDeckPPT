@@ -1,0 +1,92 @@
+{
+  "valid": true,
+  "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides",
+  "output": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\project-intro.pptx",
+  "slide_count": 10,
+  "native": 271,
+  "freeform": 0,
+  "embedded_svg": 0,
+  "failed": 0,
+  "slides": [
+    {
+      "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_01.svg",
+      "native": 28,
+      "freeform": 0,
+      "embedded_svg": 0,
+      "failed": 0,
+      "warnings": []
+    },
+    {
+      "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_02.svg",
+      "native": 21,
+      "freeform": 0,
+      "embedded_svg": 0,
+      "failed": 0,
+      "warnings": []
+    },
+    {
+      "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_03.svg",
+      "native": 27,
+      "freeform": 0,
+      "embedded_svg": 0,
+      "failed": 0,
+      "warnings": []
+    },
+    {
+      "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_04.svg",
+      "native": 40,
+      "freeform": 0,
+      "embedded_svg": 0,
+      "failed": 0,
+      "warnings": []
+    },
+    {
+      "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_05.svg",
+      "native": 27,
+      "freeform": 0,
+      "embedded_svg": 0,
+      "failed": 0,
+      "warnings": []
+    },
+    {
+      "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_06.svg",
+      "native": 18,
+      "freeform": 0,
+      "embedded_svg": 0,
+      "failed": 0,
+      "warnings": []
+    },
+    {
+      "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_07.svg",
+      "native": 33,
+      "freeform": 0,
+      "embedded_svg": 0,
+      "failed": 0,
+      "warnings": []
+    },
+    {
+      "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_08.svg",
+      "native": 31,
+      "freeform": 0,
+      "embedded_svg": 0,
+      "failed": 0,
+      "warnings": []
+    },
+    {
+      "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_09.svg",
+      "native": 25,
+      "freeform": 0,
+      "embedded_svg": 0,
+      "failed": 0,
+      "warnings": []
+    },
+    {
+      "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\project-intro-deck\\slides\\slide_10.svg",
+      "native": 21,
+      "freeform": 0,
+      "embedded_svg": 0,
+      "failed": 0,
+      "warnings": []
+    }
+  ]
+}

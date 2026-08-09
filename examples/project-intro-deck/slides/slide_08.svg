@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect x="0" y="0" width="1600" height="900" fill="#F4F1EA"/>
+  <g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
+    <text x="96" y="118" font-size="54" font-weight="700" fill="#111827">指令、知识与工具分层，项目因此可维护</text>
+    <text x="96" y="166" font-size="22" fill="#6B7280">仓库结构本身就是产品边界：Agent 行为写进 Skill，确定性行为留在 scripts。</text>
+
+    <text x="96" y="254" font-family="Consolas, monospace" font-size="25" font-weight="700" fill="#155EEF">.agents/skills/vectordeckppt/</text>
+    <line x1="126" y1="282" x2="126" y2="690" stroke="#111827" stroke-width="3"/>
+
+    <line x1="126" y1="338" x2="186" y2="338" stroke="#111827" stroke-width="3"/>
+    <circle cx="126" cy="338" r="8" fill="#155EEF"/>
+    <text x="214" y="348" font-family="Consolas, monospace" font-size="34" font-weight="700" fill="#111827">SKILL.md</text>
+    <text x="560" y="345" font-size="24" fill="#374151">完整工作流、职责边界与触发条件</text>
+
+    <line x1="126" y1="436" x2="186" y2="436" stroke="#111827" stroke-width="3"/>
+    <circle cx="126" cy="436" r="8" fill="#155EEF"/>
+    <text x="214" y="446" font-family="Consolas, monospace" font-size="34" font-weight="700" fill="#111827">references/</text>
+    <text x="560" y="443" font-size="24" fill="#374151">叙事、艺术方向、SVG 与复审知识</text>
+
+    <line x1="126" y1="534" x2="186" y2="534" stroke="#111827" stroke-width="3"/>
+    <circle cx="126" cy="534" r="8" fill="#155EEF"/>
+    <text x="214" y="544" font-family="Consolas, monospace" font-size="34" font-weight="700" fill="#111827">scripts/</text>
+    <text x="560" y="541" font-size="24" fill="#374151">校验、渲染、编译与包验证工具</text>
+
+    <line x1="126" y1="632" x2="186" y2="632" stroke="#111827" stroke-width="3"/>
+    <circle cx="126" cy="632" r="8" fill="#155EEF"/>
+    <text x="214" y="642" font-family="Consolas, monospace" font-size="34" font-weight="700" fill="#111827">assets/</text>
+    <text x="560" y="639" font-size="24" fill="#374151">可复用主题、图标与项目资产</text>
+
+    <rect x="1030" y="256" width="474" height="364" fill="#111827"/>
+    <text x="1074" y="320" font-size="22" font-weight="700" fill="#B8F34A">ARCHITECTURE INVARIANT</text>
+    <text x="1074" y="396" font-size="38" font-weight="700" fill="#FFFFFF">Agent 做判断</text>
+    <line x1="1074" y1="426" x2="1458" y2="426" stroke="#4B5563" stroke-width="2"/>
+    <text x="1074" y="486" font-size="38" font-weight="700" fill="#FFFFFF">脚本做执行</text>
+    <line x1="1074" y1="516" x2="1458" y2="516" stroke="#4B5563" stroke-width="2"/>
+    <text x="1074" y="576" font-size="38" font-weight="700" fill="#FFFFFF">SVG 做真源</text>
+
+    <rect x="96" y="728" width="1408" height="64" fill="#155EEF"/>
+    <text x="800" y="770" text-anchor="middle" font-size="28" font-weight="700" fill="#FFFFFF">不引入 AI Provider SDK，边界因此清晰、可移植、可审查</text>
+    <text x="1504" y="842" text-anchor="end" font-size="20" fill="#6B7280">08</text>
+  </g>
+</svg>
