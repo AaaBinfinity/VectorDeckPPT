@@ -15,10 +15,11 @@
 ## Development workflow
 
 1. Read `doc/PRD.md` and the relevant Skill references before changing behavior.
-2. Inspect `git status` and preserve unrelated user changes.
-3. Use `uv` for dependency and command execution.
-4. Add or update tests with every deterministic behavior change.
-5. Before each commit, run:
+2. Work directly on `main` by default. Do not create another local or remote branch unless the user explicitly requests one.
+3. Inspect `git status` and preserve unrelated user changes.
+4. Use `uv` for dependency and command execution.
+5. Add or update tests with every deterministic behavior change.
+6. Before each commit, run:
 
    ```bash
    git diff --check
@@ -26,7 +27,7 @@
    uv run pytest
    ```
 
-6. Use small Conventional Commits with an English type/scope/summary.
+7. Use small Conventional Commits with an English type/scope/summary.
 
 Do not use destructive Git commands, rewrite unrelated history, commit generated `output/` artifacts, or force-push without an explicit request.
 
