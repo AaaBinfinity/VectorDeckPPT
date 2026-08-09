@@ -72,3 +72,39 @@ def test_style_template_library_is_complete_and_widescreen() -> None:
         assert height >= 900
         assert width / height == pytest.approx(16 / 9, rel=0.01)
         assert f"../assets/style-templates/{name}" in reference
+
+
+def test_skill_enforces_clarification_and_staged_approval() -> None:
+    content = (SKILL_DIR / "SKILL.md").read_text(encoding="utf-8")
+    workflow = (SKILL_DIR / "references" / "workflow.md").read_text(encoding="utf-8")
+    planning = (SKILL_DIR / "references" / "presentation-planning.md").read_text(
+        encoding="utf-8"
+    )
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    interface_path = SKILL_DIR / "agents" / "openai.yaml"
+    interface = yaml.safe_load(interface_path.read_text(encoding="utf-8"))["interface"]
+
+    assert "./pptoutput/" in content
+    assert "pptoutput/slide-content.md" in content
+    assert "exactly three representative slides" in content
+    assert "explicitly approves the slide content" in content
+    assert "explicitly approves them" in content
+    assert "ask focused questions and wait" in content
+    assert content.index("text-only slide draft") < content.index("three-page visual")
+
+    assert "Request clarification" in workflow
+    assert "Text approval" in workflow
+    assert "Visual approval" in workflow
+    assert "Full production" in workflow
+    assert "one to three focused questions" in workflow
+    assert "pptoutput/sample/slides/" in workflow
+    assert "deck-work/" not in workflow
+
+    assert "Request accuracy" in planning
+    assert "Text-only approval artifact" in planning
+    assert "受众知识水平与决策权" in readme
+    assert "等待用户明确批准文字内容" in readme
+    assert "等待用户明确批准视觉样稿" in readme
+    assert "deck-work/" not in readme
+    assert "three-slide" in interface["default_prompt"]
+    assert "pptoutput/" in (ROOT / ".gitignore").read_text(encoding="utf-8")

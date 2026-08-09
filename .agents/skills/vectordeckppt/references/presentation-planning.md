@@ -2,14 +2,30 @@
 
 ## Contents
 
-1. Communication job
-2. Source synthesis
-3. Narrative construction
-4. Narrative pressure and pacing
-5. Presentation-type patterns
-6. Slide plan contract
-7. Planning prompt
-8. Planning quality checks
+1. Request accuracy
+2. Communication job
+3. Source synthesis
+4. Narrative construction
+5. Narrative pressure and pacing
+6. Presentation-type patterns
+7. Slide plan contract
+8. Planning prompt
+9. Text-only approval artifact
+10. Planning quality checks
+
+## Request accuracy
+
+Before planning, distinguish harmless omissions from material uncertainty. Ask focused questions when the request contains broken or contradictory wording, supplied facts conflict, the audience label hides multiple identities, the outcome cannot be observed, or different interpretations would change the storyline, evidence, or visual direction.
+
+Resolve at least:
+
+- primary audience identity, role, subject knowledge, and decision authority;
+- secondary audiences and whether their needs should alter the main narrative;
+- the understanding, belief, decision, or action the deck must create;
+- source-of-truth files and facts that cannot be rewritten;
+- presentation setting, language, approximate length, visual constraints, and required deliverables.
+
+Ask one to three questions at a time and wait for the answer. Do not turn optional preferences into a questionnaire.
 
 ## Communication job
 
@@ -177,6 +193,23 @@ Act as an editor and presentation strategist, not a document summarizer.
 9. Create an opening promise, a peak evidence moment, and a resolved close.
 10. Check that the sequence fits the speaking time and audience knowledge.
 ```
+
+## Text-only approval artifact
+
+Before designing any slide, present the complete deck as audience-facing text and save the same content to `pptoutput/slide-content.md`. Include enough real copy for the user to judge the argument, not only topic labels.
+
+Use this contract for every page:
+
+```text
+Slide NN — takeaway title
+Purpose: why this page exists
+Key message: the single conclusion it must land
+Audience-facing content: headline, body points, labels, quotations, or data callouts
+Evidence/source: exact source or clearly marked proposal/unknown
+Proposed visual form: diagram, data view, comparison, process, image, or typography
+```
+
+Ask the user to approve or revise the entire sequence. Do not create SVGs or visual previews until approval is explicit. A later material content change returns the task to this gate.
 
 ## Planning quality checks
 

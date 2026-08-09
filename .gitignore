@@ -211,6 +211,7 @@ tempCodeRunnerFile.py
 
 # VectorDeckPPT generated artifacts
 output/
+pptoutput/
 
 # Operating system files
 .DS_Store
