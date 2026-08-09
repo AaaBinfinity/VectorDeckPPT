@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#FFFFFF"/>
+  <text x="96" y="126" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="52" font-weight="700" fill="#0F172A">常用内容原生可编辑，复杂图形明确降级</text>
+  <text x="96" y="180" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="23" fill="#475569">编译报告会把 native、embedded_svg 与 failed 分开记录。</text>
+
+  <line x1="800" y1="250" x2="800" y2="730" stroke="#E2E8F0" stroke-width="3"/>
+  <circle cx="152" cy="302" r="24" fill="#2563EB"/>
+  <text x="196" y="314" font-family="Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#0F172A">Native PowerPoint</text>
+  <text x="96" y="388" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#334155">文本框</text>
+  <text x="334" y="388" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#334155">矩形与圆形</text>
+  <text x="584" y="388" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#334155">直线</text>
+  <rect x="96" y="424" width="164" height="100" rx="20" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="3"/>
+  <text x="178" y="486" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#1D4ED8">可编辑文字</text>
+  <rect x="334" y="424" width="172" height="100" rx="20" fill="#EDE9FE" stroke="#C4B5FD" stroke-width="3"/>
+  <circle cx="612" cy="474" r="50" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+  <line x1="96" y1="598" x2="658" y2="598" stroke="#2563EB" stroke-width="5"/>
+  <text x="96" y="658" font-family="Microsoft YaHei, sans-serif" font-size="22" fill="#64748B">字体、颜色、位置、大小与图片裁剪均可继续调整</text>
+
+  <circle cx="884" cy="302" r="24" fill="#7C3AED"/>
+  <text x="928" y="314" font-family="Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#0F172A">Office SVG fallback</text>
+  <text x="864" y="412" font-family="Microsoft YaHei, sans-serif" font-size="26" font-weight="700" fill="#334155">复杂路径 · 渐变 · 旋转</text>
+  <rect x="864" y="462" width="582" height="118" rx="24" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="3"/>
+  <text x="1155" y="515" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="23" fill="#6D28D9">PNG 兼容预览 + SVG 原始对象关系</text>
+  <text x="1155" y="550" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#7C3AED">外观保留，内部路径不承诺原生编辑</text>
+  <text x="864" y="658" font-family="Microsoft YaHei, sans-serif" font-size="22" fill="#64748B">无法转换的可见元素不会被静默丢弃</text>
+
+  <text x="1504" y="828" text-anchor="end" font-family="Arial, sans-serif" font-size="18" fill="#94A3B8">03 / 05</text>
+</svg>

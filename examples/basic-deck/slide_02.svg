@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#F8FAFC"/>
+  <text x="96" y="126" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="52" font-weight="700" fill="#0F172A">AI 负责设计，确定性工具负责把关</text>
+  <text x="96" y="180" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="23" fill="#475569">内容推理与视觉判断留在宿主 Agent；脚本只执行可重复的验证、渲染和编译。</text>
+
+  <line x1="228" y1="448" x2="1372" y2="448" stroke="#CBD5E1" stroke-width="6"/>
+  <line x1="272" y1="448" x2="504" y2="448" stroke="#2563EB" stroke-width="6"/>
+  <line x1="592" y1="448" x2="824" y2="448" stroke="#2563EB" stroke-width="6"/>
+  <line x1="912" y1="448" x2="1144" y2="448" stroke="#7C3AED" stroke-width="6"/>
+
+  <circle cx="228" cy="448" r="64" fill="#2563EB"/>
+  <circle cx="548" cy="448" r="64" fill="#FFFFFF" stroke="#2563EB" stroke-width="4"/>
+  <circle cx="868" cy="448" r="64" fill="#FFFFFF" stroke="#2563EB" stroke-width="4"/>
+  <circle cx="1188" cy="448" r="64" fill="#7C3AED"/>
+
+  <text x="228" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF">01</text>
+  <text x="548" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#2563EB">02</text>
+  <text x="868" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#2563EB">03</text>
+  <text x="1188" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF">04</text>
+
+  <text x="228" y="566" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#0F172A">规划</text>
+  <text x="228" y="608" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#64748B">叙事与设计系统</text>
+  <text x="548" y="566" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#0F172A">创作</text>
+  <text x="548" y="608" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#64748B">一页一个 SVG</text>
+  <text x="868" y="566" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#0F172A">校验</text>
+  <text x="868" y="608" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#64748B">验证与视觉复审</text>
+  <text x="1188" y="566" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#0F172A">交付</text>
+  <text x="1188" y="608" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#64748B">可编辑 PPTX</text>
+
+  <text x="1504" y="828" text-anchor="end" font-family="Arial, sans-serif" font-size="18" fill="#94A3B8">02 / 05</text>
+</svg>
