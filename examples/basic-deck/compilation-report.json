@@ -1,0 +1,52 @@
+{
+  "valid": true,
+  "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\basic-deck",
+  "output": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\basic-deck\\example.pptx",
+  "slide_count": 5,
+  "native": 96,
+  "freeform": 0,
+  "embedded_svg": 0,
+  "failed": 0,
+  "slides": [
+    {
+      "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\basic-deck\\slide_01.svg",
+      "native": 9,
+      "freeform": 0,
+      "embedded_svg": 0,
+      "failed": 0,
+      "warnings": []
+    },
+    {
+      "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\basic-deck\\slide_02.svg",
+      "native": 24,
+      "freeform": 0,
+      "embedded_svg": 0,
+      "failed": 0,
+      "warnings": []
+    },
+    {
+      "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\basic-deck\\slide_03.svg",
+      "native": 23,
+      "freeform": 0,
+      "embedded_svg": 0,
+      "failed": 0,
+      "warnings": []
+    },
+    {
+      "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\basic-deck\\slide_04.svg",
+      "native": 24,
+      "freeform": 0,
+      "embedded_svg": 0,
+      "failed": 0,
+      "warnings": []
+    },
+    {
+      "source": "E:\\binfinity\\projects\\VectorDeckPPT\\examples\\basic-deck\\slide_05.svg",
+      "native": 16,
+      "freeform": 0,
+      "embedded_svg": 0,
+      "failed": 0,
+      "warnings": []
+    }
+  ]
+}

@@ -65,6 +65,19 @@ def test_overflow_and_small_text_are_warnings(tmp_path: Path) -> None:
     assert {"element_overflow", "small_text"} <= codes
 
 
+def test_group_transform_is_used_for_overflow_detection(tmp_path: Path) -> None:
+    source = tmp_path / "translated.svg"
+    source.write_text(
+        '<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" '
+        'viewBox="0 0 1600 900"><g transform="translate(1550 850)">'
+        '<rect width="100" height="100"/></g></svg>',
+        encoding="utf-8",
+    )
+
+    result = validate_svg(source)
+    assert "element_overflow" in {item.code for item in result.warnings}
+
+
 def test_cli_json_and_exit_codes() -> None:
     completed = subprocess.run(
         [sys.executable, str(VALIDATOR), str(FIXTURES / "simple_text.svg"), "--json"],

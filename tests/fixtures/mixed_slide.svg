@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#F8FAFC"/>
+  <text x="96" y="122" font-family="Microsoft YaHei, sans-serif" font-size="48" font-weight="700" fill="#0F172A">VectorDeckPPT 集成测试</text>
+  <g transform="translate(96 180)" opacity="0.92">
+    <rect width="760" height="500" rx="28" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="3"/>
+    <circle cx="120" cy="130" r="56" fill="#2563EB"/>
+    <ellipse cx="340" cy="130" rx="96" ry="56" fill="#EDE9FE" stroke="#7C3AED" stroke-width="3"/>
+    <line x1="72" y1="270" x2="680" y2="270" stroke="#CBD5E1" stroke-width="4"/>
+    <text x="72" y="340" font-family="Microsoft YaHei, sans-serif" font-size="30" fill="#0F172A">
+      <tspan x="72" y="340">基础图形保持可编辑</tspan>
+      <tspan x="72" dy="52" font-size="22" fill="#475569">文本、形状与图片按层次编译</tspan>
+    </text>
+  </g>
+  <image x="1030" y="260" width="320" height="320" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAusB9Wl2Z6sAAAAASUVORK5CYII="/>
+  <text x="1440" y="820" text-anchor="end" font-family="Arial, sans-serif" font-size="18" fill="#94A3B8">01 / 01</text>
+</svg>

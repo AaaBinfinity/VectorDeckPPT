@@ -34,9 +34,7 @@ def main(argv: list[str] | None = None) -> int:
         else:
             if args.output_dir is not None:
                 raise SvgRenderError("--output-dir is only valid for directory input")
-            outputs = [
-                render_svg(args.input, args.output, width=args.width, height=args.height)
-            ]
+            outputs = [render_svg(args.input, args.output, width=args.width, height=args.height)]
     except SvgRenderError as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 1

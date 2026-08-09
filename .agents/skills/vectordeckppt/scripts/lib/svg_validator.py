@@ -132,6 +132,7 @@ def _validate_canvas(document: SvgDocument, result: ValidationResult) -> None:
 
 def _validate_elements(document: SvgDocument, result: ValidationResult) -> None:
     ids: set[str] = set()
+    world_transforms = _world_transforms(document)
     for element in document.root.iter():
         if not isinstance(element.tag, str):
             continue
@@ -191,7 +192,8 @@ def _validate_elements(document: SvgDocument, result: ValidationResult) -> None:
             result.add_error("invalid_transform", str(exc), attribute="transform", **context)
             transform = Matrix()
 
-        if not transform.is_axis_aligned:
+        world_transform = world_transforms.get(document.tree.getpath(element), transform)
+        if not world_transform.is_axis_aligned:
             result.add_warning(
                 "complex_transform",
                 "Rotation or skew may require embedded SVG fallback during compilation",
@@ -202,7 +204,7 @@ def _validate_elements(document: SvgDocument, result: ValidationResult) -> None:
         if tag == "image":
             _validate_image(document, element, result)
         if tag in {"rect", "image", "circle", "ellipse", "line", "text", "polyline", "polygon"}:
-            _validate_geometry(document, element, result)
+            _validate_geometry(document, element, world_transform, result)
         if tag == "path" and not element.get("d", "").strip():
             result.add_error("missing_path_data", "<path> must define non-empty d data", **context)
 
@@ -219,15 +221,18 @@ def _validate_image(
         return
     if href.startswith("data:image/"):
         return
+    raw_path = Path(unquote(href.split("#", 1)[0]))
     parsed = urlparse(href)
-    if parsed.scheme:
+    if raw_path.is_absolute():
+        image_path = raw_path
+    elif parsed.scheme:
         if parsed.scheme.lower() == "file":
             image_path = Path(unquote(parsed.path.lstrip("/")))
         else:
             result.add_error("unsupported_image_uri", f"Unsupported image URI: {href}", **context)
             return
     else:
-        image_path = Path(unquote(href.split("#", 1)[0]))
+        image_path = raw_path
         if not image_path.is_absolute():
             image_path = document.source.parent / image_path
     if not image_path.is_file():
@@ -247,6 +252,7 @@ def _validate_image(
 def _validate_geometry(
     document: SvgDocument,
     element: etree._Element,
+    transform: Matrix,
     result: ValidationResult,
 ) -> None:
     if document.view_box is None:
@@ -261,12 +267,20 @@ def _validate_geometry(
         return
     if box is None:
         return
-    left, top, right, bottom = box
-    width = right - left
-    height = bottom - top
-    if width < 0 or height < 0:
+    raw_left, raw_top, raw_right, raw_bottom = box
+    if raw_right < raw_left or raw_bottom < raw_top:
         result.add_error("negative_size", f"<{tag}> has a negative width or height", **context)
         return
+    transformed_points = [
+        transform.apply(raw_left, raw_top),
+        transform.apply(raw_right, raw_top),
+        transform.apply(raw_left, raw_bottom),
+        transform.apply(raw_right, raw_bottom),
+    ]
+    xs, ys = zip(*transformed_points, strict=True)
+    left, top, right, bottom = min(xs), min(ys), max(xs), max(ys)
+    width = right - left
+    height = bottom - top
 
     view_x, view_y, view_width, view_height = document.view_box
     view_right = view_x + view_width
@@ -348,3 +362,21 @@ def _element_box(
             left = x - estimated_width
         return left, y - font_size, left + estimated_width, y + font_size * 0.25
     return None
+
+
+def _world_transforms(document: SvgDocument) -> dict[str, Matrix]:
+    transforms: dict[str, Matrix] = {}
+
+    def walk(element: etree._Element, parent: Matrix) -> None:
+        try:
+            local = parse_transform(element.get("transform"))
+        except ValueError:
+            local = Matrix()
+        current = parent.multiply(local)
+        transforms[document.tree.getpath(element)] = current
+        for child in element:
+            if isinstance(child.tag, str):
+                walk(child, current)
+
+    walk(document.root, Matrix())
+    return transforms

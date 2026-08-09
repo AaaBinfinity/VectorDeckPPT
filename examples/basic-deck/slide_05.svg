@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#0F172A"/>
+  <circle cx="1380" cy="220" r="220" fill="#1E3A8A" opacity="0.62"/>
+  <circle cx="1360" cy="660" r="240" fill="#4C1D95" opacity="0.48"/>
+  <text x="96" y="176" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="30" fill="#93C5FD">最终结果</text>
+  <text x="96" y="286" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="64" font-weight="700" fill="#FFFFFF">一套演示文稿，也是一个可维护的源项目</text>
+  <text x="96" y="356" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="27" fill="#CBD5E1">设计可复审、对象可编辑、限制可追踪，修改从 SVG 源头继续。</text>
+
+  <line x1="96" y1="532" x2="1392" y2="532" stroke="#334155" stroke-width="3"/>
+  <text x="96" y="606" font-family="Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">Source SVGs</text>
+  <text x="96" y="650" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#94A3B8">视觉设计真源</text>
+  <text x="482" y="606" font-family="Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">PNG Previews</text>
+  <text x="482" y="650" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#94A3B8">逐页视觉复审</text>
+  <text x="868" y="606" font-family="Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">Compilation Report</text>
+  <text x="868" y="650" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#94A3B8">编辑能力透明</text>
+  <text x="1254" y="606" font-family="Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">final.pptx</text>
+  <text x="1254" y="650" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#94A3B8">可打开、可继续编辑</text>
+
+  <text x="1504" y="828" text-anchor="end" font-family="Arial, sans-serif" font-size="18" fill="#64748B">05 / 05</text>
+</svg>

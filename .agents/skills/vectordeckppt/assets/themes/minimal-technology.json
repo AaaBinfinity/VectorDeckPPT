@@ -1,0 +1,28 @@
+{
+  "name": "Minimal Technology",
+  "canvas": {"width": 1600, "height": 900},
+  "colors": {
+    "background": "#F8FAFC",
+    "surface": "#FFFFFF",
+    "primary": "#2563EB",
+    "secondary": "#7C3AED",
+    "title": "#0F172A",
+    "text": "#475569",
+    "muted": "#94A3B8",
+    "border": "#E2E8F0"
+  },
+  "typography": {
+    "font_family": "Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif",
+    "deck_title": 76,
+    "slide_title": 50,
+    "subheading": 32,
+    "body": 24,
+    "caption": 18
+  },
+  "spacing": {
+    "grid": 8,
+    "page_margin_x": 96,
+    "page_margin_y": 72
+  },
+  "shape": {"card_radius": 24}
+}
