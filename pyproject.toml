@@ -1,0 +1,31 @@
+[project]
+name = "vectordeckppt"
+version = "0.1.0"
+description = "Vector-first Agent Skill for generating editable PowerPoint presentations"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "lxml>=5.3.0",
+    "pillow>=10.4.0",
+    "python-pptx>=1.0.2",
+    "resvg-py>=0.3.4,<0.4",
+]
+
+[dependency-groups]
+dev = [
+    "pyyaml>=6.0.2",
+    "pytest>=8.3.0",
+    "pytest-cov>=6.0.0",
+    "ruff>=0.9.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --import-mode=importlib"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
