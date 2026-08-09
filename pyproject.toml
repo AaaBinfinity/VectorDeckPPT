@@ -1,6 +1,6 @@
 [project]
 name = "vectordeckppt"
-version = "0.1.0"
+version = "1.0.0"
 description = "Vector-first Agent Skill for generating editable PowerPoint presentations"
 readme = "README.md"
 requires-python = ">=3.12"

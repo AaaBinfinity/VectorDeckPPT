@@ -3,8 +3,8 @@
 **项目名称：** VectorDeckPPT  
 **名称含义：** Vector + Presentation Deck + PowerPoint  
 **项目类型：** Agent Skill / AI Presentation Generation / SVG-to-PPTX Toolchain  
-**文档版本：** V0.3  
-**项目状态：** Implementation Ready  
+**文档版本：** V1.0
+**项目状态：** V1.0 Released
 
 ---
 
