@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#F8FAFC"/>
+  <circle cx="1370" cy="160" r="180" fill="#DBEAFE"/>
+  <circle cx="1450" cy="720" r="300" fill="#EDE9FE"/>
+  <rect x="96" y="164" width="8" height="104" rx="4" fill="#2563EB"/>
+  <text x="136" y="246" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="76" font-weight="700" fill="#0F172A">Presentation title</text>
+  <text x="136" y="320" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="28" fill="#475569">One concise audience-facing subtitle</text>
+</svg>

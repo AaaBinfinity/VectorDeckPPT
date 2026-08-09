@@ -4,6 +4,16 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILL_DIR = ROOT / ".agents" / "skills" / "vectordeckppt"
+REFERENCES = {
+    "workflow.md",
+    "presentation-planning.md",
+    "design-system.md",
+    "slide-design.md",
+    "svg-authoring.md",
+    "svg-to-pptx.md",
+    "visual-review.md",
+    "troubleshooting.md",
+}
 
 
 def test_skill_metadata_and_interface_are_complete() -> None:
@@ -21,3 +31,5 @@ def test_skill_metadata_and_interface_are_complete() -> None:
     ]
     assert interface["display_name"] == "VectorDeckPPT"
     assert "$vectordeckppt" in interface["default_prompt"]
+    assert {path.name for path in (SKILL_DIR / "references").glob("*.md")} == REFERENCES
+    assert all((SKILL_DIR / "references" / name).stat().st_size > 1000 for name in REFERENCES)
