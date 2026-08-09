@@ -214,7 +214,7 @@ Act as an editor and presentation strategist, not a document summarizer.
 
 ## Text-only approval artifact
 
-Before designing any slide, present the complete deck as audience-facing text and save the same content to `pptoutput/slide-content.md`. Include enough real copy for the user to judge the argument, not only topic labels.
+Before designing any slide, present the complete deck as audience-facing text and save the same content to `DECK_ROOT/slide-content.md`. `DECK_ROOT` is the user-provided output directory or the current working directory's `pptoutput/` default defined in `workflow.md`. Include enough real copy for the user to judge the argument, not only topic labels.
 
 Use this contract for every page:
 

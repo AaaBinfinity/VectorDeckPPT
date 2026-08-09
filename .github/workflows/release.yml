@@ -1,0 +1,33 @@
+name: Publish GitHub Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out tagged source
+        uses: actions/checkout@v4
+
+      - name: Publish release notes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          notes_file="doc/releases/${GITHUB_REF_NAME}.md"
+          if [[ ! -f "$notes_file" ]]; then
+            echo "Missing release notes: $notes_file" >&2
+            exit 1
+          fi
+          gh release create "$GITHUB_REF_NAME" \
+            --repo "$GITHUB_REPOSITORY" \
+            --verify-tag \
+            --latest \
+            --title "VectorDeckPPT $GITHUB_REF_NAME" \
+            --notes-file "$notes_file"

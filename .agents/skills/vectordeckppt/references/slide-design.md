@@ -31,7 +31,7 @@ Make substantive slides feel researched and complete. Do not mistake luxury or m
 - Keep covers, section transitions, and occasional statement slides intentionally quiet.
 - Give ordinary explanation pages one clear claim, an explanatory passage or two to four supporting points, concrete evidence or an example, and labeled visual structure where useful.
 - Give evidence pages enough labels, units, source context, annotations, and interpretation for the audience to understand what the visual proves.
-- Across the core body, aim for meaningful visual evidence on at least half of non-cover and non-divider pages.
+- When sources permit, aim for meaningful visual evidence on at least half of non-cover and non-divider core-body pages. When quantitative or image evidence is unavailable, an honest process, architecture, relationship map, matrix, timeline, or qualitative comparison may carry the explanation; never invent data to meet this target.
 - Prefer one substantial chart or diagram with annotations over a grid of tiny decorative widgets.
 - If useful content cannot fit at readable sizes, split the slide. Do not shrink body text below the design-system floor or hide detail in unreadable footnotes.
 

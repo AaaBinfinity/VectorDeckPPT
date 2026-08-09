@@ -82,7 +82,7 @@ Confirm the URI starts with `data:image/<type>;base64,` and contains valid base6
 
 ### Element enters embedded SVG fallback
 
-Check the report warning. Common causes are path/polygon/polyline, gradients, clip paths, rotation, or skew. Simplify into text/rect/circle/ellipse/line/image when individual editing matters.
+Check the report warning. Common causes are complex paths, gradients, clip paths, rotation, skew, or polygons/polylines that use markers or dashed strokes. Plain straight-segment polygons and polylines compile as editable PowerPoint freeforms. Simplify other elements into text, basic shapes, lines, images, or plain freeforms when individual editing matters.
 
 ### Fallback fails
 

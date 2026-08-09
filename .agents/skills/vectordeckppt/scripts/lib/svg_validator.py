@@ -35,6 +35,7 @@ ALLOWED_TAGS = {
     "radialGradient",
     "stop",
     "clipPath",
+    "marker",
     "title",
     "desc",
     "metadata",
@@ -52,8 +53,8 @@ FORBIDDEN_TAGS = {
     "filter",
     "mask",
 }
-FALLBACK_TAGS = {"path", "polyline", "polygon"}
-DEFINITION_TAGS = {"defs", "linearGradient", "radialGradient", "stop", "clipPath"}
+FALLBACK_TAGS = {"path"}
+DEFINITION_TAGS = {"defs", "linearGradient", "radialGradient", "stop", "clipPath", "marker"}
 REMOTE_RE = re.compile(r"(?:https?:)?//", re.IGNORECASE)
 
 
@@ -347,8 +348,9 @@ def _element_box(
         return min(x1, x2), min(y1, y2), max(x1, x2), max(y1, y2)
     if tag in {"polyline", "polygon"}:
         points = parse_points(element.get("points"))
-        if not points:
-            raise ValueError(f"<{tag}> must define points")
+        minimum_points = 3 if tag == "polygon" else 2
+        if len(points) < minimum_points:
+            raise ValueError(f"<{tag}> must define at least {minimum_points} coordinate pairs")
         xs, ys = zip(*points, strict=True)
         return min(xs), min(ys), max(xs), max(ys)
     if tag == "text":

@@ -17,7 +17,14 @@ The host Agent performs content reasoning and visual design. The bundled Python 
 
 Use one complete SVG as the source of truth for one slide. Keep the SVG after compilation so visual changes can be made at the source and recompiled.
 
-Unless the user specifies another location, resolve the output root as `pptoutput/` inside the current working directory. Do not use the Skill installation directory or repository root as an implicit artifact destination when the current task is running elsewhere.
+Resolve two absolute paths before work begins:
+
+```text
+SKILL_ROOT = directory containing SKILL.md
+DECK_ROOT = user-provided output directory, otherwise <current working directory>/pptoutput
+```
+
+Do not use the Skill installation directory or repository root as an implicit artifact destination when the current task is running elsewhere. Do not assume `SKILL_ROOT` is inside the current project. Run `SKILL_ROOT/scripts/*.py` with an environment containing the VectorDeckPPT dependencies; a repository checkout may use `uv --project <PROJECT_ROOT> run python`, while a copied Skill may use its already-prepared Python environment.
 
 ## Clarification and approval gates
 
@@ -26,13 +33,13 @@ Treat the workflow as four ordered states:
 | State | Allowed artifact | Exit condition |
 |---|---|---|
 | Request clarification | focused questions and a reliable request contract | material ambiguity is resolved |
-| Text approval | `pptoutput/slide-content.md` and the same content in conversation | user explicitly approves the complete slide draft |
-| Visual approval | exactly three sample SVGs and PNGs under `pptoutput/sample/` | user explicitly approves the sample direction |
+| Text approval | `DECK_ROOT/slide-content.md` and the same content in conversation | user explicitly approves the complete slide draft |
+| Visual approval | `sample_count = min(3, final_slide_count)` sample SVGs and PNGs under `DECK_ROOT/sample/` | user explicitly approves the sample direction |
 | Full production | all final SVGs, previews, report, and PPTX | quality and delivery gates pass |
 
 Ask questions when wording is malformed, facts conflict with supplied sources, a composite audience has no clear primary identity, the desired outcome is not actionable, constraints contradict one another, or two plausible interpretations would produce meaningfully different decks. Ask one to three focused questions per round. Do not ask about harmless omissions that can be safely defaulted.
 
-Approval must be explicit. Do not infer it from silence, a previous stage's approval, or a general instruction to continue. If the user materially changes slide content after approving it, return to text approval and invalidate any affected visual sample. If the user changes only visual execution, keep content approval and iterate on the three samples. The current user may explicitly opt out of a named gate; do not invent an opt-out.
+Approval must be explicit. Do not infer it from silence, a previous stage's approval, or a general instruction to continue. If the user materially changes slide content after approving it, return to text approval and invalidate any affected visual sample. If the user changes only visual execution, keep content approval and iterate on the representative samples. Both approval gates are mandatory.
 
 ## Phase inputs and outputs
 
@@ -70,25 +77,25 @@ Key message:
 Audience-facing content:
 Supporting explanation or points:
 Evidence/source:
-Data/chart/diagram plan:
+Visual/evidence plan (or reason for deliberate restraint):
 Proposed visual form:
 ```
 
-Save the complete draft as `pptoutput/slide-content.md`, present it to the user, and ask for approval or revisions. Do not create SVG, PNG, or PPTX artifacts at this stage.
+Save the complete draft as `DECK_ROOT/slide-content.md`, present it to the user, and ask for approval or revisions. Do not create SVG, PNG, or PPTX artifacts at this stage.
 
 Output: explicitly approved text-only slide content.
 
-### 4. Set art direction and create three visual samples
+### 4. Set art direction and create representative visual samples
 
 After text approval, choose one coherent visual idea. Lock canvas, background character, colors, typography, spacing, shape language, imagery treatment, icon treatment, and density. Read `design-system.md`.
 
-Select exactly three representative slides: the opening, a representative information-rich core-content page, and the most visually demanding evidence, data, or diagram page. When sources permit it, the sample set must demonstrate both the default text density and at least one meaningful chart or diagram. If the deck contains fewer than three pages, select all pages. Explain the selection, author only those SVGs in `pptoutput/sample/slides/`, render them to `pptoutput/sample/preview/`, inspect them, and ask the user to approve or revise the direction. Iterate only on the sample set until approval.
+Set `sample_count = min(3, final_slide_count)`. Prefer the opening, a representative information-rich core-content page, and the most visually demanding evidence, data, or diagram page when those are distinct. For a narrative-only deck, select the most complex content relationship, image-led page, or closing page instead of inventing a chart. When sources permit it, the sample set must demonstrate both the default text density and at least one meaningful chart or diagram. Explain the selection, author only those SVGs in `DECK_ROOT/sample/slides/`, render them to `DECK_ROOT/sample/preview/`, inspect them, and ask the user to approve or revise the direction. Iterate only on the sample set until approval.
 
-Output: explicitly approved visual thesis, design system, and three-page sample.
+Output: explicitly approved visual thesis, design system, and representative sample set.
 
 ### 5. Design the complete deck
 
-Only after text and visual approval, state each remaining slide's purpose, primary claim, hierarchy, visual structure, and required assets. Author final `slide_NN.svg` files under `pptoutput/slides/` using `svg-authoring.md`. Promote or recreate the approved sample pages in this final directory. Keep audience-facing copy in the SVG; do not expose planning notes.
+Only after text and visual approval, state each remaining slide's purpose, primary claim, hierarchy, visual structure, and required assets. Author final `slide_NN.svg` files under `DECK_ROOT/slides/` using `svg-authoring.md`. Promote or recreate the approved sample pages in this final directory. Keep audience-facing copy in the SVG; do not expose planning notes.
 
 Output: a complete set of structured SVGs.
 
@@ -96,13 +103,13 @@ Output: a complete set of structured SVGs.
 
 Run validation immediately after authoring. Resolve every error. Render the page, inspect the PNG at full size, and apply `visual-review.md`. Repeat until the page is both correct and visually presentation-ready.
 
-Output: validated SVGs and reviewed PNG previews under `pptoutput/preview/`.
+Output: validated SVGs and reviewed PNG previews under `DECK_ROOT/preview/`.
 
 ### 7. Compile and validate
 
 Compile all final SVGs in natural filename order. Inspect the JSON report. Run PPTX validation and, when available, render the PPTX itself to catch font and baseline differences between SVG and PowerPoint.
 
-Output: `pptoutput/final.pptx`, `pptoutput/compilation-report.json`, and validated source slides.
+Output: `DECK_ROOT/final.pptx`, `DECK_ROOT/compilation-report.json`, and validated source slides.
 
 ## Working prompts and artifacts
 
@@ -114,7 +121,7 @@ communication job
 -> approved text-only slide content
 -> art-direction brief
 -> design-system contract
--> approved three-page visual sample
+-> approved representative visual sample
 -> per-slide design brief
 -> visual acceptance ledger
 ```
@@ -131,10 +138,10 @@ Do not expose internal planning labels, prompt text, confidence notes, or produc
 
 ## File layout
 
-Use this task-local workspace by default:
+Use this task-local workspace under `DECK_ROOT` by default:
 
 ```text
-pptoutput/
+<DECK_ROOT>/
   slide-content.md
   sample/
     slides/
@@ -161,24 +168,24 @@ During debugging, temporary versions may live outside `slides/`. Keep only final
 
 ## Deterministic commands
 
-From the repository containing the Skill:
+Resolve the placeholders to absolute paths. The examples use an active Python environment; from a repository checkout the equivalent runner is `uv --project <PROJECT_ROOT> run python`.
 
 ```bash
-# After text approval, build and inspect only the three selected samples.
-uv run python .agents/skills/vectordeckppt/scripts/validate_svg.py pptoutput/sample/slides/slide_01.svg --json
+# After text approval, build and inspect only the selected samples.
+python "<SKILL_ROOT>/scripts/validate_svg.py" "<DECK_ROOT>/sample/slides/slide_01.svg" --json
 
-uv run python .agents/skills/vectordeckppt/scripts/render_svg.py pptoutput/sample/slides/ --output-dir pptoutput/sample/preview/
+python "<SKILL_ROOT>/scripts/render_svg.py" "<DECK_ROOT>/sample/slides/" --output-dir "<DECK_ROOT>/sample/preview/"
 
 # After visual approval, build and validate the complete deck.
-uv run python .agents/skills/vectordeckppt/scripts/validate_svg.py pptoutput/slides/slide_01.svg --json
+python "<SKILL_ROOT>/scripts/validate_svg.py" "<DECK_ROOT>/slides/slide_01.svg" --json
 
-uv run python .agents/skills/vectordeckppt/scripts/render_svg.py pptoutput/slides/ --output-dir pptoutput/preview/
+python "<SKILL_ROOT>/scripts/render_svg.py" "<DECK_ROOT>/slides/" --output-dir "<DECK_ROOT>/preview/"
 
-uv run python .agents/skills/vectordeckppt/scripts/compile_pptx.py pptoutput/slides/ \
-  --output pptoutput/final.pptx \
-  --report pptoutput/compilation-report.json
+python "<SKILL_ROOT>/scripts/compile_pptx.py" "<DECK_ROOT>/slides/" \
+  --output "<DECK_ROOT>/final.pptx" \
+  --report "<DECK_ROOT>/compilation-report.json"
 
-uv run python .agents/skills/vectordeckppt/scripts/validate_pptx.py pptoutput/final.pptx --json
+python "<SKILL_ROOT>/scripts/validate_pptx.py" "<DECK_ROOT>/final.pptx" --json
 ```
 
 Exit code `0` means success. Validation, rendering, compilation, or package errors return a non-zero code.
@@ -194,14 +201,14 @@ Exit code `0` means success. Validation, rendering, compilation, or package erro
 - Failed compilation element: treat the deck as failed. Fix the SVG or compiler issue; do not deliver a partial deck.
 - PPTX validation error: do not retry by rasterizing the slide. Diagnose the broken package or relationship.
 - Material content revision after approval: update `slide-content.md`, return to the text gate, and regenerate any affected visual samples only after renewed approval.
-- Visual direction rejected: revise the same three representative samples; do not start the remaining slides.
+- Visual direction rejected: revise the same representative samples; do not start the remaining slides.
 
 ## Delivery gate
 
 Deliver only when:
 
 - the user explicitly approved the complete text-only slide draft;
-- the user explicitly approved the three-page visual sample;
+- the user explicitly approved the representative visual sample;
 - every source SVG validates;
 - every PNG preview was inspected at full size;
 - every slide follows the shared design system;
@@ -209,4 +216,4 @@ Deliver only when:
 - fallback warnings were reviewed and disclosed when they affect editability;
 - the PPTX validator passes;
 - slide count, order, aspect ratio, images, and editable text/shapes are correct;
-- the final folder contains no stale slide versions or temporary QA files.
+- the final folder contains no stale slide versions or temporary QA files, while retaining approved sample previews and final PNG previews.

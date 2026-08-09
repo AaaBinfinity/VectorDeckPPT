@@ -5,6 +5,7 @@ from pathlib import Path
 import resvg_py
 from PIL import Image
 
+from .path_safety import PathSafetyError, ensure_distinct_paths, require_suffix
 from .svg_validator import validate_svg
 
 
@@ -20,6 +21,13 @@ def render_svg(
     height: int = 900,
 ) -> Path:
     source_path = Path(source).expanduser().resolve()
+    output_candidate = output if output is not None else source_path.with_suffix(".png")
+    try:
+        output_path = require_suffix(output_candidate, ".png", label="PNG output")
+        ensure_distinct_paths({"SVG input": source_path, "PNG output": output_path})
+    except PathSafetyError as exc:
+        raise SvgRenderError(str(exc)) from exc
+
     result = validate_svg(source_path)
     if not result.valid:
         details = "; ".join(f"{item.code}: {item.message}" for item in result.errors)
@@ -27,7 +35,6 @@ def render_svg(
     if width <= 0 or height <= 0:
         raise SvgRenderError("Render width and height must be positive")
 
-    output_path = Path(output).expanduser().resolve() if output else source_path.with_suffix(".png")
     output_path.parent.mkdir(parents=True, exist_ok=True)
     try:
         png_data = resvg_py.svg_to_bytes(

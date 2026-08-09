@@ -85,19 +85,26 @@ def test_skill_enforces_clarification_and_staged_approval() -> None:
     interface = yaml.safe_load(interface_path.read_text(encoding="utf-8"))["interface"]
 
     assert "./pptoutput/" in content
-    assert "pptoutput/slide-content.md" in content
-    assert "exactly three representative slides" in content
+    assert "SKILL_ROOT =" in content
+    assert "DECK_ROOT =" in content
+    assert "DECK_ROOT/slide-content.md" in content
+    assert "sample_count = min(3, final_slide_count)" in content
     assert "explicitly approves the slide content" in content
-    assert "explicitly approves them" in content
+    assert "explicitly approves the representative visual sample" in content
     assert "ask focused questions and wait" in content
-    assert content.index("text-only slide draft") < content.index("three-page visual")
+    assert content.index("text-only slide draft") < content.index("representative visual")
+    assert ".agents/skills/vectordeckppt/scripts/" not in content
+    assert "opts out" not in content
 
     assert "Request clarification" in workflow
     assert "Text approval" in workflow
     assert "Visual approval" in workflow
     assert "Full production" in workflow
     assert "one to three focused questions" in workflow
-    assert "pptoutput/sample/slides/" in workflow
+    assert "SKILL_ROOT =" in workflow
+    assert "DECK_ROOT =" in workflow
+    assert "DECK_ROOT/sample/slides/" in workflow
+    assert "Both approval gates are mandatory" in workflow
     assert "deck-work/" not in workflow
 
     assert "Request accuracy" in planning
@@ -106,7 +113,7 @@ def test_skill_enforces_clarification_and_staged_approval() -> None:
     assert "等待用户明确批准文字内容" in readme
     assert "等待用户明确批准视觉样稿" in readme
     assert "deck-work/" not in readme
-    assert "three-slide" in interface["default_prompt"]
+    assert "up-to-three-slide" in interface["default_prompt"]
     assert "pptoutput/" in (ROOT / ".gitignore").read_text(encoding="utf-8")
 
 
@@ -140,3 +147,24 @@ def test_skill_defaults_to_information_rich_evidence_led_slides() -> None:
     assert "默认内容密度" in readme
     assert "不得为了好看伪造" in readme
     assert "information-rich" in interface["default_prompt"]
+
+
+def test_v11_documentation_matches_compiler_and_delivery_contract() -> None:
+    skill = (SKILL_DIR / "SKILL.md").read_text(encoding="utf-8")
+    workflow = (SKILL_DIR / "references" / "workflow.md").read_text(encoding="utf-8")
+    design = (SKILL_DIR / "references" / "design-system.md").read_text(encoding="utf-8")
+    mapping = (SKILL_DIR / "references" / "svg-to-pptx.md").read_text(encoding="utf-8")
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    prd = (ROOT / "doc" / "PRD.md").read_text(encoding="utf-8")
+
+    assert "48` compiles to `28.8 pt" in design
+    assert "48–56 | 28.8–33.6" in design
+    assert "PowerPoint Freeform" in mapping
+    assert "straight-segment `polygon`/`polyline`" in mapping
+    assert "--report compilation-report.json" in readme
+    assert "Bright Tech Systems" in readme
+    assert "Human Documentary" in readme
+    assert "**文档版本：** V1.1" in prd
+    assert "直接在 `main` 维护" in prd
+    assert "sample_count = min(3, final_slide_count)" in skill
+    assert "sample_count = min(3, final_slide_count)" in workflow

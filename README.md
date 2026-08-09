@@ -7,9 +7,10 @@ VectorDeckPPT 是一个面向 AI Agent 的可编辑 PowerPoint 生成 Skill。�
 ## 核心流程
 
 ```text
-source material -> Agent planning and design -> one SVG per slide
-                -> validate -> render -> visual review -> revise
-                -> compile editable PPTX -> validate -> deliver
+澄清需求 -> 完整文字版 -> 用户批准文字
+         -> 代表性视觉样稿（最多 3 页）-> 用户批准视觉
+         -> 全量 SVG -> validate -> render -> visual review -> revise
+         -> compile editable PPTX -> validate -> deliver
 ```
 
 ## 目录
@@ -67,7 +68,7 @@ $CODEX_HOME/skills/vectordeckppt/
 ~/.codex/skills/vectordeckppt/
 ```
 
-不要只复制 `SKILL.md`；`references/`、`scripts/` 和 `assets/` 都是完整工作流的一部分。
+不要只复制 `SKILL.md`；`references/`、`scripts/` 和 `assets/` 都是完整工作流的一部分。全局复制 Skill 后，还需要让执行脚本所用的 Python 环境安装本仓库依赖，例如先在仓库中执行 `python -m pip install -r requirements.txt`。Skill 会从 `SKILL.md` 所在目录解析脚本位置，不依赖当前项目中存在 `.agents/` 路径。
 
 ### 2. 在请求中调用 Skill
 
@@ -111,7 +112,7 @@ $CODEX_HOME/skills/vectordeckppt/
 内容密度：默认内容丰富，核心页优先使用文字解释、图表、图解和证据标注
 最终交付目录：默认使用当前目录下的 pptoutput/
 
-请先提交完整的文字版逐页内容供我确认；文字内容批准后，只生成 3 页有代表性的
+请先提交完整的文字版逐页内容供我确认；文字内容批准后，只生成最多 3 页有代表性的
 SVG/PNG 视觉样稿供我确认；两次批准后再生成全套页面、编译并验证 PPTX，同时保留
 源 SVG、PNG 预览和 compilation-report.json。
 ```
@@ -126,8 +127,8 @@ SVG/PNG 视觉样稿供我确认；两次批准后再生成全套页面、编译
 2. 阅读资料并提取结论、证据、数据和可用素材；
 3. 生成完整的文字版逐页内容并保存为 `pptoutput/slide-content.md`；
 4. **等待用户明确批准文字内容**，批准前不生成 SVG、PNG 或 PPTX；
-5. 建立统一的艺术方向和设计系统，只生成 3 页代表性 SVG/PNG 样稿；
-6. **等待用户明确批准视觉样稿**，根据意见反复修改这 3 页；
+5. 建立统一的艺术方向和设计系统，生成 `min(3, 最终页数)` 页代表性 SVG/PNG 样稿；
+6. **等待用户明确批准视觉样稿**，根据意见反复修改这些样稿；
 7. 两次批准后生成所有最终 SVG，并逐页校验、渲染和视觉复审；
 8. 将文本、基础图形和图片尽可能编译为 PowerPoint 原生对象；
 9. 验证最终 PPTX，并报告影响编辑能力的 SVG 降级元素。
@@ -169,7 +170,7 @@ pptoutput/
 
 - `final.pptx`：最终演示文稿；
 - `slide-content.md`：经用户确认的完整文字版逐页内容；
-- `sample/`：用于第二次确认的 3 页视觉样稿；
+- `sample/`：用于第二次确认的代表性视觉样稿（最多 3 页）；
 - `slides/`：每页的视觉源文件，也是后续修改入口；
 - `preview/`：用于逐页视觉复审的 PNG；
 - `compilation-report.json`：原生对象、SVG 降级和失败元素统计。
@@ -187,6 +188,20 @@ pptoutput/
 ```
 
 如果只需要重新编译已经完成的 SVG，可以直接使用后文的命令行工具；命令行工具不会替代 Agent 的内容规划、艺术指导和视觉复审。
+
+### 8. 内置视觉方向
+
+Skill 内置五套 16:9 视觉参考。它们定义可观察的视觉语法，不是要贴到页面上的固定背景图；Agent 会用真实内容重新构建为可编辑 SVG，也可以在说明理由后混合相容的规则。
+
+| 中文名称 | 英文名称 | 适用场景 |
+|---|---|---|
+| 明亮科技系统 | Bright Tech Systems | 技术产品、AI 工作流、产品能力说明 |
+| 编辑研究 | Editorial Intelligence | 研究报告、策略分析、数据叙事 |
+| 深色工程系统 | Dark Engineered Systems | 架构评审、基础设施、安全与工程主题 |
+| 人文纪实 | Human Documentary | 品牌故事、公共议题、人物与现场叙事 |
+| 表现型文化发布 | Expressive Cultural | 发布会、创意提案、文化与消费品牌 |
+
+可在请求中直接写“视觉采用明亮科技系统”，也可以附参考图并说明希望保留的特征与禁止项。完整规则见 [style-templates.md](.agents/skills/vectordeckppt/references/style-templates.md)。
 
 ## 如何写出更好的请求
 
@@ -253,7 +268,7 @@ uv run python .agents/skills/vectordeckppt/scripts/render_svg.py slide.svg
 uv run python .agents/skills/vectordeckppt/scripts/render_svg.py slides/ --output-dir preview/
 
 # 编译多页 PPTX 并输出编译报告
-uv run python .agents/skills/vectordeckppt/scripts/compile_pptx.py slides/ --output final.pptx
+uv run python .agents/skills/vectordeckppt/scripts/compile_pptx.py slides/ --output final.pptx --report compilation-report.json
 
 # 校验 PPTX 包结构和引用
 uv run python .agents/skills/vectordeckppt/scripts/validate_pptx.py final.pptx
@@ -280,20 +295,20 @@ python -m pytest
 依赖发生变化时，先更新 `uv.lock`，再重新导出 pip 依赖：
 
 ```bash
-uv export --format requirements.txt --all-groups --no-emit-project --no-hashes --frozen --no-header --output-file requirements.txt
+uv export --format requirements.txt --all-groups --no-emit-project --no-hashes --frozen --output-file requirements.txt
 ```
 
-保留 `requirements.txt` 顶部的说明注释，不要提交包含本机绝对路径的导出命令。
+请从仓库根目录执行导出命令；uv 会写入可重复生成的说明头，不要在命令中加入本机绝对路径。
 
 提交使用 Conventional Commits，并在提交前运行 `git diff --check`、Ruff 和 Pytest。完整维护约束见 `AGENTS.md`。
 
-## V1.0 范围
+## 当前 SVG 支持范围
 
-V1.0 原生支持 `text`、`tspan`、`rect`、圆角矩形、`circle`、`ellipse`、`line`、`image` 和基础 `g` 样式/变换。复杂 `path`、渐变、裁剪或旋转元素通过 Office SVG 关系降级并记录在编译报告中；`filter`、`mask`、动画、PowerPoint 动画与任意 SVG 规范完整兼容不在 V1.0 范围内。
+V1.1 原生支持 `text`、`tspan`、`rect`、圆角矩形、`circle`、`ellipse`、`line`、`image`、直线段 `polygon`/`polyline` freeform，以及基础 `g` 样式/变换。复杂 `path`、带 marker/虚线的 freeform、渐变、裁剪或旋转元素通过 Office SVG 关系降级并记录在编译报告中；`filter`、`mask`、动画、PowerPoint 动画与任意 SVG 规范完整兼容不在当前范围内。
 
 ## Roadmap
 
-- 扩展 polygon/polyline/freeform 支持
+- 扩展复杂 path 到 PowerPoint freeform 的转换
 - 提升复杂路径与渐变的可编辑转换能力
 - 扩展跨平台字体度量和文本基线校准
 - 增加更多真实 presentation 类型的 Skill 前向测试

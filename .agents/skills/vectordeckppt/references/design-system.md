@@ -69,12 +69,14 @@ Recommended SVG sizes for the 1600×900 canvas:
 
 | Role | SVG px | Approx. PowerPoint pt |
 |---|---:|---:|
-| Deck title | 72–88 | 54–66 |
-| Slide title | 48–56 | 36–42 |
-| Section lead | 36–40 | 27–30 |
-| Subheading/callout | 32 | 24 |
-| Body | 22–28 | 16.5–21 |
-| Caption/footer | 16–20 | 12–15 |
+| Deck title | 72–88 | 43.2–52.8 |
+| Slide title | 48–56 | 28.8–33.6 |
+| Section lead | 36–40 | 21.6–24 |
+| Subheading/callout | 32 | 19.2 |
+| Body | 22–28 | 13.2–16.8 |
+| Caption/footer | 16–20 | 9.6–12 |
+
+The compiler maps font size through the same `viewBox`-to-slide scale as geometry. On the default 1600×900 canvas, one SVG unit is `0.6 pt`; for example, `48` compiles to `28.8 pt`. A different `viewBox` changes that ratio, so validate typography in both rendered PNGs and the compiled PPTX instead of assuming a fixed CSS-pixel conversion.
 
 Default Chinese font stack:
 

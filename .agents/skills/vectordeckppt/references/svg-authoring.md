@@ -35,14 +35,14 @@ Native editable PowerPoint conversion:
 - `<rect>` and `<rect rx="...">`;
 - `<circle>` and `<ellipse>`;
 - `<line>`;
+- straight-segment `<polyline>` and `<polygon>` without markers or dashed strokes;
 - `<image>`;
 - basic `<g>` style, opacity, translation, and scaling inheritance.
 
 Allowed but normally compiled as embedded Office SVG:
 
 - `<path>`;
-- `<polyline>`;
-- `<polygon>`;
+- `<polyline>` or `<polygon>` using markers, dashed strokes, or paint servers;
 - native elements using gradients, clipping, rotation, or skew that cannot be represented faithfully by the native converter.
 
 Use fallback features deliberately. If individual editing is required, simplify the visual into supported elements.
@@ -77,6 +77,8 @@ Supported properties:
 - `text-anchor="start|middle|end"`;
 - basic `<tspan>` text runs with `x`, `y`, `dx`, and `dy` line positioning.
 
+Native text assumes an alphabetic baseline. `dominant-baseline="auto|alphabetic"` remains native; other baseline modes use explicit Office SVG fallback so the compiler does not silently shift text.
+
 Use an explicit font stack:
 
 ```svg
@@ -97,6 +99,8 @@ For multiple lines, use explicit tspans:
 ```
 
 Do not depend on browser text wrapping or `foreignObject`.
+
+For native shape strokes, `stroke-linecap="butt|round|square"` and `stroke-linejoin="miter|round|bevel"` are preserved in PowerPoint. Keep polygon/polyline strokes solid and marker-free when point-level freeform editing is required.
 
 ## Shapes and styles
 

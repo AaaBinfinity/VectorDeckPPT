@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="100 50 800 450">
+  <polygon id="editable-polygon" points="220,140 420,140 360,300 180,260"
+           fill="#0EA5E9" fill-opacity="0.7" stroke="#075985" stroke-width="6"
+           stroke-linejoin="round"/>
+  <polyline id="editable-polyline" points="500,280 590,170 690,260 790,120"
+            fill="none" stroke="#DC2626" stroke-width="8"/>
+</svg>

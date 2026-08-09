@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
 
+from lxml import etree
 from pptx.enum.text import MSO_ANCHOR, PP_ALIGN
 from pptx.util import Pt
 
@@ -18,6 +20,8 @@ from .pptx_shapes import NativeShapeUnsupported
 from .pptx_utils import set_font_color
 from .svg_models import RenderElement
 from .svg_parser import element_styles, local_name, parse_length, parse_number
+
+XML_SPACE = "{http://www.w3.org/XML/1998/namespace}space"
 
 
 @dataclass(frozen=True, slots=True)
@@ -43,8 +47,9 @@ def extract_text_lines(item: RenderElement) -> list[TextLineSpec]:
     lines: list[TextLineSpec] = []
     runs: list[TextRunSpec] = []
 
-    if element.text and element.text.strip():
-        runs.append(TextRunSpec(element.text, dict(item.styles)))
+    leading_text = _normalized_text_node(element.text, element)
+    if leading_text:
+        runs.append(TextRunSpec(leading_text, dict(item.styles)))
 
     for child in element:
         if not isinstance(child.tag, str) or local_name(child.tag) != "tspan":
@@ -57,11 +62,12 @@ def extract_text_lines(item: RenderElement) -> list[TextLineSpec]:
             lines.append(TextLineSpec(current_x, current_y, anchor, tuple(runs)))
             runs = []
         current_x, current_y = next_x, next_y
-        text = "".join(child.itertext())
+        text = _normalized_text_node("".join(child.itertext()), child)
         if text:
             runs.append(TextRunSpec(text, child_styles))
-        if child.tail:
-            runs.append(TextRunSpec(child.tail, dict(item.styles)))
+        tail = _normalized_text_node(child.tail, element)
+        if tail:
+            runs.append(TextRunSpec(tail, dict(item.styles)))
 
     if runs:
         lines.append(TextLineSpec(current_x, current_y, anchor, tuple(runs)))
@@ -75,6 +81,11 @@ def add_native_text(
 ) -> list[object]:
     if not item.transform.is_axis_aligned:
         raise NativeShapeUnsupported("rotated or skewed text")
+    dominant_baseline = item.styles.get("dominant-baseline", "").strip().lower()
+    if dominant_baseline not in {"", "auto", "alphabetic"}:
+        raise NativeShapeUnsupported(
+            f"dominant-baseline={dominant_baseline!r} is not supported by native text"
+        )
     if any("url(" in item.styles.get(key, "").lower() for key in ("fill", "stroke")):
         raise NativeShapeUnsupported("gradient text")
 
@@ -145,6 +156,26 @@ def add_native_text(
 def _font_size(styles: dict[str, str]) -> float:
     value = parse_length(styles.get("font-size"))
     return value if value is not None else 16.0
+
+
+def _normalized_text_node(value: str | None, scope: etree._Element) -> str:
+    if value is None:
+        return ""
+    if _preserves_whitespace(scope):
+        return value
+    if not value.strip():
+        return ""
+    return re.sub(r"\s+", " ", value)
+
+
+def _preserves_whitespace(element: etree._Element) -> bool:
+    current: etree._Element | None = element
+    while current is not None:
+        value = current.get(XML_SPACE)
+        if value is not None:
+            return value.strip().lower() == "preserve"
+        current = current.getparent()
+    return False
 
 
 def _opacity(value: str | None) -> float:

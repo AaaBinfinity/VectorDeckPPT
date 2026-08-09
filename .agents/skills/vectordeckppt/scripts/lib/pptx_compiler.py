@@ -14,6 +14,7 @@ from .coordinates import (
     DEFAULT_SLIDE_WIDTH_INCHES,
     CoordinateMapper,
 )
+from .path_safety import PathSafetyError, ensure_distinct_paths, require_suffix
 from .pptx_images import add_native_image
 from .pptx_shapes import NativeShapeUnsupported, add_native_shape
 from .pptx_text import add_native_text
@@ -28,7 +29,8 @@ from .svg_parser import SVG_NAMESPACE, iter_render_elements, parse_svg
 from .svg_validator import validate_svg
 
 NATIVE_SHAPE_TAGS = {"rect", "circle", "ellipse", "line"}
-FALLBACK_TAGS = {"path", "polyline", "polygon"}
+FREEFORM_TAGS = {"polyline", "polygon"}
+FALLBACK_TAGS = {"path"}
 
 
 class PptxCompileError(RuntimeError):
@@ -51,11 +53,23 @@ def compile_pptx(
     output: str | Path,
 ) -> CompilationReport:
     source_path = Path(source).expanduser().resolve()
-    output_path = Path(output).expanduser().resolve()
-    report = CompilationReport(source=str(source_path), output=str(output_path))
+    output_candidate = Path(output).expanduser().resolve()
+    report = CompilationReport(source=str(source_path), output=str(output_candidate))
+    try:
+        output_path = require_suffix(output, ".pptx", label="PowerPoint output")
+    except PathSafetyError as exc:
+        raise PptxCompileError(str(exc), report) from exc
+
     slide_paths = discover_slides(source_path)
     if not slide_paths:
         raise PptxCompileError(f"No slide SVG files found: {source_path}", report)
+    try:
+        for slide_path in slide_paths:
+            ensure_distinct_paths(
+                {"PowerPoint output": output_path, "source slide": slide_path}
+            )
+    except PathSafetyError as exc:
+        raise PptxCompileError(str(exc), report) from exc
 
     presentation = Presentation()
     presentation.slide_width = Inches(DEFAULT_SLIDE_WIDTH_INCHES)
@@ -110,6 +124,9 @@ def _compile_slide(
             if item.tag in NATIVE_SHAPE_TAGS:
                 add_native_shape(slide, item, document, mapper)
                 report.native += 1
+            elif item.tag in FREEFORM_TAGS:
+                add_native_shape(slide, item, document, mapper)
+                report.freeform += 1
             elif item.tag == "text":
                 add_native_text(slide, item, mapper)
                 report.native += 1

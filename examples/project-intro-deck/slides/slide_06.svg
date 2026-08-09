@@ -29,7 +29,7 @@
     <text x="128" y="462" font-size="25" font-weight="700" fill="#173A73">文本与基础图形</text>
     <text x="128" y="502" font-size="20" fill="#334155">• text / tspan</text>
     <text x="128" y="536" font-size="20" fill="#334155">• rect / circle / ellipse / line</text>
-    <text x="128" y="570" font-size="20" fill="#334155">• image / 基础 group</text>
+    <text x="128" y="570" font-size="20" fill="#334155">• image / polygon / polyline / group</text>
     <line x1="128" y1="608" x2="488" y2="608" stroke="#D7E5FF" stroke-width="2"/>
     <text x="128" y="650" font-size="21" font-weight="700" fill="#1263E6">结果</text>
     <text x="190" y="650" font-size="18" fill="#334155">可搜索、可复制、可逐项修改</text>
@@ -45,7 +45,7 @@
     <text x="696" y="352" font-size="30" font-weight="700" fill="#FFFFFF">Office SVG 降级</text>
     <text x="696" y="384" font-size="18" fill="#FFF7E8">保真路径 · 整体可编辑</text>
     <text x="620" y="462" font-size="25" font-weight="700" fill="#8B5B00">复杂视觉元素</text>
-    <text x="620" y="502" font-size="20" fill="#334155">• path / polygon / polyline</text>
+    <text x="620" y="502" font-size="20" fill="#334155">• complex path / marker / 虚线 freeform</text>
     <text x="620" y="536" font-size="20" fill="#334155">• 渐变 / 裁剪 / 旋转</text>
     <text x="620" y="570" font-size="20" fill="#334155">• 兼容 PNG + Office SVG 关系</text>
     <line x1="620" y1="608" x2="980" y2="608" stroke="#FFE1A8" stroke-width="2"/>

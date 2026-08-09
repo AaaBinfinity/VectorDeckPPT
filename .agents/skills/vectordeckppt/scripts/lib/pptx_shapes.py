@@ -7,7 +7,7 @@ from .colors import parse_color
 from .coordinates import CoordinateMapper
 from .pptx_utils import clear_shape_theme_style, set_fill, set_line
 from .svg_models import Matrix, RenderElement, SvgDocument
-from .svg_parser import parse_length
+from .svg_parser import parse_length, parse_points
 
 
 class NativeShapeUnsupported(ValueError):
@@ -22,8 +22,10 @@ def add_native_shape(
 ) -> object:
     if not item.transform.is_axis_aligned:
         raise NativeShapeUnsupported("rotated or skewed shape")
-    if _uses_paint_server(item):
-        raise NativeShapeUnsupported("gradient or paint-server shape")
+    if _requires_svg_fallback(item):
+        raise NativeShapeUnsupported(
+            "paint server, clipping, marker, or dashed stroke is not supported natively"
+        )
 
     if item.tag == "rect":
         shape = _add_rect(slide, item, document, mapper)
@@ -31,6 +33,8 @@ def add_native_shape(
         shape = _add_ellipse(slide, item, document, mapper)
     elif item.tag == "line":
         shape = _add_line(slide, item, document, mapper)
+    elif item.tag in {"polyline", "polygon"}:
+        shape = _add_freeform(slide, item, mapper)
     else:
         raise NativeShapeUnsupported(f"unsupported native shape <{item.tag}>")
     clear_shape_theme_style(shape)
@@ -129,7 +133,40 @@ def _add_line(
         opacity=item.opacity * _opacity(item.styles.get("stroke-opacity")),
     )
     stroke_width = parse_length(item.styles.get("stroke-width")) or 1.0
-    set_line(shape.line, stroke, mapper.width(stroke_width * abs(item.transform.a)))
+    set_line(
+        shape.line,
+        stroke,
+        mapper.width(stroke_width * abs(item.transform.a)),
+        cap=item.styles.get("stroke-linecap"),
+        join=item.styles.get("stroke-linejoin"),
+    )
+    return shape
+
+
+def _add_freeform(
+    slide: object,
+    item: RenderElement,
+    mapper: CoordinateMapper,
+) -> object:
+    points = parse_points(item.element.get("points"))
+    minimum_points = 3 if item.tag == "polygon" else 2
+    if len(points) < minimum_points:
+        raise NativeShapeUnsupported(
+            f"<{item.tag}> requires at least {minimum_points} coordinate pairs"
+        )
+    transformed = [item.transform.apply(x, y) for x, y in points]
+    local_points = [
+        (x - mapper.view_x, y - mapper.view_y)
+        for x, y in transformed
+    ]
+    builder = slide.shapes.build_freeform(
+        start_x=local_points[0][0],
+        start_y=local_points[0][1],
+        scale=(mapper.width(1.0), mapper.height(1.0)),
+    )
+    builder.add_line_segments(local_points[1:], close=item.tag == "polygon")
+    shape = builder.convert_to_shape()
+    _apply_shape_style(shape, item, mapper)
     return shape
 
 
@@ -144,12 +181,31 @@ def _apply_shape_style(shape: object, item: RenderElement, mapper: CoordinateMap
     )
     stroke_width = parse_length(item.styles.get("stroke-width")) or 1.0
     set_fill(shape.fill, fill)
-    set_line(shape.line, stroke, mapper.width(stroke_width * abs(item.transform.a)))
+    set_line(
+        shape.line,
+        stroke,
+        mapper.width(stroke_width * abs(item.transform.a)),
+        cap=item.styles.get("stroke-linecap"),
+        join=item.styles.get("stroke-linejoin"),
+    )
 
 
-def _uses_paint_server(item: RenderElement) -> bool:
+def _requires_svg_fallback(item: RenderElement) -> bool:
+    unsupported = {
+        "filter",
+        "mask",
+        "clip-path",
+        "marker",
+        "marker-start",
+        "marker-mid",
+        "marker-end",
+        "stroke-dasharray",
+        "stroke-dashoffset",
+    }
     return any("url(" in item.styles.get(key, "").lower() for key in ("fill", "stroke")) or any(
-        attribute in item.element.attrib for attribute in ("filter", "mask", "clip-path")
+        item.styles.get(name) not in {None, "", "none"}
+        or item.element.get(name) not in {None, "", "none"}
+        for name in unsupported
     )
 
 

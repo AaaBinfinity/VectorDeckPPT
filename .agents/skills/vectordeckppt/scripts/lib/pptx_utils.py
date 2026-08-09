@@ -14,6 +14,7 @@ from pptx.oxml.ns import qn
 from pptx.oxml.xmlchemy import OxmlElement
 
 from .colors import SvgColor
+from .path_safety import require_suffix
 
 SVG_BLIP_NAMESPACE = "http://schemas.microsoft.com/office/drawing/2016/SVG/main"
 SVG_BLIP_EXTENSION_URI = "{96DAC541-7B7A-43D3-8B79-37D633B846F1}"
@@ -70,7 +71,7 @@ class CompilationReport:
         }
 
     def write_json(self, path: str | Path) -> Path:
-        output = Path(path).expanduser().resolve()
+        output = require_suffix(path, ".json", label="Compilation report")
         output.parent.mkdir(parents=True, exist_ok=True)
         output.write_text(
             json.dumps(self.to_dict(), ensure_ascii=False, indent=2), encoding="utf-8"
@@ -94,7 +95,14 @@ def set_fill(fill_format: object, color: SvgColor | None) -> None:
     _set_alpha(fill_format._xPr, color.alpha)
 
 
-def set_line(line_format: object, color: SvgColor | None, width_emu: int) -> None:
+def set_line(
+    line_format: object,
+    color: SvgColor | None,
+    width_emu: int,
+    *,
+    cap: str | None = None,
+    join: str | None = None,
+) -> None:
     if color is None:
         line_format.fill.background()
         return
@@ -102,6 +110,32 @@ def set_line(line_format: object, color: SvgColor | None, width_emu: int) -> Non
     line_format.fill.fore_color.rgb = RGBColor(*color.rgb)
     line_format.width = width_emu
     _set_alpha(line_format.fill._xPr, color.alpha)
+    line_properties = line_format._get_or_add_ln()
+    _set_line_cap(line_properties, cap)
+    _set_line_join(line_properties, join)
+
+
+def _set_line_cap(line_properties: object, value: str | None) -> None:
+    if value is None or not value.strip():
+        return
+    caps = {"butt": "flat", "round": "rnd", "square": "sq"}
+    normalized = value.strip().lower()
+    if normalized not in caps:
+        raise ValueError(f"Unsupported SVG stroke-linecap: {value!r}")
+    line_properties.set("cap", caps[normalized])
+
+
+def _set_line_join(line_properties: object, value: str | None) -> None:
+    if value is None or not value.strip():
+        return
+    joins = {"miter": "a:miter", "round": "a:round", "bevel": "a:bevel"}
+    normalized = value.strip().lower()
+    if normalized not in joins:
+        raise ValueError(f"Unsupported SVG stroke-linejoin: {value!r}")
+    for tag in joins.values():
+        for existing in line_properties.xpath(f"./{tag}"):
+            line_properties.remove(existing)
+    line_properties.append(OxmlElement(joins[normalized]))
 
 
 def set_font_color(run: object, color: SvgColor) -> None:

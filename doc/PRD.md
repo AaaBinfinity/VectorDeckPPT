@@ -3,8 +3,23 @@
 **项目名称：** VectorDeckPPT  
 **名称含义：** Vector + Presentation Deck + PowerPoint  
 **项目类型：** Agent Skill / AI Presentation Generation / SVG-to-PPTX Toolchain  
-**文档版本：** V1.0
-**项目状态：** V1.0 Released
+**文档版本：** V1.1
+**项目状态：** V1.1 Released
+
+## V1.1 规范增量
+
+V1.1 在不改变“宿主 Agent 负责创作、确定性脚本负责执行”的架构前提下，增加以下规范性要求；若后文的 V1.0 示例与本节冲突，以本节、`SKILL.md` 和 `references/` 的当前规则为准：
+
+- 需求存在事实错误、矛盾或会改变叙事方向的歧义时，先提出 1–3 个具体问题并等待回答；
+- 全量制作前必须经过两个独立审批：完整文字版逐页内容审批，以及 `min(3, 最终页数)` 页代表性视觉样稿审批；
+- 默认交付根目录为当前工作目录下的 `pptoutput/`，用户指定其他位置时统一使用该目录；Skill 脚本位置从 `SKILL.md` 所在目录解析，不假定当前项目内存在 `.agents/`；
+- 普通内容页默认信息丰富，包含完整结论、解释、证据和有意义的图表/图解；不得伪造数字，内容超载时拆页；
+- 五套内置风格图片仅作为视觉语法参考，不得直接用作整页背景或固定模板；
+- 默认 1600×900 画布下，SVG 字号按几何比例以 `0.6 pt/单位` 编译；
+- 直线段 `polygon`/`polyline` 编译为可编辑 PowerPoint freeform；复杂 path、marker、虚线、渐变、裁剪、旋转和斜切继续显式降级；
+- PNG、PPTX 和 JSON 输出必须使用正确扩展名，且任何输出或报告不得与输入源文件指向同一文件；
+- 同时维护 `uv.lock` 与可由 `pip install -r requirements.txt` 安装的锁定依赖；
+- 本项目后续直接在 `main` 维护，不创建功能分支；提交使用英文 Conventional Commits。
 
 ---
 
@@ -91,17 +106,23 @@ Skill 指导 AI 完成：
 ```text
 用户需求理解
       ↓
+必要时澄清并等待
+      ↓
 资料阅读
       ↓
 Presentation Planning
       ↓
-Slide Planning
+完整文字版逐页内容
       ↓
-Art Direction
+用户批准文字内容
       ↓
-Design System
+Art Direction + Design System
       ↓
-逐页设计
+代表性视觉样稿（最多 3 页）
+      ↓
+用户批准视觉方向
+      ↓
+逐页设计全套内容
       ↓
 整页 SVG
       ↓
@@ -251,12 +272,14 @@ VectorDeckPPT/
 │           ├── references/
 │           │   ├── workflow.md
 │           │   ├── presentation-planning.md
+│           │   ├── art-direction.md
 │           │   ├── design-system.md
 │           │   ├── slide-design.md
 │           │   ├── svg-authoring.md
 │           │   ├── svg-to-pptx.md
 │           │   ├── visual-review.md
-│           │   └── troubleshooting.md
+│           │   ├── troubleshooting.md
+│           │   └── style-templates.md
 │           │
 │           ├── scripts/
 │           │   ├── validate_svg.py
@@ -270,6 +293,7 @@ VectorDeckPPT/
 │           │       ├── coordinates.py
 │           │       ├── colors.py
 │           │       ├── fonts.py
+│           │       ├── path_safety.py
 │           │       ├── pptx_text.py
 │           │       ├── pptx_shapes.py
 │           │       ├── pptx_images.py
@@ -278,7 +302,8 @@ VectorDeckPPT/
 │           └── assets/
 │               ├── examples/
 │               ├── themes/
-│               └── icons/
+│               ├── icons/
+│               └── style-templates/
 │
 ├── tests/
 │   ├── fixtures/
@@ -298,16 +323,17 @@ VectorDeckPPT/
 │   └── test_pptx_compiler.py
 │
 ├── examples/
-│   └── basic-deck/
+│   ├── basic-deck/
+│   └── project-intro-deck/
 │
-├── docs/
-│
-├── output/
+├── doc/
+│   └── PRD.md
 │
 ├── AGENTS.md
 ├── README.md
-├── IMPLEMENTATION_SPEC.md
+├── CHANGELOG.md
 ├── pyproject.toml
+├── requirements.txt
 ├── uv.lock
 ├── .gitignore
 └── LICENSE
@@ -521,15 +547,26 @@ Presentation Plan
 ```text
 Title
 Audience
+Audience knowledge level and decision authority
 Purpose
+Expected audience action
 Language
 Slide Count
 Storyline
 Sections
-Each Slide Purpose
+For every slide:
+  takeaway title
+  slide purpose
+  key message
+  substantive audience-facing copy
+  supporting explanation or 2–4 points
+  evidence/source
+  visual/evidence plan, or reason for deliberate restraint
 ```
 
-例如：
+必须将完整文字版保存到 `DECK_ROOT/slide-content.md` 并交给用户确认。文字批准前不得创建 SVG、PNG 或 PPTX。普通内容页默认采用信息丰富而可读的密度；缺少真实数据时使用概念图、流程、矩阵或定性对比，不得为了版式伪造数值。
+
+艺术方向必须从受众结果、内容关系和证据出发，形成一句可检验的 visual thesis。下面仅是一个技术产品场景的示例，不是默认模板：
 
 ```text
 01 封面
@@ -559,7 +596,7 @@ Each Slide Purpose
 
 ```text
 Style:
-Minimal Technology
+Bright Technical Editorial
 
 Background:
 White
@@ -568,23 +605,25 @@ Primary:
 Blue
 
 Secondary:
-Purple
+Cyan, reserved for system transitions
 
 Mood:
-Professional / Clean / Technical
+Precise / Legible / Optimistic
 
 Typography:
 Modern Sans Serif
 
 Composition:
-Large whitespace
+Asymmetric evidence-led grid with deliberate quiet zones
 
 Shape language:
-Rounded cards
+Thin rails, restrained geometry, limited-radius containers
 
 Decorations:
-Subtle geometric vector elements
+Only structural marks that clarify hierarchy or flow
 ```
+
+禁止把“蓝紫渐变 + 大量圆角卡片 + 无意义图标”当成通用科技美学。可以选择五套内置视觉参考之一，也可以定义新的方向；参考图只用于提取字体、空间、色彩、图像和构图行为，不能直接贴成整页背景。
 
 ---
 
@@ -604,7 +643,7 @@ Subtle geometric vector elements
   "colors": {
     "background": "#F8FAFC",
     "primary": "#2563EB",
-    "secondary": "#7C3AED",
+    "secondary": "#06B6D4",
     "title": "#0F172A",
     "text": "#475569",
     "muted": "#94A3B8",
@@ -627,7 +666,8 @@ Subtle geometric vector elements
   },
 
   "shape": {
-    "card_radius": 24
+    "container_radius": 12,
+    "use_only_when_semantic": true
   }
 }
 ```
@@ -649,16 +689,16 @@ Slide 3: 黑金风
 Slide 4: 卡通风
 ```
 
-需要保持：
+需要保持共享语法，同时允许根据叙事角色形成有节奏的疏密变化：
 
 ```text
 字体一致
 主色一致
 辅助色一致
-卡片语言一致
-阴影语言一致
+几何语言一致
+阴影使用规则一致
 边距一致
-视觉密度一致
+视觉密度有计划地变化
 标题层级一致
 ```
 
@@ -1271,19 +1311,20 @@ PowerPoint Picture
 
 ---
 
-# 37. Level 2 — 后续支持
+# 37. Level 2 — PowerPoint Freeform
 
 ```text
 polygon
 polyline
-simple path
 ```
 
-尽可能转换成：
+直线段 polygon/polyline 在无 marker、虚线、paint server、旋转或斜切时必须转换成：
 
 ```text
 PowerPoint Freeform
 ```
+
+`simple path` 与任意复杂 path 仍属于后续能力；无法可靠转换时按 Level 3 处理。
 
 ---
 
@@ -1614,35 +1655,33 @@ media 引用
 最终 SKILL.md 应让 AI 基本按照：
 
 ```text
-1. Understand request
+1. Understand request; ask focused questions and wait if material ambiguity exists
 
 2. Read all relevant source material
 
-3. Create presentation storyline
+3. Create the complete information-rich text-only slide draft
 
-4. Create slide plan
+4. Save DECK_ROOT/slide-content.md and wait for explicit text approval
 
-5. Define art direction
+5. Define art direction and shared design system
 
-6. Define shared design system
+6. Select sample_count = min(3, final_slide_count) representative pages
 
-7. Design slide 1 as SVG
+7. Design only the sample SVGs, validate, render, and inspect them
 
-8. Validate SVG
+8. Wait for explicit visual approval; revise only the sample set until approved
 
-9. Render SVG
+9. Plan and design every final slide as SVG
 
-10. Inspect rendered image
+10. Validate each SVG
 
-11. Revise if needed
+11. Render and inspect every PNG preview; revise if needed
 
-12. Repeat for all slides
+12. Compile all final SVG slides to PPTX and persist compilation-report.json
 
-13. Compile all SVG slides to PPTX
+13. Validate PPTX and reopen it with python-pptx
 
-14. Validate PPTX
-
-15. Deliver final PPTX
+14. Deliver PPTX, source SVGs, approved sample/final PNG previews, slide-content.md, and report
 ```
 
 ---
@@ -1853,8 +1892,11 @@ Skill 图标
 示例 SVG
 通用图标
 少量主题参考
+五套 16:9 风格参考图
 测试素材
 ```
+
+V1.1 内置：Bright Tech Systems、Editorial Intelligence、Dark Engineered Systems、Human Documentary 和 Expressive Cultural。它们是视觉语法参考，不是固定页壳：Agent 必须读取用户真实内容后提取可观察的字体、空间、颜色、图像、几何和节奏规则，再以结构化 SVG 重建。不得把参考 PNG 直接铺成整页背景，也不得为了套模板伪造图表或证据。
 
 Skill 核心仍然是：
 
@@ -2565,7 +2607,7 @@ git clean -fd
 <type>(<scope>): <summary>
 ```
 
-尽量多的提交 提交内容要详细  使用中文
+提交应小而完整，summary 使用英文并准确描述实际变化；必要的说明可写在 commit body 中。
 
 ---
 
@@ -2750,17 +2792,7 @@ rename project
 
 # 93. Branch
 
-如果当前已经在合适的开发 branch：
-
-> 继续使用。
-
-如果需要创建：
-
-```text
-feat/vectordeckppt-skill
-```
-
-不要随意创建大量 branch。
+当前维护策略是直接写入 `main`。后续任务不得自行创建功能分支；只有用户明确改变该策略时，才可以创建其他分支。
 
 ---
 
@@ -2800,6 +2832,7 @@ __pycache__/
 !.env.example
 
 output/
+pptoutput/
 
 dist/
 build/

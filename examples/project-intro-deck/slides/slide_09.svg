@@ -6,7 +6,7 @@
     <rect x="152" y="28" width="62" height="88" rx="12" fill="#D7E5FF"/>
     <rect x="36" y="28" width="150" height="88" rx="12" fill="#1263E6"/>
     <text x="111" y="91" text-anchor="middle" font-size="52" font-weight="700" fill="#FFFFFF">09</text>
-    <text x="238" y="89" font-size="38" font-weight="700" fill="#0A1B3E">V1.0 已用可重复证据证明整条链路可行</text>
+    <text x="238" y="89" font-size="38" font-weight="700" fill="#0A1B3E">V1.1 已用可重复证据证明整条链路可行</text>
     <text x="1512" y="64" text-anchor="end" font-size="22" font-weight="700" fill="#1263E6">VectorDeckPPT · 工程证据</text>
     <g fill="#BFD6FF">
       <circle cx="1410" cy="91" r="4"/><circle cx="1430" cy="91" r="4"/><circle cx="1450" cy="91" r="4"/><circle cx="1470" cy="91" r="4"/><circle cx="1490" cy="91" r="4"/>
@@ -26,7 +26,7 @@
     <circle cx="136" cy="366" r="32" fill="#EAF2FF" stroke="#1263E6" stroke-width="2"/>
     <text x="136" y="377" text-anchor="middle" font-size="31" font-weight="700" fill="#1263E6">✓</text>
     <text x="184" y="354" font-size="18" font-weight="700" fill="#1263E6">AUTOMATED TESTS</text>
-    <text x="184" y="423" font-size="66" font-weight="700" fill="#0A1B3E">40</text>
+    <text x="184" y="423" font-size="66" font-weight="700" fill="#0A1B3E">65</text>
     <text x="300" y="420" font-size="25" font-weight="700" fill="#0A1B3E">项测试</text>
     <text x="108" y="465" font-size="16" fill="#52647F">解析 · 校验 · 渲染 · 编译 · 端到端</text>
 
