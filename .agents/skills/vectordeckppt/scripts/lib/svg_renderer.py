@@ -27,9 +27,7 @@ def render_svg(
     if width <= 0 or height <= 0:
         raise SvgRenderError("Render width and height must be positive")
 
-    output_path = (
-        Path(output).expanduser().resolve() if output else source_path.with_suffix(".png")
-    )
+    output_path = Path(output).expanduser().resolve() if output else source_path.with_suffix(".png")
     output_path.parent.mkdir(parents=True, exist_ok=True)
     try:
         png_data = resvg_py.svg_to_bytes(

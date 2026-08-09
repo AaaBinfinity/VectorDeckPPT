@@ -12,9 +12,7 @@ from .svg_models import Matrix, RenderElement, SvgDocument
 SVG_NAMESPACE = "http://www.w3.org/2000/svg"
 XLINK_NAMESPACE = "http://www.w3.org/1999/xlink"
 
-_LENGTH_RE = re.compile(
-    r"^\s*([+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?)\s*([a-zA-Z%]*)\s*$"
-)
+_LENGTH_RE = re.compile(r"^\s*([+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?)\s*([a-zA-Z%]*)\s*$")
 _NUMBER_RE = re.compile(r"[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?")
 _TRANSFORM_RE = re.compile(r"([A-Za-z]+)\s*\(([^)]*)\)")
 
