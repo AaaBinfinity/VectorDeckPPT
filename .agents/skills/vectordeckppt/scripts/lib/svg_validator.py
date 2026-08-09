@@ -17,7 +17,6 @@ from .svg_parser import (
     parse_transform,
 )
 
-
 ALLOWED_TAGS = {
     "svg",
     "g",

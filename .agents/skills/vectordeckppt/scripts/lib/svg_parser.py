@@ -9,7 +9,6 @@ from lxml import etree
 
 from .svg_models import Matrix, RenderElement, SvgDocument
 
-
 SVG_NAMESPACE = "http://www.w3.org/2000/svg"
 XLINK_NAMESPACE = "http://www.w3.org/1999/xlink"
 

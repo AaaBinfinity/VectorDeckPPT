@@ -1,7 +1,6 @@
 def main():
     print(
-        "VectorDeckPPT is an Agent Skill. See README.md and "
-        ".agents/skills/vectordeckppt/SKILL.md."
+        "VectorDeckPPT is an Agent Skill. See README.md and .agents/skills/vectordeckppt/SKILL.md."
     )
 
 

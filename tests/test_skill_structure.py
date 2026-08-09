@@ -16,8 +16,8 @@ def test_skill_metadata_and_interface_are_complete() -> None:
     assert "TODO" not in content
     assert "Required workflow" in body
 
-    interface = yaml.safe_load(
-        (SKILL_DIR / "agents" / "openai.yaml").read_text(encoding="utf-8")
-    )["interface"]
+    interface = yaml.safe_load((SKILL_DIR / "agents" / "openai.yaml").read_text(encoding="utf-8"))[
+        "interface"
+    ]
     assert interface["display_name"] == "VectorDeckPPT"
     assert "$vectordeckppt" in interface["default_prompt"]
