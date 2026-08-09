@@ -68,7 +68,9 @@ Slide NN — takeaway title
 Purpose:
 Key message:
 Audience-facing content:
+Supporting explanation or points:
 Evidence/source:
+Data/chart/diagram plan:
 Proposed visual form:
 ```
 
@@ -80,7 +82,7 @@ Output: explicitly approved text-only slide content.
 
 After text approval, choose one coherent visual idea. Lock canvas, background character, colors, typography, spacing, shape language, imagery treatment, icon treatment, and density. Read `design-system.md`.
 
-Select exactly three representative slides: the opening, a representative core-content page, and the most visually demanding evidence, data, or diagram page. If the deck contains fewer than three pages, select all pages. Explain the selection, author only those SVGs in `pptoutput/sample/slides/`, render them to `pptoutput/sample/preview/`, inspect them, and ask the user to approve or revise the direction. Iterate only on the sample set until approval.
+Select exactly three representative slides: the opening, a representative information-rich core-content page, and the most visually demanding evidence, data, or diagram page. When sources permit it, the sample set must demonstrate both the default text density and at least one meaningful chart or diagram. If the deck contains fewer than three pages, select all pages. Explain the selection, author only those SVGs in `pptoutput/sample/slides/`, render them to `pptoutput/sample/preview/`, inspect them, and ask the user to approve or revise the direction. Iterate only on the sample set until approval.
 
 Output: explicitly approved visual thesis, design system, and three-page sample.
 

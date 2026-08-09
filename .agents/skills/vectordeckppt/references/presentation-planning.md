@@ -9,9 +9,10 @@
 5. Narrative pressure and pacing
 6. Presentation-type patterns
 7. Slide plan contract
-8. Planning prompt
-9. Text-only approval artifact
-10. Planning quality checks
+8. Content richness plan
+9. Planning prompt
+10. Text-only approval artifact
+11. Planning quality checks
 
 ## Request accuracy
 
@@ -157,7 +158,9 @@ Record at least:
   "title": "The pipeline separates detection from review",
   "purpose": "Explain the system architecture",
   "key_message": "Three layers keep model iteration independent from operator workflow",
+  "supporting_content": ["layer responsibilities", "handoff rules", "failure boundary"],
   "visual_type": "architecture",
+  "data_visual": "three-layer flow with annotated interfaces",
   "evidence": ["system specification section 3"],
   "assets": ["assets/operator-screen.png"]
 }
@@ -174,6 +177,21 @@ recommend / demonstrate / synthesize / transition / resolve
 
 Adjacent slides should not perform the same role repeatedly unless a deliberate evidence sequence requires it.
 
+## Content richness plan
+
+Default to substantive pages rather than sparse poster layouts. Except for covers, section transitions, and deliberate statement pauses, each slide should normally contain:
+
+- one takeaway title that states the conclusion;
+- one short explanatory passage or two to four supporting points;
+- at least one concrete detail such as a metric, example, mechanism, tradeoff, quotation, source, or annotated observation;
+- one meaningful visual structure when the content supports it: chart, table, process, architecture, comparison, timeline, matrix, annotated screenshot, or evidence image.
+
+Across the core body, aim for at least half of non-cover and non-divider slides to use a chart, diagram, table, timeline, process, comparison, matrix, or annotated image as explanatory evidence. Do not count decorative icons, generic cards, or unlabeled shapes.
+
+As a starting density, a normal substantive slide often carries about 60–140 Chinese characters or 40–90 English words of audience-facing copy, excluding the title, source line, and chart labels. Evidence-heavy pages may carry more when the copy is divided into readable regions. Split the argument across slides before shrinking body text or creating a paragraph wall.
+
+Use quantitative charts only when real values, units, categories, and sources exist. Never fabricate a trend or percentage to fill space. Without numeric data, use an honest conceptual diagram or qualitative comparison and label it as such.
+
 ## Planning prompt
 
 Use this internal prompt after reading the source material:
@@ -186,7 +204,7 @@ Act as an editor and presentation strategist, not a document summarizer.
 3. Separate sourced facts, interpretations, proposals, and unknowns.
 4. Choose a narrative arc appropriate to the presentation type.
 5. Build a sequence of audience questions and answers.
-6. Give every slide one rhetorical role, one claim, and one evidence need.
+6. Give every slide one rhetorical role, one claim, supporting detail, and one evidence need.
 7. Assign the best visual proof: typography, data, diagram, image, comparison,
    process, timeline, or demonstration.
 8. Remove slides that only repeat a topic heading or source paragraph.
@@ -206,6 +224,7 @@ Purpose: why this page exists
 Key message: the single conclusion it must land
 Audience-facing content: headline, body points, labels, quotations, or data callouts
 Evidence/source: exact source or clearly marked proposal/unknown
+Data/chart/diagram plan: measures, units, categories, source, or an honest conceptual structure
 Proposed visual form: diagram, data view, comparison, process, image, or typography
 ```
 
@@ -218,6 +237,9 @@ Ask the user to approve or revise the entire sequence. Do not create SVGs or vis
 - Does the sequence accumulate instead of repeat?
 - Is the opening relevant to the audience and the close a real resolution?
 - Are data, diagrams, screenshots, and images assigned a specific explanatory role?
+- Do most substantive pages contain useful supporting detail rather than only a title and three short labels?
+- Does at least half of the core body use meaningful visual evidence when sources permit it?
+- Are all quantitative charts grounded in real values, units, categories, and sources?
 - Can any slide be removed without harming the narrative? If yes, remove or merge it.
 - Does the planned density fit the requested delivery time and readable type sizes?
 - Does the plan contain a meaningful change in pace and visual mode?

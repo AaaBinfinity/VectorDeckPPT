@@ -108,3 +108,35 @@ def test_skill_enforces_clarification_and_staged_approval() -> None:
     assert "deck-work/" not in readme
     assert "three-slide" in interface["default_prompt"]
     assert "pptoutput/" in (ROOT / ".gitignore").read_text(encoding="utf-8")
+
+
+def test_skill_defaults_to_information_rich_evidence_led_slides() -> None:
+    content = (SKILL_DIR / "SKILL.md").read_text(encoding="utf-8")
+    planning = (SKILL_DIR / "references" / "presentation-planning.md").read_text(
+        encoding="utf-8"
+    )
+    slide_design = (SKILL_DIR / "references" / "slide-design.md").read_text(
+        encoding="utf-8"
+    )
+    workflow = (SKILL_DIR / "references" / "workflow.md").read_text(encoding="utf-8")
+    visual_review = (SKILL_DIR / "references" / "visual-review.md").read_text(
+        encoding="utf-8"
+    )
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    interface_path = SKILL_DIR / "agents" / "openai.yaml"
+    interface = yaml.safe_load(interface_path.read_text(encoding="utf-8"))["interface"]
+
+    assert "information-rich content" in content
+    assert "Never invent numbers" in content
+    assert "information-rich core-content page" in content
+    assert "Content richness plan" in planning
+    assert "60–140 Chinese characters" in planning
+    assert "at least half" in planning
+    assert "Default content density" in slide_design
+    assert "Never invent values" in slide_design
+    assert "Supporting explanation or points" in workflow
+    assert "default text density" in workflow
+    assert "information-rich" in visual_review
+    assert "默认内容密度" in readme
+    assert "不得为了好看伪造" in readme
+    assert "information-rich" in interface["default_prompt"]

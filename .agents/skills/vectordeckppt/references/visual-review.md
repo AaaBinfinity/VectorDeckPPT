@@ -48,6 +48,7 @@ If the first impression does not match the planned slide purpose, fix hierarchy 
 
 - Titles have clear hierarchy and do not wrap unexpectedly.
 - Body text is readable in presentation mode.
+- Substantive slides contain enough explanatory copy to stand on their own without becoming paragraph walls.
 - Line spacing, alignment, and text-box width feel intentional.
 - Chinese and Latin font fallback looks coherent.
 - Copy is concise, audience-facing, and free of production notes.
@@ -72,12 +73,15 @@ If the first impression does not match the planned slide purpose, fix hierarchy 
 - Screenshots are readable at slide scale.
 - No low-resolution, distorted, or irrelevant visual remains.
 - Charts and diagrams support the slide's claim and use correct labels/units.
+- Quantitative charts use real source values and identify the relevant source or time period.
+- Core slides use meaningful charts, diagrams, comparisons, processes, tables, or annotations rather than decorative empty space.
 
 ### Overall quality
 
 - The slide communicates its primary claim in a few seconds.
 - The page is not merely “valid”; it has deliberate hierarchy and composition.
 - Decoration does not compete with information.
+- The page feels information-rich where the narrative calls for substance; it is not sparse merely to appear premium.
 - The slide fits the shared system without feeling like a repeated template.
 
 ## Aesthetic critique

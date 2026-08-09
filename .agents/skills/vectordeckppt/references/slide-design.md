@@ -3,17 +3,18 @@
 ## Contents
 
 1. General composition
-2. Composition selection
-3. Visual hierarchy
-4. Cover
-5. Two-column explanation
-6. Architecture and flow
-7. Timeline
-8. Data and evidence
-9. Image-led and typographic slides
-10. Summary and close
-11. Per-slide prompt
-12. Anti-patterns
+2. Default content density
+3. Composition selection
+4. Visual hierarchy
+5. Cover
+6. Two-column explanation
+7. Architecture and flow
+8. Timeline
+9. Data and evidence
+10. Image-led and typographic slides
+11. Summary and close
+12. Per-slide prompt
+13. Anti-patterns
 
 ## General composition
 
@@ -22,6 +23,19 @@ Give each slide one primary claim and one dominant visual hierarchy. Vary silhou
 Prefer a single composition over a dashboard of small cards. When a slide feels empty, strengthen the focal element or evidence rather than adding decorative widgets.
 
 Design the slide silhouette before refining components. At thumbnail size, the hierarchy should still be recognizable: one dominant mass, one supporting structure, and intentional negative space.
+
+## Default content density
+
+Make substantive slides feel researched and complete. Do not mistake luxury or minimalism for missing content.
+
+- Keep covers, section transitions, and occasional statement slides intentionally quiet.
+- Give ordinary explanation pages one clear claim, an explanatory passage or two to four supporting points, concrete evidence or an example, and labeled visual structure where useful.
+- Give evidence pages enough labels, units, source context, annotations, and interpretation for the audience to understand what the visual proves.
+- Across the core body, aim for meaningful visual evidence on at least half of non-cover and non-divider pages.
+- Prefer one substantial chart or diagram with annotations over a grid of tiny decorative widgets.
+- If useful content cannot fit at readable sizes, split the slide. Do not shrink body text below the design-system floor or hide detail in unreadable footnotes.
+
+Richness comes from explanatory depth and evidence, not from filling every gap. Maintain one dominant message and a clear three-beat reading order.
 
 ## Composition selection
 
@@ -98,8 +112,11 @@ If those answers differ from the slide's purpose, redesign the composition befor
 
 - Lead with the implication, not “Data Analysis.”
 - Show only values that support the claim and keep units/denominators explicit.
+- Show the source and time period when they affect interpretation.
+- Add concise annotations that explain the relevant pattern, exception, or comparison.
 - Use direct labels when practical; avoid remote legends and unnecessary 3D effects.
 - Do not fake a chart with decorative bars when the numbers need analytical accuracy.
+- Never invent values, categories, axes, proportions, or trends. If the source has no quantitative data, use a conceptual diagram or qualitative comparison instead of a statistical-looking chart.
 - For a small number of values, native SVG shapes and text are appropriate. Complex charts may remain an image or embedded SVG; disclose the editability tradeoff.
 - Give screenshots a clear crop, readable scale, and one explanatory annotation layer.
 
@@ -138,6 +155,7 @@ Use this internal prompt immediately before authoring each SVG:
 Slide role and transition:
 Audience takeaway in one sentence:
 Evidence that earns the takeaway:
+Supporting explanation or points:
 Best visual form and why:
 Dominant visual mass:
 Second and third hierarchy levels:
@@ -145,6 +163,7 @@ Reading order in three beats:
 Grid rails and intended asymmetry/symmetry:
 Typography behavior and critical line breaks:
 Image/data/diagram treatment:
+Labels, units, source, and annotations:
 Use of accent and semantic color:
 Negative-space shape:
 Editability or fallback implications:
