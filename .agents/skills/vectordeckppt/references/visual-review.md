@@ -3,10 +3,13 @@
 ## Contents
 
 1. Review loop
-2. Full-size checklist
-3. Deck-level review
-4. PPTX-specific review
-5. Acceptance ledger
+2. First-impression test
+3. Full-size checklist
+4. Aesthetic critique
+5. Deck-level review
+6. PPTX-specific review
+7. Review prompt
+8. Acceptance ledger
 
 ## Review loop
 
@@ -18,6 +21,18 @@ author SVG -> validate -> render PNG -> inspect -> revise
 ```
 
 Inspect the actual rendered image with an image-viewing tool. Do not review SVG source alone. Use a maximum of roughly three automatic revision passes as a planning guideline, not a hard-coded limit; stop only when the page is ready.
+
+## First-impression test
+
+Before zooming into details, inspect the slide at full-slide view for three to five seconds. Record:
+
+- the first element noticed;
+- the claim inferred without reading all body copy;
+- the next visual relationship the eye follows;
+- the emotional or professional tone;
+- whether the slide feels specific to this subject or generically templated.
+
+If the first impression does not match the planned slide purpose, fix hierarchy or composition before checking micro-spacing.
 
 ## Full-size checklist
 
@@ -65,6 +80,38 @@ Inspect the actual rendered image with an image-viewing tool. Do not review SVG 
 - Decoration does not compete with information.
 - The slide fits the shared system without feeling like a repeated template.
 
+## Aesthetic critique
+
+Evaluate the slide as a designed argument, not a collection of correct objects.
+
+### Subject fitness
+
+- Does the visual language fit the audience, setting, and evidence?
+- Could the same slide be dropped into an unrelated deck without meaningful change? If yes, it lacks specificity.
+- Do images, diagrams, and decorative forms have a communicative role?
+
+### Form and character
+
+- Is there one clear visual idea rather than several competing effects?
+- Does typography have intentional voice and line shape?
+- Is asymmetry, symmetry, overlap, or cropping used for a reason?
+- Does the slide avoid familiar presentation and generative-AI clichés?
+
+### Restraint and finish
+
+- Can any border, card, icon, line, label, or accent be removed?
+- Are details subordinate to the main idea?
+- Do optical alignment, edge tension, and negative-space shapes feel intentional?
+- Does the page remain strong without relying on shadows, gradients, or decoration?
+
+Use a simple internal score to focus revisions:
+
+```text
+clarity / hierarchy / subject fitness / character / restraint / craft
+```
+
+Score each from 1–5. Any score below 4 requires revision or an explicit, defensible exception. The score is a thinking aid, not a user-facing claim of objective quality.
+
 ## Deck-level review
 
 After individual pages pass, inspect a montage/contact sheet for:
@@ -89,6 +136,27 @@ The SVG preview and compiled PowerPoint can differ because of font metrics and a
 - run an overflow detector if available;
 - open the deck with `python-pptx` or PowerPoint to verify slide count and editable object types;
 - compare representative PPTX renders with their SVG previews.
+
+## Review prompt
+
+Use this internal critique prompt on every rendered slide:
+
+```text
+Review this slide as a presentation art director and skeptical audience member.
+
+1. State what the slide communicates in three seconds.
+2. Trace the reading order and identify any competing focal points.
+3. Judge whether the composition expresses the slide's actual relationship.
+4. Check typography voice, line breaks, scale, contrast, and projection readability.
+5. Check spacing, optical alignment, edge tension, balance, and negative space.
+6. Verify that color, imagery, geometry, and icons follow the visual thesis.
+7. Identify any generic template or generative-AI cliché.
+8. Separate factual/content problems from visual-design problems.
+9. Name the highest-impact revision and remove unnecessary decoration.
+10. Recheck SVG/PPTX fidelity and editability after revision.
+```
+
+For deck-level review, compare the montage against the intended emotional trajectory and density plan. A consistent deck should not be visually monotonous; a varied deck should not feel like several unrelated templates.
 
 ## Acceptance ledger
 

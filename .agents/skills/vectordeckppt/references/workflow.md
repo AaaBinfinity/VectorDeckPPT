@@ -4,10 +4,11 @@
 
 1. Working contract
 2. Phase inputs and outputs
-3. File layout
-4. Deterministic commands
-5. Recovery rules
-6. Delivery gate
+3. Working prompts and artifacts
+4. File layout
+5. Deterministic commands
+6. Recovery rules
+7. Delivery gate
 
 ## Working contract
 
@@ -50,7 +51,7 @@ Output: ordered slide plan.
 
 Choose one coherent visual idea. Lock canvas, background character, colors, typography, spacing, shape language, imagery treatment, icon treatment, and density before drawing slide 1. Read `design-system.md`.
 
-Output: shared design tokens and composition rules.
+Output: visual thesis, art-direction brief, shared design tokens, and composition rules.
 
 ### 5. Design each slide
 
@@ -69,6 +70,30 @@ Output: validated SVG and reviewed PNG preview.
 Compile all final SVGs in natural filename order. Inspect the JSON report. Run PPTX validation and, when available, render the PPTX itself to catch font and baseline differences between SVG and PowerPoint.
 
 Output: editable `.pptx`, compilation report, and validated source slides.
+
+## Working prompts and artifacts
+
+Keep a small internal chain of decisions. It may live in reasoning or a task-local file; it does not need to be delivered unless useful.
+
+```text
+communication job
+-> evidence inventory
+-> narrative plan
+-> art-direction brief
+-> design-system contract
+-> per-slide design brief
+-> visual acceptance ledger
+```
+
+Use the prompts in the references at the stage where they create leverage:
+
+- `presentation-planning.md`: turn sources into an audience-centered storyline;
+- `art-direction.md`: create a specific visual thesis and aesthetic direction;
+- `design-system.md`: translate that direction into reusable visual behavior;
+- `slide-design.md`: select a composition from the content relationship;
+- `visual-review.md`: critique rendered output rather than validating intention.
+
+Do not expose internal planning labels, prompt text, confidence notes, or production instructions on audience-facing slides. Convert them into clear claims and visuals.
 
 ## File layout
 

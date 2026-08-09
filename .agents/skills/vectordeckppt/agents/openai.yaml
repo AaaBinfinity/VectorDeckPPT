@@ -1,4 +1,4 @@
 interface:
   display_name: "VectorDeckPPT"
   short_description: "Create editable vector-first PowerPoint presentations"
-  default_prompt: "Use $vectordeckppt to create a polished, editable PowerPoint presentation from my source material."
+  default_prompt: "Use $vectordeckppt to turn my source material into a narrative-led, art-directed, visually distinctive, editable PowerPoint and validate the final PPTX."
