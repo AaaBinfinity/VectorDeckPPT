@@ -44,7 +44,108 @@ python -m pip install -r requirements.txt
 
 如果创建了虚拟环境，请先激活它，或将上面的 `python` 替换为 `.venv` 中的 Python 可执行文件。`requirements.txt` 从 `uv.lock` 导出，包含运行、测试与 lint 所需的锁定依赖，因此不安装 `uv` 也能使用项目。
 
-在支持仓库 Skill 自动发现的 Agent 中打开本仓库，或将 `.agents/skills/vectordeckppt` 复制/链接到 Agent 的 Skill 目录。随后可直接请求：
+## 使用 Skill
+
+### 1. 让 Agent 发现 VectorDeckPPT
+
+在 Codex 中打开本仓库时，仓库级 Skill 位于：
+
+```text
+.agents/skills/vectordeckppt/
+```
+
+Codex 可以在当前仓库中发现它。若希望在其他项目中也能使用，可以将整个 `vectordeckppt` 目录复制或链接到个人 Skill 目录：
+
+```text
+$CODEX_HOME/skills/vectordeckppt/
+```
+
+未设置 `CODEX_HOME` 时，通常使用：
+
+```text
+~/.codex/skills/vectordeckppt/
+```
+
+不要只复制 `SKILL.md`；`references/`、`scripts/` 和 `assets/` 都是完整工作流的一部分。
+
+### 2. 在请求中调用 Skill
+
+最稳定的调用方式是在请求开头显式写出 `$vectordeckppt`：
+
+```text
+使用 $vectordeckppt 根据这份 Markdown 制作一套 10 页中文项目汇报 PPT。
+```
+
+也可以直接提出“制作 PPT、重新设计 PowerPoint、生成答辩演示文稿”等请求，让 Agent 根据 Skill 描述自动触发；如果需要确保使用本项目的向量工作流，建议始终显式写 `$vectordeckppt`。
+
+### 3. 提供输入资料
+
+可以在请求中附加文件，或给出 Agent 能访问的本地路径。支持作为内容来源的资料包括：
+
+- Markdown、TXT 和已有文案；
+- PDF、DOCX 和现有 PPTX；
+- CSV、Excel、表格与数据摘要；
+- 图片、截图、Logo 和品牌素材；
+- PRD、研究报告、技术文档及多份混合资料。
+
+同时说明哪些内容属于不可改写的事实、哪些数字必须保留、哪些图片可以使用，以及是否有品牌字体、颜色或保密限制。Agent 会先读取资料，再规划演示文稿，不应在未理解来源时直接绘制页面。
+
+### 4. 推荐请求模板
+
+```text
+使用 $vectordeckppt 根据【资料或文件路径】制作一套【页数】页的【语言】PPT。
+
+受众与场景：
+沟通目标：
+必须保留的事实或数据：
+希望采用的视觉性格：
+不要出现的视觉风格：
+品牌与素材约束：
+可编辑性要求：
+最终交付目录：
+
+请先提炼叙事和视觉方向，再逐页生成 SVG、校验、渲染和视觉复审，
+最后编译并验证 PPTX，同时保留源 SVG 和 compilation-report.json。
+```
+
+其中只有资料和核心目标是必需的；页数、视觉方向等非关键信息缺失时，Skill 会采用合理默认值继续工作。
+
+### 5. Skill 会执行什么
+
+一次完整任务通常包含：
+
+1. 阅读资料并提取结论、证据、数据和可用素材；
+2. 定义受众目标、故事线、章节及每页的核心信息；
+3. 建立统一的艺术方向、字体、色彩、网格和图像规则；
+4. 为每页创作一份完整 SVG，并逐页校验、渲染和视觉复审；
+5. 将文本、基础图形和图片尽可能编译为 PowerPoint 原生对象；
+6. 验证最终 PPTX，并报告影响编辑能力的 SVG 降级元素。
+
+### 6. 典型交付内容
+
+建议让 Agent 使用独立任务目录，例如：
+
+```text
+deck-work/
+  slides/
+    slide_01.svg
+    slide_02.svg
+  assets/
+  preview/
+    slide_01.png
+    slide_02.png
+  compilation-report.json
+  final.pptx
+```
+
+- `final.pptx`：最终演示文稿；
+- `slides/`：每页的视觉源文件，也是后续修改入口；
+- `preview/`：用于逐页视觉复审的 PNG；
+- `compilation-report.json`：原生对象、SVG 降级和失败元素统计。
+
+当报告中的 `embedded_svg` 大于 `0` 时，相关对象只能进行整体编辑，内部路径不一定是 PowerPoint 原生对象；`failed` 必须为 `0` 才能交付。
+
+### 7. 快速开始示例
 
 ```text
 使用 $vectordeckppt 根据这份 Markdown 制作一套 10 页中文项目汇报 PPT。
@@ -52,6 +153,8 @@ python -m pip install -r requirements.txt
 克制、精确、编辑感强的视觉方向；不要使用通用蓝紫渐变、三卡片模板或无意义图标。
 所有页面逐页渲染复审，最终交付可编辑 PPTX、源 SVG 和编译报告。
 ```
+
+如果只需要重新编译已经完成的 SVG，可以直接使用后文的命令行工具；命令行工具不会替代 Agent 的内容规划、艺术指导和视觉复审。
 
 ## 如何写出更好的请求
 
