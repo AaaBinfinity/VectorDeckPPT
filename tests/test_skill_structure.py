@@ -178,6 +178,11 @@ def test_skill_locks_typography_roles_and_runs_deck_audit() -> None:
     )
     workflow = (SKILL_DIR / "references" / "workflow.md").read_text(encoding="utf-8")
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    docs_index = (ROOT / "doc" / "README.md").read_text(encoding="utf-8")
+    prompts = (ROOT / "doc" / "prompt-examples.md").read_text(encoding="utf-8")
+    troubleshooting = (SKILL_DIR / "references" / "troubleshooting.md").read_text(
+        encoding="utf-8"
+    )
 
     assert "one exact `slide-title` token across the deck" in content
     assert "data-role" in content
@@ -188,6 +193,15 @@ def test_skill_locks_typography_roles_and_runs_deck_audit() -> None:
     assert "inconsistent_peer_size" in visual_review
     assert "audit_typography.py" in workflow
     assert "所有普通页面标题使用同一个精确字号" in readme
+    assert "八套内置视觉语法" in docs_index
+    assert "字体审计脚本" in docs_index
+    assert "同页同级模块标题必须完全一致" in prompts
+    assert "Typography audit fails" in troubleshooting
+    assert "missing_text_role" in troubleshooting
+    assert "inconsistent_peer_size" in troubleshooting
+    assert "inconsistent_deck_size" in troubleshooting
+    assert "inconsistent_deck_title_family" in troubleshooting
+    assert "inconsistent_deck_title_weight" in troubleshooting
 
 
 def test_v11_documentation_matches_compiler_and_delivery_contract() -> None:

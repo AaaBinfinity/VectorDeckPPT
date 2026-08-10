@@ -64,6 +64,21 @@ Use `Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif` and render the 
 
 Use explicit `x` and either `y` or `dy`. Avoid complex nested tspans, baseline-shift, browser wrapping, or percentage font sizes.
 
+### Typography audit fails
+
+Run the strict deck audit and read its JSON diagnostics before compiling:
+
+```bash
+python "<SKILL_ROOT>/scripts/audit_typography.py" "<DECK_ROOT>/slides/" --strict --json
+```
+
+- `missing_text_role`: add a supported semantic `data-role` to every visible `<text>` element. Use the role that matches meaning, not the nearest-looking size.
+- `inconsistent_peer_size`: elements with the same role on one slide use different sizes. Apply the same exact role token to all peers.
+- `inconsistent_deck_size`: a recurring deck role, especially `slide-title`, differs between slides. Restore the shared deck token.
+- `inconsistent_deck_title_family` or `inconsistent_deck_title_weight`: ordinary slide titles use different font families or weights. Restore the shared title family and weight.
+
+Do not fix these failures by shrinking only the overflowing text box. Shorten the copy, introduce an intentional line break, widen the composition, or change the layout while keeping the locked role token.
+
 ## Images
 
 ### Image file not found

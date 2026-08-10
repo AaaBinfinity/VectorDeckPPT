@@ -19,6 +19,7 @@ All notable changes to VectorDeckPPT are documented in this file.
 
 - Redesigned the README as a visual product overview with real generated slide previews, quick navigation, capability boundaries, and a shorter getting-started path.
 - Added a documentation index and moved reusable request templates into a dedicated prompt examples guide.
+- Synchronized the PRD, documentation index, prompt examples, and troubleshooting guide with the eight-template library, information-rich content contract, and strict typography audit.
 
 ## [1.1.0] - 2026-08-09
 
