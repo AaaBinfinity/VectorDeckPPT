@@ -10,7 +10,7 @@
 
 ## Purpose and rules
 
-Use the five bundled PNGs as art-direction references for deck-level visual systems. Each image is a 16:9 contact sheet showing four coordinated slide silhouettes: opening, explanation or process, evidence, and synthesis.
+Use the eight bundled PNGs as art-direction references for deck-level visual systems. Each image is a 16:9 contact sheet showing four coordinated, information-rich slide silhouettes: opening, explanation or process, evidence, and synthesis. Matching SVG sources sit beside the PNGs so the Agent can inspect exact typography roles, spacing, geometry, and content hierarchy.
 
 The images are not finished slides and are not source material. Never paste a contact sheet into a presentation, trace its placeholder text, or use it as a full-slide background. Inspect the chosen asset with `view_image`, identify the design behavior that serves the user's content, then rebuild the deck as editable structured SVG.
 
@@ -20,6 +20,8 @@ Apply these rules:
 - Use one primary family across a deck. Add at most one secondary family when it has a named role.
 - Replace every placeholder image, number, diagram, and label with sourced project content.
 - Preserve the chosen family's hierarchy, grid logic, typography voice, color behavior, image treatment, and pacing without cloning every pictured layout.
+- Treat the template typography as a role system. Define exact deck tokens before authoring; do not copy a size range or introduce one-off sizes.
+- Treat all pictured metrics as clearly labeled illustrative data. Replace them with sourced user content rather than carrying sample values into a deck.
 - Let content produce varied slide silhouettes. A template family is a grammar, not a repeated page shell.
 - Keep the supported SVG/PPTX subset in mind. Recreate complex texture and photography as local `<image>` assets; rebuild structural elements with native text and basic shapes.
 
@@ -27,7 +29,7 @@ Apply these rules:
 
 1. State the audience outcome, presentation type, evidence class, and desired emotional tone.
 2. Select the family whose visual behavior best supports those requirements.
-3. Open its PNG from `../assets/style-templates/` with `view_image` and inspect it at full size.
+3. Open its PNG from `../assets/style-templates/` with `view_image` and inspect it at full size. Read the matching SVG only when exact geometry or typography roles are needed.
 4. Record the reusable behaviors and the details that must not be copied literally.
 5. Translate the selection into a compact design-system contract before authoring slide 1.
 6. Re-check the actual SVG and PPTX renders; matching a reference does not excuse weak readability or editability.
@@ -48,6 +50,7 @@ Three clichés to avoid:
 ### Bright Tech Systems
 
 Asset: `../assets/style-templates/bright-tech-systems.png`
+Source: `../assets/style-templates/bright-tech-systems.svg`
 
 Use for product introductions, enterprise transformation, AI-assisted workflows, industrial programs, capability explanations, and process-heavy presentations that need clarity and momentum.
 
@@ -61,6 +64,7 @@ Use for product introductions, enterprise transformation, AI-assisted workflows,
 ### Editorial Intelligence
 
 Asset: `../assets/style-templates/editorial-intelligence.png`
+Source: `../assets/style-templates/editorial-intelligence.svg`
 
 Use for strategy, research, consulting, thought leadership, institutional narratives, executive arguments, and source-heavy presentations.
 
@@ -74,6 +78,7 @@ Use for strategy, research, consulting, thought leadership, institutional narrat
 ### Dark Engineered Systems
 
 Asset: `../assets/style-templates/dark-engineered-systems.png`
+Source: `../assets/style-templates/dark-engineered-systems.svg`
 
 Use for system architecture, infrastructure, security, operations, engineering programs, technical due diligence, and risk reviews.
 
@@ -87,6 +92,7 @@ Use for system architecture, infrastructure, security, operations, engineering p
 ### Human Documentary
 
 Asset: `../assets/style-templates/human-documentary.png`
+Source: `../assets/style-templates/human-documentary.svg`
 
 Use for education, healthcare, culture, customer stories, social impact, field research, community programs, and any narrative where lived experience is evidence.
 
@@ -100,6 +106,7 @@ Use for education, healthcare, culture, customer stories, social impact, field r
 ### Expressive Cultural
 
 Asset: `../assets/style-templates/expressive-cultural.png`
+Source: `../assets/style-templates/expressive-cultural.svg`
 
 Use for brand launches, cultural programs, events, creative work, media, fashion, campaigns, and youth-facing narratives that permit a stronger personality.
 
@@ -109,6 +116,48 @@ Use for brand launches, cultural programs, events, creative work, media, fashion
 - Composition: hard-edged color fields, controlled collage, diagonals, poster symbols, rhythmic sequences, and one deliberate visual break.
 - Pacing: arresting opening, manifesto, energetic progression, memorable closing return.
 - Avoid: random scrapbook collage, illegible type, trend imitation, unrelated photography, too many competing accents, and visual energy without a clear claim.
+
+### Data-Forward Clarity
+
+Asset: `../assets/style-templates/data-forward-clarity.png`
+Source: `../assets/style-templates/data-forward-clarity.svg`
+
+Use for operating reviews, KPI readouts, analytics narratives, scientific evidence, finance, growth reviews, and any presentation in which comparison and interpretation must remain visible together.
+
+- Visual thesis: analytical, direct, calm, and decision-oriented.
+- Palette: cool white, deep teal, slate, cobalt comparison marks, semantic green, and restrained amber.
+- Typography: one exact sans-serif title token, large directly labeled metrics, compact annotations, and quiet source lines.
+- Composition: conclusion-first titles, direct labels, shared baselines, trend fields, driver tables, annotated exceptions, and implication rails.
+- Pacing: headline signal, driver explanation, evidence detail, operating decision.
+- Avoid: dashboard walls, remote legends, decorative charts, unexplained deltas, mismatched scales, and unsourced numbers.
+
+### Premium Restraint
+
+Asset: `../assets/style-templates/premium-restraint.png`
+Source: `../assets/style-templates/premium-restraint.svg`
+
+Use for executive recommendations, portfolio strategy, board materials, premium product narratives, investment theses, and concise high-stakes decisions.
+
+- Visual thesis: assured, selective, composed, and consequential.
+- Palette: deep olive-charcoal, warm ivory, muted sage, and scarce brass-gold emphasis.
+- Typography: editorial display title, disciplined sans-serif evidence, large numerals, and generous line spacing.
+- Composition: few but substantial regions, deliberate negative space, thin rules, selective evidence blocks, and one decisive action rail.
+- Pacing: proposition, essential mechanism, decisive proof, prioritized resolution.
+- Avoid: black-and-gold luxury clichés, empty minimalism, ornamental serif use, tiny evidence, and vague executive slogans.
+
+### Product Storytelling
+
+Asset: `../assets/style-templates/product-storytelling.png`
+Source: `../assets/style-templates/product-storytelling.svg`
+
+Use for product launches, feature narratives, onboarding, customer enablement, roadmap communication, solution demonstrations, and adoption plans.
+
+- Visual thesis: clear, approachable, useful, and momentum-building.
+- Palette: soft neutral field, deep green, white surfaces, coral emphasis, semantic green, and amber.
+- Typography: concise fixed-size claims, consistent peer headings, outcome metrics, and compact explanatory copy.
+- Composition: problem-to-product sequence, product frames, workflow stages, before/after comparison, proof, rollout, and ownership.
+- Pacing: user friction, product promise, experience, evidence, adoption action.
+- Avoid: feature grids without narrative, fake interface chrome, generic product screenshots, excessive rounded cards, and benefits without proof.
 
 ## Hybridization rules
 
@@ -132,6 +181,7 @@ field and surface behavior
 primary and semantic color roles
 title rail and recurring page furniture
 typography sizes, weights, and line-break policy
+exact deck-wide role tokens and same-page peer-heading rules
 grid, margins, dominant content widths, and asymmetry
 shape, border, radius, connector, and icon grammar
 photography or illustration crop and annotation treatment

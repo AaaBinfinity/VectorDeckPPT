@@ -186,9 +186,9 @@ Default to substantive pages rather than sparse poster layouts. Except for cover
 - at least one concrete detail such as a metric, example, mechanism, tradeoff, quotation, source, or annotated observation;
 - one meaningful visual structure when the content supports it: chart, table, process, architecture, comparison, timeline, matrix, annotated screenshot, or evidence image.
 
-Across the core body, aim for at least half of non-cover and non-divider slides to use a chart, diagram, table, timeline, process, comparison, matrix, or annotated image as explanatory evidence. Do not count decorative icons, generic cards, or unlabeled shapes.
+Across the core body, aim for roughly two thirds of non-cover and non-divider slides to use a chart, diagram, table, timeline, process, comparison, matrix, or annotated image as explanatory evidence when the sources permit it. Do not count decorative icons, generic cards, or unlabeled shapes.
 
-As a starting density, a normal substantive slide often carries about 60–140 Chinese characters or 40–90 English words of audience-facing copy, excluding the title, source line, and chart labels. Evidence-heavy pages may carry more when the copy is divided into readable regions. Split the argument across slides before shrinking body text or creating a paragraph wall.
+As a starting density, a normal substantive slide often carries about 80–180 Chinese characters or 50–110 English words of audience-facing copy, excluding the title, source line, and chart labels. The content should normally cover four layers: claim, explanation, concrete evidence or example, and implication or action. Evidence-heavy pages may carry more when copy is divided into readable regions. Split the argument across slides before shrinking locked typography or creating a paragraph wall.
 
 Use quantitative charts only when real values, units, categories, and sources exist. Never fabricate a trend or percentage to fill space. Without numeric data, use an honest conceptual diagram or qualitative comparison and label it as such.
 
@@ -238,7 +238,7 @@ Ask the user to approve or revise the entire sequence. Do not create SVGs or vis
 - Is the opening relevant to the audience and the close a real resolution?
 - Are data, diagrams, screenshots, and images assigned a specific explanatory role?
 - Do most substantive pages contain useful supporting detail rather than only a title and three short labels?
-- Does at least half of the core body use meaningful visual evidence when sources permit it?
+- Do roughly two thirds of the core body use meaningful visual evidence when sources permit it?
 - Are all quantitative charts grounded in real values, units, categories, and sources?
 - Can any slide be removed without harming the narrative? If yes, remove or merge it.
 - Does the planned density fit the requested delivery time and readable type sizes?

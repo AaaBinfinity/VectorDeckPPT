@@ -3,6 +3,7 @@ from pathlib import Path
 
 import pytest
 import yaml
+from lib.typography_audit import audit_typography
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILL_DIR = ROOT / ".agents" / "skills" / "vectordeckppt"
@@ -20,10 +21,13 @@ REFERENCES = {
 }
 STYLE_TEMPLATES = {
     "bright-tech-systems.png",
+    "data-forward-clarity.png",
     "dark-engineered-systems.png",
     "editorial-intelligence.png",
     "expressive-cultural.png",
     "human-documentary.png",
+    "premium-restraint.png",
+    "product-storytelling.png",
 }
 
 
@@ -62,6 +66,9 @@ def test_style_template_library_is_complete_and_widescreen() -> None:
 
     assert "style-templates.md" in content
     assert {path.name for path in asset_dir.glob("*.png")} == STYLE_TEMPLATES
+    assert {path.name for path in asset_dir.glob("*.svg")} == {
+        Path(name).with_suffix(".svg").name for name in STYLE_TEMPLATES
+    }
 
     for name in STYLE_TEMPLATES:
         path = asset_dir / name
@@ -72,6 +79,15 @@ def test_style_template_library_is_complete_and_widescreen() -> None:
         assert height >= 900
         assert width / height == pytest.approx(16 / 9, rel=0.01)
         assert f"../assets/style-templates/{name}" in reference
+        source_name = Path(name).with_suffix(".svg").name
+        source = asset_dir / source_name
+        source_text = source.read_text(encoding="utf-8")
+        assert source.stat().st_size > 10_000
+        assert 'data-role="slide-title"' in source_text
+        assert 'data-role="subheading"' in source_text
+        assert "ILLUSTRATIVE TEMPLATE" in source_text
+        assert f"../assets/style-templates/{source_name}" in reference
+        assert audit_typography(source, strict=True).valid
 
 
 def test_skill_enforces_clarification_and_staged_approval() -> None:
@@ -137,8 +153,8 @@ def test_skill_defaults_to_information_rich_evidence_led_slides() -> None:
     assert "Never invent numbers" in content
     assert "information-rich core-content page" in content
     assert "Content richness plan" in planning
-    assert "60–140 Chinese characters" in planning
-    assert "at least half" in planning
+    assert "80–180 Chinese characters" in planning
+    assert "roughly two thirds" in planning
     assert "Default content density" in slide_design
     assert "Never invent values" in slide_design
     assert "Supporting explanation or points" in workflow
@@ -147,6 +163,31 @@ def test_skill_defaults_to_information_rich_evidence_led_slides() -> None:
     assert "默认内容密度" in readme
     assert "不得为了好看伪造" in readme
     assert "information-rich" in interface["default_prompt"]
+
+
+def test_skill_locks_typography_roles_and_runs_deck_audit() -> None:
+    content = (SKILL_DIR / "SKILL.md").read_text(encoding="utf-8")
+    design = (SKILL_DIR / "references" / "design-system.md").read_text(
+        encoding="utf-8"
+    )
+    slide_design = (SKILL_DIR / "references" / "slide-design.md").read_text(
+        encoding="utf-8"
+    )
+    visual_review = (SKILL_DIR / "references" / "visual-review.md").read_text(
+        encoding="utf-8"
+    )
+    workflow = (SKILL_DIR / "references" / "workflow.md").read_text(encoding="utf-8")
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+
+    assert "one exact `slide-title` token across the deck" in content
+    assert "data-role" in content
+    assert "audit_typography.py" in content
+    assert "One exact `slide-title` token" in design
+    assert "All peer headings" in design
+    assert "locked typography role" in slide_design
+    assert "inconsistent_peer_size" in visual_review
+    assert "audit_typography.py" in workflow
+    assert "所有普通页面标题使用同一个精确字号" in readme
 
 
 def test_v11_documentation_matches_compiler_and_delivery_contract() -> None:

@@ -69,6 +69,8 @@ Example:
 
 Keep user-facing text as text. Do not convert Chinese or Latin text to paths by default.
 
+Give every visible `<text>` element a semantic `data-role`. Supported role names are `deck-title`, `slide-title`, `section-title`, `subheading`, `body`, `label`, `metric`, `caption`, `source`, `quote`, `annotation`, and `page-number`. The attribute does not change rendering or compilation; it enables the strict deck typography audit to verify that recurring roles and same-page peers use exact shared tokens.
+
 Supported properties:
 
 - `x`, `y` (SVG alphabetic baseline);
@@ -83,6 +85,7 @@ Use an explicit font stack:
 
 ```svg
 <text x="96" y="128"
+      data-role="slide-title"
       font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif"
       font-size="52" font-weight="700" fill="#0F172A">系统整体架构</text>
 ```
@@ -92,7 +95,7 @@ The compiler estimates the PowerPoint textbox from the SVG baseline and text anc
 For multiple lines, use explicit tspans:
 
 ```svg
-<text x="96" y="300" font-size="26" fill="#475569">
+<text data-role="body" x="96" y="300" font-size="26" fill="#475569">
   <tspan x="96" y="300">第一行</tspan>
   <tspan x="96" dy="42">第二行</tspan>
 </text>
@@ -156,6 +159,7 @@ The validator rejects unsafe or unsupported constructs rather than silently acce
 - Root has explicit `1600×900` dimensions and matching `viewBox`.
 - One SVG contains the complete slide in final z-order.
 - All audience text remains `<text>`/`<tspan>`.
+- Every visible `<text>` has a supported `data-role`, and repeated roles use the locked deck token.
 - Important native editability uses text/rect/circle/ellipse/line/image.
 - Group transforms are simple and intentional.
 - Images are local/embedded and preserve aspect ratio.

@@ -87,7 +87,7 @@ Output: explicitly approved text-only slide content.
 
 ### 4. Set art direction and create representative visual samples
 
-After text approval, choose one coherent visual idea. Lock canvas, background character, colors, typography, spacing, shape language, imagery treatment, icon treatment, and density. Read `design-system.md`.
+After text approval, choose one coherent visual idea. Lock canvas, background character, colors, typography, spacing, shape language, imagery treatment, icon treatment, and density. Read `design-system.md`. Convert all typography ranges into an exact role ledger before drawing: every ordinary slide title uses one exact deck token, and every same-level peer on a page uses one exact token.
 
 Set `sample_count = min(3, final_slide_count)`. Prefer the opening, a representative information-rich core-content page, and the most visually demanding evidence, data, or diagram page when those are distinct. For a narrative-only deck, select the most complex content relationship, image-led page, or closing page instead of inventing a chart. When sources permit it, the sample set must demonstrate both the default text density and at least one meaningful chart or diagram. Explain the selection, author only those SVGs in `DECK_ROOT/sample/slides/`, render them to `DECK_ROOT/sample/preview/`, inspect them, and ask the user to approve or revise the direction. Iterate only on the sample set until approval.
 
@@ -95,13 +95,13 @@ Output: explicitly approved visual thesis, design system, and representative sam
 
 ### 5. Design the complete deck
 
-Only after text and visual approval, state each remaining slide's purpose, primary claim, hierarchy, visual structure, and required assets. Author final `slide_NN.svg` files under `DECK_ROOT/slides/` using `svg-authoring.md`. Promote or recreate the approved sample pages in this final directory. Keep audience-facing copy in the SVG; do not expose planning notes.
+Only after text and visual approval, state each remaining slide's purpose, primary claim, hierarchy, visual structure, and required assets. Author final `slide_NN.svg` files under `DECK_ROOT/slides/` using `svg-authoring.md`. Promote or recreate the approved sample pages in this final directory. Assign every visible `<text>` element a `data-role` from the shared typography contract. Keep audience-facing copy in the SVG; do not expose planning notes.
 
 Output: a complete set of structured SVGs.
 
 ### 6. Validate, render, review, revise
 
-Run validation immediately after authoring. Resolve every error. Render the page, inspect the PNG at full size, and apply `visual-review.md`. Repeat until the page is both correct and visually presentation-ready.
+Run validation immediately after authoring. Resolve every error. After the complete slide set exists, run the strict typography audit and resolve every missing role or inconsistent token. Render the page, inspect the PNG at full size, and apply `visual-review.md`. Repeat until the page is both correct and visually presentation-ready.
 
 Output: validated SVGs and reviewed PNG previews under `DECK_ROOT/preview/`.
 
@@ -179,6 +179,8 @@ python "<SKILL_ROOT>/scripts/render_svg.py" "<DECK_ROOT>/sample/slides/" --outpu
 # After visual approval, build and validate the complete deck.
 python "<SKILL_ROOT>/scripts/validate_svg.py" "<DECK_ROOT>/slides/slide_01.svg" --json
 
+python "<SKILL_ROOT>/scripts/audit_typography.py" "<DECK_ROOT>/slides/" --strict --json
+
 python "<SKILL_ROOT>/scripts/render_svg.py" "<DECK_ROOT>/slides/" --output-dir "<DECK_ROOT>/preview/"
 
 python "<SKILL_ROOT>/scripts/compile_pptx.py" "<DECK_ROOT>/slides/" \
@@ -210,6 +212,7 @@ Deliver only when:
 - the user explicitly approved the complete text-only slide draft;
 - the user explicitly approved the representative visual sample;
 - every source SVG validates;
+- the strict typography audit passes, every visible text has a role, ordinary slide titles share one exact token, and page-level peers match;
 - every PNG preview was inspected at full size;
 - every slide follows the shared design system;
 - compilation reports `failed: 0`;

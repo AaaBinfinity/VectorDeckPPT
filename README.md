@@ -83,9 +83,9 @@ VectorDeckPPT 是面向 AI Agent 的向量优先 PowerPoint 生成 Skill。宿�
   <a href="examples/project-intro-deck/compilation-report.json">查看编译报告</a>
 </p>
 
-### 五套内置视觉方向
+### 八套内置视觉方向
 
-这些图片是供 Agent 提取视觉语法的参考，不是固定页壳或整页背景。Agent 会根据真实内容重新建立字体、空间、色彩、图像和构图规则。
+每套模板都展示封面、流程、证据和决策综合四类信息丰富页面，并提供同名 SVG 源文件。它们用于帮助 Agent 提取视觉语法，不是固定页壳或整页背景。Agent 会根据真实内容重新建立字体、空间、色彩、图像和构图规则，并把标题、同级标题、正文、标签等角色锁定为整套一致的字号。
 
 <table>
   <tr>
@@ -126,15 +126,38 @@ VectorDeckPPT 是面向 AI Agent 的向量优先 PowerPoint 生成 Skill。宿�
       <br><strong>Expressive Cultural</strong>
       <br><sub>发布会 · 创意提案 · 文化与消费品牌</sub>
     </td>
+    <td width="33%" align="center">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/data-forward-clarity.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/data-forward-clarity.png" alt="数据驱动清晰表达视觉方向">
+      </a>
+      <br><strong>Data-Forward Clarity</strong>
+      <br><sub>经营复盘 · KPI 汇报 · 数据分析</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/premium-restraint.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/premium-restraint.png" alt="高管克制视觉方向">
+      </a>
+      <br><strong>Premium Restraint</strong>
+      <br><sub>高管建议 · 董事会 · 组合策略</sub>
+    </td>
+    <td width="33%" align="center">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/product-storytelling.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/product-storytelling.png" alt="产品叙事视觉方向">
+      </a>
+      <br><strong>Product Storytelling</strong>
+      <br><sub>产品发布 · 功能叙事 · 用户采用</sub>
+    </td>
     <td width="33%" valign="middle">
       <strong>模板负责启发，不负责替代判断。</strong>
       <br><br>
-      Agent 必须根据受众、目标、证据和叙事角色重新设计页面，不得为了套模板伪造图表、百分比或事实。
+      示例数字只用于展示信息层级，必须替换成真实来源。每套 PNG 旁都保留可检查的 SVG 源文件，便于复用字体角色、栅格和几何关系。
     </td>
   </tr>
 </table>
 
-完整视觉规则见 [style-templates.md](.agents/skills/vectordeckppt/references/style-templates.md)。
+浏览[完整模板目录](.agents/skills/vectordeckppt/assets/style-templates/)或阅读[视觉方向规则](.agents/skills/vectordeckppt/references/style-templates.md)。
 
 <a id="quick-start"></a>
 
@@ -212,7 +235,9 @@ $CODEX_HOME/skills/vectordeckppt/
 | 4. 逐页 SVG | 完成所有页面，逐页校验、渲染和视觉复审 | 问题回到 SVG 源文件修订 |
 | 5. 编译交付 | 生成原生优先的 PPTX、编译报告并验证包结构 | `failed` 必须为 `0` |
 
-**默认内容密度：**普通内容页包含明确结论、解释、证据和真正承担说明作用的图表或图解。没有真实数据时使用流程、矩阵、定性对比或概念图；不得为了好看伪造数字、百分比或趋势。
+**默认内容密度：**普通内容页通常同时包含明确结论、解释、具体证据或例子，以及影响/行动；约三分之二的核心内容页应在资料允许时使用真正承担说明作用的图表、图解、表格、流程、矩阵或标注图。没有真实数据时使用诚实的概念结构；不得为了好看伪造数字、百分比或趋势。
+
+**字体一致性：**设计样稿前先锁定整套字体角色。所有普通页面标题使用同一个精确字号、字体和字重，同一页的同级标题与标签也必须完全一致；最终 SVG 通过严格 typography audit 后才能编译。
 
 ## 交付物
 
@@ -259,6 +284,9 @@ pptoutput/
 ```bash
 # 校验 SVG
 uv run python .agents/skills/vectordeckppt/scripts/validate_svg.py slide.svg
+
+# 检查整套标题与同级文字字号是否一致
+uv run python .agents/skills/vectordeckppt/scripts/audit_typography.py slides/ --strict --json
 
 # 渲染单页或整个目录
 uv run python .agents/skills/vectordeckppt/scripts/render_svg.py slide.svg

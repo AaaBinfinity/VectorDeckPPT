@@ -46,12 +46,15 @@ If the first impression does not match the planned slide purpose, fix hierarchy 
 
 ### Typography
 
+- Every ordinary slide title matches the deck's exact `slide-title` size, family, weight, and line-height.
+- All same-level headings and labels on the page use identical typography tokens.
 - Titles have clear hierarchy and do not wrap unexpectedly.
 - Body text is readable in presentation mode.
 - Substantive slides contain enough explanatory copy to stand on their own without becoming paragraph walls.
 - Line spacing, alignment, and text-box width feel intentional.
 - Chinese and Latin font fallback looks coherent.
 - Copy is concise, audience-facing, and free of production notes.
+- No one-off near-size was introduced to make a single textbox fit.
 
 ### Spacing and geometry
 
@@ -121,6 +124,7 @@ Score each from 1–5. Any score below 4 requires revision or an explicit, defen
 After individual pages pass, inspect a montage/contact sheet for:
 
 - coherent palette, typography, margins, and footer treatment;
+- an exact deck-wide title token and exact peer-heading tokens within every slide;
 - varied but related slide silhouettes;
 - narrative pacing and density changes;
 - section transitions;
@@ -128,6 +132,8 @@ After individual pages pass, inspect a montage/contact sheet for:
 - a deliberate opening and resolved close.
 
 Then inspect every slide individually again. A montage is not enough for text and crop QA.
+
+Run the strict typography audit on the final slide directory. Any `missing_text_role`, `inconsistent_peer_size`, or `inconsistent_deck_size` result requires revision before compilation.
 
 ## PPTX-specific review
 

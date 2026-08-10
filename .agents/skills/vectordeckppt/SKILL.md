@@ -32,19 +32,25 @@ Do not assume the Skill is installed under the current project's `.agents/` dire
 1. Set the task output root to `DECK_ROOT`. Keep every artifact for this deck inside that root.
 2. Establish a reliable request contract: audience identity/role and knowledge level, intended outcome, source material, language, approximate slide count, presentation setting, visual direction, brand constraints, required facts, and deliverables. If the request is malformed, self-contradictory, factually suspect, or materially ambiguous, ask focused questions and wait. Infer only harmless omissions that cannot change the narrative or visual direction.
 3. Read every relevant source. Extract the core claim, evidence, important numbers, charts, image assets, constraints, contradictions, and narrative opportunities. Never design before reading supplied material.
-4. Produce the complete text-only slide draft before authoring SVG. Present it to the user and save `DECK_ROOT/slide-content.md`. For every slide include number, takeaway title, purpose, key message, substantive audience-facing copy, supporting points or explanation, evidence/source, and a concrete visual/evidence plan. A deliberately quiet or text-only page may instead record why that restraint serves the narrative. Default to information-rich content rather than sparse topic labels.
+4. Produce the complete text-only slide draft before authoring SVG. Present it to the user and save `DECK_ROOT/slide-content.md`. For every slide include number, takeaway title, purpose, key message, substantive audience-facing copy, supporting points or explanation, evidence/source, and a concrete visual/evidence plan. A deliberately quiet or text-only page may instead record why that restraint serves the narrative. Default to information-rich content rather than sparse topic labels: ordinary substantive pages should normally contain a claim, explanation, concrete evidence or example, and an implication or action.
 5. Ask the user to approve or revise the text-only draft. Stop at this gate. Do not create slide SVGs, PNG previews, or a PPTX until the user explicitly approves the slide content.
-6. After content approval, define one visual thesis and one shared design system. Translate the subject and audience into typography, spatial behavior, imagery, color, geometry, and pacing. When using a bundled style template, extract its observable design behavior into tokens and composition rules; never use the reference PNG as a full-slide background or substitute for editable SVG construction.
+6. After content approval, define one visual thesis and one shared design system. Translate the subject and audience into typography, spatial behavior, imagery, color, geometry, and pacing. Lock an exact typography contract before drawing: one exact size, family, weight, and line-height for every recurring role; one exact `slide-title` token across the deck; and one exact token for peer headings on the same page. Ranges are selection guidance only and must become fixed values for the actual deck. When using a bundled style template, inspect its PNG and SVG source, then extract observable design behavior into tokens and composition rules; never use the reference as a full-slide background or substitute for editable SVG construction.
 7. Set `sample_count = min(3, final_slide_count)`. Select the opening, a representative information-rich core-content page, and the most visually demanding evidence/diagram page when those distinct roles exist. For a narrative-only deck, use the most complex content relationship, image-led page, or closing page instead of inventing a data visual. Ensure the sample demonstrates the default text density and at least one meaningful chart or diagram only when sources permit it. State which pages were selected and why.
 8. Generate only those sample pages under `DECK_ROOT/sample/slides/`, validate them, render PNGs under `DECK_ROOT/sample/preview/`, inspect the actual previews, and present them to the user. Do not generate the remaining pages or final PPTX yet.
 9. Ask the user to approve the representative visual direction or request changes. Stop at this gate and iterate on the sample pages until the user explicitly approves the representative visual sample. Text approval does not imply visual approval, and silence does not imply either approval.
-10. After both approvals, plan each remaining slide immediately before design: purpose, key message, evidence, supporting detail, content hierarchy, dominant visual, chart/diagram opportunity, composition, required assets, and intended transition from the previous page. Select form from meaning; do not force every page into cards or a repeated template.
-11. Author every final `1600x900` slide SVG under `DECK_ROOT/slides/`, reusing approved sample designs where appropriate. Keep visible text as `<text>`/`<tspan>` and remain inside the supported subset in `svg-authoring.md`.
+10. After both approvals, plan each remaining slide immediately before design: purpose, key message, evidence, supporting detail, content hierarchy, dominant visual, chart/diagram opportunity, composition, required assets, and intended transition from the previous page. Assign every text element to an existing typography role instead of inventing near-duplicate sizes. Select form from meaning; do not force every page into cards or a repeated template.
+11. Author every final `1600x900` slide SVG under `DECK_ROOT/slides/`, reusing approved sample designs where appropriate. Keep visible text as `<text>`/`<tspan>`, add a supported `data-role` to every visible `<text>` element, and remain inside the supported subset in `svg-authoring.md`.
 12. Validate each SVG after creation:
 
    ```bash
    python "<SKILL_ROOT>/scripts/validate_svg.py" "<DECK_ROOT>/slides/slide_01.svg" --json
    ```
+
+    After all final slides exist, enforce deck-wide and peer-level typography consistency:
+
+    ```bash
+    python "<SKILL_ROOT>/scripts/audit_typography.py" "<DECK_ROOT>/slides/" --strict --json
+    ```
 
 13. Render each valid SVG to `DECK_ROOT/preview/`, then inspect the actual PNG:
 
@@ -52,7 +58,7 @@ Do not assume the Skill is installed under the current project's `.agents/` dire
    python "<SKILL_ROOT>/scripts/render_svg.py" "<DECK_ROOT>/slides/" --output-dir "<DECK_ROOT>/preview/"
    ```
 
-14. Review layout, typography, spacing, alignment, hierarchy, contrast, balance, consistency, density, image quality, overflow, visual character, subject fitness, and narrative function. Revise, validate, and render again until the slide is presentation-ready. Do not equate “no overflow” with visual quality.
+14. Review layout, typography, spacing, alignment, hierarchy, contrast, balance, consistency, density, image quality, overflow, visual character, subject fitness, and narrative function. Compare the deck typography ledger, not only one slide at a time: ordinary slide titles must match exactly, and peer headings on one page must match exactly. Revise, validate, audit typography, and render again until the slide is presentation-ready. Do not equate “no overflow” with visual quality.
 15. Compile slides in filename order and keep the JSON compilation report:
 
     ```bash
@@ -95,6 +101,8 @@ Prefer one memorable visual idea, disciplined typography, and intentional negati
 
 - Treat one SVG as one full slide and as the visual source of truth.
 - Default substantive slides to information-rich communication: complete claims, useful explanation, concrete evidence, and meaningful charts or diagrams. Preserve readable type and deliberate quiet pages; richness is not permission to create a wall of text.
+- Freeze typography tokens before sample authoring. Never solve overflow by quietly changing one title or peer heading to a nearby size; edit the copy, widen the region, or split the slide instead.
+- Use `data-role` on every visible `<text>` element and pass the strict deck typography audit before compilation.
 - Never invent numbers, categories, comparisons, axes, or trends to make a chart. When numeric evidence is unavailable, use an honest conceptual diagram, process, matrix, timeline, comparison, or annotated image instead.
 - Default `DECK_ROOT` to `./pptoutput/` and never scatter deck artifacts across the repository.
 - Treat text approval and representative-sample visual approval as separate mandatory gates. Never continue full production without both explicit approvals.

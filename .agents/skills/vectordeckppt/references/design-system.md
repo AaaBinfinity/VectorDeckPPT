@@ -76,6 +76,30 @@ Recommended SVG sizes for the 1600×900 canvas:
 | Body | 22–28 | 13.2–16.8 |
 | Caption/footer | 16–20 | 9.6–12 |
 
+These ranges are selection guidance, not permission to vary sizes slide by slide. Before authoring the representative samples, convert them into one exact deck contract. A practical default is:
+
+```json
+{
+  "deck_title": {"size": 80, "weight": 700, "line_height": 1.05},
+  "slide_title": {"size": 52, "weight": 700, "line_height": 1.1},
+  "section_title": {"size": 40, "weight": 700, "line_height": 1.12},
+  "subheading": {"size": 30, "weight": 700, "line_height": 1.2},
+  "body": {"size": 24, "weight": 400, "line_height": 1.4},
+  "label": {"size": 20, "weight": 600, "line_height": 1.25},
+  "caption": {"size": 18, "weight": 400, "line_height": 1.3}
+}
+```
+
+Adapt the values once for the audience, venue, language, and selected art direction, then freeze them. Apply these invariants:
+
+- Every ordinary `slide-title` uses the same exact size, family, weight, and line-height across the deck.
+- Every recurring semantic role uses one exact token across the deck unless the design-system contract explicitly defines a named variant.
+- All peer headings, peer labels, comparison columns, process steps, and repeated card headings on the same slide use identical tokens.
+- Cover titles, section transitions, hero metrics, and quotations may use separate named roles; they are not arbitrary exceptions to `slide-title`.
+- Do not create near-duplicate sizes such as 30/31/32 merely to make individual boxes fit.
+- Shorten copy, adjust line breaks, widen the region, or split the slide before reducing a locked font size.
+- Add `data-role="slide-title|section-title|subheading|body|label|metric|caption|source|quote|annotation|page-number"` to each visible `<text>` element so the deterministic typography audit can verify the contract.
+
 The compiler maps font size through the same `viewBox`-to-slide scale as geometry. On the default 1600×900 canvas, one SVG unit is `0.6 pt`; for example, `48` compiles to `28.8 pt`. A different `viewBox` changes that ratio, so validate typography in both rendered PNGs and the compiled PPTX instead of assuming a fixed CSS-pixel conversion.
 
 Default Chinese font stack:
@@ -175,6 +199,8 @@ Keep the system small enough to remember and rich enough to produce varied slide
 - Same background and palette logic across the deck.
 - Same title rail, title scale, and page-margin system.
 - Same font families, weights, and body sizes.
+- One exact `slide-title` token across the deck and exact peer-heading tokens within each slide.
+- Strict typography audit passes with no missing roles or inconsistent deck tokens.
 - Same border, radius, connector, and icon language.
 - Similar visual density across adjacent slides unless a deliberate pacing shift is planned.
 - Repeated elements share exact geometry rather than near-matches.

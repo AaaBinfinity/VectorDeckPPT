@@ -29,13 +29,15 @@ Design the slide silhouette before refining components. At thumbnail size, the h
 Make substantive slides feel researched and complete. Do not mistake luxury or minimalism for missing content.
 
 - Keep covers, section transitions, and occasional statement slides intentionally quiet.
-- Give ordinary explanation pages one clear claim, an explanatory passage or two to four supporting points, concrete evidence or an example, and labeled visual structure where useful.
+- Give ordinary explanation pages one clear claim, an explanatory passage or two to four supporting points, concrete evidence or an example, and an implication, decision, or next action. Add labeled visual structure where useful.
 - Give evidence pages enough labels, units, source context, annotations, and interpretation for the audience to understand what the visual proves.
-- When sources permit, aim for meaningful visual evidence on at least half of non-cover and non-divider core-body pages. When quantitative or image evidence is unavailable, an honest process, architecture, relationship map, matrix, timeline, or qualitative comparison may carry the explanation; never invent data to meet this target.
+- When sources permit, aim for meaningful visual evidence on roughly two thirds of non-cover and non-divider core-body pages. When quantitative or image evidence is unavailable, an honest process, architecture, relationship map, matrix, timeline, or qualitative comparison may carry the explanation; never invent data to meet this target.
 - Prefer one substantial chart or diagram with annotations over a grid of tiny decorative widgets.
 - If useful content cannot fit at readable sizes, split the slide. Do not shrink body text below the design-system floor or hide detail in unreadable footnotes.
 
 Richness comes from explanatory depth and evidence, not from filling every gap. Maintain one dominant message and a clear three-beat reading order.
+
+Before layout, assign each text element to a locked typography role. Ordinary slide titles use one exact deck token. All peer headings, labels, process-step names, comparison-column names, and repeated card headings on the same page use the same exact size and weight. If a peer needs more room, edit the copy or layout rather than shrinking only that peer.
 
 ## Composition selection
 
