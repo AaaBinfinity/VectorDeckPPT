@@ -3,12 +3,12 @@
 **项目名称：** VectorDeckPPT  
 **名称含义：** Vector + Presentation Deck + PowerPoint  
 **项目类型：** Agent Skill / AI Presentation Generation / SVG-to-PPTX Toolchain  
-**文档版本：** V1.1
-**项目状态：** V1.1 Released
+**文档版本：** V1.1 + Unreleased
+**项目状态：** V1.1.0 Released；`main` 包含下一版本的未发布增强
 
-## V1.1 规范增量
+## 当前规范增量（V1.1 + Unreleased）
 
-V1.1 在不改变“宿主 Agent 负责创作、确定性脚本负责执行”的架构前提下，增加以下规范性要求；若后文的 V1.0 示例与本节冲突，以本节、`SKILL.md` 和 `references/` 的当前规则为准：
+当前规范在不改变“宿主 Agent 负责创作、确定性脚本负责执行”的架构前提下，汇总 V1.1.0 与 `main` 的未发布增强；若后文的 V1.0 示例与本节冲突，以本节、`SKILL.md` 和 `references/` 的当前规则为准。历史版本的准确范围以对应 CHANGELOG 和发布说明为准：
 
 - 需求存在事实错误、矛盾或会改变叙事方向的歧义时，先提出 1–3 个具体问题并等待回答；
 - 全量制作前必须经过两个独立审批：完整文字版逐页内容审批，以及 `min(3, 最终页数)` 页代表性视觉样稿审批；

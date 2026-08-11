@@ -7,9 +7,10 @@
 ### 我想直接生成 PPT
 
 1. 阅读 [快速开始](../README.md#quick-start)；
-2. 复制或修改 [提示词示例](prompt-examples.md)；
-3. 了解 [完整 Skill 工作流](../.agents/skills/vectordeckppt/references/workflow.md)；
-4. 从 [项目介绍示例](../examples/project-intro-deck/) 查看源 SVG、PPTX 和编译报告。
+2. 根据 [使用指南](usage-guide.md) 选择仓库内或全局安装方式；
+3. 复制或修改 [提示词示例](prompt-examples.md)；
+4. 了解 [完整 Skill 工作流](../.agents/skills/vectordeckppt/references/workflow.md)；
+5. 从 [项目介绍示例](../examples/project-intro-deck/) 查看源 SVG、PPTX 和编译报告。
 
 ### 我想调整视觉质量
 
@@ -35,6 +36,7 @@
 
 ### 我想维护项目
 
+- [贡献指南](../CONTRIBUTING.md)；
 - [产品需求文档](PRD.md)；
 - [仓库开发规范](../AGENTS.md)；
 - [变更记录](../CHANGELOG.md)；
@@ -62,6 +64,8 @@
 ## 文档维护原则
 
 - README 负责产品定位、效果展示和快速开始；
+- `doc/usage-guide.md` 负责面向使用者的安装、请求、质量链路和验收方法；
+- `CONTRIBUTING.md` 负责面向维护者的环境、同步矩阵、测试和发布检查；
 - `SKILL.md` 与 `references/` 定义 Agent 的规范行为；
 - `doc/PRD.md` 记录产品边界和规范性要求；
 - 示例文档只使用真实能力、真实产物和可复现命令；

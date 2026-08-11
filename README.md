@@ -192,7 +192,7 @@ python -m pip install -r requirements.txt
 默认交付到当前目录的 pptoutput/。
 ```
 
-Skill 会先提交完整文字版供确认；文字批准后只制作代表性视觉样稿；视觉批准后再完成全套页面。
+Skill 会先提交完整文字版供确认；文字批准后只制作代表性视觉样稿；视觉批准后再完成全套页面。完整的安装方式、请求字段、审批逻辑、质量命令和报告解释见 [使用指南](doc/usage-guide.md)。
 
 为了让叙事更准确，建议同时说明主要受众的身份、受众知识水平与决策权，以及演示结束后希望推动的具体行动。
 
@@ -212,6 +212,8 @@ $CODEX_HOME/skills/vectordeckppt/
 ```
 
 不要只复制 `SKILL.md`；`references/`、`scripts/` 和 `assets/` 都是工作流的一部分。脚本从 `SKILL.md` 所在目录解析，不要求目标项目中存在 `.agents/`。
+
+全局 Skill 不会自动创建 Python 环境。请在脚本实际使用的环境中安装本仓库 `requirements.txt` 的依赖，或复用已完成 `uv sync` 的仓库环境。
 
 </details>
 
@@ -307,13 +309,37 @@ uv run python .agents/skills/vectordeckppt/scripts/validate_pptx.py final.pptx
 
 | 你想了解什么 | 推荐入口 |
 |---|---|
-| 如何调用 Skill | [SKILL.md](.agents/skills/vectordeckppt/SKILL.md) · [工作流](.agents/skills/vectordeckppt/references/workflow.md) · [提示词示例](doc/prompt-examples.md) |
+| 如何调用 Skill | [使用指南](doc/usage-guide.md) · [SKILL.md](.agents/skills/vectordeckppt/SKILL.md) · [工作流](.agents/skills/vectordeckppt/references/workflow.md) · [提示词示例](doc/prompt-examples.md) |
 | 如何定义视觉 | [艺术方向](.agents/skills/vectordeckppt/references/art-direction.md) · [设计系统](.agents/skills/vectordeckppt/references/design-system.md) · [页面设计](.agents/skills/vectordeckppt/references/slide-design.md) |
 | 如何检查质量 | [字体审计](.agents/skills/vectordeckppt/scripts/audit_typography.py) · [视觉复审](.agents/skills/vectordeckppt/references/visual-review.md) · [故障排查](.agents/skills/vectordeckppt/references/troubleshooting.md) |
 | 编译器如何工作 | [SVG 作者指南](.agents/skills/vectordeckppt/references/svg-authoring.md) · [SVG → PPTX](.agents/skills/vectordeckppt/references/svg-to-pptx.md) |
-| 产品与版本 | [文档总览](doc/README.md) · [PRD](doc/PRD.md) · [CHANGELOG](CHANGELOG.md) · [V1.1 Release](doc/releases/v1.1.0.md) |
+| 产品与版本 | [文档总览](doc/README.md) · [贡献指南](CONTRIBUTING.md) · [PRD](doc/PRD.md) · [CHANGELOG](CHANGELOG.md) · [V1.1 Release](doc/releases/v1.1.0.md) |
 
 ## 开发与验证
+
+<details>
+<summary><strong>仓库结构</strong></summary>
+
+```text
+VectorDeckPPT/
+├── .agents/skills/vectordeckppt/
+│   ├── SKILL.md
+│   ├── agents/openai.yaml
+│   ├── references/
+│   ├── scripts/
+│   │   └── lib/
+│   └── assets/style-templates/
+├── doc/
+├── examples/
+├── tests/
+├── pyproject.toml
+├── uv.lock
+└── requirements.txt
+```
+
+`SKILL.md` 与 `references/` 定义 Agent 行为，`scripts/lib/` 保存可测试的确定性实现，`examples/` 提供可复现交付物，`doc/` 面向项目使用者和维护者。
+
+</details>
 
 ```bash
 uv run ruff format .
@@ -321,13 +347,13 @@ uv run ruff check .
 uv run pytest
 ```
 
-使用 pip 环境时，将 `uv run` 替换为 `python -m`。依赖发生变化时，先更新 `uv.lock`，再导出 `requirements.txt`：
+使用 pip 环境时，直接运行 `python <脚本路径> ...`，不要把文件路径写成 `python -m <脚本路径>`。依赖发生变化时，先更新 `uv.lock`，再导出 `requirements.txt`：
 
 ```bash
-uv export --format requirements.txt --all-groups --no-emit-project --no-hashes --frozen --output-file requirements.txt
+uv --no-managed-python export --format requirements.txt --all-groups --no-emit-project --no-hashes --frozen --output-file requirements.txt
 ```
 
-提交前运行 `git diff --check`、Ruff 和 Pytest。完整维护约束见 [AGENTS.md](AGENTS.md)。
+提交前运行 `git diff --check`、Ruff 和 Pytest。开发环境、依赖同步、文档联动与发布检查见 [贡献指南](CONTRIBUTING.md)；Agent 的完整维护约束见 [AGENTS.md](AGENTS.md)。
 
 ## Roadmap
 

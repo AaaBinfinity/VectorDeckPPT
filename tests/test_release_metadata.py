@@ -20,8 +20,8 @@ def test_v11_release_metadata_is_consistent() -> None:
     assert project["project"]["version"] == "1.1.0"
     assert locked_project["version"] == "1.1.0"
     assert "## [1.1.0] - 2026-08-09" in changelog
-    assert "**文档版本：** V1.1" in prd
-    assert "**项目状态：** V1.1 Released" in prd
+    assert "**文档版本：** V1.1 + Unreleased" in prd
+    assert "**项目状态：** V1.1.0 Released；`main` 包含下一版本的未发布增强" in prd
     assert "tags:" in release_workflow
     assert "contents: write" in release_workflow
     assert 'gh release create "$GITHUB_REF_NAME"' in release_workflow
