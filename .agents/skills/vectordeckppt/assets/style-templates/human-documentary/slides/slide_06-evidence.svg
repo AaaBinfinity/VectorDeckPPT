@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>HUMAN DOCUMENTARY evidence template</title>
+<desc>One editable 16:9 evidence reference page from the HUMAN DOCUMENTARY multi-page template family.</desc>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#D8CEBD" stroke="none" stroke-width="0"/>
+<g transform="translate(40 50) scale(2)">
+<rect x="0" y="0" width="760" height="400" rx="8" fill="#FAF4E9" stroke="#BEB09A" stroke-width="1"/>
+<rect x="0" y="0" width="760" height="6" rx="8" fill="#B76038" stroke="none" stroke-width="0"/>
+<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#B76038" text-anchor="start"><tspan x="34" dy="0">EVIDENCE</tspan></text>
+<text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#6B655B" text-anchor="end"><tspan x="714" dy="0">06</tspan></text>
+<text data-role="slide-title" x="34" y="82" font-family="Georgia" font-size="26" font-weight="700" fill="#273129" text-anchor="start"><tspan x="34" dy="0">The signal improves when the handoff becomes visible</tspan></text>
+<text data-role="caption" x="34" y="110" font-family="Arial" font-size="9" font-weight="400" fill="#6B655B" text-anchor="start"><tspan x="34" dy="0">Illustrative values demonstrate hierarchy only; replace every number and label.</tspan></text>
+<text data-role="metric" x="34" y="158" font-family="Georgia" font-size="24" font-weight="700" fill="#B76038" text-anchor="start"><tspan x="34" dy="0">24</tspan></text>
+<text data-role="label" x="132" y="156" font-family="Arial" font-size="10" font-weight="700" fill="#273129" text-anchor="start"><tspan x="132" dy="0">field interviews</tspan></text>
+<text data-role="annotation" x="132" y="174" font-family="Arial" font-size="9" font-weight="400" fill="#6B655B" text-anchor="start"><tspan x="132" dy="0">Observed movement · sample period</tspan></text>
+<line x1="34" y1="186" x2="246" y2="186" stroke="#BEB09A" stroke-width="1"/>
+<text data-role="metric" x="34" y="224" font-family="Georgia" font-size="24" font-weight="700" fill="#273129" text-anchor="start"><tspan x="34" dy="0">7</tspan></text>
+<text data-role="label" x="132" y="222" font-family="Arial" font-size="10" font-weight="700" fill="#273129" text-anchor="start"><tspan x="132" dy="0">community sites</tspan></text>
+<text data-role="annotation" x="132" y="240" font-family="Arial" font-size="9" font-weight="400" fill="#6B655B" text-anchor="start"><tspan x="132" dy="0">Observed movement · sample period</tspan></text>
+<line x1="34" y1="252" x2="246" y2="252" stroke="#BEB09A" stroke-width="1"/>
+<text data-role="metric" x="34" y="290" font-family="Georgia" font-size="24" font-weight="700" fill="#273129" text-anchor="start"><tspan x="34" dy="0">81%</tspan></text>
+<text data-role="label" x="132" y="288" font-family="Arial" font-size="10" font-weight="700" fill="#273129" text-anchor="start"><tspan x="132" dy="0">follow-through</tspan></text>
+<text data-role="annotation" x="132" y="306" font-family="Arial" font-size="9" font-weight="400" fill="#6B655B" text-anchor="start"><tspan x="132" dy="0">Observed movement · sample period</tspan></text>
+<line x1="34" y1="318" x2="246" y2="318" stroke="#BEB09A" stroke-width="1"/>
+<rect x="292" y="148" width="428" height="158" rx="8" fill="#EFE3D1" stroke="#BEB09A" stroke-width="1"/>
+<text data-role="label" x="310" y="176" font-family="Arial" font-size="10" font-weight="700" fill="#273129" text-anchor="start"><tspan x="310" dy="0">TREND INDEX · BASE 100</tspan></text>
+<line x1="310" y1="202" x2="702" y2="202" stroke="#BEB09A" stroke-width="1"/>
+<line x1="310" y1="228" x2="702" y2="228" stroke="#BEB09A" stroke-width="1"/>
+<line x1="310" y1="254" x2="702" y2="254" stroke="#BEB09A" stroke-width="1"/>
+<line x1="310" y1="280" x2="702" y2="280" stroke="#BEB09A" stroke-width="1"/>
+<polyline points="316,274 374,260 432,266 490,236 548,226 606,200 684,186" fill="none" stroke="#B76038" stroke-width="4"/>
+<circle cx="316" cy="274" r="5" fill="#B76038"/>
+<circle cx="374" cy="260" r="5" fill="#B76038"/>
+<circle cx="432" cy="266" r="5" fill="#B76038"/>
+<circle cx="490" cy="236" r="5" fill="#B76038"/>
+<circle cx="548" cy="226" r="5" fill="#B76038"/>
+<circle cx="606" cy="200" r="5" fill="#B76038"/>
+<circle cx="684" cy="186" r="5" fill="#B76038"/>
+<rect x="292" y="326" width="428" height="42" rx="8" fill="#EFE3D1" stroke="#BEB09A" stroke-width="1"/>
+<text data-role="label" x="310" y="352" font-family="Arial" font-size="10" font-weight="700" fill="#55705B" text-anchor="start"><tspan x="310" dy="0">INTERPRETATION</tspan></text>
+<text data-role="annotation" x="430" y="352" font-family="Arial" font-size="9" font-weight="400" fill="#273129" text-anchor="start"><tspan x="430" dy="0">The largest gain appears after ownership and review criteria become explicit.</tspan></text>
+<text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#6B655B" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
+</g>
+</svg>

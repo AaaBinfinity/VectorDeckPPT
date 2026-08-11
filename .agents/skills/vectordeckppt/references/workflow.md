@@ -57,12 +57,21 @@ Determine:
 - language, format, aspect ratio, approximate slide count, and delivery time;
 - presentation type, delivery setting, and required level of formality;
 - requested visual direction and brand constraints;
+- visual source: selected bundled family, supplied template/reference, approved two-source hybrid, or explicit Agent-selection delegation;
 - available data, images, screenshots, logos, and existing decks;
 - editability expectations, required deliverables, and output location.
 
 Ask before proceeding when provided information is inaccurate, contradictory, incomplete in a material way, or ambiguous enough to change the deliverable. For a broad audience such as “developers and potential users,” clarify the primary audience, each audience's identity and knowledge level, and whose decision or behavior controls the narrative. Propose reasonable defaults only for non-critical choices, list them explicitly, and ask the user to approve or correct the complete summary.
 
-Output: one-sentence communication job plus an explicitly approved request contract. Do not advance until approval is unambiguous.
+If no visual reference has been supplied, recommend exactly three bundled families that fit the confirmed audience, setting, evidence, and emotional tone. Give a one-line benefit and tradeoff for each, then ask the user to choose one, upload a PPT/PPTX/PDF/image/screenshot/brand reference, approve a hybrid of at most two sources, or explicitly delegate the selection. If a reference is supplied, inspect only enough at this stage to identify reusable behaviors, font or asset dependencies, editability implications, and rights constraints. Record the chosen route in the request contract; do not silently select a style.
+
+Record the selected route as an explicit contract field:
+
+```text
+Visual source: bundled family | supplied reference | approved two-source hybrid | delegated Agent selection
+```
+
+Output: one-sentence communication job plus an explicitly approved request contract that names the visual source route. Do not advance until approval is unambiguous.
 
 ### 2. Read source material
 
@@ -91,7 +100,7 @@ Output: explicitly approved text-only slide content.
 
 ### 4. Set art direction and create representative visual samples
 
-After text approval, choose one coherent visual idea. Lock canvas, background character, colors, typography, spacing, shape language, imagery treatment, icon treatment, and density. Read `design-system.md`. Professional does not require a rigid orthogonal card grid: use controlled editorial asymmetry, crop, overlap, diagonal or curved movement, and scale contrast where they improve meaning. Reserve highly expressive comic/poster intensity and dominant hero typography for settings that explicitly permit it. Convert all typography ranges into an exact role ledger before drawing: every ordinary slide title uses one exact deck token, and every same-level peer on a page uses one exact token.
+After text approval, inspect the confirmed bundled family or render representative pages from the confirmed user-supplied template/reference, then choose one coherent visual idea. Extract relationships rather than copying finished artwork: lock canvas, background character, colors, typography, spacing, shape language, imagery treatment, icon treatment, and density. Read `design-system.md`. Professional does not require a rigid orthogonal card grid: use controlled editorial asymmetry, crop, overlap, diagonal or curved movement, and scale contrast where they improve meaning. Reserve highly expressive comic/poster intensity and dominant hero typography for settings that explicitly permit it. Convert all typography ranges into an exact role ledger before drawing: every ordinary slide title uses one exact deck token, and every same-level peer on a page uses one exact token.
 
 Set `sample_count = min(3, final_slide_count)`. Prefer the opening, a representative information-rich core-content page, and the most visually demanding evidence, data, or diagram page when those are distinct. For a narrative-only deck, select the most complex content relationship, image-led page, or closing page instead of inventing a chart. When sources permit it, the sample set must demonstrate both the default text density and at least one meaningful chart or diagram. Explain the selection, author only those SVGs in `DECK_ROOT/sample/slides/`, render them to `DECK_ROOT/sample/preview/`, inspect them, and ask the user to approve or revise the direction. Iterate only on the sample set until approval.
 
@@ -122,6 +131,7 @@ Keep a small internal chain of decisions. It may live in reasoning or a task-loc
 ```text
 communication job
 -> approved request contract
+-> confirmed visual source route
 -> evidence inventory
 -> approved text-only slide content
 -> art-direction brief

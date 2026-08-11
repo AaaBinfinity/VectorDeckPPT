@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>DYNAMIC HERO EDITORIAL section template</title>
+<desc>One editable 16:9 section reference page from the DYNAMIC HERO EDITORIAL multi-page template family.</desc>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#070A11" stroke="none" stroke-width="0"/>
+<g transform="translate(40 50) scale(2)">
+<rect x="0" y="0" width="760" height="400" rx="0" fill="#0D111B" stroke="#303746" stroke-width="1"/>
+<polygon points="550,0 760,0 760,146" fill="#2A0A18"/>
+<polygon points="646,0 760,0 760,76" fill="#FF1748"/>
+<line x1="200" y1="8" x2="10" y2="400" stroke="#303746" stroke-width="0.7"/>
+<line x1="254" y1="8" x2="64" y2="400" stroke="#303746" stroke-width="0.7"/>
+<line x1="308" y1="8" x2="118" y2="400" stroke="#303746" stroke-width="0.7"/>
+<line x1="362" y1="8" x2="172" y2="400" stroke="#303746" stroke-width="0.7"/>
+<line x1="416" y1="8" x2="226" y2="400" stroke="#303746" stroke-width="0.7"/>
+<line x1="470" y1="8" x2="280" y2="400" stroke="#303746" stroke-width="0.7"/>
+<line x1="524" y1="8" x2="334" y2="400" stroke="#303746" stroke-width="0.7"/>
+<line x1="578" y1="8" x2="388" y2="400" stroke="#303746" stroke-width="0.7"/>
+<line x1="632" y1="8" x2="442" y2="400" stroke="#303746" stroke-width="0.7"/>
+<line x1="686" y1="8" x2="496" y2="400" stroke="#303746" stroke-width="0.7"/>
+<circle cx="610" cy="48" r="2" fill="#6B1830"/>
+<circle cx="628" cy="48" r="3" fill="#6B1830"/>
+<circle cx="646" cy="48" r="2" fill="#6B1830"/>
+<circle cx="664" cy="48" r="3" fill="#6B1830"/>
+<circle cx="682" cy="48" r="2" fill="#6B1830"/>
+<circle cx="700" cy="48" r="3" fill="#6B1830"/>
+<circle cx="718" cy="48" r="2" fill="#6B1830"/>
+<circle cx="610" cy="66" r="2" fill="#6B1830"/>
+<circle cx="628" cy="66" r="3" fill="#6B1830"/>
+<circle cx="646" cy="66" r="2" fill="#6B1830"/>
+<circle cx="664" cy="66" r="3" fill="#6B1830"/>
+<circle cx="682" cy="66" r="2" fill="#6B1830"/>
+<circle cx="700" cy="66" r="3" fill="#6B1830"/>
+<circle cx="718" cy="66" r="2" fill="#6B1830"/>
+<circle cx="610" cy="84" r="2" fill="#6B1830"/>
+<circle cx="628" cy="84" r="3" fill="#6B1830"/>
+<circle cx="646" cy="84" r="2" fill="#6B1830"/>
+<circle cx="664" cy="84" r="3" fill="#6B1830"/>
+<circle cx="682" cy="84" r="2" fill="#6B1830"/>
+<circle cx="700" cy="84" r="3" fill="#6B1830"/>
+<circle cx="718" cy="84" r="2" fill="#6B1830"/>
+<circle cx="610" cy="102" r="2" fill="#6B1830"/>
+<circle cx="628" cy="102" r="3" fill="#6B1830"/>
+<circle cx="646" cy="102" r="2" fill="#6B1830"/>
+<circle cx="664" cy="102" r="3" fill="#6B1830"/>
+<circle cx="682" cy="102" r="2" fill="#6B1830"/>
+<circle cx="700" cy="102" r="3" fill="#6B1830"/>
+<circle cx="718" cy="102" r="2" fill="#6B1830"/>
+<rect x="0" y="0" width="760" height="6" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
+<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">SECTION / CHAPTER</tspan></text>
+<text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#A6ADBC" text-anchor="end"><tspan x="714" dy="0">02</tspan></text>
+<text data-role="metric" x="34" y="154" font-family="Impact" font-size="108" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">02</tspan></text>
+<text data-role="deck-title" x="210" y="146" font-family="Impact" font-size="46" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="210" dy="0">Turn the evidence</tspan><tspan x="210" dy="46.92">into a decision</tspan></text>
+<text data-role="subheading" x="214" y="246" font-family="Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="214" dy="0">A chapter opener creates a deliberate change in pace without changing the design system.</tspan></text>
+<text data-role="body" x="214" y="282" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="214" dy="0">The display role may be expressive; ordinary slide titles remain locked and exact.</tspan></text>
+<line x1="214" y1="314" x2="704" y2="314" stroke="#303746" stroke-width="2"/>
+<line x1="446" y1="318" x2="486" y2="366" stroke="#FF1748" stroke-width="5"/>
+<line x1="488" y1="318" x2="528" y2="366" stroke="#7ACBFF" stroke-width="5"/>
+<line x1="530" y1="318" x2="570" y2="366" stroke="#FF1748" stroke-width="5"/>
+<line x1="572" y1="318" x2="612" y2="366" stroke="#7ACBFF" stroke-width="5"/>
+<line x1="614" y1="318" x2="654" y2="366" stroke="#FF1748" stroke-width="5"/>
+<line x1="656" y1="318" x2="696" y2="366" stroke="#7ACBFF" stroke-width="5"/>
+<text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
+</g>
+</svg>

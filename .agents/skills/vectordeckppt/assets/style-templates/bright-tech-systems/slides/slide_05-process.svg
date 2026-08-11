@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>BRIGHT TECH SYSTEMS process template</title>
+<desc>One editable 16:9 process reference page from the BRIGHT TECH SYSTEMS multi-page template family.</desc>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#DCEBFA" stroke="none" stroke-width="0"/>
+<g transform="translate(40 50) scale(2)">
+<rect x="0" y="0" width="760" height="400" rx="18" fill="#F8FBFF" stroke="#B9D0EC" stroke-width="1"/>
+<rect x="0" y="0" width="760" height="6" rx="18" fill="#1261D8" stroke="none" stroke-width="0"/>
+<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#1261D8" text-anchor="start"><tspan x="34" dy="0">OPERATING MODEL</tspan></text>
+<text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#526783" text-anchor="end"><tspan x="714" dy="0">05</tspan></text>
+<text data-role="slide-title" x="34" y="82" font-family="Arial" font-size="26" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="34" dy="0">Five moves create an accountable delivery loop</tspan></text>
+<text data-role="caption" x="34" y="110" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="34" dy="0">Each phase produces a decision-ready artifact and a visible quality gate.</tspan></text>
+<rect x="34" y="142" width="126" height="156" rx="18" fill="#FFFFFF" stroke="#B9D0EC" stroke-width="1"/>
+<text data-role="metric" x="50" y="174" font-family="Arial" font-size="20" font-weight="700" fill="#1261D8" text-anchor="start"><tspan x="50" dy="0">01</tspan></text>
+<text data-role="subheading" x="50" y="208" font-family="Arial" font-size="14" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="50" dy="0">Frame</tspan></text>
+<text data-role="body" x="50" y="234" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="50" dy="0">Define the decision</tspan><tspan x="50" dy="12.15">and success signal</tspan></text>
+<line x1="160" y1="220" x2="174" y2="220" stroke="#1261D8" stroke-width="2"/>
+<rect x="174" y="142" width="126" height="156" rx="18" fill="#FFFFFF" stroke="#B9D0EC" stroke-width="1"/>
+<text data-role="metric" x="190" y="174" font-family="Arial" font-size="20" font-weight="700" fill="#1261D8" text-anchor="start"><tspan x="190" dy="0">02</tspan></text>
+<text data-role="subheading" x="190" y="208" font-family="Arial" font-size="14" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="190" dy="0">Read</tspan></text>
+<text data-role="body" x="190" y="234" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="190" dy="0">Extract facts, constraints,</tspan><tspan x="190" dy="12.15">and tensions</tspan></text>
+<line x1="300" y1="220" x2="314" y2="220" stroke="#1261D8" stroke-width="2"/>
+<rect x="314" y="142" width="126" height="156" rx="18" fill="#FFFFFF" stroke="#B9D0EC" stroke-width="1"/>
+<text data-role="metric" x="330" y="174" font-family="Arial" font-size="20" font-weight="700" fill="#1261D8" text-anchor="start"><tspan x="330" dy="0">03</tspan></text>
+<text data-role="subheading" x="330" y="208" font-family="Arial" font-size="14" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="330" dy="0">Design</tspan></text>
+<text data-role="body" x="330" y="234" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="330" dy="0">Map evidence to the</tspan><tspan x="330" dy="12.15">clearest visual form</tspan></text>
+<line x1="440" y1="220" x2="454" y2="220" stroke="#1261D8" stroke-width="2"/>
+<rect x="454" y="142" width="126" height="156" rx="18" fill="#FFFFFF" stroke="#B9D0EC" stroke-width="1"/>
+<text data-role="metric" x="470" y="174" font-family="Arial" font-size="20" font-weight="700" fill="#11A9CC" text-anchor="start"><tspan x="470" dy="0">04</tspan></text>
+<text data-role="subheading" x="470" y="208" font-family="Arial" font-size="14" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="470" dy="0">Verify</tspan></text>
+<text data-role="body" x="470" y="234" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="470" dy="0">Review fidelity, meaning,</tspan><tspan x="470" dy="12.15">and exceptions</tspan></text>
+<line x1="580" y1="220" x2="594" y2="220" stroke="#1261D8" stroke-width="2"/>
+<rect x="594" y="142" width="126" height="156" rx="18" fill="#FFFFFF" stroke="#B9D0EC" stroke-width="1"/>
+<text data-role="metric" x="610" y="174" font-family="Arial" font-size="20" font-weight="700" fill="#11A9CC" text-anchor="start"><tspan x="610" dy="0">05</tspan></text>
+<text data-role="subheading" x="610" y="208" font-family="Arial" font-size="14" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="610" dy="0">Act</tspan></text>
+<text data-role="body" x="610" y="234" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="610" dy="0">Assign the next move, owner,</tspan><tspan x="610" dy="12.15">and timing</tspan></text>
+<rect x="34" y="320" width="686" height="48" rx="18" fill="#FFFFFF" stroke="#B9D0EC" stroke-width="1"/>
+<text data-role="label" x="54" y="350" font-family="Arial" font-size="10" font-weight="700" fill="#1261D8" text-anchor="start"><tspan x="54" dy="0">QUALITY GATE</tspan></text>
+<text data-role="caption" x="170" y="350" font-family="Arial" font-size="9" font-weight="400" fill="#0B1F44" text-anchor="start"><tspan x="170" dy="0">No phase advances until its evidence, owner, and acceptance condition are explicit.</tspan></text>
+<text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#526783" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
+</g>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>DYNAMIC HERO EDITORIAL cover template</title>
+<desc>One editable 16:9 cover reference page from the DYNAMIC HERO EDITORIAL multi-page template family.</desc>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#070A11" stroke="none" stroke-width="0"/>
+<g transform="translate(40 50) scale(2)">
+<rect x="0" y="0" width="760" height="400" rx="0" fill="#0D111B" stroke="#303746" stroke-width="1"/>
+<polygon points="550,0 760,0 760,146" fill="#2A0A18"/>
+<polygon points="646,0 760,0 760,76" fill="#FF1748"/>
+<line x1="200" y1="8" x2="10" y2="400" stroke="#303746" stroke-width="0.7"/>
+<line x1="254" y1="8" x2="64" y2="400" stroke="#303746" stroke-width="0.7"/>
+<line x1="308" y1="8" x2="118" y2="400" stroke="#303746" stroke-width="0.7"/>
+<line x1="362" y1="8" x2="172" y2="400" stroke="#303746" stroke-width="0.7"/>
+<line x1="416" y1="8" x2="226" y2="400" stroke="#303746" stroke-width="0.7"/>
+<line x1="470" y1="8" x2="280" y2="400" stroke="#303746" stroke-width="0.7"/>
+<line x1="524" y1="8" x2="334" y2="400" stroke="#303746" stroke-width="0.7"/>
+<line x1="578" y1="8" x2="388" y2="400" stroke="#303746" stroke-width="0.7"/>
+<line x1="632" y1="8" x2="442" y2="400" stroke="#303746" stroke-width="0.7"/>
+<line x1="686" y1="8" x2="496" y2="400" stroke="#303746" stroke-width="0.7"/>
+<circle cx="610" cy="48" r="2" fill="#6B1830"/>
+<circle cx="628" cy="48" r="3" fill="#6B1830"/>
+<circle cx="646" cy="48" r="2" fill="#6B1830"/>
+<circle cx="664" cy="48" r="3" fill="#6B1830"/>
+<circle cx="682" cy="48" r="2" fill="#6B1830"/>
+<circle cx="700" cy="48" r="3" fill="#6B1830"/>
+<circle cx="718" cy="48" r="2" fill="#6B1830"/>
+<circle cx="610" cy="66" r="2" fill="#6B1830"/>
+<circle cx="628" cy="66" r="3" fill="#6B1830"/>
+<circle cx="646" cy="66" r="2" fill="#6B1830"/>
+<circle cx="664" cy="66" r="3" fill="#6B1830"/>
+<circle cx="682" cy="66" r="2" fill="#6B1830"/>
+<circle cx="700" cy="66" r="3" fill="#6B1830"/>
+<circle cx="718" cy="66" r="2" fill="#6B1830"/>
+<circle cx="610" cy="84" r="2" fill="#6B1830"/>
+<circle cx="628" cy="84" r="3" fill="#6B1830"/>
+<circle cx="646" cy="84" r="2" fill="#6B1830"/>
+<circle cx="664" cy="84" r="3" fill="#6B1830"/>
+<circle cx="682" cy="84" r="2" fill="#6B1830"/>
+<circle cx="700" cy="84" r="3" fill="#6B1830"/>
+<circle cx="718" cy="84" r="2" fill="#6B1830"/>
+<circle cx="610" cy="102" r="2" fill="#6B1830"/>
+<circle cx="628" cy="102" r="3" fill="#6B1830"/>
+<circle cx="646" cy="102" r="2" fill="#6B1830"/>
+<circle cx="664" cy="102" r="3" fill="#6B1830"/>
+<circle cx="682" cy="102" r="2" fill="#6B1830"/>
+<circle cx="700" cy="102" r="3" fill="#6B1830"/>
+<circle cx="718" cy="102" r="2" fill="#6B1830"/>
+<rect x="0" y="0" width="760" height="6" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
+<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">LAUNCH, CAMPAIGN &amp; STORY</tspan></text>
+<text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#A6ADBC" text-anchor="end"><tspan x="714" dy="0">01</tspan></text>
+<polygon points="26,96 388,66 410,212 54,244" fill="#0A0D15" stroke="#FF1748" stroke-width="8"/>
+<polygon points="26,76 272,54 260,92 18,114" fill="#FF1748"/>
+<text data-role="label" x="40" y="91" font-family="Arial" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="40" dy="0">HERO TYPOGRAPHY / CONTROLLED MOTION</tspan></text>
+<text data-role="deck-title" x="48" y="136" font-family="Impact" font-size="36" font-weight="900" fill="#F7F8FC" text-anchor="start"><tspan x="48" dy="0">MAKE THE</tspan><tspan x="48" dy="34.56">CENTRAL IDEA</tspan><tspan x="48" dy="34.56">FEEL HEROIC</tspan></text>
+<rect x="38" y="258" width="354" height="58" rx="0" fill="#090C13" stroke="#303746" stroke-width="1"/>
+<rect x="38" y="258" width="8" height="58" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
+<text data-role="caption" x="58" y="282" font-family="Arial" font-size="9" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="58" dy="0">Art direction becomes credible when visual energy,</tspan></text>
+<text data-role="caption" x="58" y="299" font-family="Arial" font-size="9" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="58" dy="0">evidence, and hierarchy are visible together.</tspan></text>
+<circle cx="596" cy="188" r="146" fill="#FF1748" stroke="#05070C" stroke-width="14"/>
+<circle cx="596" cy="188" r="112" fill="#D81742" stroke="#0A0D15" stroke-width="4"/>
+<line x1="596" y1="188" x2="596" y2="46" stroke="#0A0D15" stroke-width="4"/>
+<line x1="596" y1="188" x2="704" y2="94" stroke="#0A0D15" stroke-width="4"/>
+<line x1="596" y1="188" x2="738" y2="198" stroke="#0A0D15" stroke-width="4"/>
+<line x1="596" y1="188" x2="684" y2="302" stroke="#0A0D15" stroke-width="4"/>
+<line x1="596" y1="188" x2="576" y2="330" stroke="#0A0D15" stroke-width="4"/>
+<line x1="596" y1="188" x2="486" y2="278" stroke="#0A0D15" stroke-width="4"/>
+<line x1="596" y1="188" x2="454" y2="170" stroke="#0A0D15" stroke-width="4"/>
+<line x1="596" y1="188" x2="500" y2="76" stroke="#0A0D15" stroke-width="4"/>
+<polygon points="596,82 682,136 654,262 596,310 536,262 508,136" fill="#F7F8FC" stroke="#090C13" stroke-width="10"/>
+<polygon points="596,106 650,144 626,224 596,258" fill="#7ACBFF"/>
+<polygon points="596,106 542,144 566,224 596,258" fill="#DDE8F2"/>
+<rect x="622" y="276" width="94" height="72" rx="0" fill="#0A0D15" stroke="#303746" stroke-width="1"/>
+<text data-role="label" x="636" y="296" font-family="Arial" font-size="10" font-weight="700" fill="#A6ADBC" text-anchor="start"><tspan x="636" dy="0">SIGNAL</tspan></text>
+<text data-role="metric" x="636" y="327" font-family="Impact" font-size="24" font-weight="900" fill="#F7F8FC" text-anchor="start"><tspan x="636" dy="0">87%</tspan></text>
+<rect x="38" y="334" width="110" height="40" rx="0" fill="#0D111B" stroke="#303746" stroke-width="1"/>
+<text data-role="annotation" x="48" y="349" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="start"><tspan x="48" dy="0">CASE</tspan></text>
+<text data-role="label" x="48" y="368" font-family="Impact" font-size="10" font-weight="900" fill="#F7F8FC" text-anchor="start"><tspan x="48" dy="0">#0716</tspan></text>
+<rect x="162" y="334" width="110" height="40" rx="0" fill="#FF1748" stroke="#303746" stroke-width="1"/>
+<text data-role="annotation" x="172" y="349" font-family="Arial" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="172" dy="0">STATUS</tspan></text>
+<text data-role="label" x="172" y="368" font-family="Impact" font-size="10" font-weight="900" fill="#FFFFFF" text-anchor="start"><tspan x="172" dy="0">ACTIVE</tspan></text>
+<rect x="286" y="334" width="110" height="40" rx="0" fill="#171D28" stroke="#303746" stroke-width="1"/>
+<text data-role="annotation" x="296" y="349" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="start"><tspan x="296" dy="0">MODE</tspan></text>
+<text data-role="label" x="296" y="368" font-family="Impact" font-size="10" font-weight="900" fill="#F7F8FC" text-anchor="start"><tspan x="296" dy="0">URGENT</tspan></text>
+<text data-role="source" x="554" y="382" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="middle"><tspan x="554" dy="0">ILLUSTRATIVE TEMPLATE · ORIGINAL ABSTRACT GRAPHICS</tspan></text>
+</g>
+</svg>

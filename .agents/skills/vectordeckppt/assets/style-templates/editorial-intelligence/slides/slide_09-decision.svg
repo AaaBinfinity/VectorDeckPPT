@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>EDITORIAL INTELLIGENCE decision template</title>
+<desc>One editable 16:9 decision reference page from the EDITORIAL INTELLIGENCE multi-page template family.</desc>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#D8D4CC" stroke="none" stroke-width="0"/>
+<g transform="translate(40 50) scale(2)">
+<rect x="0" y="0" width="760" height="400" rx="0" fill="#F7F3EB" stroke="#BFB7AA" stroke-width="1"/>
+<rect x="0" y="0" width="760" height="6" rx="0" fill="#1746A2" stroke="none" stroke-width="0"/>
+<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#1746A2" text-anchor="start"><tspan x="34" dy="0">SYNTHESIS</tspan></text>
+<text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#5E5A54" text-anchor="end"><tspan x="714" dy="0">09</tspan></text>
+<text data-role="slide-title" x="34" y="82" font-family="Georgia" font-size="26" font-weight="700" fill="#161616" text-anchor="start"><tspan x="34" dy="0">Prioritize the changes that compound</tspan></text>
+<text data-role="caption" x="34" y="110" font-family="Arial" font-size="9" font-weight="400" fill="#5E5A54" text-anchor="start"><tspan x="34" dy="0">Sequence decisions by value, confidence, dependency, and accountable ownership.</tspan></text>
+<rect x="34" y="144" width="374" height="54" rx="0" fill="#EEE8DD" stroke="#BFB7AA" stroke-width="1"/>
+<rect x="34" y="144" width="8" height="54" rx="0" fill="#1746A2" stroke="none" stroke-width="0"/>
+<text data-role="subheading" x="58" y="167" font-family="Arial" font-size="14" font-weight="700" fill="#161616" text-anchor="start"><tspan x="58" dy="0">Focus</tspan></text>
+<text data-role="annotation" x="58" y="186" font-family="Arial" font-size="9" font-weight="400" fill="#5E5A54" text-anchor="start"><tspan x="58" dy="0">Decision · This week</tspan></text>
+<text data-role="metric" x="384" y="175" font-family="Georgia" font-size="18" font-weight="700" fill="#5E5A54" text-anchor="end"><tspan x="384" dy="0">01</tspan></text>
+<rect x="34" y="212" width="374" height="54" rx="0" fill="#EEE8DD" stroke="#BFB7AA" stroke-width="1"/>
+<rect x="34" y="212" width="8" height="54" rx="0" fill="#C94A3A" stroke="none" stroke-width="0"/>
+<text data-role="subheading" x="58" y="235" font-family="Arial" font-size="14" font-weight="700" fill="#161616" text-anchor="start"><tspan x="58" dy="0">Differentiate</tspan></text>
+<text data-role="annotation" x="58" y="254" font-family="Arial" font-size="9" font-weight="400" fill="#5E5A54" text-anchor="start"><tspan x="58" dy="0">Strategy · Q3</tspan></text>
+<text data-role="metric" x="384" y="243" font-family="Georgia" font-size="18" font-weight="700" fill="#5E5A54" text-anchor="end"><tspan x="384" dy="0">02</tspan></text>
+<rect x="34" y="280" width="374" height="54" rx="0" fill="#EEE8DD" stroke="#BFB7AA" stroke-width="1"/>
+<rect x="34" y="280" width="8" height="54" rx="0" fill="#C94A3A" stroke="none" stroke-width="0"/>
+<text data-role="subheading" x="58" y="303" font-family="Arial" font-size="14" font-weight="700" fill="#161616" text-anchor="start"><tspan x="58" dy="0">Compound</tspan></text>
+<text data-role="annotation" x="58" y="322" font-family="Arial" font-size="9" font-weight="400" fill="#5E5A54" text-anchor="start"><tspan x="58" dy="0">Portfolio · Q4</tspan></text>
+<text data-role="metric" x="384" y="311" font-family="Georgia" font-size="18" font-weight="700" fill="#5E5A54" text-anchor="end"><tspan x="384" dy="0">03</tspan></text>
+<text data-role="label" x="446" y="132" font-family="Arial" font-size="10" font-weight="700" fill="#161616" text-anchor="start"><tspan x="446" dy="0">VALUE / CONFIDENCE</tspan></text>
+<rect x="446" y="144" width="274" height="190" rx="0" fill="#EEE8DD" stroke="#BFB7AA" stroke-width="1"/>
+<line x1="583" y1="156" x2="583" y2="322" stroke="#BFB7AA" stroke-width="1"/>
+<line x1="458" y1="239" x2="708" y2="239" stroke="#BFB7AA" stroke-width="1"/>
+<text data-role="annotation" x="466" y="172" font-family="Arial" font-size="9" font-weight="700" fill="#5E5A54" text-anchor="start"><tspan x="466" dy="0">EXPLORE</tspan></text>
+<text data-role="annotation" x="603" y="172" font-family="Arial" font-size="9" font-weight="700" fill="#326B52" text-anchor="start"><tspan x="603" dy="0">SCALE</tspan></text>
+<text data-role="annotation" x="466" y="266" font-family="Arial" font-size="9" font-weight="700" fill="#5E5A54" text-anchor="start"><tspan x="466" dy="0">DEFER</tspan></text>
+<text data-role="annotation" x="603" y="266" font-family="Arial" font-size="9" font-weight="700" fill="#B37A2D" text-anchor="start"><tspan x="603" dy="0">PROVE</tspan></text>
+<circle cx="650" cy="206" r="18" fill="#326B52"/>
+<circle cx="626" cy="289" r="13" fill="#B37A2D"/>
+<circle cx="530" cy="214" r="10" fill="#1746A2"/>
+<rect x="34" y="354" width="686" height="24" rx="12" fill="#1746A2" stroke="none" stroke-width="0"/>
+<text data-role="source" x="377" y="371" font-family="Arial" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="377" dy="0">ONE DECISION · THREE OWNERS · VISIBLE NEXT MILESTONE</tspan></text>
+<text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#5E5A54" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
+</g>
+</svg>

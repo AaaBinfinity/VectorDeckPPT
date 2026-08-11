@@ -7,20 +7,23 @@ All notable changes to VectorDeckPPT are documented in this file.
 ### Added
 
 - Added a deterministic deck typography audit with strict semantic text roles and diagnostics for inconsistent slide titles or same-page peer headings.
-- Added Data-Forward Clarity, Premium Restraint, Product Storytelling, and Dynamic Hero Editorial art-direction templates, plus inspectable SVG sources for all nine template families.
+- Added Data-Forward Clarity, Premium Restraint, Product Storytelling, Dynamic Hero Editorial, Forest Poetic Mosaic, Silk & Ink Strategy, and Museum Cultural Editorial art-direction families.
+- Added ten full-size SVG/PNG reference pages per bundled family, organized in a dedicated family directory alongside an overview, including cover, section, narrative, context, process, evidence, comparison, roadmap, decision, and close.
 
 ### Changed
 
-- Rebuilt the existing style references with complete cover, workflow, evidence, and decision-synthesis examples instead of sparse placeholder lines.
+- Rebuilt the style references as multi-page, information-rich template families instead of one-image contact sheets or sparse placeholder lines.
 - Strengthened the default content contract around claim, explanation, evidence/example, and implication/action, with meaningful visuals on roughly two thirds of core slides when sources permit.
 - Locked recurring typography roles to exact deck tokens and prohibited one-off font-size changes used only to make text fit.
 - Added an explicit complete-request confirmation gate before source synthesis or slide planning, and made controlled asymmetry, hero typography, crop, overlap, arcs, and diagonals part of the optional art-direction vocabulary without weakening professional defaults.
+- Added a required visual-source choice: select a bundled family, upload a PPT/PPTX/PDF/image/screenshot/brand reference, approve a two-source hybrid, or explicitly delegate selection to the Agent. Without a reference, the Agent presents three curated candidates with tradeoffs.
+- Separated artistic `deck-title`/`section-title` roles from ordinary slide titles and body typography so calligraphic or display treatments remain expressive without weakening professional readability.
 
 ### Documentation
 
 - Redesigned the README as a visual product overview with real generated slide previews, quick navigation, capability boundaries, and a shorter getting-started path.
 - Added a documentation index and moved reusable request templates into a dedicated prompt examples guide.
-- Synchronized the PRD, documentation index, prompt examples, and troubleshooting guide with the eight-template library, information-rich content contract, and strict typography audit.
+- Synchronized the PRD, documentation index, prompt examples, and usage guide with the twelve-family multi-page library, visual-source confirmation, information-rich content contract, artistic-type roles, and strict typography audit.
 - Added a task-oriented user guide and contributor guide covering installation modes, approval gates, quality commands, documentation synchronization, dependency export, and release checks.
 - Corrected pip CLI guidance and aligned the documented requirements export command with the generated file header.
 

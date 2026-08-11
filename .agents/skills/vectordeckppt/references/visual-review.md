@@ -53,6 +53,8 @@ If the first impression does not match the planned slide purpose, fix hierarchy 
 - Substantive slides contain enough explanatory copy to stand on their own without becoming paragraph walls.
 - Line spacing, alignment, and text-box width feel intentional.
 - Chinese and Latin font fallback looks coherent.
+- Any artistic display font is limited to the approved hero roles; ordinary titles, evidence, labels, and body copy remain readable.
+- The artistic role renders acceptably with the documented fallback in both SVG preview and compiled PPTX.
 - Copy is concise, audience-facing, and free of production notes.
 - No one-off near-size was introduced to make a single textbox fit.
 
@@ -78,6 +80,7 @@ If the first impression does not match the planned slide purpose, fix hierarchy 
 - Charts and diagrams support the slide's claim and use correct labels/units.
 - Quantitative charts use real source values and identify the relevant source or time period.
 - Core slides use meaningful charts, diagrams, comparisons, processes, tables, or annotations rather than decorative empty space.
+- Information-rich pages include the claim, supporting evidence or mechanism, interpretation, and an implication or next action; decoration is not counted as content.
 
 ### Overall quality
 
@@ -103,6 +106,7 @@ Evaluate the slide as a designed argument, not a collection of correct objects.
 - Does typography have intentional voice and line shape?
 - Is asymmetry, symmetry, overlap, or cropping used for a reason?
 - Does a key cover, section, or argument moment use hero typography or another dominant authored gesture when the confirmed art direction calls for it?
+- Is that hero treatment a purposeful display role rather than an unreadable font applied across the whole deck?
 - Has “professional” become visually inert or uniformly orthogonal? If yes, introduce controlled editorial tension without weakening evidence.
 - Does the slide avoid familiar presentation and generative-AI clichés?
 
@@ -132,6 +136,7 @@ After individual pages pass, inspect a montage/contact sheet for:
 - narrative pacing and density changes;
 - section transitions;
 - repeated layouts, weak filler slides, or abrupt visual switches;
+- substantive content across context, mechanism, evidence, comparison, roadmap, decision, and close pages rather than ten sparse variations of one cover;
 - a deliberate opening and resolved close.
 
 Then inspect every slide individually again. A montage is not enough for text and crop QA.

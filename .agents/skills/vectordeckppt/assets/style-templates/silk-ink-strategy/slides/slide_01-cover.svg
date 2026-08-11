@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>SILK &amp; INK STRATEGY cover template</title>
+<desc>One editable 16:9 cover reference page from the SILK &amp; INK STRATEGY multi-page template family.</desc>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#ECE9E1" stroke="none" stroke-width="0"/>
+<g transform="translate(40 50) scale(2)">
+<rect x="0" y="0" width="760" height="400" rx="0" fill="#FBFAF6" stroke="#D8D4C8" stroke-width="1"/>
+<rect x="0" y="0" width="760" height="6" rx="0" fill="#3D6F63" stroke="none" stroke-width="0"/>
+<text data-role="label" x="34" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#3D6F63" text-anchor="start"><tspan x="34" dy="0">BRAND, STRATEGY &amp; CULTURAL LAUNCH</tspan></text>
+<text data-role="page-number" x="714" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#6F756E" text-anchor="end"><tspan x="714" dy="0">01</tspan></text>
+<text data-role="deck-title" x="380" y="122" font-family="STXingkai, FZShuTi, KaiTi, serif" font-size="62" font-weight="700" fill="#2F6259" text-anchor="middle"><tspan x="380" dy="0">青岚入卷</tspan></text>
+<text data-role="subheading" x="380" y="166" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#333A36" text-anchor="middle"><tspan x="380" dy="0">STRATEGY IN MOTION</tspan></text>
+<text data-role="body" x="380" y="198" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#6F756E" text-anchor="middle"><tspan x="380" dy="0">以山水建立文化识别，以证据支撑策略判断。</tspan></text>
+<polygon points="0,400 0,310 104,252 212,326 318,236 424,326 536,242 650,320 760,268 760,400" fill="#B9CAC2"/>
+<polygon points="0,400 0,352 118,314 242,374 378,302 508,372 632,320 760,362 760,400" fill="#477365"/>
+<path d="M -8,320 C 134,266 248,292 358,334 S 566,256 768,322" fill="none" stroke="#C39B4B" stroke-width="7" opacity="0.72"/>
+<path d="M -8,330 C 134,276 248,302 358,344 S 566,266 768,332" fill="none" stroke="#C39B4B" stroke-width="6.2" opacity="0.64"/>
+<path d="M -8,340 C 134,286 248,312 358,354 S 566,276 768,342" fill="none" stroke="#C39B4B" stroke-width="5.4" opacity="0.56"/>
+<path d="M -8,350 C 134,296 248,322 358,364 S 566,286 768,352" fill="none" stroke="#C39B4B" stroke-width="4.6" opacity="0.48"/>
+<path d="M -8,360 C 134,306 248,332 358,374 S 566,296 768,362" fill="none" stroke="#C39B4B" stroke-width="3.8" opacity="0.4"/>
+<rect x="696" y="50" width="34" height="34" rx="0" fill="#A63A2E" stroke="none" stroke-width="0"/>
+<text data-role="quote" x="713" y="74" font-family="STXingkai, FZShuTi, KaiTi, serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="713" dy="0">策</tspan></text>
+<text data-role="source" x="42" y="374" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#6F756E" text-anchor="start"><tspan x="42" dy="0">ILLUSTRATIVE TEMPLATE · ORIGINAL VECTOR ART DIRECTION</tspan></text>
+</g>
+</svg>

@@ -109,6 +109,14 @@ Default Chinese font stack:
 Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif
 ```
 
+When the approved direction calls for artistic Chinese display type, define it as a separate named role instead of replacing the deck's readable type system. A practical stack is:
+
+```text
+STXingkai, FZShuTi, KaiTi, STKaiti, serif
+```
+
+Apply that display stack only to short `deck-title`, `section-title`, or featured `quote` treatments. Keep ordinary `slide-title`, `subheading`, `body`, labels, chart text, and sources in the readable sans-serif stack. Before authoring, verify the selected display font is installed on the rendering and delivery systems, record the approved fallback, and never bundle a font file unless its redistribution license is clear. If exact artistic glyph shape matters more than editability, convert only that display treatment to an authorized vector/image asset and disclose the tradeoff; never rasterize ordinary presentation text.
+
 Keep one-line titles on one line. Shorten copy or change layout before shrinking type. Use weight and scale for hierarchy; avoid many unrelated font sizes.
 
 Define a small set of typographic behaviors in addition to sizes:
@@ -203,6 +211,7 @@ Keep the system small enough to remember and rich enough to produce varied slide
 - Same background and palette logic across the deck.
 - Same title rail, title scale, and page-margin system.
 - Same font families, weights, and body sizes.
+- Artistic display fonts are restricted to approved named hero roles, have a tested fallback, and do not leak into ordinary titles or body copy.
 - One exact `slide-title` token across the deck and exact peer-heading tokens within each slide.
 - Strict typography audit passes with no missing roles or inconsistent deck tokens.
 - Same border, radius, connector, and icon language.

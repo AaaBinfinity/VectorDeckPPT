@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>MUSEUM CULTURAL EDITORIAL cover template</title>
+<desc>One editable 16:9 cover reference page from the MUSEUM CULTURAL EDITORIAL multi-page template family.</desc>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#201A17" stroke="none" stroke-width="0"/>
+<g transform="translate(40 50) scale(2)">
+<rect x="0" y="0" width="760" height="400" rx="0" fill="#2A211D" stroke="#5B493F" stroke-width="1"/>
+<rect x="0" y="0" width="760" height="6" rx="0" fill="#A43B2F" stroke="none" stroke-width="0"/>
+<text data-role="label" x="34" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="34" dy="0">HERITAGE, EXHIBITION &amp; INSTITUTION</tspan></text>
+<text data-role="page-number" x="714" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#B8ACA0" text-anchor="end"><tspan x="714" dy="0">01</tspan></text>
+<text data-role="deck-title" x="42" y="118" font-family="STXingkai, FZShuTi, KaiTi, serif" font-size="56" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="42" dy="0">器物</tspan><tspan x="42" dy="50.4">与时间</tspan></text>
+<text data-role="subheading" x="46" y="242" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#D8CABD" text-anchor="start"><tspan x="46" dy="0">OBJECTS / MEMORY / PUBLIC MEANING</tspan></text>
+<text data-role="body" x="46" y="284" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="46" dy="0">从物证、时间、观点到公共行动，</tspan></text>
+<text data-role="body" x="46" y="304" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="46" dy="0">让文化叙事不止于展示。</tspan></text>
+<circle cx="596" cy="210" r="138" fill="#372923" stroke="#C6A565" stroke-width="2"/>
+<circle cx="596" cy="210" r="96" fill="#211816" stroke="#6E5548" stroke-width="10"/>
+<polygon points="596,116 650,164 636,266 596,326 556,266 542,164" fill="#A43B2F" stroke="#D2AD66" stroke-width="4"/>
+<polygon points="596,142 626,174 618,244 596,286 574,244 566,174" fill="#CBA158"/>
+<text data-role="source" x="42" y="374" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#B8ACA0" text-anchor="start"><tspan x="42" dy="0">ILLUSTRATIVE TEMPLATE · ORIGINAL VECTOR ART DIRECTION</tspan></text>
+</g>
+</svg>

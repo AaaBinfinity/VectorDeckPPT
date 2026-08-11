@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>SILK &amp; INK STRATEGY narrative template</title>
+<desc>One editable 16:9 narrative reference page from the SILK &amp; INK STRATEGY multi-page template family.</desc>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#ECE9E1" stroke="none" stroke-width="0"/>
+<g transform="translate(40 50) scale(2)">
+<rect x="0" y="0" width="760" height="400" rx="0" fill="#FBFAF6" stroke="#D8D4C8" stroke-width="1"/>
+<rect x="0" y="0" width="760" height="6" rx="0" fill="#3D6F63" stroke="none" stroke-width="0"/>
+<text data-role="label" x="34" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#3D6F63" text-anchor="start"><tspan x="34" dy="0">NARRATIVE / ANNOTATION</tspan></text>
+<text data-role="page-number" x="714" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#6F756E" text-anchor="end"><tspan x="714" dy="0">03</tspan></text>
+<text data-role="slide-title" x="34" y="82" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="26" font-weight="700" fill="#2F6259" text-anchor="start"><tspan x="34" dy="0">意象只是入口，品牌判断才是结论</tspan></text>
+<text data-role="caption" x="34" y="110" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#6F756E" text-anchor="start"><tspan x="34" dy="0">Combine a concrete scene, an observed detail, and an explicit implication.</tspan></text>
+<rect x="34" y="142" width="420" height="214" rx="0" fill="#FFFFFF" stroke="#D8D4C8" stroke-width="1"/>
+<polygon points="34,356 34,248 146,178 246,266 350,196 454,266 454,356" fill="#C39B4B" opacity="0.42"/>
+<polygon points="34,356 34,310 154,258 282,332 380,280 454,318 454,356" fill="#3D6F63" opacity="0.72"/>
+<text data-role="subheading" x="488" y="170" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#3D6F63" text-anchor="start"><tspan x="488" dy="0">01  SCENE</tspan></text>
+<text data-role="body" x="488" y="194" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#2F6259" text-anchor="start"><tspan x="488" dy="0">Show where the issue becomes visible, who experiences it,</tspan><tspan x="488" dy="12.15">and what is at stake in that specific setting.</tspan></text>
+<text data-role="subheading" x="488" y="246" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#3D6F63" text-anchor="start"><tspan x="488" dy="0">02  DETAIL</tspan></text>
+<text data-role="body" x="488" y="270" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#2F6259" text-anchor="start"><tspan x="488" dy="0">Annotate an observation, quotation, artifact, or mechanism;</tspan><tspan x="488" dy="12.15">name the source and the limit of the evidence.</tspan></text>
+<text data-role="subheading" x="488" y="322" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#3D6F63" text-anchor="start"><tspan x="488" dy="0">03  MEANING</tspan></text>
+<text data-role="body" x="488" y="346" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#2F6259" text-anchor="start"><tspan x="488" dy="0">State what the evidence changes, which choice it supports,</tspan><tspan x="488" dy="12.15">and what the audience should inspect next.</tspan></text>
+<text data-role="source" x="724" y="392" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#6F756E" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
+</g>
+</svg>

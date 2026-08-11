@@ -1,4 +1,5 @@
 import struct
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 import pytest
@@ -19,16 +20,36 @@ REFERENCES = {
     "troubleshooting.md",
     "style-templates.md",
 }
-STYLE_TEMPLATES = {
-    "bright-tech-systems.png",
-    "data-forward-clarity.png",
-    "dark-engineered-systems.png",
-    "editorial-intelligence.png",
-    "expressive-cultural.png",
-    "dynamic-hero-editorial.png",
-    "human-documentary.png",
-    "premium-restraint.png",
-    "product-storytelling.png",
+STYLE_TEMPLATE_FAMILIES = {
+    "bright-tech-systems",
+    "data-forward-clarity",
+    "dark-engineered-systems",
+    "editorial-intelligence",
+    "expressive-cultural",
+    "dynamic-hero-editorial",
+    "forest-poetic-mosaic",
+    "human-documentary",
+    "museum-cultural-editorial",
+    "premium-restraint",
+    "product-storytelling",
+    "silk-ink-strategy",
+}
+STYLE_TEMPLATE_SLIDES = {
+    "slide_01-cover.svg",
+    "slide_02-section.svg",
+    "slide_03-narrative.svg",
+    "slide_04-context.svg",
+    "slide_05-process.svg",
+    "slide_06-evidence.svg",
+    "slide_07-comparison.svg",
+    "slide_08-roadmap.svg",
+    "slide_09-decision.svg",
+    "slide_10-close.svg",
+}
+ARTISTIC_STYLE_TEMPLATE_FAMILIES = {
+    "forest-poetic-mosaic",
+    "museum-cultural-editorial",
+    "silk-ink-strategy",
 }
 
 
@@ -66,29 +87,60 @@ def test_style_template_library_is_complete_and_widescreen() -> None:
     asset_dir = SKILL_DIR / "assets" / "style-templates"
 
     assert "style-templates.md" in content
-    assert {path.name for path in asset_dir.glob("*.png")} == STYLE_TEMPLATES
-    assert {path.name for path in asset_dir.glob("*.svg")} == {
-        Path(name).with_suffix(".svg").name for name in STYLE_TEMPLATES
-    }
+    assert not list(asset_dir.glob("*.png"))
+    assert not list(asset_dir.glob("*.svg"))
+    assert {path.name for path in asset_dir.iterdir() if path.is_dir()} == STYLE_TEMPLATE_FAMILIES
 
-    for name in STYLE_TEMPLATES:
-        path = asset_dir / name
-        data = path.read_bytes()
-        assert data[:8] == b"\x89PNG\r\n\x1a\n"
-        width, height = struct.unpack(">II", data[16:24])
-        assert width >= 1600
-        assert height >= 900
-        assert width / height == pytest.approx(16 / 9, rel=0.01)
-        assert f"../assets/style-templates/{name}" in reference
-        source_name = Path(name).with_suffix(".svg").name
-        source = asset_dir / source_name
-        source_text = source.read_text(encoding="utf-8")
-        assert source.stat().st_size > 10_000
-        assert 'data-role="slide-title"' in source_text
-        assert 'data-role="subheading"' in source_text
-        assert "ILLUSTRATIVE TEMPLATE" in source_text
-        assert f"../assets/style-templates/{source_name}" in reference
-        assert audit_typography(source, strict=True).valid
+    for family in STYLE_TEMPLATE_FAMILIES:
+        family_dir = asset_dir / family
+        slides_dir = family_dir / "slides"
+        assert (family_dir / "overview.png").is_file()
+        assert (family_dir / "overview.svg").is_file()
+        assert {path.name for path in slides_dir.glob("*.svg")} == STYLE_TEMPLATE_SLIDES
+        assert {path.name for path in slides_dir.glob("*.png")} == {
+            Path(name).with_suffix(".png").name for name in STYLE_TEMPLATE_SLIDES
+        }
+        assert f"../assets/style-templates/{family}/overview.png" in reference
+        assert f"../assets/style-templates/{family}/overview.svg" in reference
+        assert f"../assets/style-templates/{family}/slides/" in reference
+        for path in (family_dir / "overview.png", *slides_dir.glob("*.png")):
+            data = path.read_bytes()
+            assert data[:8] == b"\x89PNG\r\n\x1a\n"
+            width, height = struct.unpack(">II", data[16:24])
+            assert width >= 1600
+            assert height >= 900
+            assert width / height == pytest.approx(16 / 9, rel=0.01)
+        for source in slides_dir.glob("*.svg"):
+            source_text = source.read_text(encoding="utf-8")
+            assert source.stat().st_size > 2_000
+            assert "ILLUSTRATIVE TEMPLATE" in source_text
+        assert audit_typography(slides_dir, strict=True).valid
+
+
+def test_style_template_core_pages_are_content_rich_and_art_type_is_scoped() -> None:
+    asset_dir = SKILL_DIR / "assets" / "style-templates"
+    quiet_roles = {"slide_01-cover.svg", "slide_02-section.svg", "slide_10-close.svg"}
+
+    for family in STYLE_TEMPLATE_FAMILIES:
+        slides_dir = asset_dir / family / "slides"
+        for source in slides_dir.glob("*.svg"):
+            if source.name in quiet_roles:
+                continue
+            root = ET.fromstring(source.read_text(encoding="utf-8"))
+            text_nodes = [
+                node for node in root.iter() if node.tag.rsplit("}", 1)[-1] == "text"
+            ]
+            visible_text = " ".join("".join(node.itertext()) for node in text_nodes)
+            assert len(visible_text) >= 250, source
+            assert len(text_nodes) >= 10, source
+
+    for family in ARTISTIC_STYLE_TEMPLATE_FAMILIES:
+        slides_dir = asset_dir / family / "slides"
+        cover = (slides_dir / "slide_01-cover.svg").read_text(encoding="utf-8")
+        context = (slides_dir / "slide_04-context.svg").read_text(encoding="utf-8")
+        assert "STXingkai, FZShuTi, KaiTi, serif" in cover
+        assert "Microsoft YaHei" in context
+        assert "STXingkai, FZShuTi, KaiTi, serif" not in context
 
 
 def test_skill_enforces_clarification_and_staged_approval() -> None:
@@ -110,6 +162,9 @@ def test_skill_enforces_clarification_and_staged_approval() -> None:
     assert "explicitly approves the representative visual sample" in content
     assert "focused grouped questions" in content
     assert "request-contract approval" in content
+    assert "curated shortlist of three" in content
+    assert "upload a reference" in content
+    assert "explicit delegation" in content
     assert content.index("text-only slide draft") < content.index("representative visual")
     assert ".agents/skills/vectordeckppt/scripts/" not in content
     assert "opts out" not in content
@@ -124,6 +179,8 @@ def test_skill_enforces_clarification_and_staged_approval() -> None:
     assert "DECK_ROOT =" in workflow
     assert "DECK_ROOT/sample/slides/" in workflow
     assert "All three confirmation gates are mandatory" in workflow
+    assert "recommend exactly three bundled families" in workflow
+    assert "Visual source" in workflow
     assert "deck-work/" not in workflow
 
     assert "Request accuracy" in planning
@@ -165,8 +222,12 @@ def test_skill_confirms_complete_request_and_supports_controlled_artistry() -> N
     assert "Dynamic hero editorial" in art_direction
     assert "hero typography" in design
     assert "Dynamic Hero Editorial" in style_templates
+    assert "Forest Poetic Mosaic" in style_templates
+    assert "Silk & Ink Strategy" in style_templates
+    assert "Museum Cultural Editorial" in style_templates
+    assert "user supplied a PPT/PPTX/PDF/image/screenshot/brand reference" in style_templates
     assert "protected characters" in style_templates
-    assert "九套内置视觉方向" in readme
+    assert "十二套内置视觉方向" in readme
     assert "专业不等于所有页面都横平竖直" in readme
     assert "完整需求合同" in prd
 
@@ -231,7 +292,7 @@ def test_skill_locks_typography_roles_and_runs_deck_audit() -> None:
     assert "inconsistent_peer_size" in visual_review
     assert "audit_typography.py" in workflow
     assert "所有普通页面标题使用同一个精确字号" in readme
-    assert "九套内置视觉语法" in docs_index
+    assert "十二套内置视觉语法" in docs_index
     assert "字体审计脚本" in docs_index
     assert "同页同级模块标题必须完全一致" in prompts
     assert "Typography audit fails" in troubleshooting

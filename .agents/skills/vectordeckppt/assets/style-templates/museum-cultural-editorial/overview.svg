@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>MUSEUM CULTURAL EDITORIAL template contact sheet</title>
+<desc>Seven coordinated museum-editorial slide silhouettes with calligraphic hero type, artifact-like geometry, chronology, interpretation, evidence, comparison, and public action.</desc>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#201A17" stroke="none" stroke-width="0"/>
+<rect x="24" y="24" width="610" height="852" rx="0" fill="#291F1B" stroke="#5B493F" stroke-width="1"/>
+<circle cx="330" cy="512" r="208" fill="#392923" stroke="#C6A565" stroke-width="2"/>
+<circle cx="330" cy="512" r="154" fill="#241A17" stroke="#6F584B" stroke-width="14"/>
+<polygon points="330,354 414,420 392,584 330,678 268,584 246,420" fill="#A33B30" stroke="#D6B66F" stroke-width="5"/>
+<polygon points="330,392 378,438 364,546 330,612 296,546 282,438" fill="#D1A85F"/>
+<text data-role="label" x="62" y="78" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="11" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="62" dy="0">MUSEUM CULTURAL EDITORIAL  /  01</tspan></text>
+<text data-role="deck-title" x="76" y="218" font-family="STXingkai, FZShuTi, KaiTi, serif" font-size="104" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="76" dy="0">器物</tspan><tspan x="76" dy="93.6">与时间</tspan></text>
+<text data-role="subheading" x="78" y="394" font-family="Georgia, Noto Serif SC, serif" font-size="16" font-weight="700" fill="#D9CCBF" text-anchor="start"><tspan x="78" dy="0">OBJECTS / MEMORY / PUBLIC MEANING</tspan></text>
+<text data-role="body" x="78" y="736" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="78" dy="0">不只展示一件物，</tspan></text>
+<text data-role="body" x="78" y="770" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="78" dy="0">而是解释它如何连接过去与当下。</tspan></text>
+<text data-role="source" x="78" y="844" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#B8ACA0" text-anchor="start"><tspan x="78" dy="0">ILLUSTRATIVE TEMPLATE · ORIGINAL ABSTRACT ARTIFACT</tspan></text>
+<line x1="132" y1="476" x2="330" y2="512" stroke="#5D463B" stroke-width="1"/>
+<line x1="166" y1="476" x2="330" y2="512" stroke="#5D463B" stroke-width="1"/>
+<line x1="200" y1="476" x2="330" y2="512" stroke="#5D463B" stroke-width="1"/>
+<line x1="234" y1="476" x2="330" y2="512" stroke="#5D463B" stroke-width="1"/>
+<line x1="268" y1="476" x2="330" y2="512" stroke="#5D463B" stroke-width="1"/>
+<line x1="302" y1="476" x2="330" y2="512" stroke="#5D463B" stroke-width="1"/>
+<line x1="336" y1="476" x2="330" y2="512" stroke="#5D463B" stroke-width="1"/>
+<line x1="370" y1="476" x2="330" y2="512" stroke="#5D463B" stroke-width="1"/>
+<line x1="404" y1="476" x2="330" y2="512" stroke="#5D463B" stroke-width="1"/>
+<line x1="438" y1="476" x2="330" y2="512" stroke="#5D463B" stroke-width="1"/>
+<line x1="472" y1="476" x2="330" y2="512" stroke="#5D463B" stroke-width="1"/>
+<line x1="506" y1="476" x2="330" y2="512" stroke="#5D463B" stroke-width="1"/>
+<rect x="658" y="24" width="918" height="232" rx="0" fill="#F3EBDD" stroke="#5B493F" stroke-width="1"/>
+<rect x="658" y="24" width="12" height="232" rx="0" fill="#A43B2F" stroke="none" stroke-width="0"/>
+<text data-role="label" x="696" y="66" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="696" dy="0">02 / INTERPRET</tspan></text>
+<text data-role="slide-title" x="696" y="114" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="26" font-weight="700" fill="#291F1B" text-anchor="start"><tspan x="696" dy="0">一件器物，承载三层时间</tspan></text>
+<text data-role="body" x="696" y="154" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="400" fill="#6C5D54" text-anchor="start"><tspan x="696" dy="0">材料记录工艺，痕迹记录使用，流传记录社会关系。</tspan></text>
+<circle cx="716" cy="206" r="12" fill="#C6A565"/>
+<line x1="732" y1="206" x2="954" y2="206" stroke="#D9CFC1" stroke-width="2"/>
+<text data-role="subheading" x="740" y="198" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" font-weight="700" fill="#291F1B" text-anchor="start"><tspan x="740" dy="0">材料</tspan></text>
+<text data-role="annotation" x="740" y="226" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="13" font-weight="400" fill="#776A61" text-anchor="start"><tspan x="740" dy="0">它由什么被制作</tspan></text>
+<circle cx="992" cy="206" r="12" fill="#A43B2F"/>
+<line x1="1008" y1="206" x2="1230" y2="206" stroke="#D9CFC1" stroke-width="2"/>
+<text data-role="subheading" x="1016" y="198" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" font-weight="700" fill="#291F1B" text-anchor="start"><tspan x="1016" dy="0">痕迹</tspan></text>
+<text data-role="annotation" x="1016" y="226" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="13" font-weight="400" fill="#776A61" text-anchor="start"><tspan x="1016" dy="0">谁使用过它</tspan></text>
+<circle cx="1268" cy="206" r="12" fill="#C6A565"/>
+<line x1="1284" y1="206" x2="1506" y2="206" stroke="#D9CFC1" stroke-width="2"/>
+<text data-role="subheading" x="1292" y="198" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" font-weight="700" fill="#291F1B" text-anchor="start"><tspan x="1292" dy="0">流传</tspan></text>
+<text data-role="annotation" x="1292" y="226" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="13" font-weight="400" fill="#776A61" text-anchor="start"><tspan x="1292" dy="0">它如何进入公共记忆</tspan></text>
+<rect x="658" y="280" width="450" height="278" rx="0" fill="#2A211D" stroke="#5B493F" stroke-width="1"/>
+<text data-role="label" x="682" y="320" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="682" dy="0">03 / EVIDENCE</tspan></text>
+<text data-role="slide-title" x="682" y="362" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="682" dy="0">物证档案</tspan></text>
+<line x1="682" y1="384" x2="1084" y2="384" stroke="#5B493F" stroke-width="1"/>
+<rect x="1126" y="280" width="450" height="278" rx="0" fill="#2A211D" stroke="#5B493F" stroke-width="1"/>
+<text data-role="label" x="1150" y="320" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="1150" dy="0">04 / EVIDENCE</tspan></text>
+<text data-role="slide-title" x="1150" y="362" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="1150" dy="0">观点对话</tspan></text>
+<line x1="1150" y1="384" x2="1552" y2="384" stroke="#5B493F" stroke-width="1"/>
+<rect x="686" y="408" width="132" height="116" rx="0" fill="#3A2B25" stroke="#6F584B" stroke-width="2"/>
+<circle cx="752" cy="466" r="40" fill="#A43B2F" stroke="#D0AD68" stroke-width="4"/>
+<text data-role="subheading" x="842" y="430" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="842" dy="0">编号</tspan></text>
+<text data-role="body" x="842" y="458" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="13" font-weight="400" fill="#F5EFE4" text-anchor="start"><tspan x="842" dy="0">A-017 / 金属与漆木</tspan></text>
+<text data-role="subheading" x="842" y="490" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="842" dy="0">观察</tspan></text>
+<text data-role="body" x="842" y="518" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="13" font-weight="400" fill="#F5EFE4" text-anchor="start"><tspan x="842" dy="0">磨损集中在持握与边缘</tspan></text>
+<text data-role="quote" x="1154" y="420" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="1154" dy="0">“物的价值，</tspan></text>
+<text data-role="quote" x="1154" y="456" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="1154" dy="0">不在稀缺本身，</tspan></text>
+<text data-role="quote" x="1154" y="492" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="1154" dy="0">而在它让哪段历史可被理解。”</tspan></text>
+<text data-role="annotation" x="1154" y="532" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="13" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="1154" dy="0">— 策展观点示意</tspan></text>
+<rect x="658" y="582" width="284" height="294" rx="0" fill="#2A211D" stroke="#5B493F" stroke-width="1"/>
+<rect x="658" y="582" width="284" height="7" rx="0" fill="#C6A565" stroke="none" stroke-width="0"/>
+<text data-role="label" x="678" y="620" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#B8ACA0" text-anchor="start"><tspan x="678" dy="0">05 / TIME</tspan></text>
+<text data-role="slide-title" x="678" y="662" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="678" dy="0">时间线</tspan></text>
+<rect x="966" y="582" width="284" height="294" rx="0" fill="#2A211D" stroke="#5B493F" stroke-width="1"/>
+<rect x="966" y="582" width="284" height="7" rx="0" fill="#C6A565" stroke="none" stroke-width="0"/>
+<text data-role="label" x="986" y="620" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#B8ACA0" text-anchor="start"><tspan x="986" dy="0">06 / CHOICE</tspan></text>
+<text data-role="slide-title" x="986" y="662" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="986" dy="0">取舍矩阵</tspan></text>
+<rect x="1274" y="582" width="284" height="294" rx="0" fill="#2A211D" stroke="#5B493F" stroke-width="1"/>
+<rect x="1274" y="582" width="284" height="7" rx="0" fill="#A43B2F" stroke="none" stroke-width="0"/>
+<text data-role="label" x="1294" y="620" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#B8ACA0" text-anchor="start"><tspan x="1294" dy="0">07 / ACTION</tspan></text>
+<text data-role="slide-title" x="1294" y="662" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="1294" dy="0">公共行动</tspan></text>
+<text data-role="subheading" x="682" y="714" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="682" dy="0">1932</tspan></text>
+<line x1="740" y1="707" x2="796" y2="707" stroke="#5B493F" stroke-width="2"/>
+<text data-role="body" x="812" y="714" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="13" font-weight="400" fill="#F5EFE4" text-anchor="start"><tspan x="812" dy="0">制作</tspan></text>
+<text data-role="subheading" x="682" y="766" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="682" dy="0">1986</tspan></text>
+<line x1="740" y1="759" x2="796" y2="759" stroke="#5B493F" stroke-width="2"/>
+<text data-role="body" x="812" y="766" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="13" font-weight="400" fill="#F5EFE4" text-anchor="start"><tspan x="812" dy="0">收藏</tspan></text>
+<text data-role="subheading" x="682" y="818" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="682" dy="0">2026</tspan></text>
+<line x1="740" y1="811" x2="796" y2="811" stroke="#5B493F" stroke-width="2"/>
+<text data-role="body" x="812" y="818" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="13" font-weight="400" fill="#F5EFE4" text-anchor="start"><tspan x="812" dy="0">再诠释</tspan></text>
+<rect x="994" y="694" width="228" height="146" rx="0" fill="#332722" stroke="#5B493F" stroke-width="1"/>
+<line x1="1108" y1="704" x2="1108" y2="830" stroke="#5B493F" stroke-width="1"/>
+<line x1="1004" y1="767" x2="1212" y2="767" stroke="#5B493F" stroke-width="1"/>
+<text data-role="body" x="1010" y="718" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="13" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="1010" dy="0">稀缺</tspan></text>
+<text data-role="body" x="1140" y="718" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="13" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="1140" dy="0">共鸣</tspan></text>
+<text data-role="body" x="1010" y="808" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="13" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="1010" dy="0">研究</tspan></text>
+<text data-role="body" x="1140" y="808" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="13" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="1140" dy="0">公共</tspan></text>
+<circle cx="1166" cy="738" r="13" fill="#C6A565"/>
+<circle cx="1142" cy="794" r="10" fill="#A43B2F"/>
+<text data-role="body" x="1294" y="718" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="13" font-weight="400" fill="#F5EFE4" text-anchor="start"><tspan x="1294" dy="0">01  建立物证档案</tspan></text>
+<text data-role="body" x="1294" y="758" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="13" font-weight="400" fill="#F5EFE4" text-anchor="start"><tspan x="1294" dy="0">02  开放多方解读</tspan></text>
+<text data-role="body" x="1294" y="798" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="13" font-weight="400" fill="#F5EFE4" text-anchor="start"><tspan x="1294" dy="0">03  连接教育项目</tspan></text>
+<rect x="1294" y="828" width="238" height="30" rx="0" fill="#A43B2F" stroke="none" stroke-width="0"/>
+<text data-role="source" x="1413" y="849" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="1413" dy="0">OWNER · PROGRAM · DATE</tspan></text>
+</svg>

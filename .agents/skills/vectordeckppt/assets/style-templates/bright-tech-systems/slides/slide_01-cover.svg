@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>BRIGHT TECH SYSTEMS cover template</title>
+<desc>One editable 16:9 cover reference page from the BRIGHT TECH SYSTEMS multi-page template family.</desc>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#DCEBFA" stroke="none" stroke-width="0"/>
+<g transform="translate(40 50) scale(2)">
+<rect x="0" y="0" width="760" height="400" rx="18" fill="#F8FBFF" stroke="#B9D0EC" stroke-width="1"/>
+<rect x="0" y="0" width="760" height="6" rx="18" fill="#1261D8" stroke="none" stroke-width="0"/>
+<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#1261D8" text-anchor="start"><tspan x="34" dy="0">PRODUCT &amp; AI OPERATIONS</tspan></text>
+<text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#526783" text-anchor="end"><tspan x="714" dy="0">01</tspan></text>
+<text data-role="deck-title" x="34" y="96" font-family="Arial" font-size="36" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="34" dy="0">From capability</tspan><tspan x="34" dy="37.44">to repeatable</tspan><tspan x="34" dy="37.44">impact</tspan></text>
+<text data-role="caption" x="34" y="234" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="34" dy="0">A clear operating story connects product mechanics, evidence, and adoption.</tspan></text>
+<text data-role="source" x="34" y="362" font-family="Arial" font-size="9" font-weight="700" fill="#526783" text-anchor="start"><tspan x="34" dy="0">ILLUSTRATIVE TEMPLATE · REPLACE WITH SOURCED CONTENT</tspan></text>
+<rect x="418" y="88" width="92" height="196" rx="18" fill="#FFFFFF" stroke="#B9D0EC" stroke-width="1"/>
+<text data-role="metric" x="464" y="158" font-family="Arial" font-size="29" font-weight="700" fill="#1261D8" text-anchor="middle"><tspan x="464" dy="0">84%</tspan></text>
+<text data-role="annotation" x="464" y="186" font-family="Arial" font-size="9" font-weight="600" fill="#526783" text-anchor="middle"><tspan x="464" dy="0">workflow adoption</tspan></text>
+<line x1="436" y1="222" x2="492" y2="222" stroke="#B9D0EC" stroke-width="2"/>
+<line x1="436" y1="244" x2="492" y2="214" stroke="#11A9CC" stroke-width="4"/>
+<rect x="523" y="88" width="92" height="196" rx="18" fill="#FFFFFF" stroke="#B9D0EC" stroke-width="1"/>
+<text data-role="metric" x="569" y="158" font-family="Arial" font-size="29" font-weight="700" fill="#0B1F44" text-anchor="middle"><tspan x="569" dy="0">2.4x</tspan></text>
+<text data-role="annotation" x="569" y="186" font-family="Arial" font-size="9" font-weight="600" fill="#526783" text-anchor="middle"><tspan x="569" dy="0">faster review</tspan></text>
+<line x1="541" y1="222" x2="597" y2="222" stroke="#B9D0EC" stroke-width="2"/>
+<line x1="541" y1="239" x2="597" y2="222" stroke="#11A9CC" stroke-width="4"/>
+<rect x="628" y="88" width="92" height="196" rx="18" fill="#FFFFFF" stroke="#B9D0EC" stroke-width="1"/>
+<text data-role="metric" x="674" y="158" font-family="Arial" font-size="29" font-weight="700" fill="#0B1F44" text-anchor="middle"><tspan x="674" dy="0">−31%</tspan></text>
+<text data-role="annotation" x="674" y="186" font-family="Arial" font-size="9" font-weight="600" fill="#526783" text-anchor="middle"><tspan x="674" dy="0">handoff time</tspan></text>
+<line x1="646" y1="222" x2="702" y2="222" stroke="#B9D0EC" stroke-width="2"/>
+<line x1="646" y1="234" x2="702" y2="230" stroke="#11A9CC" stroke-width="4"/>
+<rect x="34" y="286" width="98" height="34" rx="17" fill="#FFFFFF" stroke="#B9D0EC" stroke-width="1"/>
+<text data-role="label" x="83" y="308" font-family="Arial" font-size="10" font-weight="700" fill="#0B1F44" text-anchor="middle"><tspan x="83" dy="0">CLAIM</tspan></text>
+<rect x="146" y="286" width="98" height="34" rx="17" fill="#FFFFFF" stroke="#B9D0EC" stroke-width="1"/>
+<text data-role="label" x="195" y="308" font-family="Arial" font-size="10" font-weight="700" fill="#0B1F44" text-anchor="middle"><tspan x="195" dy="0">PROOF</tspan></text>
+<rect x="258" y="286" width="98" height="34" rx="17" fill="#FFFFFF" stroke="#B9D0EC" stroke-width="1"/>
+<text data-role="label" x="307" y="308" font-family="Arial" font-size="10" font-weight="700" fill="#0B1F44" text-anchor="middle"><tspan x="307" dy="0">ACTION</tspan></text>
+</g>
+</svg>

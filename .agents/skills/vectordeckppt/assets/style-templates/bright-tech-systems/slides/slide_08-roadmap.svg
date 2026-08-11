@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>BRIGHT TECH SYSTEMS roadmap template</title>
+<desc>One editable 16:9 roadmap reference page from the BRIGHT TECH SYSTEMS multi-page template family.</desc>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#DCEBFA" stroke="none" stroke-width="0"/>
+<g transform="translate(40 50) scale(2)">
+<rect x="0" y="0" width="760" height="400" rx="18" fill="#F8FBFF" stroke="#B9D0EC" stroke-width="1"/>
+<rect x="0" y="0" width="760" height="6" rx="18" fill="#1261D8" stroke="none" stroke-width="0"/>
+<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#1261D8" text-anchor="start"><tspan x="34" dy="0">ROADMAP / OWNERSHIP</tspan></text>
+<text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#526783" text-anchor="end"><tspan x="714" dy="0">08</tspan></text>
+<text data-role="slide-title" x="34" y="82" font-family="Arial" font-size="26" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="34" dy="0">Sequence work by proof, dependency, and owner</tspan></text>
+<text data-role="caption" x="34" y="110" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="34" dy="0">A useful roadmap shows what becomes true at each milestone, not only a list of activities.</tspan></text>
+<line x1="64" y1="214" x2="698" y2="214" stroke="#B9D0EC" stroke-width="4"/>
+<circle cx="74" cy="214" r="18" fill="#1261D8" stroke="#1261D8" stroke-width="3"/>
+<text data-role="page-number" x="74" y="219" font-family="Arial" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="74" dy="0">01</tspan></text>
+<text data-role="subheading" x="56" y="258" font-family="Arial" font-size="14" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="56" dy="0">FRAME</tspan></text>
+<text data-role="body" x="56" y="284" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="56" dy="0">Confirm decision, baseline,</tspan><tspan x="56" dy="12.6">and success measure</tspan></text>
+<text data-role="annotation" x="56" y="338" font-family="Arial" font-size="9" font-weight="700" fill="#11A9CC" text-anchor="start"><tspan x="56" dy="0">OWNER A · W1</tspan></text>
+<circle cx="244" cy="214" r="18" fill="#FFFFFF" stroke="#1261D8" stroke-width="3"/>
+<text data-role="page-number" x="244" y="219" font-family="Arial" font-size="10" font-weight="700" fill="#1261D8" text-anchor="middle"><tspan x="244" dy="0">02</tspan></text>
+<text data-role="subheading" x="226" y="258" font-family="Arial" font-size="14" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="226" dy="0">PROVE</tspan></text>
+<text data-role="body" x="226" y="284" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="226" dy="0">Test the critical mechanism</tspan><tspan x="226" dy="12.6">with visible evidence</tspan></text>
+<text data-role="annotation" x="226" y="338" font-family="Arial" font-size="9" font-weight="700" fill="#11A9CC" text-anchor="start"><tspan x="226" dy="0">OWNER B · W2–3</tspan></text>
+<circle cx="414" cy="214" r="18" fill="#FFFFFF" stroke="#1261D8" stroke-width="3"/>
+<text data-role="page-number" x="414" y="219" font-family="Arial" font-size="10" font-weight="700" fill="#1261D8" text-anchor="middle"><tspan x="414" dy="0">03</tspan></text>
+<text data-role="subheading" x="396" y="258" font-family="Arial" font-size="14" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="396" dy="0">ENABLE</tspan></text>
+<text data-role="body" x="396" y="284" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="396" dy="0">Document workflow, roles,</tspan><tspan x="396" dy="12.6">and acceptance criteria</tspan></text>
+<text data-role="annotation" x="396" y="338" font-family="Arial" font-size="9" font-weight="700" fill="#11A9CC" text-anchor="start"><tspan x="396" dy="0">OWNER C · W4</tspan></text>
+<circle cx="584" cy="214" r="18" fill="#FFFFFF" stroke="#1261D8" stroke-width="3"/>
+<text data-role="page-number" x="584" y="219" font-family="Arial" font-size="10" font-weight="700" fill="#1261D8" text-anchor="middle"><tspan x="584" dy="0">04</tspan></text>
+<text data-role="subheading" x="566" y="258" font-family="Arial" font-size="14" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="566" dy="0">SCALE</tspan></text>
+<text data-role="body" x="566" y="284" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="566" dy="0">Expand only after quality</tspan><tspan x="566" dy="12.6">and value signals hold</tspan></text>
+<text data-role="annotation" x="566" y="338" font-family="Arial" font-size="9" font-weight="700" fill="#11A9CC" text-anchor="start"><tspan x="566" dy="0">OWNER D · Q+1</tspan></text>
+<rect x="34" y="354" width="686" height="24" rx="12" fill="#1261D8" stroke="none" stroke-width="0"/>
+<text data-role="source" x="377" y="371" font-family="Arial" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="377" dy="0">EACH PHASE ENDS WITH A REVIEWABLE ARTIFACT, A DECISION, AND A NAMED OWNER</tspan></text>
+<text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#526783" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
+</g>
+</svg>

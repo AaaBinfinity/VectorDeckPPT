@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>FOREST POETIC MOSAIC cover template</title>
+<desc>One editable 16:9 cover reference page from the FOREST POETIC MOSAIC multi-page template family.</desc>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#D9E1DC" stroke="none" stroke-width="0"/>
+<g transform="translate(40 50) scale(2)">
+<rect x="0" y="0" width="760" height="400" rx="0" fill="#F5F7F4" stroke="#C7D2CC" stroke-width="1"/>
+<rect x="0" y="0" width="760" height="6" rx="0" fill="#0B5A42" stroke="none" stroke-width="0"/>
+<text data-role="label" x="34" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#0B5A42" text-anchor="start"><tspan x="34" dy="0">CULTURE, PLACE &amp; BRAND STORY</tspan></text>
+<text data-role="page-number" x="714" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#56665F" text-anchor="end"><tspan x="714" dy="0">01</tspan></text>
+<text data-role="deck-title" x="36" y="120" font-family="STXingkai, FZShuTi, KaiTi, serif" font-size="56" font-weight="700" fill="#0B4B38" text-anchor="start"><tspan x="36" dy="0">林深处</tspan><tspan x="36" dy="50.4">见新境</tspan></text>
+<text data-role="subheading" x="42" y="242" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#273B33" text-anchor="start"><tspan x="42" dy="0">FOREST AS A NARRATIVE SYSTEM</tspan></text>
+<text data-role="body" x="42" y="278" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#56665F" text-anchor="start"><tspan x="42" dy="0">用留白建立信任，用场景切片建立记忆，</tspan></text>
+<text data-role="body" x="42" y="298" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#56665F" text-anchor="start"><tspan x="42" dy="0">再让人物、证据与行动在同一叙事中汇合。</tspan></text>
+<polygon points="392,58 744,58 744,370 520,322" fill="#184735"/>
+<polygon points="498,58 744,58 744,208 638,250" fill="#6E907D"/>
+<polygon points="392,284 538,186 690,370 392,370" fill="#0B513B"/>
+<line x1="516" y1="58" x2="700" y2="370" stroke="#F5F7F4" stroke-width="7"/>
+<line x1="392" y1="286" x2="632" y2="58" stroke="#F5F7F4" stroke-width="7"/>
+<polygon points="432,360 439.48,360 435.74,334.84" fill="#061E16"/>
+<polygon points="432.898,352.955 438.582,352.955 435.74,338.362" fill="#061E16"/>
+<rect x="435.291" y="356.981" width="0.8976" height="3.0192" rx="0" fill="#061E16" stroke="none" stroke-width="0"/>
+<polygon points="443.56,360 453.08,360 448.32,328.72" fill="#103326"/>
+<polygon points="444.702,351.242 451.938,351.242 448.32,333.099" fill="#103326"/>
+<rect x="447.749" y="356.246" width="1.1424" height="3.7536" rx="0" fill="#103326" stroke="none" stroke-width="0"/>
+<polygon points="455.12,360 466.68,360 460.9,322.6" fill="#214C3A"/>
+<polygon points="456.507,349.528 465.293,349.528 460.9,327.836" fill="#214C3A"/>
+<rect x="460.206" y="355.512" width="1.3872" height="4.488" rx="0" fill="#214C3A" stroke="none" stroke-width="0"/>
+<polygon points="466.68,360 474.16,360 470.42,316.48" fill="#061E16"/>
+<polygon points="467.578,347.814 473.262,347.814 470.42,322.573" fill="#061E16"/>
+<rect x="469.971" y="354.778" width="0.8976" height="5.2224" rx="0" fill="#061E16" stroke="none" stroke-width="0"/>
+<polygon points="478.24,360 487.76,360 483,310.36" fill="#103326"/>
+<polygon points="479.382,346.101 486.618,346.101 483,317.31" fill="#103326"/>
+<rect x="482.429" y="354.043" width="1.1424" height="5.9568" rx="0" fill="#103326" stroke="none" stroke-width="0"/>
+<polygon points="489.8,360 501.36,360 495.58,334.84" fill="#214C3A"/>
+<polygon points="491.187,352.955 499.973,352.955 495.58,338.362" fill="#214C3A"/>
+<rect x="494.886" y="356.981" width="1.3872" height="3.0192" rx="0" fill="#214C3A" stroke="none" stroke-width="0"/>
+<polygon points="501.36,360 508.84,360 505.1,328.72" fill="#061E16"/>
+<polygon points="502.258,351.242 507.942,351.242 505.1,333.099" fill="#061E16"/>
+<rect x="504.651" y="356.246" width="0.8976" height="3.7536" rx="0" fill="#061E16" stroke="none" stroke-width="0"/>
+<polygon points="512.92,360 522.44,360 517.68,322.6" fill="#103326"/>
+<polygon points="514.062,349.528 521.298,349.528 517.68,327.836" fill="#103326"/>
+<rect x="517.109" y="355.512" width="1.1424" height="4.488" rx="0" fill="#103326" stroke="none" stroke-width="0"/>
+<polygon points="524.48,360 536.04,360 530.26,316.48" fill="#214C3A"/>
+<polygon points="525.867,347.814 534.653,347.814 530.26,322.573" fill="#214C3A"/>
+<rect x="529.566" y="354.778" width="1.3872" height="5.2224" rx="0" fill="#214C3A" stroke="none" stroke-width="0"/>
+<polygon points="536.04,360 543.52,360 539.78,310.36" fill="#061E16"/>
+<polygon points="536.938,346.101 542.622,346.101 539.78,317.31" fill="#061E16"/>
+<rect x="539.331" y="354.043" width="0.8976" height="5.9568" rx="0" fill="#061E16" stroke="none" stroke-width="0"/>
+<polygon points="547.6,360 557.12,360 552.36,334.84" fill="#103326"/>
+<polygon points="548.742,352.955 555.978,352.955 552.36,338.362" fill="#103326"/>
+<rect x="551.789" y="356.981" width="1.1424" height="3.0192" rx="0" fill="#103326" stroke="none" stroke-width="0"/>
+<polygon points="559.16,360 570.72,360 564.94,328.72" fill="#214C3A"/>
+<polygon points="560.547,351.242 569.333,351.242 564.94,333.099" fill="#214C3A"/>
+<rect x="564.246" y="356.246" width="1.3872" height="3.7536" rx="0" fill="#214C3A" stroke="none" stroke-width="0"/>
+<polygon points="570.72,360 578.2,360 574.46,322.6" fill="#061E16"/>
+<polygon points="571.618,349.528 577.302,349.528 574.46,327.836" fill="#061E16"/>
+<rect x="574.011" y="355.512" width="0.8976" height="4.488" rx="0" fill="#061E16" stroke="none" stroke-width="0"/>
+<polygon points="582.28,360 591.8,360 587.04,316.48" fill="#103326"/>
+<polygon points="583.422,347.814 590.658,347.814 587.04,322.573" fill="#103326"/>
+<rect x="586.469" y="354.778" width="1.1424" height="5.2224" rx="0" fill="#103326" stroke="none" stroke-width="0"/>
+<polygon points="593.84,360 605.4,360 599.62,310.36" fill="#214C3A"/>
+<polygon points="595.227,346.101 604.013,346.101 599.62,317.31" fill="#214C3A"/>
+<rect x="598.926" y="354.043" width="1.3872" height="5.9568" rx="0" fill="#214C3A" stroke="none" stroke-width="0"/>
+<polygon points="605.4,360 612.88,360 609.14,334.84" fill="#061E16"/>
+<polygon points="606.298,352.955 611.982,352.955 609.14,338.362" fill="#061E16"/>
+<rect x="608.691" y="356.981" width="0.8976" height="3.0192" rx="0" fill="#061E16" stroke="none" stroke-width="0"/>
+<polygon points="616.96,360 626.48,360 621.72,328.72" fill="#103326"/>
+<polygon points="618.102,351.242 625.338,351.242 621.72,333.099" fill="#103326"/>
+<rect x="621.149" y="356.246" width="1.1424" height="3.7536" rx="0" fill="#103326" stroke="none" stroke-width="0"/>
+<polygon points="628.52,360 640.08,360 634.3,322.6" fill="#214C3A"/>
+<polygon points="629.907,349.528 638.693,349.528 634.3,327.836" fill="#214C3A"/>
+<rect x="633.606" y="355.512" width="1.3872" height="4.488" rx="0" fill="#214C3A" stroke="none" stroke-width="0"/>
+<polygon points="640.08,360 647.56,360 643.82,316.48" fill="#061E16"/>
+<polygon points="640.978,347.814 646.662,347.814 643.82,322.573" fill="#061E16"/>
+<rect x="643.371" y="354.778" width="0.8976" height="5.2224" rx="0" fill="#061E16" stroke="none" stroke-width="0"/>
+<polygon points="651.64,360 661.16,360 656.4,310.36" fill="#103326"/>
+<polygon points="652.782,346.101 660.018,346.101 656.4,317.31" fill="#103326"/>
+<rect x="655.829" y="354.043" width="1.1424" height="5.9568" rx="0" fill="#103326" stroke="none" stroke-width="0"/>
+<polygon points="663.2,360 674.76,360 668.98,334.84" fill="#214C3A"/>
+<polygon points="664.587,352.955 673.373,352.955 668.98,338.362" fill="#214C3A"/>
+<rect x="668.286" y="356.981" width="1.3872" height="3.0192" rx="0" fill="#214C3A" stroke="none" stroke-width="0"/>
+<polygon points="674.76,360 682.24,360 678.5,328.72" fill="#061E16"/>
+<polygon points="675.658,351.242 681.342,351.242 678.5,333.099" fill="#061E16"/>
+<rect x="678.051" y="356.246" width="0.8976" height="3.7536" rx="0" fill="#061E16" stroke="none" stroke-width="0"/>
+<text data-role="source" x="42" y="374" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#56665F" text-anchor="start"><tspan x="42" dy="0">ILLUSTRATIVE TEMPLATE · ORIGINAL VECTOR ART DIRECTION</tspan></text>
+</g>
+</svg>

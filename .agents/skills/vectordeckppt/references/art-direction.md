@@ -5,15 +5,16 @@
 1. Aesthetic objective
 2. Visual thesis
 3. Meaning-to-form decisions
-4. Setting and credibility gate
-5. Direction families
-6. Composition, rhythm, and pacing
-7. Typography as image
-8. Color, material, and depth
-9. Imagery and illustration briefs
-10. Art-direction brief
-11. Aesthetic anti-patterns
-12. Approval questions
+4. Visual-source confirmation
+5. Setting and credibility gate
+6. Direction families
+7. Composition, rhythm, and pacing
+8. Typography as image
+9. Color, material, and depth
+10. Imagery and illustration briefs
+11. Art-direction brief
+12. Aesthetic anti-patterns
+13. Approval questions
 
 ## Aesthetic objective
 
@@ -63,6 +64,17 @@ Translate communication intent into form before choosing a layout:
 | Support a decision | implication-first title, evidence hierarchy, explicit recommendation | chronology, activity lists, neutral section labels |
 
 Ask of every visible element: **what meaning does this form carry?** If the answer is only “it fills space,” remove or redesign it.
+
+## Visual-source confirmation
+
+Do not silently choose a style. Before source synthesis begins, confirm one visual-source route in the request contract:
+
+- a user-selected bundled family;
+- a user-supplied PPT/PPTX/PDF/image/screenshot/brand reference;
+- a named hybrid of at most two sources; or
+- explicit delegation for the Agent to select.
+
+When no reference is supplied, recommend three bundled families based on audience, setting, evidence type, and desired emotional tone. State the benefit and tradeoff of each, then let the user choose, upload a reference, or delegate. When a reference is supplied, summarize the reusable visual grammar—type personality, spatial rhythm, crop behavior, color roles, material cues, and pacing—plus font, asset, rights, and editability constraints. Do not copy protected characters, logos, watermarks, proprietary artwork, or unlicensed fonts. A screenshot is evidence of desired behavior, not a full-slide background asset.
 
 ## Setting and credibility gate
 

@@ -38,6 +38,7 @@ Setting, formality, and delivery time:
 Source-of-truth materials and factual boundaries:
 Language, slide count, and aspect ratio:
 Visual direction, brand rules, and forbidden treatments:
+Visual source: bundled family / user-supplied reference / approved hybrid / Agent-selected by explicit delegation
 Required content and assets:
 Editability, deliverables, and output location:
 Proposed defaults:

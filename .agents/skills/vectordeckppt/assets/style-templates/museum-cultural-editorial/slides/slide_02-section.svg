@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>MUSEUM CULTURAL EDITORIAL section template</title>
+<desc>One editable 16:9 section reference page from the MUSEUM CULTURAL EDITORIAL multi-page template family.</desc>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#201A17" stroke="none" stroke-width="0"/>
+<g transform="translate(40 50) scale(2)">
+<rect x="0" y="0" width="760" height="400" rx="0" fill="#2A211D" stroke="#5B493F" stroke-width="1"/>
+<rect x="0" y="0" width="760" height="6" rx="0" fill="#A43B2F" stroke="none" stroke-width="0"/>
+<text data-role="label" x="34" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="34" dy="0">SECTION / CHAPTER</tspan></text>
+<text data-role="page-number" x="714" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#B8ACA0" text-anchor="end"><tspan x="714" dy="0">02</tspan></text>
+<text data-role="metric" x="34" y="154" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="108" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="34" dy="0">02</tspan></text>
+<text data-role="deck-title" x="210" y="146" font-family="STXingkai, FZShuTi, KaiTi, serif" font-size="46" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="210" dy="0">从物证到公共意义</tspan></text>
+<text data-role="subheading" x="214" y="246" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="214" dy="0">一件器物如何连接材料、时间与当下。</tspan></text>
+<text data-role="body" x="214" y="282" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="214" dy="0">The display role may be expressive; ordinary slide titles remain locked and exact.</tspan></text>
+<line x1="214" y1="314" x2="704" y2="314" stroke="#5B493F" stroke-width="2"/>
+<circle cx="630" cy="302" r="68" fill="#372923" stroke="#C6A565" stroke-width="2"/>
+<polygon points="630,242 666,274 656,338 630,366 604,338 594,274" fill="#A43B2F" stroke="#C6A565" stroke-width="3"/>
+<text data-role="source" x="724" y="392" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#B8ACA0" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
+</g>
+</svg>

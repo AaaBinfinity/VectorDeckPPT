@@ -84,29 +84,29 @@ VectorDeckPPT 是面向 AI Agent 的向量优先 PowerPoint 生成 Skill。宿�
   <a href="examples/project-intro-deck/compilation-report.json">查看编译报告</a>
 </p>
 
-### 九套内置视觉方向
+### 十二套内置视觉方向
 
-每套模板都展示封面、流程、证据和决策综合四类信息丰富页面，并提供同名 SVG 源文件。它们用于帮助 Agent 提取视觉语法，不是固定页壳或整页背景。Agent 会根据真实内容重新建立字体、空间、色彩、图像和构图规则，并把标题、同级标题、正文、标签等角色锁定为整套一致的字号。
+每套模板位于独立目录，包含一张总览图和 10 张逐页生成的 16:9 SVG/PNG 页面：封面、章节、叙事、问题、流程、证据、对比、路线图、决策和结尾。普通内容页不只放标题和短标签，而是同时展示结论、解释、证据/例子和影响/行动；封面与章节页则保留必要留白。艺术字体只用于 `deck-title` / `section-title` 等展示角色，普通页标题、同级标题和正文仍锁定为整套一致的精确字体 token。
 
 <table>
   <tr>
     <td width="33%" align="center">
-      <a href=".agents/skills/vectordeckppt/assets/style-templates/bright-tech-systems.png">
-        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/bright-tech-systems.png" alt="明亮科技系统视觉方向">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/bright-tech-systems/overview.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/bright-tech-systems/overview.png" alt="明亮科技系统视觉方向">
       </a>
       <br><strong>Bright Tech Systems</strong>
       <br><sub>技术产品 · AI 工作流 · 产品能力</sub>
     </td>
     <td width="33%" align="center">
-      <a href=".agents/skills/vectordeckppt/assets/style-templates/editorial-intelligence.png">
-        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/editorial-intelligence.png" alt="编辑研究视觉方向">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/editorial-intelligence/overview.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/editorial-intelligence/overview.png" alt="编辑研究视觉方向">
       </a>
       <br><strong>Editorial Intelligence</strong>
       <br><sub>研究报告 · 策略分析 · 数据叙事</sub>
     </td>
     <td width="33%" align="center">
-      <a href=".agents/skills/vectordeckppt/assets/style-templates/dark-engineered-systems.png">
-        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/dark-engineered-systems.png" alt="深色工程系统视觉方向">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/dark-engineered-systems/overview.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/dark-engineered-systems/overview.png" alt="深色工程系统视觉方向">
       </a>
       <br><strong>Dark Engineered Systems</strong>
       <br><sub>架构评审 · 基础设施 · 安全工程</sub>
@@ -114,22 +114,22 @@ VectorDeckPPT 是面向 AI Agent 的向量优先 PowerPoint 生成 Skill。宿�
   </tr>
   <tr>
     <td width="33%" align="center">
-      <a href=".agents/skills/vectordeckppt/assets/style-templates/human-documentary.png">
-        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/human-documentary.png" alt="人文纪实视觉方向">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/human-documentary/overview.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/human-documentary/overview.png" alt="人文纪实视觉方向">
       </a>
       <br><strong>Human Documentary</strong>
       <br><sub>品牌故事 · 公共议题 · 人物现场</sub>
     </td>
     <td width="33%" align="center">
-      <a href=".agents/skills/vectordeckppt/assets/style-templates/expressive-cultural.png">
-        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/expressive-cultural.png" alt="表现型文化发布视觉方向">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/expressive-cultural/overview.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/expressive-cultural/overview.png" alt="表现型文化发布视觉方向">
       </a>
       <br><strong>Expressive Cultural</strong>
       <br><sub>发布会 · 创意提案 · 文化与消费品牌</sub>
     </td>
     <td width="33%" align="center">
-      <a href=".agents/skills/vectordeckppt/assets/style-templates/data-forward-clarity.png">
-        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/data-forward-clarity.png" alt="数据驱动清晰表达视觉方向">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/data-forward-clarity/overview.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/data-forward-clarity/overview.png" alt="数据驱动清晰表达视觉方向">
       </a>
       <br><strong>Data-Forward Clarity</strong>
       <br><sub>经营复盘 · KPI 汇报 · 数据分析</sub>
@@ -137,30 +137,53 @@ VectorDeckPPT 是面向 AI Agent 的向量优先 PowerPoint 生成 Skill。宿�
   </tr>
   <tr>
     <td width="33%" align="center">
-      <a href=".agents/skills/vectordeckppt/assets/style-templates/premium-restraint.png">
-        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/premium-restraint.png" alt="高管克制视觉方向">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/premium-restraint/overview.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/premium-restraint/overview.png" alt="高管克制视觉方向">
       </a>
       <br><strong>Premium Restraint</strong>
       <br><sub>高管建议 · 董事会 · 组合策略</sub>
     </td>
     <td width="33%" align="center">
-      <a href=".agents/skills/vectordeckppt/assets/style-templates/product-storytelling.png">
-        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/product-storytelling.png" alt="产品叙事视觉方向">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/product-storytelling/overview.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/product-storytelling/overview.png" alt="产品叙事视觉方向">
       </a>
       <br><strong>Product Storytelling</strong>
       <br><sub>产品发布 · 功能叙事 · 用户采用</sub>
     </td>
     <td width="33%" align="center">
-      <a href=".agents/skills/vectordeckppt/assets/style-templates/dynamic-hero-editorial.png">
-        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/dynamic-hero-editorial.png" alt="动态英雄式编辑视觉方向">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/dynamic-hero-editorial/overview.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/dynamic-hero-editorial/overview.png" alt="动态英雄式编辑视觉方向">
       </a>
       <br><strong>Dynamic Hero Editorial</strong>
       <br><sub>英雄字体 · 斜切构图 · 发布与创意叙事</sub>
     </td>
   </tr>
+  <tr>
+    <td width="33%" align="center">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/forest-poetic-mosaic/overview.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/forest-poetic-mosaic/overview.png" alt="森林诗意切片视觉方向">
+      </a>
+      <br><strong>Forest Poetic Mosaic</strong>
+      <br><sub>书法标题 · 森林切片 · 场所与文化叙事</sub>
+    </td>
+    <td width="33%" align="center">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/silk-ink-strategy/overview.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/silk-ink-strategy/overview.png" alt="丝绸山水策略视觉方向">
+      </a>
+      <br><strong>Silk &amp; Ink Strategy</strong>
+      <br><sub>书法标题 · 山水留白 · 丝绸曲线与品牌策略</sub>
+    </td>
+    <td width="33%" align="center">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/museum-cultural-editorial/overview.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/museum-cultural-editorial/overview.png" alt="博物馆文化编辑视觉方向">
+      </a>
+      <br><strong>Museum Cultural Editorial</strong>
+      <br><sub>书法标题 · 器物档案 · 时间与公共文化</sub>
+    </td>
+  </tr>
 </table>
 
-> **模板负责启发，不负责替代判断。** 示例数字只用于展示信息层级，必须替换成真实来源。专业场合默认采用克制、可信、证据优先的视觉方向，但专业不等于所有页面都横平竖直：可以使用编辑式不对称、受控叠压、裁切、弧线、斜线和少量英雄字体建立艺术感。漫画、海报或强烈活动风格只有在需求合同明确允许时才启用。
+> **模板负责启发，不负责替代判断。** 选择模板时先看总览，再打开该目录的 `slides/` 检查逐页效果；示例数字只用于展示信息层级，必须替换成真实来源。专业场合默认采用克制、可信、证据优先的视觉方向，但专业不等于所有页面都横平竖直：可以使用编辑式不对称、受控叠压、裁切、弧线、斜线和少量英雄字体建立艺术感。书法或展示字体只用于封面、章节和少数关键结论，正文不使用艺术字。
 
 浏览[完整模板目录](.agents/skills/vectordeckppt/assets/style-templates/)或阅读[视觉方向规则](.agents/skills/vectordeckppt/references/style-templates.md)。
 
@@ -193,11 +216,11 @@ python -m pip install -r requirements.txt
 ```text
 使用 $vectordeckppt 根据 doc/PRD.md 制作一套 10 页中文项目介绍 PPT。
 受众是开发者和潜在用户，目标是讲清项目定位、工作流、核心能力和使用方式。
-视觉采用明亮科技系统，白底、深蓝与青色强调，内容丰富。
+视觉来源选择 Bright Tech Systems，白底、深蓝与青色强调，内容丰富。
 默认交付到当前目录的 pptoutput/。
 ```
 
-Skill 会先补齐需求并提交完整合同供确认；合同批准后才开始阅读、规划并提交完整文字版；文字批准后只制作代表性视觉样稿；视觉批准后再完成全套页面。完整的安装方式、请求字段、审批逻辑、质量命令和报告解释见 [使用指南](doc/usage-guide.md)。
+Skill 会先补齐需求并提交完整合同供确认。没有视觉参考时，Agent 会给出 3 个最合适的内置方向，说明优势与取舍；用户可选择其一、上传 PPT/PPTX/PDF/截图/品牌参考，或明确委托 Agent 选择。合同批准后才开始阅读、规划并提交完整文字版；文字批准后只制作代表性视觉样稿；视觉批准后再完成全套页面。完整的安装方式、请求字段、审批逻辑、质量命令和报告解释见 [使用指南](doc/usage-guide.md)。
 
 为了让叙事更准确，建议同时说明主要受众的身份、受众知识水平与决策权，以及演示结束后希望推动的具体行动。
 
@@ -236,7 +259,7 @@ $CODEX_HOME/skills/vectordeckppt/
 
 | 阶段 | Agent / 工具的责任 | 质量门 |
 |---|---|---|
-| 0. 确认需求 | 补齐受众、目标、场景、资料、形式、视觉与交付信息，汇总默认项 | 等待用户明确批准完整需求合同 |
+| 0. 确认需求 | 补齐受众、目标、场景、资料、形式、视觉与交付信息；确认内置模板、用户参考、混合方向或 Agent 代选 | 等待用户明确批准完整需求合同 |
 | 1. 理解资料 | 在合同批准后提取事实、证据、约束和可用素材 | 新发现实质矛盾时返回需求确认 |
 | 2. 规划叙事 | 生成完整的文字版逐页内容 | 等待用户明确批准文字内容 |
 | 3. 定义视觉 | 建立艺术方向和设计系统，只制作最多 3 页代表性样稿 | 等待用户明确批准视觉样稿 |
@@ -337,6 +360,12 @@ VectorDeckPPT/
 │   ├── scripts/
 │   │   └── lib/
 │   └── assets/style-templates/
+│       └── <family>/
+│           ├── overview.svg / overview.png
+│           └── slides/
+│               ├── slide_01-cover.svg / .png
+│               ├── ...
+│               └── slide_10-close.svg / .png
 ├── doc/
 ├── examples/
 ├── tests/

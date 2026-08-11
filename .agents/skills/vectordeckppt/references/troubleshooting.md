@@ -60,6 +60,10 @@ Shorten the title, widen its logical SVG composition, or choose a more stable fo
 
 Use `Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif` and render the PPTX on the target platform. Keep text editable unless exact glyph shape is more important and fallback is explicitly accepted.
 
+### Artistic display font is missing or changes shape
+
+Confirm the named display font is installed and that its fallback stack was approved during art direction. Restrict it to short `deck-title`, `section-title`, or featured `quote` roles; do not apply it to ordinary slide titles, charts, labels, or body copy. Re-render both the SVG and compiled PPTX on the delivery environment. If exact licensed glyph artwork is essential, use a local authorized vector/image treatment for that one display role and report the resulting editability reduction.
+
 ### Tspan line is misplaced
 
 Use explicit `x` and either `y` or `dy`. Avoid complex nested tspans, baseline-shift, browser wrapping, or percentage font sizes.
