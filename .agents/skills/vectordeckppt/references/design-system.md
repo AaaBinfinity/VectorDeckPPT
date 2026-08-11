@@ -96,6 +96,7 @@ Adapt the values once for the audience, venue, language, and selected art direct
 - Every recurring semantic role uses one exact token across the deck unless the design-system contract explicitly defines a named variant.
 - All peer headings, peer labels, comparison columns, process steps, and repeated card headings on the same slide use identical tokens.
 - Cover titles, section transitions, hero metrics, and quotations may use separate named roles; they are not arbitrary exceptions to `slide-title`.
+- Define hero typography through named `deck-title` or `section-title` treatments. It may use a display family, extreme scale, stacked lines, outline-like contrast, crop, overlap, or controlled rotation, but every recurrence of that named treatment must remain intentional and legible.
 - Do not create near-duplicate sizes such as 30/31/32 merely to make individual boxes fit.
 - Shorten copy, adjust line breaks, widen the region, or split the slide before reducing a locked font size.
 - Add `data-role="slide-title|section-title|subheading|body|label|metric|caption|source|quote|annotation|page-number"` to each visible `<text>` element so the deterministic typography audit can verify the contract.
@@ -140,6 +141,8 @@ Default shape rules:
 
 Do not wrap every section in a card. Prefer flat composition, whitespace, bands, rails, and direct alignment. Use stylized boxes only when they clarify grouping.
 
+Do not make the grid visible on every slide. Keep shared rails and spacing underneath the system, then allow a dominant headline, image, number, diagonal, arc, crop, or foreground layer to break the grid deliberately. Professional compositions may be asymmetric and visually tense while remaining precise; distinguish controlled off-grid gestures from accidental misalignment.
+
 Define geometry by meaning. Sharp corners may feel exacting or editorial; moderate radii may feel approachable; large pill shapes imply controls or tags and should not be used as generic decoration. Use circles for cycles, focal nodes, or numeric moments—not as arbitrary background bubbles.
 
 ## Rhythm and optical alignment
@@ -149,6 +152,7 @@ Grid alignment establishes trust, but optical correction makes the result feel f
 - Reuse a small set of vertical rails, baselines, and content widths.
 - Align visual centers, not only mathematical boxes, when icons or type have uneven mass.
 - Let large type or images break the grid only as an intentional focal gesture.
+- Use diagonals, curves, overlap, and crop as directional forces that guide attention; do not scatter them as decorative noise.
 - Keep recurring title, footer, and source positions exact across slides.
 - Vary composition through scale and proportion while preserving spatial cadence.
 - Use repeated gaps as rhythm; use one larger gap to mark a change in meaning.

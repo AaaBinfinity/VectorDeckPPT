@@ -1,4 +1,4 @@
 interface:
   display_name: "VectorDeckPPT"
   short_description: "Create editable vector-first PowerPoint presentations"
-  default_prompt: "Use $vectordeckppt to create an information-rich editable deck with locked typography roles, approve the text and an art-directed up-to-three-slide sample, then validate SVG, typography, previews, and PPTX."
+  default_prompt: "Use $vectordeckppt to first confirm a complete request contract, then create an information-rich editable deck with art-directed hero typography where appropriate, approve the text and an up-to-three-slide sample, and validate SVG, typography, previews, and PPTX."

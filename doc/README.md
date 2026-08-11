@@ -17,7 +17,7 @@
 - [艺术方向](../.agents/skills/vectordeckppt/references/art-direction.md)：从受众、目标和证据定义视觉命题；
 - [设计系统](../.agents/skills/vectordeckppt/references/design-system.md)：字体、空间、色彩、图像和几何规则；
 - [页面设计](../.agents/skills/vectordeckppt/references/slide-design.md)：信息层级、构图和内容密度；
-- [视觉方向参考](../.agents/skills/vectordeckppt/references/style-templates.md)：八套内置视觉语法及可检查的 SVG 源文件；
+- [视觉方向参考](../.agents/skills/vectordeckppt/references/style-templates.md)：九套内置视觉语法及可检查的 SVG 源文件；
 - [视觉复审](../.agents/skills/vectordeckppt/references/visual-review.md)：逐页 PNG 与最终 PPTX 检查方法。
 
 ### 我想保证字体和内容质量
@@ -50,8 +50,10 @@
 - 一页一份 SVG，SVG 是视觉真源；
 - PowerPoint 原生对象优先，其次是显式 Office SVG 降级；
 - 可见内容不能被静默丢失；
+- 开始资料综合前必须先补齐并明确确认完整需求合同；
 - 普通页标题必须共享一个精确字体 token，同页同级标题必须完全一致；
 - 普通内容页默认同时包含结论、解释、具体证据或例子，以及影响或行动；
+- 专业不等于横平竖直的卡片集合；构图可以通过英雄字体、编辑式不对称、裁切、叠压、弧线或斜线建立受控艺术感；
 - 完整制作前必须分别通过文字内容和视觉样稿审批。
 
 ## 示例产物

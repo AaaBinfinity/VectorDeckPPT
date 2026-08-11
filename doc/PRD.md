@@ -10,13 +10,13 @@
 
 当前规范在不改变“宿主 Agent 负责创作、确定性脚本负责执行”的架构前提下，汇总 V1.1.0 与 `main` 的未发布增强；若后文的 V1.0 示例与本节冲突，以本节、`SKILL.md` 和 `references/` 的当前规则为准。历史版本的准确范围以对应 CHANGELOG 和发布说明为准：
 
-- 需求存在事实错误、矛盾或会改变叙事方向的歧义时，先提出 1–3 个具体问题并等待回答；
-- 全量制作前必须经过两个独立审批：完整文字版逐页内容审批，以及 `min(3, 最终页数)` 页代表性视觉样稿审批；
+- 开始资料综合与逐页规划前必须补齐受众、目标、场景、资料、事实边界、形式、视觉、品牌和交付信息；用少量分组问题消除错误、矛盾与歧义，汇总全部默认项，并等待用户明确确认完整需求合同；
+- 完整生产必须经过三道明确确认：完整需求合同确认、完整文字版逐页内容审批，以及 `min(3, 最终页数)` 页代表性视觉样稿审批；
 - 默认交付根目录为当前工作目录下的 `pptoutput/`，用户指定其他位置时统一使用该目录；Skill 脚本位置从 `SKILL.md` 所在目录解析，不假定当前项目内存在 `.agents/`；
 - 普通内容页默认信息丰富，包含完整结论、解释、具体证据或例子和影响/行动；资料允许时，约三分之二的核心内容页应使用有意义的图表、图解、表格、流程、矩阵或标注图；不得伪造数字，内容超载时拆页；
 - 代表性样稿制作前必须把字号范围收敛为精确的字体角色表；所有普通页面标题使用同一个精确字号、字体、字重和行高，同一页的同级标题与标签也必须使用相同 token，不得为适配单个文本框临时缩小字号；
 - 每个可见 SVG `<text>` 必须使用 `data-role` 标明语义角色，并在编译前通过整套严格字体一致性审计；
-- 八套内置风格 PNG 及其同名 SVG 源文件仅作为视觉语法参考，不得直接用作整页背景或固定模板；示例数字必须替换为真实来源；
+- 九套内置风格 PNG 及其同名 SVG 源文件仅作为视觉语法参考，不得直接用作整页背景或固定模板；示例数字必须替换为真实来源；Dynamic Hero Editorial 提供英雄字体、斜切、裁切、层叠和编辑式不对称等可选语法，但不得复制受保护角色或识别元素；
 - 默认 1600×900 画布下，SVG 字号按几何比例以 `0.6 pt/单位` 编译；
 - 直线段 `polygon`/`polyline` 编译为可编辑 PowerPoint freeform；复杂 path、marker、虚线、渐变、裁剪、旋转和斜切继续显式降级；
 - PNG、PPTX 和 JSON 输出必须使用正确扩展名，且任何输出或报告不得与输入源文件指向同一文件；
@@ -485,13 +485,9 @@ visual preference
 required assets
 ```
 
-如果用户已经给出信息，不重复询问。
+如果用户已经给出某项信息，不重复询问该项。必须补齐并确认：主要受众身份、知识水平和决策权，次要受众，沟通目标，演示场景与正式程度，资料与事实边界，语言、页数、比例和时长，视觉方向与禁用项，品牌素材，编辑性、交付物和输出位置。
 
-如果部分信息缺失，但能够合理推断：
-
-> 直接采用合理默认值继续执行。
-
-避免因为非关键缺失信息阻塞任务。
+对非关键缺失信息可以提出合理默认值，但必须把默认值列入简明需求合同，等待用户明确批准或修改。合同确认前不得开始资料综合、逐页文字稿、视觉稿或生产脚本。后续阅读资料发现会改变合同的矛盾时，返回该确认门。
 
 ---
 
@@ -625,7 +621,9 @@ Decorations:
 Only structural marks that clarify hierarchy or flow
 ```
 
-禁止把“蓝紫渐变 + 大量圆角卡片 + 无意义图标”当成通用科技美学。可以选择八套内置视觉参考之一，也可以定义新的方向；参考图只用于提取字体、空间、色彩、图像和构图行为，不能直接贴成整页背景。
+禁止把“蓝紫渐变 + 大量圆角卡片 + 无意义图标”当成通用科技美学。可以选择九套内置视觉参考之一，也可以定义新的方向；参考图只用于提取字体、空间、色彩、图像和构图行为，不能直接贴成整页背景。
+
+专业不等于横平竖直的等宽卡片集合。专业、高管、技术、学术、金融、法律、医疗和审计场合默认克制、可信、证据优先，但仍可使用编辑式不对称、英雄字体、裁切、受控叠压、弧线、斜线和尺度对比建立艺术感。完整漫画、海报、游戏或强烈活动风格仅在完整需求合同明确允许时启用；不得复制参考图中的受保护角色、Logo、服装或其他识别元素。
 
 ---
 
@@ -1657,9 +1655,9 @@ media 引用
 最终 SKILL.md 应让 AI 基本按照：
 
 ```text
-1. Understand request; ask focused questions and wait if material ambiguity exists
+1. Complete every material request field, summarize proposed defaults, and wait for explicit request-contract approval
 
-2. Read all relevant source material
+2. After contract approval, read all relevant source material; return to confirmation if material conflicts emerge
 
 3. Create the complete information-rich text-only slide draft
 
@@ -1894,11 +1892,11 @@ Skill 图标
 示例 SVG
 通用图标
 少量主题参考
-八套 16:9 风格参考图及同名 SVG 源文件
+九套 16:9 风格参考图及同名 SVG 源文件
 测试素材
 ```
 
-当前内置：Bright Tech Systems、Editorial Intelligence、Dark Engineered Systems、Human Documentary、Expressive Cultural、Data-Forward Clarity、Premium Restraint 和 Product Storytelling。它们是视觉语法参考，不是固定页壳：Agent 必须读取用户真实内容后提取可观察的字体、空间、颜色、图像、几何和节奏规则，再以结构化 SVG 重建。不得把参考 PNG 直接铺成整页背景，也不得为了套模板伪造图表或证据；图中的示例数字必须替换为真实来源。
+当前内置：Bright Tech Systems、Editorial Intelligence、Dark Engineered Systems、Human Documentary、Expressive Cultural、Data-Forward Clarity、Premium Restraint、Product Storytelling 和 Dynamic Hero Editorial。它们是视觉语法参考，不是固定页壳：Agent 必须读取用户真实内容后提取可观察的字体、空间、颜色、图像、几何和节奏规则，再以结构化 SVG 重建。不得把参考 PNG 直接铺成整页背景，也不得为了套模板伪造图表或证据；图中的示例数字必须替换为真实来源。Dynamic Hero Editorial 只提取英雄字体、编辑式不对称、裁切、斜切、层叠、弧线和视觉张力等抽象行为，不复制角色、Logo、服装或 IP 识别元素，并且在正式专业场合仅作为经用户确认的可选强度。
 
 Skill 核心仍然是：
 

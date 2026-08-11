@@ -7,13 +7,14 @@ All notable changes to VectorDeckPPT are documented in this file.
 ### Added
 
 - Added a deterministic deck typography audit with strict semantic text roles and diagnostics for inconsistent slide titles or same-page peer headings.
-- Added Data-Forward Clarity, Premium Restraint, and Product Storytelling art-direction templates, plus inspectable SVG sources for all eight template families.
+- Added Data-Forward Clarity, Premium Restraint, Product Storytelling, and Dynamic Hero Editorial art-direction templates, plus inspectable SVG sources for all nine template families.
 
 ### Changed
 
 - Rebuilt the existing style references with complete cover, workflow, evidence, and decision-synthesis examples instead of sparse placeholder lines.
 - Strengthened the default content contract around claim, explanation, evidence/example, and implication/action, with meaningful visuals on roughly two thirds of core slides when sources permit.
 - Locked recurring typography roles to exact deck tokens and prohibited one-off font-size changes used only to make text fit.
+- Added an explicit complete-request confirmation gate before source synthesis or slide planning, and made controlled asymmetry, hero typography, crop, overlap, arcs, and diagonals part of the optional art-direction vocabulary without weakening professional defaults.
 
 ### Documentation
 

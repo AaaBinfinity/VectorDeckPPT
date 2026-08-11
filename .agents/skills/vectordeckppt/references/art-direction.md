@@ -5,14 +5,15 @@
 1. Aesthetic objective
 2. Visual thesis
 3. Meaning-to-form decisions
-4. Direction families
-5. Composition, rhythm, and pacing
-6. Typography as image
-7. Color, material, and depth
-8. Imagery and illustration briefs
-9. Art-direction brief
-10. Aesthetic anti-patterns
-11. Approval questions
+4. Setting and credibility gate
+5. Direction families
+6. Composition, rhythm, and pacing
+7. Typography as image
+8. Color, material, and depth
+9. Imagery and illustration briefs
+10. Art-direction brief
+11. Aesthetic anti-patterns
+12. Approval questions
 
 ## Aesthetic objective
 
@@ -62,6 +63,14 @@ Translate communication intent into form before choosing a layout:
 | Support a decision | implication-first title, evidence hierarchy, explicit recommendation | chronology, activity lists, neutral section labels |
 
 Ask of every visible element: **what meaning does this form carry?** If the answer is only “it fills space,” remove or redesign it.
+
+## Setting and credibility gate
+
+Choose expressive intensity only after the complete request contract is confirmed. For executive, board, client, technical, academic, financial, legal, medical, public-sector, investor, audit, compliance, or other credibility-sensitive presentations, default to professional restraint: readable type, disciplined color, explicit sources, and evidence that dominates decoration.
+
+Professional does not mean every object must sit in a horizontal or vertical card grid. Use editorial asymmetry, controlled overlap, cropped fields, diagonal or curved movement, scale contrast, off-axis captions, and a few deliberate grid breaks to create authorship without weakening trust. Let one hero typographic moment carry the proposition while ordinary evidence pages remain calm and legible.
+
+Highly expressive comic, poster, collage, gaming, or campaign treatments are optional. Offer or use them when the setting benefits from memorability and cultural energy—such as launches, events, public campaigns, creative pitches, safety awareness, or youth-facing storytelling—and only after the user explicitly approves the direction. A reference image permits extraction of abstract behaviors such as contrast, cropping, rhythm, texture, typography, and geometry; it does not permit copying protected characters, logos, distinctive costumes, or identifying artwork.
 
 ## Direction families
 
@@ -120,6 +129,16 @@ Use for creative work, events, media, fashion, art, and youth-facing narratives 
 - use repetition with intentional breaks to create energy;
 - keep the content hierarchy legible even when composition is unconventional;
 - avoid random collage, trend imitation, or visual effects unrelated to the subject.
+
+### Dynamic hero editorial
+
+Use for product or brand launches, campaign storytelling, event openings, creative proposals, entertainment, games, and selected professional presentations that explicitly permit a stronger authored voice.
+
+- build energy with near-black or paper fields, scarce signal red, hard white type, one cool micro-accent, slanted frames, crop tension, halftone rhythm, and abstract hero graphics;
+- make a short `deck-title` or `section-title` the dominant image through scale, width, stacking, overlap, outline-like contrast, or controlled rotation;
+- keep ordinary `slide-title` and body roles stable so evidence remains readable after the hero moment;
+- use diagonals, arcs, off-grid labels, oversized numbers, and foreground/background overlap as compositional forces rather than decoration;
+- avoid protected characters, copied logos or costume motifs, fake urgency metrics, illegible novelty fonts, red on every object, and using the direction in a credibility-sensitive setting without explicit approval.
 
 ## Composition, rhythm, and pacing
 
@@ -226,6 +245,7 @@ Then challenge it:
 
 - Defaulting to blue-purple gradients, glowing blobs, circuit lines, or “AI” imagery for every technology topic.
 - Repeating a centered title and three equal cards regardless of content.
+- Making every composition orthogonal, evenly boxed, and visually interchangeable in the name of professionalism.
 - Using large rounded containers as the universal answer to grouping.
 - Treating icons as evidence or replacing specific concepts with generic symbols.
 - Filling negative space with rings, dots, waves, or grids that carry no meaning.
@@ -241,6 +261,7 @@ Before locking the direction, answer yes to all:
 
 - Is the aesthetic idea expressed in observable design decisions?
 - Does it fit the audience, setting, content, and credibility requirement?
+- Has the user explicitly approved any expressive treatment that departs from the professional default?
 - Does each proposed visual device have a communication role?
 - Can typography carry the deck even when imagery is absent?
 - Can multiple slide silhouettes emerge without changing the visual language?

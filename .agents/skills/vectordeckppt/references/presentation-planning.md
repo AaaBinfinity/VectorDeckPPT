@@ -26,7 +26,25 @@ Resolve at least:
 - source-of-truth files and facts that cannot be rewritten;
 - presentation setting, language, approximate length, visual constraints, and required deliverables.
 
-Ask one to three questions at a time and wait for the answer. Do not turn optional preferences into a questionnaire.
+Ask one to three grouped questions at a time and wait for the answer. Do not interrogate one field at a time. Propose harmless defaults for optional preferences, but include them in the final request-contract summary and obtain explicit approval before source synthesis or slide planning.
+
+Use this confirmation record:
+
+```text
+Primary audience, knowledge level, and decision authority:
+Secondary audience:
+Presentation job and desired action:
+Setting, formality, and delivery time:
+Source-of-truth materials and factual boundaries:
+Language, slide count, and aspect ratio:
+Visual direction, brand rules, and forbidden treatments:
+Required content and assets:
+Editability, deliverables, and output location:
+Proposed defaults:
+Open questions: none
+```
+
+Present the completed record and ask the user to approve or correct it. Do not begin presentation work until confirmation is explicit. If later source reading exposes a contradiction that changes the contract, return to this gate.
 
 ## Communication job
 

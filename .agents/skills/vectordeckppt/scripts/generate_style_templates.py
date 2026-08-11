@@ -161,6 +161,35 @@ THEMES = (
         (("Listen", "Field team · Now"), ("Co-design", "Community · Q3"), ("Return", "Program · Q4")),
     ),
     Theme(
+        "dynamic-hero-editorial",
+        "DYNAMIC HERO EDITORIAL",
+        "LAUNCH, CAMPAIGN & STORY",
+        "#070A11",
+        "#0D111B",
+        "#171D28",
+        "#F7F8FC",
+        "#A6ADBC",
+        "#303746",
+        "#FF1748",
+        "#7ACBFF",
+        "#36D399",
+        "#FFBF3C",
+        "Impact",
+        "Arial",
+        0,
+        "Give the central\nidea heroic\nvisual weight",
+        "A high-impact editorial system uses typography, tension, and motion to make the argument memorable.",
+        (("87%", "signal strength"), ("04", "critical moments"), ("24h", "response window")),
+        (
+            ("Frame", "Define the decision"),
+            ("Read", "Extract the evidence"),
+            ("Design", "Choose the clearest form"),
+            ("Verify", "Review fidelity"),
+            ("Act", "Set owner and timing"),
+        ),
+        (("Frame", "Story lead · Now"), ("Mobilize", "Campaign · Day 1"), ("Resolve", "Owner · Day 2")),
+    ),
+    Theme(
         "data-forward-clarity",
         "DATA-FORWARD CLARITY",
         "ANALYTICS & OPERATING REVIEW",
@@ -317,6 +346,22 @@ def _panel_frame(theme: Theme, x: int, y: int, page: str, section: str) -> list[
             anchor="end",
         ),
     ]
+    if theme.slug == "dynamic-hero-editorial":
+        decorations = [
+            f'<polygon points="{x + 550},{y} {x + 760},{y} {x + 760},{y + 146}" fill="#2A0A18"/>',
+            f'<polygon points="{x + 646},{y} {x + 760},{y} {x + 760},{y + 76}" fill="{theme.accent}"/>',
+        ]
+        for offset in range(200, 730, 54):
+            decorations.append(
+                _line(x + offset, y + 8, x + offset - 190, y + 400, theme.border, 0.7)
+            )
+        for row in range(4):
+            for column in range(7):
+                decorations.append(
+                    f'<circle cx="{x + 610 + column * 18}" cy="{y + 48 + row * 18}" '
+                    f'r="{2 + (column % 2)}" fill="#6B1830"/>'
+                )
+        parts[1:1] = decorations
     if theme.slug == "dark-engineered-systems":
         for offset in range(70, 720, 80):
             parts.append(_line(x + offset, y + 58, x + offset, y + 374, theme.border, 0.5))
@@ -332,7 +377,118 @@ def _panel_frame(theme: Theme, x: int, y: int, page: str, section: str) -> list[
     return parts
 
 
+def _dynamic_hero_cover(theme: Theme, x: int, y: int) -> list[str]:
+    parts = _panel_frame(theme, x, y, "01", theme.context)
+    parts.extend(
+        [
+            f'<polygon points="{x + 26},{y + 96} {x + 388},{y + 66} {x + 410},{y + 212} '
+            f'{x + 54},{y + 244}" fill="#0A0D15" stroke="{theme.accent}" stroke-width="8"/>',
+            f'<polygon points="{x + 26},{y + 76} {x + 272},{y + 54} {x + 260},{y + 92} '
+            f'{x + 18},{y + 114}" fill="{theme.accent}"/>',
+            _text(
+                x + 40,
+                y + 91,
+                "HERO TYPOGRAPHY / CONTROLLED MOTION",
+                size=10,
+                fill="#FFFFFF",
+                family=theme.body_font,
+                role="label",
+                weight=700,
+            ),
+            _text(
+                x + 48,
+                y + 136,
+                "MAKE THE\nCENTRAL IDEA\nFEEL HEROIC",
+                size=36,
+                fill=theme.text,
+                family=theme.display_font,
+                role="deck-title",
+                weight=900,
+                line_height=0.96,
+            ),
+            _rect(x + 38, y + 258, 354, 58, "#090C13", stroke=theme.border, stroke_width=1),
+            _rect(x + 38, y + 258, 8, 58, theme.accent),
+            _text(
+                x + 58,
+                y + 282,
+                "Art direction becomes credible when visual energy,",
+                size=9,
+                fill=theme.text,
+                family=theme.body_font,
+                role="caption",
+                weight=700,
+            ),
+            _text(
+                x + 58,
+                y + 299,
+                "evidence, and hierarchy are visible together.",
+                size=9,
+                fill=theme.text,
+                family=theme.body_font,
+                role="caption",
+                weight=700,
+            ),
+            f'<circle cx="{x + 596}" cy="{y + 188}" r="146" fill="{theme.accent}" '
+            f'stroke="#05070C" stroke-width="14"/>',
+            f'<circle cx="{x + 596}" cy="{y + 188}" r="112" fill="#D81742" '
+            f'stroke="#0A0D15" stroke-width="4"/>',
+        ]
+    )
+    for angle_end in (
+        (596, 46),
+        (704, 94),
+        (738, 198),
+        (684, 302),
+        (576, 330),
+        (486, 278),
+        (454, 170),
+        (500, 76),
+    ):
+        parts.append(_line(x + 596, y + 188, x + angle_end[0], y + angle_end[1], "#0A0D15", 4))
+    parts.extend(
+        [
+            f'<polygon points="{x + 596},{y + 82} {x + 682},{y + 136} {x + 654},{y + 262} '
+            f'{x + 596},{y + 310} {x + 536},{y + 262} {x + 508},{y + 136}" '
+            f'fill="#F7F8FC" stroke="#090C13" stroke-width="10"/>',
+            f'<polygon points="{x + 596},{y + 106} {x + 650},{y + 144} {x + 626},{y + 224} '
+            f'{x + 596},{y + 258}" fill="{theme.accent_2}"/>',
+            f'<polygon points="{x + 596},{y + 106} {x + 542},{y + 144} {x + 566},{y + 224} '
+            f'{x + 596},{y + 258}" fill="#DDE8F2"/>',
+            _rect(x + 622, y + 276, 94, 72, "#0A0D15", stroke=theme.border, stroke_width=1),
+            _text(x + 636, y + 296, "SIGNAL", size=10, fill=theme.muted, family=theme.body_font, role="label", weight=700),
+            _text(x + 636, y + 327, "87%", size=24, fill=theme.text, family=theme.display_font, role="metric", weight=900),
+        ]
+    )
+    for index, (label, value, fill) in enumerate(
+        (("CASE", "#0716", theme.panel), ("STATUS", "ACTIVE", theme.accent), ("MODE", "URGENT", theme.surface))
+    ):
+        chip_x = x + 38 + index * 124
+        parts.extend(
+            [
+                _rect(chip_x, y + 334, 110, 40, fill, stroke=theme.border, stroke_width=1),
+                _text(chip_x + 10, y + 349, label, size=9, fill=theme.muted if index != 1 else "#FFFFFF", family=theme.body_font, role="annotation", weight=700),
+                _text(chip_x + 10, y + 368, value, size=10, fill=theme.text if index != 1 else "#FFFFFF", family=theme.display_font, role="label", weight=900),
+            ]
+        )
+    parts.append(
+        _text(
+            x + 554,
+            y + 382,
+            "ILLUSTRATIVE TEMPLATE · ORIGINAL ABSTRACT GRAPHICS",
+            size=9,
+            fill=theme.muted,
+            family=theme.body_font,
+            role="source",
+            weight=700,
+            anchor="middle",
+        )
+    )
+    return parts
+
+
 def _cover(theme: Theme, x: int, y: int) -> list[str]:
+    if theme.slug == "dynamic-hero-editorial":
+        return _dynamic_hero_cover(theme, x, y)
     parts = _panel_frame(theme, x, y, "01", theme.context)
     parts.extend(
         [
@@ -428,7 +584,101 @@ def _cover(theme: Theme, x: int, y: int) -> list[str]:
     return parts
 
 
+def _dynamic_hero_workflow(theme: Theme, x: int, y: int) -> list[str]:
+    parts = _panel_frame(theme, x, y, "02", "OPERATING MODEL")
+    parts.extend(
+        [
+            _text(
+                x + 34,
+                y + 82,
+                "FIVE MOVES BUILD MOMENTUM",
+                size=26,
+                fill=theme.text,
+                family=theme.display_font,
+                role="slide-title",
+                weight=700,
+            ),
+            _text(
+                x + 34,
+                y + 110,
+                "A staggered sequence keeps each decision, handoff, and quality gate visible.",
+                size=9,
+                fill=theme.muted,
+                family=theme.body_font,
+                role="caption",
+            ),
+        ]
+    )
+    offsets = (12, -4, 18, 2, 14)
+    for index, (name, description) in enumerate(theme.steps):
+        step_x = x + 34 + index * 138
+        step_y = y + 146 + offsets[index]
+        fill = theme.accent if index == 0 else theme.surface
+        text_fill = "#FFFFFF" if index == 0 else theme.text
+        parts.extend(
+            [
+                f'<polygon points="{step_x},{step_y + 10} {step_x + 112},{step_y} '
+                f'{step_x + 126},{step_y + 140} {step_x + 14},{step_y + 152}" '
+                f'fill="{fill}" stroke="{theme.border}" stroke-width="1"/>',
+                _text(
+                    step_x + 18,
+                    step_y + 40,
+                    f"0{index + 1}",
+                    size=20,
+                    fill=text_fill if index == 0 else (theme.accent if index < 3 else theme.accent_2),
+                    family=theme.display_font,
+                    role="metric",
+                    weight=700,
+                ),
+                _text(
+                    step_x + 18,
+                    step_y + 72,
+                    name,
+                    size=14,
+                    fill=text_fill,
+                    family=theme.body_font,
+                    role="subheading",
+                    weight=700,
+                ),
+                _text(
+                    step_x + 18,
+                    step_y + 98,
+                    description.replace(", ", "\n").replace(" and ", "\nand "),
+                    size=9,
+                    fill="#FFFFFF" if index == 0 else theme.muted,
+                    family=theme.body_font,
+                    role="body",
+                    line_height=1.35,
+                ),
+            ]
+        )
+        if index < 4:
+            parts.append(
+                _line(step_x + 124, step_y + 76, step_x + 146, y + 222 + offsets[index + 1], theme.accent, 3)
+            )
+    parts.extend(
+        [
+            f'<polygon points="{x + 34},{y + 336} {x + 704},{y + 314} '
+            f'{x + 720},{y + 362} {x + 48},{y + 378}" fill="#090C13" '
+            f'stroke="{theme.accent}" stroke-width="2"/>',
+            _text(x + 64, y + 354, "QUALITY GATE", size=10, fill=theme.accent, family=theme.body_font, role="label", weight=700),
+            _text(
+                x + 186,
+                y + 350,
+                "Advance only when evidence, owner, and acceptance are explicit.",
+                size=9,
+                fill=theme.text,
+                family=theme.body_font,
+                role="caption",
+            ),
+        ]
+    )
+    return parts
+
+
 def _workflow(theme: Theme, x: int, y: int) -> list[str]:
+    if theme.slug == "dynamic-hero-editorial":
+        return _dynamic_hero_workflow(theme, x, y)
     parts = _panel_frame(theme, x, y, "02", "OPERATING MODEL")
     parts.extend(
         [

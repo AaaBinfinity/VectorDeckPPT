@@ -61,7 +61,7 @@ If the first impression does not match the planned slide purpose, fix hierarchy 
 - Repeated gaps use the shared spacing scale.
 - Card padding, borders, radii, and connector weights are consistent.
 - Diagram connectors do not cross labels or nodes unintentionally.
-- Objects snap to a small number of meaningful axes.
+- Objects snap to a small number of meaningful axes, curves, or diagonals; any off-grid focal gesture is deliberate rather than accidental.
 
 ### Color and contrast
 
@@ -102,6 +102,8 @@ Evaluate the slide as a designed argument, not a collection of correct objects.
 - Is there one clear visual idea rather than several competing effects?
 - Does typography have intentional voice and line shape?
 - Is asymmetry, symmetry, overlap, or cropping used for a reason?
+- Does a key cover, section, or argument moment use hero typography or another dominant authored gesture when the confirmed art direction calls for it?
+- Has “professional” become visually inert or uniformly orthogonal? If yes, introduce controlled editorial tension without weakening evidence.
 - Does the slide avoid familiar presentation and generative-AI clichés?
 
 ### Restraint and finish
@@ -126,6 +128,7 @@ After individual pages pass, inspect a montage/contact sheet for:
 - coherent palette, typography, margins, and footer treatment;
 - an exact deck-wide title token and exact peer-heading tokens within every slide;
 - varied but related slide silhouettes;
+- a deliberate balance between calm evidence pages and any hero-typography, cropped, layered, curved, or diagonal moments;
 - narrative pacing and density changes;
 - section transitions;
 - repeated layouts, weak filler slides, or abrupt visual switches;

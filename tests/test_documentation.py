@@ -58,7 +58,7 @@ def test_user_and_contributor_guides_cover_current_workflow() -> None:
     assert "仓库结构" in readme
     assert "usage-guide.md" in docs_index
     assert "CONTRIBUTING.md" in docs_index
-    assert "两道审批门" in usage
+    assert "三道确认门" in usage
     assert "audit_typography.py" in usage
     assert "compilation-report.json" in usage
     assert "修改时同步哪些内容" in contributing

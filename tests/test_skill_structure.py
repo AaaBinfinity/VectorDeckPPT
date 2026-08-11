@@ -25,6 +25,7 @@ STYLE_TEMPLATES = {
     "dark-engineered-systems.png",
     "editorial-intelligence.png",
     "expressive-cultural.png",
+    "dynamic-hero-editorial.png",
     "human-documentary.png",
     "premium-restraint.png",
     "product-storytelling.png",
@@ -107,20 +108,22 @@ def test_skill_enforces_clarification_and_staged_approval() -> None:
     assert "sample_count = min(3, final_slide_count)" in content
     assert "explicitly approves the slide content" in content
     assert "explicitly approves the representative visual sample" in content
-    assert "ask focused questions and wait" in content
+    assert "focused grouped questions" in content
+    assert "request-contract approval" in content
     assert content.index("text-only slide draft") < content.index("representative visual")
     assert ".agents/skills/vectordeckppt/scripts/" not in content
     assert "opts out" not in content
 
-    assert "Request clarification" in workflow
+    assert "Request completion" in workflow
+    assert "Request confirmation" in workflow
     assert "Text approval" in workflow
     assert "Visual approval" in workflow
     assert "Full production" in workflow
-    assert "one to three focused questions" in workflow
+    assert "one to three focused grouped questions" in workflow
     assert "SKILL_ROOT =" in workflow
     assert "DECK_ROOT =" in workflow
     assert "DECK_ROOT/sample/slides/" in workflow
-    assert "Both approval gates are mandatory" in workflow
+    assert "All three confirmation gates are mandatory" in workflow
     assert "deck-work/" not in workflow
 
     assert "Request accuracy" in planning
@@ -130,7 +133,42 @@ def test_skill_enforces_clarification_and_staged_approval() -> None:
     assert "等待用户明确批准视觉样稿" in readme
     assert "deck-work/" not in readme
     assert "up-to-three-slide" in interface["default_prompt"]
+    assert "complete request contract" in interface["default_prompt"]
     assert "pptoutput/" in (ROOT / ".gitignore").read_text(encoding="utf-8")
+
+
+def test_skill_confirms_complete_request_and_supports_controlled_artistry() -> None:
+    content = (SKILL_DIR / "SKILL.md").read_text(encoding="utf-8")
+    workflow = (SKILL_DIR / "references" / "workflow.md").read_text(encoding="utf-8")
+    planning = (SKILL_DIR / "references" / "presentation-planning.md").read_text(
+        encoding="utf-8"
+    )
+    art_direction = (SKILL_DIR / "references" / "art-direction.md").read_text(
+        encoding="utf-8"
+    )
+    design = (SKILL_DIR / "references" / "design-system.md").read_text(
+        encoding="utf-8"
+    )
+    style_templates = (SKILL_DIR / "references" / "style-templates.md").read_text(
+        encoding="utf-8"
+    )
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    prd = (ROOT / "doc" / "PRD.md").read_text(encoding="utf-8")
+
+    assert content.index("request-contract approval") < content.index(
+        "text-only slide draft"
+    )
+    assert "do not synthesize sources" in content
+    assert "All three confirmation gates are mandatory" in workflow
+    assert "Open questions: none" in planning
+    assert "Setting and credibility gate" in art_direction
+    assert "Dynamic hero editorial" in art_direction
+    assert "hero typography" in design
+    assert "Dynamic Hero Editorial" in style_templates
+    assert "protected characters" in style_templates
+    assert "九套内置视觉方向" in readme
+    assert "专业不等于所有页面都横平竖直" in readme
+    assert "完整需求合同" in prd
 
 
 def test_skill_defaults_to_information_rich_evidence_led_slides() -> None:
@@ -193,7 +231,7 @@ def test_skill_locks_typography_roles_and_runs_deck_audit() -> None:
     assert "inconsistent_peer_size" in visual_review
     assert "audit_typography.py" in workflow
     assert "所有普通页面标题使用同一个精确字号" in readme
-    assert "八套内置视觉语法" in docs_index
+    assert "九套内置视觉语法" in docs_index
     assert "字体审计脚本" in docs_index
     assert "同页同级模块标题必须完全一致" in prompts
     assert "Typography audit fails" in troubleshooting

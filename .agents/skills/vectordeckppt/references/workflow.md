@@ -28,41 +28,45 @@ Do not use the Skill installation directory or repository root as an implicit ar
 
 ## Clarification and approval gates
 
-Treat the workflow as four ordered states:
+Treat the workflow as five ordered states:
 
 | State | Allowed artifact | Exit condition |
 |---|---|---|
-| Request clarification | focused questions and a reliable request contract | material ambiguity is resolved |
+| Request completion | focused grouped questions and proposed defaults | every material request field is resolved |
+| Request confirmation | a concise complete request-contract summary | user explicitly approves or corrects the contract |
 | Text approval | `DECK_ROOT/slide-content.md` and the same content in conversation | user explicitly approves the complete slide draft |
 | Visual approval | `sample_count = min(3, final_slide_count)` sample SVGs and PNGs under `DECK_ROOT/sample/` | user explicitly approves the sample direction |
 | Full production | all final SVGs, previews, report, and PPTX | quality and delivery gates pass |
 
-Ask questions when wording is malformed, facts conflict with supplied sources, a composite audience has no clear primary identity, the desired outcome is not actionable, constraints contradict one another, or two plausible interpretations would produce meaningfully different decks. Ask one to three focused questions per round. Do not ask about harmless omissions that can be safely defaulted.
+Ask questions when wording is malformed, facts conflict with supplied sources, a composite audience has no clear primary identity, the desired outcome is not actionable, constraints contradict one another, or two plausible interpretations would produce meaningfully different decks. Ask one to three focused grouped questions per round rather than interrogating one field at a time. Propose harmless defaults, but do not silently accept them: include each default in the contract summary for confirmation.
 
-Approval must be explicit. Do not infer it from silence, a previous stage's approval, or a general instruction to continue. If the user materially changes slide content after approving it, return to text approval and invalidate any affected visual sample. If the user changes only visual execution, keep content approval and iterate on the representative samples. Both approval gates are mandatory.
+Request confirmation and both production approvals must be explicit. Do not infer any of them from silence, a previous stage's approval, or a general instruction to continue. Do not read sources deeply, plan slides, create artifacts, or run production scripts before the user confirms the complete request contract. If source reading reveals a material contradiction, return to request confirmation. If the user materially changes slide content after approving it, return to text approval and invalidate any affected visual sample. If the user changes only visual execution, keep content approval and iterate on the representative samples. All three confirmation gates are mandatory.
 
 ## Phase inputs and outputs
 
-### 1. Understand and clarify
+### 1. Complete and confirm the request
 
 Input: user request and any conversation context.
 
 Determine:
 
-- intended audience and presentation job;
+- primary audience identity, subject knowledge, decision authority, and presentation job;
+- secondary audiences and whether they may change the main narrative;
 - desired audience outcome and central takeaway;
-- language, format, aspect ratio, and approximate slide count;
-- presentation type and delivery setting;
+- source files, source-of-truth boundaries, required facts, forbidden changes, and unknowns;
+- language, format, aspect ratio, approximate slide count, and delivery time;
+- presentation type, delivery setting, and required level of formality;
 - requested visual direction and brand constraints;
-- available source documents, data, images, screenshots, and existing decks.
+- available data, images, screenshots, logos, and existing decks;
+- editability expectations, required deliverables, and output location.
 
-Infer non-critical defaults. Ask before proceeding when provided information is inaccurate, contradictory, incomplete in a material way, or ambiguous enough to change the deliverable. For a broad audience such as “developers and potential users,” clarify the primary audience, each audience's identity and knowledge level, and whose decision or behavior controls the narrative.
+Ask before proceeding when provided information is inaccurate, contradictory, incomplete in a material way, or ambiguous enough to change the deliverable. For a broad audience such as “developers and potential users,” clarify the primary audience, each audience's identity and knowledge level, and whose decision or behavior controls the narrative. Propose reasonable defaults only for non-critical choices, list them explicitly, and ask the user to approve or correct the complete summary.
 
-Output: one-sentence communication job plus a reliable request contract and explicit constraints.
+Output: one-sentence communication job plus an explicitly approved request contract. Do not advance until approval is unambiguous.
 
 ### 2. Read source material
 
-Read all relevant files before outlining. Extract claims, evidence, important numbers, existing charts, asset paths, required wording, source limitations, and contradictions. Distinguish sourced facts from proposed framing. Never invent evidence to fill a layout.
+After request-contract approval, read all relevant files before outlining. Extract claims, evidence, important numbers, existing charts, asset paths, required wording, source limitations, and contradictions. Distinguish sourced facts from proposed framing. Never invent evidence to fill a layout. Return to request confirmation if the sources expose a material conflict or missing decision.
 
 Output: a concise evidence inventory and source-to-slide opportunities.
 
@@ -87,7 +91,7 @@ Output: explicitly approved text-only slide content.
 
 ### 4. Set art direction and create representative visual samples
 
-After text approval, choose one coherent visual idea. Lock canvas, background character, colors, typography, spacing, shape language, imagery treatment, icon treatment, and density. Read `design-system.md`. Convert all typography ranges into an exact role ledger before drawing: every ordinary slide title uses one exact deck token, and every same-level peer on a page uses one exact token.
+After text approval, choose one coherent visual idea. Lock canvas, background character, colors, typography, spacing, shape language, imagery treatment, icon treatment, and density. Read `design-system.md`. Professional does not require a rigid orthogonal card grid: use controlled editorial asymmetry, crop, overlap, diagonal or curved movement, and scale contrast where they improve meaning. Reserve highly expressive comic/poster intensity and dominant hero typography for settings that explicitly permit it. Convert all typography ranges into an exact role ledger before drawing: every ordinary slide title uses one exact deck token, and every same-level peer on a page uses one exact token.
 
 Set `sample_count = min(3, final_slide_count)`. Prefer the opening, a representative information-rich core-content page, and the most visually demanding evidence, data, or diagram page when those are distinct. For a narrative-only deck, select the most complex content relationship, image-led page, or closing page instead of inventing a chart. When sources permit it, the sample set must demonstrate both the default text density and at least one meaningful chart or diagram. Explain the selection, author only those SVGs in `DECK_ROOT/sample/slides/`, render them to `DECK_ROOT/sample/preview/`, inspect them, and ask the user to approve or revise the direction. Iterate only on the sample set until approval.
 
@@ -117,6 +121,7 @@ Keep a small internal chain of decisions. It may live in reasoning or a task-loc
 
 ```text
 communication job
+-> approved request contract
 -> evidence inventory
 -> approved text-only slide content
 -> art-direction brief
@@ -203,12 +208,14 @@ Exit code `0` means success. Validation, rendering, compilation, or package erro
 - Failed compilation element: treat the deck as failed. Fix the SVG or compiler issue; do not deliver a partial deck.
 - PPTX validation error: do not retry by rasterizing the slide. Diagnose the broken package or relationship.
 - Material content revision after approval: update `slide-content.md`, return to the text gate, and regenerate any affected visual samples only after renewed approval.
+- Material request-contract change: summarize the revised contract and obtain explicit confirmation before resuming source synthesis or planning.
 - Visual direction rejected: revise the same representative samples; do not start the remaining slides.
 
 ## Delivery gate
 
 Deliver only when:
 
+- the user explicitly approved the complete request contract, including every proposed default;
 - the user explicitly approved the complete text-only slide draft;
 - the user explicitly approved the representative visual sample;
 - every source SVG validates;

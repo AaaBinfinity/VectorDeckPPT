@@ -10,13 +10,14 @@
 
 ## Purpose and rules
 
-Use the eight bundled PNGs as art-direction references for deck-level visual systems. Each image is a 16:9 contact sheet showing four coordinated, information-rich slide silhouettes: opening, explanation or process, evidence, and synthesis. Matching SVG sources sit beside the PNGs so the Agent can inspect exact typography roles, spacing, geometry, and content hierarchy.
+Use the nine bundled PNGs as art-direction references for deck-level visual systems. Each image is a 16:9 contact sheet showing four coordinated, information-rich slide silhouettes: opening, explanation or process, evidence, and synthesis. Matching SVG sources sit beside the PNGs so the Agent can inspect exact typography roles, spacing, geometry, and content hierarchy.
 
 The images are not finished slides and are not source material. Never paste a contact sheet into a presentation, trace its placeholder text, or use it as a full-slide background. Inspect the chosen asset with `view_image`, identify the design behavior that serves the user's content, then rebuild the deck as editable structured SVG.
 
 Apply these rules:
 
 - Choose from communication needs, audience, evidence, and delivery setting—not from color preference alone.
+- Default professional and credibility-sensitive settings to restrained, legible, evidence-led direction, but do not force every page into a rigid orthogonal grid. Use a highly expressive family only after explicit approval in the confirmed request contract.
 - Use one primary family across a deck. Add at most one secondary family when it has a named role.
 - Replace every placeholder image, number, diagram, and label with sourced project content.
 - Preserve the chosen family's hierarchy, grid logic, typography voice, color behavior, image treatment, and pacing without cloning every pictured layout.
@@ -24,10 +25,11 @@ Apply these rules:
 - Treat all pictured metrics as clearly labeled illustrative data. Replace them with sourced user content rather than carrying sample values into a deck.
 - Let content produce varied slide silhouettes. A template family is a grammar, not a repeated page shell.
 - Keep the supported SVG/PPTX subset in mind. Recreate complex texture and photography as local `<image>` assets; rebuild structural elements with native text and basic shapes.
+- Extract abstract visual behaviors from references; never copy protected characters, logos, costumes, or identifying artwork into generated templates or decks.
 
 ## Selection workflow
 
-1. State the audience outcome, presentation type, evidence class, and desired emotional tone.
+1. Start from the explicitly approved request contract. State the audience outcome, presentation type, setting/formality, evidence class, and desired emotional tone.
 2. Select the family whose visual behavior best supports those requirements.
 3. Open its PNG from `../assets/style-templates/` with `view_image` and inspect it at full size. Read the matching SVG only when exact geometry or typography roles are needed.
 4. Record the reusable behaviors and the details that must not be copied literally.
@@ -159,6 +161,20 @@ Use for product launches, feature narratives, onboarding, customer enablement, r
 - Pacing: user friction, product promise, experience, evidence, adoption action.
 - Avoid: feature grids without narrative, fake interface chrome, generic product screenshots, excessive rounded cards, and benefits without proof.
 
+### Dynamic Hero Editorial
+
+Asset: `../assets/style-templates/dynamic-hero-editorial.png`
+Source: `../assets/style-templates/dynamic-hero-editorial.svg`
+
+Use for product or brand launches, campaign storytelling, event openings, creative proposals, entertainment, games, and selected professional presentations that explicitly permit a strong authored voice. In formal settings, borrow its asymmetry and hero typography sparingly while retaining restrained color and evidence treatment; do not select its full comic-editorial intensity by default for board, finance, legal, medical, academic, audit, compliance, or other credibility-sensitive work.
+
+- Visual thesis: heroic, kinetic, graphic, authored, and still evidence-readable.
+- Palette: near-black and graphite, hard white, scarce signal red, one cool micro-accent, and limited semantic status colors.
+- Typography: oversized compressed deck or section titles using a verified condensed display face such as Impact or a suitable local substitute, strong silhouette and stacking, exact ordinary title tokens, numbered labels, and compact evidence copy.
+- Composition: slanted title blocks, off-axis frames, controlled overlap, halftone clusters, cropped fields, arcs and diagonals, oversized abstract emblems, and varied visual depth.
+- Pacing: arresting proposition, sequenced mechanism, calmer evidence reveal, decisive response or resolution.
+- Avoid: protected characters or franchise identifiers, copied masks/costumes/logos, fake urgency metrics, sensationalism, unreadable novelty type, red on every object, and any use the confirmed professional setting does not support.
+
 ## Hybridization rules
 
 Hybridize only when one family cannot serve all evidence classes. Name the division of labor before designing.
@@ -169,6 +185,7 @@ Useful combinations include:
 - Dark Engineered Systems architecture with Bright Tech Systems executive summaries.
 - Editorial Intelligence typography with Human Documentary photography.
 - Expressive Cultural opening and close with Editorial Intelligence evidence pages.
+- Dynamic Hero Editorial opening and transitions with Editorial Intelligence or Data-Forward Clarity evidence pages, only when the confirmed setting permits the expressive contrast.
 
 Do not combine more than two families. Keep one grid, one typography hierarchy, one recurring page-furniture system, and one semantic color model across the deck.
 

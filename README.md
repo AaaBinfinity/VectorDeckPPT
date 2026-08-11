@@ -35,11 +35,12 @@ VectorDeckPPT 是面向 AI Agent 的向量优先 PowerPoint 生成 Skill。宿�
 |---|---|---|
 | 一页一份结构化 SVG，设计、预览和后续修改都回到同一源文件 | 文本、基础图形、图片和直线段 freeform 优先编译为 PowerPoint 原生对象 | 校验、渲染、逐页复审、编译报告和 PPTX 包验证形成完整证据链 |
 
-同时保留两道独立确认门：
+正式制作前保留三道独立确认门：
 
-- 先确认完整的文字版逐页内容；
-- 再确认最多 3 页代表性视觉样稿；
-- 两次批准后才生成全套 SVG 和最终 PPTX。
+- 先补齐并确认完整需求合同，包括受众、目标、场景、资料、页数、语言、视觉、事实边界和交付要求；
+- 再确认完整的文字版逐页内容；
+- 最后确认最多 3 页代表性视觉样稿；
+- 三次明确确认后才生成全套 SVG 和最终 PPTX。
 
 这让内容方向、视觉质量和批量生产彼此解耦，避免一开始就生成整套错误页面。
 
@@ -83,7 +84,7 @@ VectorDeckPPT 是面向 AI Agent 的向量优先 PowerPoint 生成 Skill。宿�
   <a href="examples/project-intro-deck/compilation-report.json">查看编译报告</a>
 </p>
 
-### 八套内置视觉方向
+### 九套内置视觉方向
 
 每套模板都展示封面、流程、证据和决策综合四类信息丰富页面，并提供同名 SVG 源文件。它们用于帮助 Agent 提取视觉语法，不是固定页壳或整页背景。Agent 会根据真实内容重新建立字体、空间、色彩、图像和构图规则，并把标题、同级标题、正文、标签等角色锁定为整套一致的字号。
 
@@ -149,13 +150,17 @@ VectorDeckPPT 是面向 AI Agent 的向量优先 PowerPoint 生成 Skill。宿�
       <br><strong>Product Storytelling</strong>
       <br><sub>产品发布 · 功能叙事 · 用户采用</sub>
     </td>
-    <td width="33%" valign="middle">
-      <strong>模板负责启发，不负责替代判断。</strong>
-      <br><br>
-      示例数字只用于展示信息层级，必须替换成真实来源。每套 PNG 旁都保留可检查的 SVG 源文件，便于复用字体角色、栅格和几何关系。
+    <td width="33%" align="center">
+      <a href=".agents/skills/vectordeckppt/assets/style-templates/dynamic-hero-editorial.png">
+        <img width="100%" src=".agents/skills/vectordeckppt/assets/style-templates/dynamic-hero-editorial.png" alt="动态英雄式编辑视觉方向">
+      </a>
+      <br><strong>Dynamic Hero Editorial</strong>
+      <br><sub>英雄字体 · 斜切构图 · 发布与创意叙事</sub>
     </td>
   </tr>
 </table>
+
+> **模板负责启发，不负责替代判断。** 示例数字只用于展示信息层级，必须替换成真实来源。专业场合默认采用克制、可信、证据优先的视觉方向，但专业不等于所有页面都横平竖直：可以使用编辑式不对称、受控叠压、裁切、弧线、斜线和少量英雄字体建立艺术感。漫画、海报或强烈活动风格只有在需求合同明确允许时才启用。
 
 浏览[完整模板目录](.agents/skills/vectordeckppt/assets/style-templates/)或阅读[视觉方向规则](.agents/skills/vectordeckppt/references/style-templates.md)。
 
@@ -192,7 +197,7 @@ python -m pip install -r requirements.txt
 默认交付到当前目录的 pptoutput/。
 ```
 
-Skill 会先提交完整文字版供确认；文字批准后只制作代表性视觉样稿；视觉批准后再完成全套页面。完整的安装方式、请求字段、审批逻辑、质量命令和报告解释见 [使用指南](doc/usage-guide.md)。
+Skill 会先补齐需求并提交完整合同供确认；合同批准后才开始阅读、规划并提交完整文字版；文字批准后只制作代表性视觉样稿；视觉批准后再完成全套页面。完整的安装方式、请求字段、审批逻辑、质量命令和报告解释见 [使用指南](doc/usage-guide.md)。
 
 为了让叙事更准确，建议同时说明主要受众的身份、受众知识水平与决策权，以及演示结束后希望推动的具体行动。
 
@@ -225,13 +230,14 @@ $CODEX_HOME/skills/vectordeckppt/
 
 <p align="center">
   <a href="examples/project-intro-deck/slides/slide_04.svg">
-    <img width="100%" src="doc/assets/readme/workflow.png" alt="VectorDeckPPT 五阶段工作流">
+    <img width="100%" src="doc/assets/readme/workflow.png" alt="VectorDeckPPT 需求确认后的五阶段制作工作流">
   </a>
 </p>
 
 | 阶段 | Agent / 工具的责任 | 质量门 |
 |---|---|---|
-| 1. 理解资料 | 提取事实、证据、受众、约束和可用素材 | 关键描述不准确或存在实质歧义时先提问 |
+| 0. 确认需求 | 补齐受众、目标、场景、资料、形式、视觉与交付信息，汇总默认项 | 等待用户明确批准完整需求合同 |
+| 1. 理解资料 | 在合同批准后提取事实、证据、约束和可用素材 | 新发现实质矛盾时返回需求确认 |
 | 2. 规划叙事 | 生成完整的文字版逐页内容 | 等待用户明确批准文字内容 |
 | 3. 定义视觉 | 建立艺术方向和设计系统，只制作最多 3 页代表性样稿 | 等待用户明确批准视觉样稿 |
 | 4. 逐页 SVG | 完成所有页面，逐页校验、渲染和视觉复审 | 问题回到 SVG 源文件修订 |
@@ -240,6 +246,8 @@ $CODEX_HOME/skills/vectordeckppt/
 **默认内容密度：**普通内容页通常同时包含明确结论、解释、具体证据或例子，以及影响/行动；约三分之二的核心内容页应在资料允许时使用真正承担说明作用的图表、图解、表格、流程、矩阵或标注图。没有真实数据时使用诚实的概念结构；不得为了好看伪造数字、百分比或趋势。
 
 **字体一致性：**设计样稿前先锁定整套字体角色。所有普通页面标题使用同一个精确字号、字体和字重，同一页的同级标题与标签也必须完全一致；最终 SVG 通过严格 typography audit 后才能编译。
+
+**艺术感与专业度：**避免把整套演示做成横平竖直的卡片集合。根据场合使用英雄字体、编辑式不对称、裁切、错位、弧线、斜切、层叠和尺度对比；专业场合减少装饰强度并强化证据，而不是取消视觉张力。
 
 ## 交付物
 
