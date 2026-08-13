@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def test_v11_release_metadata_is_consistent() -> None:
+def test_v12_release_metadata_is_consistent() -> None:
     project = tomllib.loads((ROOT / "pyproject.toml").read_text(encoding="utf-8"))
     lock = tomllib.loads((ROOT / "uv.lock").read_text(encoding="utf-8"))
     locked_project = next(
@@ -15,17 +15,26 @@ def test_v11_release_metadata_is_consistent() -> None:
     release_workflow = (ROOT / ".github" / "workflows" / "release.yml").read_text(
         encoding="utf-8"
     )
-    release_notes = (ROOT / "doc" / "releases" / "v1.1.0.md").read_text(encoding="utf-8")
+    release_notes = (ROOT / "doc" / "releases" / "v1.2.0.md").read_text(encoding="utf-8")
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    docs_index = (ROOT / "doc" / "README.md").read_text(encoding="utf-8")
 
-    assert project["project"]["version"] == "1.1.0"
-    assert locked_project["version"] == "1.1.0"
-    assert "## [1.1.0] - 2026-08-09" in changelog
-    assert "**文档版本：** V1.1 + Unreleased" in prd
-    assert "**项目状态：** V1.1.0 Released；`main` 包含下一版本的未发布增强" in prd
+    assert project["project"]["version"] == "1.2.0"
+    assert locked_project["version"] == "1.2.0"
+    assert "## [1.2.0] - 2026-08-13" in changelog
+    assert "**文档版本：** V1.2" in prd
+    assert "**项目状态：** V1.2.0 Released" in prd
     assert "tags:" in release_workflow
     assert "contents: write" in release_workflow
     assert 'gh release create "$GITHUB_REF_NAME"' in release_workflow
-    assert "# VectorDeckPPT v1.1.0" in release_notes
+    assert "# VectorDeckPPT v1.2.0" in release_notes
+    assert "[V1.2 Release](doc/releases/v1.2.0.md)" in readme
+    assert "[V1.2.0](releases/v1.2.0.md)" in docs_index
+    unreleased_link = (
+        "[Unreleased]: "
+        "https://github.com/AaaBinfinity/VectorDeckPPT/compare/v1.2.0...HEAD"
+    )
+    assert unreleased_link in changelog
 
 
 def test_requirements_export_is_reproducible_and_portable() -> None:

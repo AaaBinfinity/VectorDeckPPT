@@ -3,12 +3,12 @@
 **项目名称：** VectorDeckPPT  
 **名称含义：** Vector + Presentation Deck + PowerPoint  
 **项目类型：** Agent Skill / AI Presentation Generation / SVG-to-PPTX Toolchain  
-**文档版本：** V1.1 + Unreleased
-**项目状态：** V1.1.0 Released；`main` 包含下一版本的未发布增强
+**文档版本：** V1.2
+**项目状态：** V1.2.0 Released
 
-## 当前规范增量（V1.1 + Unreleased）
+## V1.2 当前规范摘要
 
-当前规范在不改变“宿主 Agent 负责创作、确定性脚本负责执行”的架构前提下，汇总 V1.1.0 与 `main` 的未发布增强；若后文的 V1.0 示例与本节冲突，以本节、`SKILL.md` 和 `references/` 的当前规则为准。历史版本的准确范围以对应 CHANGELOG 和发布说明为准：
+V1.2 在不改变“宿主 Agent 负责创作、确定性脚本负责执行”的架构前提下，正式纳入需求合同、信息丰富度、字体一致性、艺术方向和多页模板体系。若后文的早期 MVP 示例与本节冲突，以本节、`SKILL.md` 和 `references/` 的当前规则为准；历史版本差异以 [CHANGELOG](../CHANGELOG.md) 和 [V1.2.0 发布说明](releases/v1.2.0.md) 为准：
 
 - 开始资料综合与逐页规划前必须补齐受众、目标、场景、资料、事实边界、形式、视觉、品牌和交付信息；用少量分组问题消除错误、矛盾与歧义，汇总全部默认项，并等待用户明确确认完整需求合同；
 - 完整生产必须经过三道明确确认：完整需求合同确认、完整文字版逐页内容审批，以及 `min(3, 最终页数)` 页代表性视觉样稿审批；

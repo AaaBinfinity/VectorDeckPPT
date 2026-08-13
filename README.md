@@ -344,7 +344,7 @@ uv run python .agents/skills/vectordeckppt/scripts/validate_pptx.py final.pptx
 | 如何定义视觉 | [艺术方向](.agents/skills/vectordeckppt/references/art-direction.md) · [设计系统](.agents/skills/vectordeckppt/references/design-system.md) · [页面设计](.agents/skills/vectordeckppt/references/slide-design.md) |
 | 如何检查质量 | [字体审计](.agents/skills/vectordeckppt/scripts/audit_typography.py) · [视觉复审](.agents/skills/vectordeckppt/references/visual-review.md) · [故障排查](.agents/skills/vectordeckppt/references/troubleshooting.md) |
 | 编译器如何工作 | [SVG 作者指南](.agents/skills/vectordeckppt/references/svg-authoring.md) · [SVG → PPTX](.agents/skills/vectordeckppt/references/svg-to-pptx.md) |
-| 产品与版本 | [文档总览](doc/README.md) · [贡献指南](CONTRIBUTING.md) · [PRD](doc/PRD.md) · [CHANGELOG](CHANGELOG.md) · [V1.1 Release](doc/releases/v1.1.0.md) |
+| 产品与版本 | [文档总览](doc/README.md) · [贡献指南](CONTRIBUTING.md) · [PRD](doc/PRD.md) · [CHANGELOG](CHANGELOG.md) · [V1.2 Release](doc/releases/v1.2.0.md) |
 
 ## 开发与验证
 

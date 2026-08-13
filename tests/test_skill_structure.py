@@ -303,7 +303,7 @@ def test_skill_locks_typography_roles_and_runs_deck_audit() -> None:
     assert "inconsistent_deck_title_weight" in troubleshooting
 
 
-def test_v11_documentation_matches_compiler_and_delivery_contract() -> None:
+def test_current_documentation_matches_compiler_and_delivery_contract() -> None:
     skill = (SKILL_DIR / "SKILL.md").read_text(encoding="utf-8")
     workflow = (SKILL_DIR / "references" / "workflow.md").read_text(encoding="utf-8")
     design = (SKILL_DIR / "references" / "design-system.md").read_text(encoding="utf-8")
@@ -318,7 +318,7 @@ def test_v11_documentation_matches_compiler_and_delivery_contract() -> None:
     assert "--report compilation-report.json" in readme
     assert "Bright Tech Systems" in readme
     assert "Human Documentary" in readme
-    assert "**文档版本：** V1.1" in prd
+    assert "**文档版本：** V1.2" in prd
     assert "直接在 `main` 维护" in prd
     assert "sample_count = min(3, final_slide_count)" in skill
     assert "sample_count = min(3, final_slide_count)" in workflow

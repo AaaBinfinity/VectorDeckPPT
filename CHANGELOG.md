@@ -4,6 +4,8 @@ All notable changes to VectorDeckPPT are documented in this file.
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-08-13
+
 ### Added
 
 - Added a deterministic deck typography audit with strict semantic text roles and diagnostics for inconsistent slide titles or same-page peer headings.
@@ -76,6 +78,7 @@ All notable changes to VectorDeckPPT are documented in this file.
 - Unsupported visible elements are converted, preserved through explicit fallback, or reported as failures; they are never silently dropped.
 - The example workflow validates, renders, compiles, reopens, and validates the final PPTX.
 
-[Unreleased]: https://github.com/AaaBinfinity/VectorDeckPPT/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/AaaBinfinity/VectorDeckPPT/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/AaaBinfinity/VectorDeckPPT/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/AaaBinfinity/VectorDeckPPT/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/AaaBinfinity/VectorDeckPPT/releases/tag/v1.0.0

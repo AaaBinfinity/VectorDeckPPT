@@ -34,13 +34,23 @@
 - [故障排查](../.agents/skills/vectordeckppt/references/troubleshooting.md)；
 - [确定性脚本](../.agents/skills/vectordeckppt/scripts/)。
 
-### 我想维护项目
+### 我想维护或发布项目
 
 - [贡献指南](../CONTRIBUTING.md)；
 - [产品需求文档](PRD.md)；
 - [仓库开发规范](../AGENTS.md)；
 - [变更记录](../CHANGELOG.md)；
-- [V1.1.0 发布说明](releases/v1.1.0.md)。
+- [V1.2.0 发布说明](releases/v1.2.0.md)；
+- [历史版本：V1.1.0](releases/v1.1.0.md)。
+
+## 版本入口
+
+| 版本 | 日期 | 重点 |
+|---|---|---|
+| [V1.2.0](releases/v1.2.0.md) | 2026-08-13 | 完整需求合同、严格字体角色、十二套逐页模板、艺术展示字体和完善文档导航 |
+| [V1.1.0](releases/v1.1.0.md) | 2026-08-09 | 分阶段审批、路径安全、字体缩放修复、freeform 与 pip 安装支持 |
+
+完整逐项变化见 [CHANGELOG](../CHANGELOG.md)。发布说明记录对应标签的事实，不随后续 `main` 变化回写。
 
 ## 架构不变量
 

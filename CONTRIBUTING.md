@@ -118,3 +118,14 @@ test(renderer): cover invalid output collisions
 6. 工作区没有被误提交的输出目录或临时文件。
 
 只有在维护者明确要求发布时才创建标签和 GitHub Release。
+
+## 发布流程
+
+1. 选择符合语义化版本的版本号，并把 `CHANGELOG.md` 的已完成条目从 `Unreleased` 归档到带日期的版本段；
+2. 同步 `pyproject.toml`、`uv.lock`、PRD 状态、README 版本入口、`doc/README.md` 和 `doc/releases/vX.Y.Z.md`；
+3. 重新生成受版本信息影响的示例 PPTX、PNG 与编译报告，并逐项验证；
+4. 运行 `git diff --check`、Ruff、Pytest、Skill 校验和发布元数据测试；
+5. 在 `main` 创建并推送发布提交，再创建带注释的 `vX.Y.Z` 标签并推送；
+6. 标签工作流使用同名 `doc/releases/vX.Y.Z.md` 创建 GitHub Release。确认 Release 已发布且标记为 latest。
+
+不要在版本标签创建后继续修改对应发布说明；需要更正时发布补丁版本。
