@@ -4,60 +4,111 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#070A11" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="0" fill="#0D111B" stroke="#303746" stroke-width="1"/>
-<polygon points="550,0 760,0 760,146" fill="#2A0A18"/>
-<polygon points="646,0 760,0 760,76" fill="#FF1748"/>
-<line x1="200" y1="8" x2="10" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="254" y1="8" x2="64" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="308" y1="8" x2="118" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="362" y1="8" x2="172" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="416" y1="8" x2="226" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="470" y1="8" x2="280" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="524" y1="8" x2="334" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="578" y1="8" x2="388" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="632" y1="8" x2="442" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="686" y1="8" x2="496" y2="400" stroke="#303746" stroke-width="0.7"/>
-<circle cx="610" cy="48" r="2" fill="#6B1830"/>
-<circle cx="628" cy="48" r="3" fill="#6B1830"/>
-<circle cx="646" cy="48" r="2" fill="#6B1830"/>
-<circle cx="664" cy="48" r="3" fill="#6B1830"/>
-<circle cx="682" cy="48" r="2" fill="#6B1830"/>
-<circle cx="700" cy="48" r="3" fill="#6B1830"/>
-<circle cx="718" cy="48" r="2" fill="#6B1830"/>
-<circle cx="610" cy="66" r="2" fill="#6B1830"/>
-<circle cx="628" cy="66" r="3" fill="#6B1830"/>
-<circle cx="646" cy="66" r="2" fill="#6B1830"/>
-<circle cx="664" cy="66" r="3" fill="#6B1830"/>
-<circle cx="682" cy="66" r="2" fill="#6B1830"/>
-<circle cx="700" cy="66" r="3" fill="#6B1830"/>
-<circle cx="718" cy="66" r="2" fill="#6B1830"/>
-<circle cx="610" cy="84" r="2" fill="#6B1830"/>
-<circle cx="628" cy="84" r="3" fill="#6B1830"/>
-<circle cx="646" cy="84" r="2" fill="#6B1830"/>
-<circle cx="664" cy="84" r="3" fill="#6B1830"/>
-<circle cx="682" cy="84" r="2" fill="#6B1830"/>
-<circle cx="700" cy="84" r="3" fill="#6B1830"/>
-<circle cx="718" cy="84" r="2" fill="#6B1830"/>
-<circle cx="610" cy="102" r="2" fill="#6B1830"/>
-<circle cx="628" cy="102" r="3" fill="#6B1830"/>
-<circle cx="646" cy="102" r="2" fill="#6B1830"/>
-<circle cx="664" cy="102" r="3" fill="#6B1830"/>
-<circle cx="682" cy="102" r="2" fill="#6B1830"/>
-<circle cx="700" cy="102" r="3" fill="#6B1830"/>
-<circle cx="718" cy="102" r="2" fill="#6B1830"/>
+<polygon points="524,0 760,0 760,210" fill="#280817"/>
+<polygon points="650,0 760,0 760,96" fill="#FF1748"/>
+<polygon points="610,400 760,270 760,400" fill="#150710"/>
+<line x1="130" y1="8" x2="-78" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="184" y1="8" x2="-24" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="238" y1="8" x2="30" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="292" y1="8" x2="84" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="346" y1="8" x2="138" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="400" y1="8" x2="192" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="454" y1="8" x2="246" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="508" y1="8" x2="300" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="562" y1="8" x2="354" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="616" y1="8" x2="408" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="670" y1="8" x2="462" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="724" y1="8" x2="516" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="778" y1="8" x2="570" y2="400" stroke="#303746" stroke-width="0.8"/>
+<circle cx="574" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="591" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="608" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="625" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="642" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="659" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="676" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="693" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="710" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="574" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="591" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="608" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="625" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="642" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="659" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="676" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="693" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="710" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="574" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="591" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="608" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="625" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="642" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="659" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="676" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="693" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="710" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="574" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="591" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="608" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="625" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="642" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="659" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="676" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="693" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="710" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="574" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="591" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="608" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="625" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="642" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="659" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="676" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="693" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="710" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="574" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="591" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="608" cy="127" r="2.2" fill="#7D1B38"/>
+<circle cx="625" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="642" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="659" cy="127" r="2.2" fill="#7D1B38"/>
+<circle cx="676" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="693" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="710" cy="127" r="2.2" fill="#7D1B38"/>
+<line x1="470" y1="226" x2="748" y2="124" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="245" x2="748" y2="152" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="264" x2="748" y2="180" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="283" x2="748" y2="208" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="302" x2="748" y2="236" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="321" x2="748" y2="264" stroke="#6C3143" stroke-width="0.8"/>
 <rect x="0" y="0" width="760" height="6" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
-<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">NARRATIVE / ANNOTATION</tspan></text>
+<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">NARRATIVE / INCIDENT STORY</tspan></text>
 <text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#A6ADBC" text-anchor="end"><tspan x="714" dy="0">03</tspan></text>
-<text data-role="slide-title" x="34" y="82" font-family="Impact" font-size="26" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="34" dy="0">One story becomes credible through three kinds of proof</tspan></text>
-<text data-role="caption" x="34" y="110" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="34" dy="0">Combine a concrete scene, an observed detail, and an explicit implication.</tspan></text>
-<rect x="34" y="142" width="420" height="214" rx="0" fill="#171D28" stroke="#303746" stroke-width="1"/>
-<polygon points="34,356 34,248 146,178 246,266 350,196 454,266 454,356" fill="#7ACBFF" opacity="0.42"/>
-<polygon points="34,356 34,310 154,258 282,332 380,280 454,318 454,356" fill="#FF1748" opacity="0.72"/>
-<text data-role="subheading" x="488" y="170" font-family="Arial" font-size="14" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="488" dy="0">01  SCENE</tspan></text>
-<text data-role="body" x="488" y="194" font-family="Arial" font-size="9" font-weight="400" fill="#F7F8FC" text-anchor="start"><tspan x="488" dy="0">Show where the issue becomes visible, who experiences it,</tspan><tspan x="488" dy="12.15">and what is at stake in that specific setting.</tspan></text>
-<text data-role="subheading" x="488" y="246" font-family="Arial" font-size="14" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="488" dy="0">02  DETAIL</tspan></text>
-<text data-role="body" x="488" y="270" font-family="Arial" font-size="9" font-weight="400" fill="#F7F8FC" text-anchor="start"><tspan x="488" dy="0">Annotate an observation, quotation, artifact, or mechanism;</tspan><tspan x="488" dy="12.15">name the source and the limit of the evidence.</tspan></text>
-<text data-role="subheading" x="488" y="322" font-family="Arial" font-size="14" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="488" dy="0">03  MEANING</tspan></text>
-<text data-role="body" x="488" y="346" font-family="Arial" font-size="9" font-weight="400" fill="#F7F8FC" text-anchor="start"><tspan x="488" dy="0">State what the evidence changes, which choice it supports,</tspan><tspan x="488" dy="12.15">and what the audience should inspect next.</tspan></text>
+<rect x="34" y="54" width="44" height="5" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
+<text data-role="slide-title" x="34" y="88" font-family="Impact, Microsoft YaHei, Arial" font-size="26" font-weight="900" fill="#F7F8FC" text-anchor="start"><tspan x="34" dy="0">一条可信叙事必须完成三次推进</tspan></text>
+<text data-role="caption" x="34" y="116" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="34" dy="0">从具体现场进入问题，用可追溯证据解释机制，再把意义收束为下一步行动。</tspan></text>
+<rect x="34" y="144" width="382" height="208" rx="0" fill="#090C13" stroke="#303746" stroke-width="1"/>
+<polygon points="34,352 34,268 94,226 148,266 214,206 286,258 350,196 416,244 416,352" fill="#1A2030"/>
+<polygon points="34,352 34,318 126,276 210,332 306,282 416,320 416,352" fill="#B30B34"/>
+<line x1="58" y1="176" x2="374" y2="304" stroke="#FF1748" stroke-width="3"/>
+<line x1="72" y1="294" x2="362" y2="180" stroke="#7ACBFF" stroke-width="2"/>
+<text data-role="subheading" x="54" y="176" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="54" dy="0">现场不是背景</tspan></text>
+<text data-role="body" x="54" y="198" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="54" dy="0">它必须显示人物、压力、时间窗口与真实约束。</tspan></text>
+<rect x="54" y="304" width="300" height="32" rx="0" fill="#080B12" stroke="#FF1748" stroke-width="1"/>
+<text data-role="label" x="70" y="324" font-family="Microsoft YaHei, Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="70" dy="0">观察 → 证据 → 含义</tspan></text>
+<polygon points="446,146 708,138 720,204 456,212" fill="#171D28" stroke="#303746" stroke-width="1"/>
+<text data-role="label" x="464" y="168" font-family="Impact" font-size="10" font-weight="900" fill="#FF1748" text-anchor="start"><tspan x="464" dy="0">01</tspan></text>
+<text data-role="subheading" x="510" y="170" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="510" dy="0">场景</tspan></text>
+<text data-role="body" x="572" y="164" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="572" dy="0">谁在何处遭遇什么阻力？</tspan><tspan x="572" dy="12.15">先让受众进入具体问题。</tspan></text>
+<polygon points="446,220 708,212 720,278 456,286" fill="#171D28" stroke="#303746" stroke-width="1"/>
+<text data-role="label" x="464" y="242" font-family="Impact" font-size="10" font-weight="900" fill="#7ACBFF" text-anchor="start"><tspan x="464" dy="0">02</tspan></text>
+<text data-role="subheading" x="510" y="244" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="510" dy="0">证据</tspan></text>
+<text data-role="body" x="572" y="238" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="572" dy="0">哪些记录、数据或引语</tspan><tspan x="572" dy="12.15">能够验证这个判断？</tspan></text>
+<polygon points="446,294 708,286 720,352 456,360" fill="#171D28" stroke="#303746" stroke-width="1"/>
+<text data-role="label" x="464" y="316" font-family="Impact" font-size="10" font-weight="900" fill="#FFBF3C" text-anchor="start"><tspan x="464" dy="0">03</tspan></text>
+<text data-role="subheading" x="510" y="318" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="510" dy="0">意义</tspan></text>
+<text data-role="body" x="572" y="312" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="572" dy="0">这项发现改变哪项选择，</tspan><tspan x="572" dy="12.15">谁必须负责下一步？</tspan></text>
+<text data-role="quote" x="448" y="372" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="448" dy="0">“情绪建立关注，证据建立信任，行动建立价值。”</tspan></text>
+<text data-role="annotation" x="708" y="348" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="end"><tspan x="708" dy="0">示例叙事结构 · 请替换为真实现场与来源</tspan></text>
 <text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
 </g>
 </svg>

@@ -20,5 +20,6 @@
 <rect x="696" y="50" width="34" height="34" rx="0" fill="#A63A2E" stroke="none" stroke-width="0"/>
 <text data-role="quote" x="713" y="74" font-family="STXingkai, FZShuTi, KaiTi, serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="713" dy="0">策</tspan></text>
 <text data-role="source" x="42" y="374" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#6F756E" text-anchor="start"><tspan x="42" dy="0">ILLUSTRATIVE TEMPLATE · ORIGINAL VECTOR ART DIRECTION</tspan></text>
+<text data-role="annotation" x="716" y="374" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#C39B4B" text-anchor="end"><tspan x="716" dy="0">10-PAGE / FULL SYSTEM</tspan></text>
 </g>
 </svg>

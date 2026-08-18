@@ -4,82 +4,130 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#070A11" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="0" fill="#0D111B" stroke="#303746" stroke-width="1"/>
-<polygon points="550,0 760,0 760,146" fill="#2A0A18"/>
-<polygon points="646,0 760,0 760,76" fill="#FF1748"/>
-<line x1="200" y1="8" x2="10" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="254" y1="8" x2="64" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="308" y1="8" x2="118" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="362" y1="8" x2="172" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="416" y1="8" x2="226" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="470" y1="8" x2="280" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="524" y1="8" x2="334" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="578" y1="8" x2="388" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="632" y1="8" x2="442" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="686" y1="8" x2="496" y2="400" stroke="#303746" stroke-width="0.7"/>
-<circle cx="610" cy="48" r="2" fill="#6B1830"/>
-<circle cx="628" cy="48" r="3" fill="#6B1830"/>
-<circle cx="646" cy="48" r="2" fill="#6B1830"/>
-<circle cx="664" cy="48" r="3" fill="#6B1830"/>
-<circle cx="682" cy="48" r="2" fill="#6B1830"/>
-<circle cx="700" cy="48" r="3" fill="#6B1830"/>
-<circle cx="718" cy="48" r="2" fill="#6B1830"/>
-<circle cx="610" cy="66" r="2" fill="#6B1830"/>
-<circle cx="628" cy="66" r="3" fill="#6B1830"/>
-<circle cx="646" cy="66" r="2" fill="#6B1830"/>
-<circle cx="664" cy="66" r="3" fill="#6B1830"/>
-<circle cx="682" cy="66" r="2" fill="#6B1830"/>
-<circle cx="700" cy="66" r="3" fill="#6B1830"/>
-<circle cx="718" cy="66" r="2" fill="#6B1830"/>
-<circle cx="610" cy="84" r="2" fill="#6B1830"/>
-<circle cx="628" cy="84" r="3" fill="#6B1830"/>
-<circle cx="646" cy="84" r="2" fill="#6B1830"/>
-<circle cx="664" cy="84" r="3" fill="#6B1830"/>
-<circle cx="682" cy="84" r="2" fill="#6B1830"/>
-<circle cx="700" cy="84" r="3" fill="#6B1830"/>
-<circle cx="718" cy="84" r="2" fill="#6B1830"/>
-<circle cx="610" cy="102" r="2" fill="#6B1830"/>
-<circle cx="628" cy="102" r="3" fill="#6B1830"/>
-<circle cx="646" cy="102" r="2" fill="#6B1830"/>
-<circle cx="664" cy="102" r="3" fill="#6B1830"/>
-<circle cx="682" cy="102" r="2" fill="#6B1830"/>
-<circle cx="700" cy="102" r="3" fill="#6B1830"/>
-<circle cx="718" cy="102" r="2" fill="#6B1830"/>
+<polygon points="524,0 760,0 760,210" fill="#280817"/>
+<polygon points="650,0 760,0 760,96" fill="#FF1748"/>
+<polygon points="610,400 760,270 760,400" fill="#150710"/>
+<line x1="130" y1="8" x2="-78" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="184" y1="8" x2="-24" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="238" y1="8" x2="30" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="292" y1="8" x2="84" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="346" y1="8" x2="138" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="400" y1="8" x2="192" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="454" y1="8" x2="246" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="508" y1="8" x2="300" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="562" y1="8" x2="354" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="616" y1="8" x2="408" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="670" y1="8" x2="462" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="724" y1="8" x2="516" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="778" y1="8" x2="570" y2="400" stroke="#303746" stroke-width="0.8"/>
+<circle cx="574" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="591" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="608" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="625" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="642" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="659" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="676" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="693" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="710" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="574" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="591" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="608" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="625" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="642" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="659" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="676" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="693" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="710" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="574" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="591" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="608" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="625" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="642" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="659" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="676" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="693" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="710" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="574" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="591" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="608" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="625" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="642" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="659" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="676" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="693" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="710" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="574" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="591" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="608" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="625" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="642" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="659" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="676" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="693" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="710" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="574" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="591" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="608" cy="127" r="2.2" fill="#7D1B38"/>
+<circle cx="625" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="642" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="659" cy="127" r="2.2" fill="#7D1B38"/>
+<circle cx="676" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="693" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="710" cy="127" r="2.2" fill="#7D1B38"/>
+<line x1="470" y1="226" x2="748" y2="124" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="245" x2="748" y2="152" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="264" x2="748" y2="180" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="283" x2="748" y2="208" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="302" x2="748" y2="236" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="321" x2="748" y2="264" stroke="#6C3143" stroke-width="0.8"/>
 <rect x="0" y="0" width="760" height="6" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
-<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">LAUNCH, CAMPAIGN &amp; STORY</tspan></text>
+<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">城市响应、品牌战役与高张力叙事</tspan></text>
 <text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#A6ADBC" text-anchor="end"><tspan x="714" dy="0">01</tspan></text>
-<polygon points="26,96 388,66 410,212 54,244" fill="#0A0D15" stroke="#FF1748" stroke-width="8"/>
-<polygon points="26,76 272,54 260,92 18,114" fill="#FF1748"/>
-<text data-role="label" x="40" y="91" font-family="Arial" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="40" dy="0">HERO TYPOGRAPHY / CONTROLLED MOTION</tspan></text>
-<text data-role="deck-title" x="48" y="136" font-family="Impact" font-size="36" font-weight="900" fill="#F7F8FC" text-anchor="start"><tspan x="48" dy="0">MAKE THE</tspan><tspan x="48" dy="34.56">CENTRAL IDEA</tspan><tspan x="48" dy="34.56">FEEL HEROIC</tspan></text>
-<rect x="38" y="258" width="354" height="58" rx="0" fill="#090C13" stroke="#303746" stroke-width="1"/>
-<rect x="38" y="258" width="8" height="58" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
-<text data-role="caption" x="58" y="282" font-family="Arial" font-size="9" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="58" dy="0">Art direction becomes credible when visual energy,</tspan></text>
-<text data-role="caption" x="58" y="299" font-family="Arial" font-size="9" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="58" dy="0">evidence, and hierarchy are visible together.</tspan></text>
-<circle cx="596" cy="188" r="146" fill="#FF1748" stroke="#05070C" stroke-width="14"/>
-<circle cx="596" cy="188" r="112" fill="#D81742" stroke="#0A0D15" stroke-width="4"/>
-<line x1="596" y1="188" x2="596" y2="46" stroke="#0A0D15" stroke-width="4"/>
-<line x1="596" y1="188" x2="704" y2="94" stroke="#0A0D15" stroke-width="4"/>
-<line x1="596" y1="188" x2="738" y2="198" stroke="#0A0D15" stroke-width="4"/>
-<line x1="596" y1="188" x2="684" y2="302" stroke="#0A0D15" stroke-width="4"/>
-<line x1="596" y1="188" x2="576" y2="330" stroke="#0A0D15" stroke-width="4"/>
-<line x1="596" y1="188" x2="486" y2="278" stroke="#0A0D15" stroke-width="4"/>
-<line x1="596" y1="188" x2="454" y2="170" stroke="#0A0D15" stroke-width="4"/>
-<line x1="596" y1="188" x2="500" y2="76" stroke="#0A0D15" stroke-width="4"/>
-<polygon points="596,82 682,136 654,262 596,310 536,262 508,136" fill="#F7F8FC" stroke="#090C13" stroke-width="10"/>
-<polygon points="596,106 650,144 626,224 596,258" fill="#7ACBFF"/>
-<polygon points="596,106 542,144 566,224 596,258" fill="#DDE8F2"/>
-<rect x="622" y="276" width="94" height="72" rx="0" fill="#0A0D15" stroke="#303746" stroke-width="1"/>
-<text data-role="label" x="636" y="296" font-family="Arial" font-size="10" font-weight="700" fill="#A6ADBC" text-anchor="start"><tspan x="636" dy="0">SIGNAL</tspan></text>
-<text data-role="metric" x="636" y="327" font-family="Impact" font-size="24" font-weight="900" fill="#F7F8FC" text-anchor="start"><tspan x="636" dy="0">87%</tspan></text>
-<rect x="38" y="334" width="110" height="40" rx="0" fill="#0D111B" stroke="#303746" stroke-width="1"/>
-<text data-role="annotation" x="48" y="349" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="start"><tspan x="48" dy="0">CASE</tspan></text>
-<text data-role="label" x="48" y="368" font-family="Impact" font-size="10" font-weight="900" fill="#F7F8FC" text-anchor="start"><tspan x="48" dy="0">#0716</tspan></text>
-<rect x="162" y="334" width="110" height="40" rx="0" fill="#FF1748" stroke="#303746" stroke-width="1"/>
-<text data-role="annotation" x="172" y="349" font-family="Arial" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="172" dy="0">STATUS</tspan></text>
-<text data-role="label" x="172" y="368" font-family="Impact" font-size="10" font-weight="900" fill="#FFFFFF" text-anchor="start"><tspan x="172" dy="0">ACTIVE</tspan></text>
-<rect x="286" y="334" width="110" height="40" rx="0" fill="#171D28" stroke="#303746" stroke-width="1"/>
-<text data-role="annotation" x="296" y="349" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="start"><tspan x="296" dy="0">MODE</tspan></text>
-<text data-role="label" x="296" y="368" font-family="Impact" font-size="10" font-weight="900" fill="#F7F8FC" text-anchor="start"><tspan x="296" dy="0">URGENT</tspan></text>
-<text data-role="source" x="554" y="382" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="middle"><tspan x="554" dy="0">ILLUSTRATIVE TEMPLATE · ORIGINAL ABSTRACT GRAPHICS</tspan></text>
+<polygon points="22,108 398,62 444,235 60,278" fill="#070910" stroke="#02040A" stroke-width="12"/>
+<polygon points="30,104 402,72 424,220 50,260" fill="#D70C37"/>
+<polygon points="40,105 384,78 404,202 66,241" fill="#0A0D15"/>
+<polygon points="18,76 246,54 236,96 10,118" fill="#FF1748" stroke="#02040A" stroke-width="4"/>
+<text data-role="label" x="30" y="92" font-family="Microsoft YaHei, Arial" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="30" dy="0">城市韧性行动档案</tspan></text>
+<text data-role="deck-title" x="56" y="166" font-family="Impact, Microsoft YaHei, Arial" font-size="54" font-weight="900" fill="#02040A" text-anchor="start"><tspan x="56" dy="0">临界</tspan></text>
+<text data-role="deck-title" x="49" y="160" font-family="Impact, Microsoft YaHei, Arial" font-size="54" font-weight="900" fill="#7ACBFF" text-anchor="start"><tspan x="49" dy="0">临界</tspan></text>
+<text data-role="deck-title" x="45" y="155" font-family="Impact, Microsoft YaHei, Arial" font-size="54" font-weight="900" fill="#F8FAFF" text-anchor="start"><tspan x="45" dy="0">临界</tspan></text>
+<text data-role="deck-title" x="112" y="226" font-family="Impact, Microsoft YaHei, Arial" font-size="62" font-weight="900" fill="#02040A" text-anchor="start"><tspan x="112" dy="0">时刻</tspan></text>
+<text data-role="deck-title" x="105" y="219" font-family="Impact, Microsoft YaHei, Arial" font-size="62" font-weight="900" fill="#7ACBFF" text-anchor="start"><tspan x="105" dy="0">时刻</tspan></text>
+<text data-role="deck-title" x="101" y="213" font-family="Impact, Microsoft YaHei, Arial" font-size="62" font-weight="900" fill="#FF1748" text-anchor="start"><tspan x="101" dy="0">时刻</tspan></text>
+<polygon points="224,240 410,226 402,254 228,266" fill="#F8FAFF" stroke="#02040A" stroke-width="4"/>
+<text data-role="label" x="244" y="257" font-family="Impact" font-size="10" font-weight="900" fill="#090C13" text-anchor="start"><tspan x="244" dy="0">CRITICAL RESPONSE ARCHIVE</tspan></text>
+<rect x="38" y="282" width="386" height="52" rx="0" fill="#080B12" stroke="#303746" stroke-width="1"/>
+<rect x="38" y="282" width="8" height="52" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
+<text data-role="caption" x="58" y="302" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="58" dy="0">系统无法阻止所有意外，但可以让判断更快进入正确轨道。</tspan></text>
+<text data-role="caption" x="58" y="319" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="58" dy="0">视觉张力、事实证据与行动层级必须同时成立。</tspan></text>
+<circle cx="610" cy="196" r="162" fill="#04060B"/>
+<circle cx="610" cy="196" r="146" fill="#FF1748" stroke="#05070C" stroke-width="8"/>
+<circle cx="610" cy="196" r="116" fill="#B90B34" stroke="#0A0D15" stroke-width="5"/>
+<circle cx="610" cy="196" r="72" fill="#101522" stroke="#F8FAFF" stroke-width="5"/>
+<line x1="610" y1="196" x2="610" y2="40" stroke="#0A0D15" stroke-width="5"/>
+<line x1="610" y1="196" x2="722" y2="86" stroke="#0A0D15" stroke-width="5"/>
+<line x1="610" y1="196" x2="756" y2="196" stroke="#0A0D15" stroke-width="5"/>
+<line x1="610" y1="196" x2="720" y2="306" stroke="#0A0D15" stroke-width="5"/>
+<line x1="610" y1="196" x2="610" y2="352" stroke="#0A0D15" stroke-width="5"/>
+<line x1="610" y1="196" x2="498" y2="306" stroke="#0A0D15" stroke-width="5"/>
+<line x1="610" y1="196" x2="464" y2="196" stroke="#0A0D15" stroke-width="5"/>
+<line x1="610" y1="196" x2="498" y2="86" stroke="#0A0D15" stroke-width="5"/>
+<polygon points="610,112 676,152 652,246 610,288 566,246 544,152" fill="#F8FAFF" stroke="#05070C" stroke-width="8"/>
+<polygon points="618,130 576,196 606,196 590,252 650,178 620,178" fill="#7ACBFF"/>
+<text data-role="label" x="610" y="327" font-family="Impact" font-size="10" font-weight="900" fill="#F8FAFF" text-anchor="middle"><tspan x="610" dy="0">SIGNAL CORE</tspan></text>
+<rect x="650" y="282" width="82" height="74" rx="0" fill="#090C13" stroke="#303746" stroke-width="1"/>
+<text data-role="label" x="662" y="302" font-family="Arial" font-size="10" font-weight="700" fill="#A6ADBC" text-anchor="start"><tspan x="662" dy="0">READINESS</tspan></text>
+<text data-role="metric" x="662" y="333" font-family="Impact" font-size="24" font-weight="900" fill="#F7F8FC" text-anchor="start"><tspan x="662" dy="0">87%</tspan></text>
+<text data-role="annotation" x="662" y="348" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="662" dy="0">示例指标</tspan></text>
+<rect x="38" y="344" width="110" height="36" rx="0" fill="#0D111B" stroke="#303746" stroke-width="1"/>
+<text data-role="annotation" x="48" y="357" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="start"><tspan x="48" dy="0">CASE</tspan></text>
+<text data-role="label" x="48" y="374" font-family="Impact" font-size="10" font-weight="900" fill="#F7F8FC" text-anchor="start"><tspan x="48" dy="0">R-0716</tspan></text>
+<rect x="162" y="344" width="110" height="36" rx="0" fill="#FF1748" stroke="#303746" stroke-width="1"/>
+<text data-role="annotation" x="172" y="357" font-family="Arial" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="172" dy="0">STATUS</tspan></text>
+<text data-role="label" x="172" y="374" font-family="Impact" font-size="10" font-weight="900" fill="#FFFFFF" text-anchor="start"><tspan x="172" dy="0">ACTIVE</tspan></text>
+<rect x="286" y="344" width="110" height="36" rx="0" fill="#F8FAFF" stroke="#303746" stroke-width="1"/>
+<text data-role="annotation" x="296" y="357" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="start"><tspan x="296" dy="0">LEVEL</tspan></text>
+<text data-role="label" x="296" y="374" font-family="Impact" font-size="10" font-weight="900" fill="#090C13" text-anchor="start"><tspan x="296" dy="0">CRITICAL</tspan></text>
+<text data-role="source" x="588" y="386" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="middle"><tspan x="588" dy="0">ILLUSTRATIVE TEMPLATE · ORIGINAL SIGNAL EMBLEM · REPLACE ALL SAMPLE DATA</tspan></text>
 </g>
 </svg>

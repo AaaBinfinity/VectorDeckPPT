@@ -4,38 +4,46 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#201A17" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="0" fill="#2A211D" stroke="#5B493F" stroke-width="1"/>
-<rect x="0" y="0" width="760" height="6" rx="0" fill="#A43B2F" stroke="none" stroke-width="0"/>
-<text data-role="label" x="34" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="34" dy="0">OPERATING MODEL</tspan></text>
-<text data-role="page-number" x="714" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#B8ACA0" text-anchor="end"><tspan x="714" dy="0">05</tspan></text>
-<text data-role="slide-title" x="34" y="82" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="34" dy="0">Five moves create an accountable delivery loop</tspan></text>
-<text data-role="caption" x="34" y="110" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="34" dy="0">Each phase produces a decision-ready artifact and a visible quality gate.</tspan></text>
-<rect x="34" y="142" width="126" height="156" rx="0" fill="#F3EBDD" stroke="#5B493F" stroke-width="1"/>
-<text data-role="metric" x="50" y="174" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="50" dy="0">01</tspan></text>
-<text data-role="subheading" x="50" y="208" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="50" dy="0">Frame</tspan></text>
-<text data-role="body" x="50" y="234" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="50" dy="0">Define the decision</tspan><tspan x="50" dy="12.15">and success signal</tspan></text>
-<line x1="160" y1="220" x2="174" y2="220" stroke="#A43B2F" stroke-width="2"/>
-<rect x="174" y="142" width="126" height="156" rx="0" fill="#F3EBDD" stroke="#5B493F" stroke-width="1"/>
-<text data-role="metric" x="190" y="174" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="190" dy="0">02</tspan></text>
-<text data-role="subheading" x="190" y="208" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="190" dy="0">Read</tspan></text>
-<text data-role="body" x="190" y="234" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="190" dy="0">Extract facts, constraints,</tspan><tspan x="190" dy="12.15">and tensions</tspan></text>
-<line x1="300" y1="220" x2="314" y2="220" stroke="#A43B2F" stroke-width="2"/>
-<rect x="314" y="142" width="126" height="156" rx="0" fill="#F3EBDD" stroke="#5B493F" stroke-width="1"/>
-<text data-role="metric" x="330" y="174" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="330" dy="0">03</tspan></text>
-<text data-role="subheading" x="330" y="208" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="330" dy="0">Design</tspan></text>
-<text data-role="body" x="330" y="234" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="330" dy="0">Map evidence to the</tspan><tspan x="330" dy="12.15">clearest visual form</tspan></text>
-<line x1="440" y1="220" x2="454" y2="220" stroke="#A43B2F" stroke-width="2"/>
-<rect x="454" y="142" width="126" height="156" rx="0" fill="#F3EBDD" stroke="#5B493F" stroke-width="1"/>
-<text data-role="metric" x="470" y="174" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="470" dy="0">04</tspan></text>
-<text data-role="subheading" x="470" y="208" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="470" dy="0">Verify</tspan></text>
-<text data-role="body" x="470" y="234" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="470" dy="0">Review fidelity, meaning,</tspan><tspan x="470" dy="12.15">and exceptions</tspan></text>
-<line x1="580" y1="220" x2="594" y2="220" stroke="#A43B2F" stroke-width="2"/>
-<rect x="594" y="142" width="126" height="156" rx="0" fill="#F3EBDD" stroke="#5B493F" stroke-width="1"/>
-<text data-role="metric" x="610" y="174" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="610" dy="0">05</tspan></text>
-<text data-role="subheading" x="610" y="208" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="610" dy="0">Act</tspan></text>
-<text data-role="body" x="610" y="234" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="610" dy="0">Assign the next move, owner,</tspan><tspan x="610" dy="12.15">and timing</tspan></text>
-<rect x="34" y="320" width="686" height="48" rx="0" fill="#F3EBDD" stroke="#5B493F" stroke-width="1"/>
-<text data-role="label" x="54" y="350" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="54" dy="0">QUALITY GATE</tspan></text>
-<text data-role="caption" x="170" y="350" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#F5EFE4" text-anchor="start"><tspan x="170" dy="0">No phase advances until its evidence, owner, and acceptance condition are explicit.</tspan></text>
+<circle cx="642" cy="210" r="112" fill="#332722" stroke="#C6A565" stroke-width="1.5"/>
+<circle cx="642" cy="210" r="78" fill="#221A17" stroke="#6E5548" stroke-width="8"/>
+<polygon points="642,136 684,174 674,254 642,300 610,254 600,174" fill="#A43B2F" stroke="#C6A565" stroke-width="3"/>
+<line x1="42" y1="336" x2="420" y2="336" stroke="#5B493F" stroke-width="1"/>
+<text data-role="label" x="34" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="34" dy="0">PROCESS / QUALITY GATES</tspan></text>
+<text data-role="page-number" x="718" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#B8ACA0" text-anchor="end"><tspan x="718" dy="0">05</tspan></text>
+<text data-role="slide-title" x="34" y="82" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="34" dy="0">五层解释，让物证进入公共行动</tspan></text>
+<text data-role="caption" x="34" y="110" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="34" dy="0">Every stage produces an artifact, a named owner, and a visible acceptance condition.</tspan></text>
+<polygon points="34,182 140,172 158,304 50,316" fill="#A43B2F" stroke="#5B493F" stroke-width="1.2"/>
+<text data-role="metric" x="52" y="210" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="52" dy="0">01</tspan></text>
+<text data-role="subheading" x="52" y="242" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="52" dy="0">Frame</tspan></text>
+<text data-role="body" x="52" y="266" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#FFFFFF" text-anchor="start"><tspan x="52" dy="0">Define the decision</tspan><tspan x="52" dy="11.88">and success signal</tspan></text>
+<text data-role="annotation" x="52" y="302" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="52" dy="0">OUTPUT 01</tspan></text>
+<line x1="158" y1="246" x2="180" y2="226" stroke="#C6A565" stroke-width="3"/>
+<polygon points="172,162 278,152 296,284 188,296" fill="#F3EBDD" stroke="#5B493F" stroke-width="1.2"/>
+<text data-role="metric" x="190" y="190" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="22" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="190" dy="0">02</tspan></text>
+<text data-role="subheading" x="190" y="222" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="190" dy="0">Read</tspan></text>
+<text data-role="body" x="190" y="246" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="190" dy="0">Extract facts,</tspan><tspan x="190" dy="11.88">constraints, and tensions</tspan></text>
+<text data-role="annotation" x="190" y="282" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="190" dy="0">OUTPUT 02</tspan></text>
+<line x1="296" y1="226" x2="318" y2="252" stroke="#C6A565" stroke-width="3"/>
+<polygon points="310,188 416,178 434,310 326,322" fill="#F3EBDD" stroke="#5B493F" stroke-width="1.2"/>
+<text data-role="metric" x="328" y="216" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="22" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="328" dy="0">03</tspan></text>
+<text data-role="subheading" x="328" y="248" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="328" dy="0">Design</tspan></text>
+<text data-role="body" x="328" y="272" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="328" dy="0">Map evidence to the</tspan><tspan x="328" dy="11.88">clearest visual form</tspan></text>
+<text data-role="annotation" x="328" y="308" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="328" dy="0">OUTPUT 03</tspan></text>
+<line x1="434" y1="252" x2="456" y2="232" stroke="#C6A565" stroke-width="3"/>
+<polygon points="448,168 554,158 572,290 464,302" fill="#F3EBDD" stroke="#5B493F" stroke-width="1.2"/>
+<text data-role="metric" x="466" y="196" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="22" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="466" dy="0">04</tspan></text>
+<text data-role="subheading" x="466" y="228" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="466" dy="0">Verify</tspan></text>
+<text data-role="body" x="466" y="252" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="466" dy="0">Review fidelity,</tspan><tspan x="466" dy="11.88">meaning, and exceptions</tspan></text>
+<text data-role="annotation" x="466" y="288" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="466" dy="0">OUTPUT 04</tspan></text>
+<line x1="572" y1="232" x2="594" y2="258" stroke="#C6A565" stroke-width="3"/>
+<polygon points="586,194 692,184 710,316 602,328" fill="#F3EBDD" stroke="#5B493F" stroke-width="1.2"/>
+<text data-role="metric" x="604" y="222" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="22" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="604" dy="0">05</tspan></text>
+<text data-role="subheading" x="604" y="254" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="604" dy="0">Act</tspan></text>
+<text data-role="body" x="604" y="278" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="604" dy="0">Assign the next</tspan><tspan x="604" dy="11.88">move, owner, and timing</tspan></text>
+<text data-role="annotation" x="604" y="314" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="604" dy="0">OUTPUT 05</tspan></text>
+<polygon points="34,350 704,330 720,374 48,388" fill="#F3EBDD" stroke="#A43B2F" stroke-width="2"/>
+<text data-role="label" x="64" y="369" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="64" dy="0">QUALITY GATE</tspan></text>
+<text data-role="source" x="190" y="366" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#F5EFE4" text-anchor="start"><tspan x="190" dy="0">Evidence, owner, and acceptance condition must all be explicit before the next stage.</tspan></text>
 <text data-role="source" x="724" y="392" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#B8ACA0" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
 </g>
 </svg>

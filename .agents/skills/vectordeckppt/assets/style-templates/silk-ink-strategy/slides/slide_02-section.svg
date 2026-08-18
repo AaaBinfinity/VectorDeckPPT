@@ -4,19 +4,33 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#ECE9E1" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="0" fill="#FBFAF6" stroke="#D8D4C8" stroke-width="1"/>
-<rect x="0" y="0" width="760" height="6" rx="0" fill="#3D6F63" stroke="none" stroke-width="0"/>
+<polygon points="0,400 0,310 126,236 250,324 382,220 520,322 650,248 760,304 760,400" fill="#CBD7D1"/>
+<polygon points="0,400 0,352 134,306 266,370 422,296 564,366 692,316 760,346 760,400" fill="#3D6F63" opacity="0.72"/>
+<rect x="690" y="42" width="30" height="30" rx="0" fill="#A53D32" stroke="none" stroke-width="0"/>
+<text data-role="quote" x="705" y="63" font-family="STXingkai, FZShuTi, KaiTi, serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="705" dy="0">策</tspan></text>
+<polyline points="-8,326 138,292 286,338 430,286 590,332 768,300" fill="none" stroke="#C39B4B" stroke-width="5" opacity="0.7"/>
+<polyline points="-8,333 138,298 286,343 430,292 590,338 768,307" fill="none" stroke="#C39B4B" stroke-width="4.4" opacity="0.62"/>
+<polyline points="-8,340 138,304 286,348 430,298 590,344 768,314" fill="none" stroke="#C39B4B" stroke-width="3.8" opacity="0.54"/>
+<polyline points="-8,347 138,310 286,353 430,304 590,350 768,321" fill="none" stroke="#C39B4B" stroke-width="3.2" opacity="0.46"/>
+<polyline points="-8,354 138,316 286,358 430,310 590,356 768,328" fill="none" stroke="#C39B4B" stroke-width="2.6" opacity="0.38"/>
 <text data-role="label" x="34" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#3D6F63" text-anchor="start"><tspan x="34" dy="0">SECTION / CHAPTER</tspan></text>
-<text data-role="page-number" x="714" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#6F756E" text-anchor="end"><tspan x="714" dy="0">02</tspan></text>
-<text data-role="metric" x="34" y="154" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="108" font-weight="700" fill="#3D6F63" text-anchor="start"><tspan x="34" dy="0">02</tspan></text>
-<text data-role="deck-title" x="210" y="146" font-family="STXingkai, FZShuTi, KaiTi, serif" font-size="46" font-weight="700" fill="#2F6259" text-anchor="start"><tspan x="210" dy="0">从意象到策略</tspan></text>
-<text data-role="subheading" x="214" y="246" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#2F6259" text-anchor="start"><tspan x="214" dy="0">把文化语言转化为可执行的品牌判断。</tspan></text>
-<text data-role="body" x="214" y="282" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#6F756E" text-anchor="start"><tspan x="214" dy="0">The display role may be expressive; ordinary slide titles remain locked and exact.</tspan></text>
-<line x1="214" y1="314" x2="704" y2="314" stroke="#D8D4C8" stroke-width="2"/>
-<polyline points="216,334 352,306 504,346 624,300 732,330" fill="none" stroke="#C39B4B" stroke-width="6" opacity="0.68"/>
-<polyline points="216,341 352,311 504,350 624,307 732,335" fill="none" stroke="#C39B4B" stroke-width="5.2" opacity="0.6"/>
-<polyline points="216,348 352,316 504,354 624,314 732,340" fill="none" stroke="#C39B4B" stroke-width="4.4" opacity="0.52"/>
-<polyline points="216,355 352,321 504,358 624,321 732,345" fill="none" stroke="#C39B4B" stroke-width="3.6" opacity="0.44"/>
-<polyline points="216,362 352,326 504,362 624,328 732,350" fill="none" stroke="#C39B4B" stroke-width="2.8" opacity="0.36"/>
+<text data-role="page-number" x="718" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#6F756E" text-anchor="end"><tspan x="718" dy="0">02</tspan></text>
+<text data-role="metric" x="34" y="196" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="112" font-weight="700" fill="#3D6F63" text-anchor="start"><tspan x="34" dy="0">02</tspan></text>
+<text data-role="deck-title" x="190" y="142" font-family="STXingkai, FZShuTi, KaiTi, serif" font-size="44" font-weight="700" fill="#2F6259" text-anchor="start"><tspan x="190" dy="0">从意象到策略</tspan></text>
+<text data-role="subheading" x="194" y="246" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#2F6259" text-anchor="start"><tspan x="194" dy="0">把文化识别转化为可验证、可执行的品牌判断。</tspan></text>
+<text data-role="body" x="194" y="274" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#6F756E" text-anchor="start"><tspan x="194" dy="0">The chapter opener changes pace while the ordinary title and evidence tokens stay exact.</tspan></text>
+<line x1="194" y1="318" x2="342" y2="318" stroke="#3D6F63" stroke-width="4"/>
+<text data-role="label" x="194" y="344" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#3D6F63" text-anchor="start"><tspan x="194" dy="0">01</tspan></text>
+<text data-role="subheading" x="228" y="344" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#2F6259" text-anchor="start"><tspan x="228" dy="0">ORIENT</tspan></text>
+<text data-role="annotation" x="228" y="364" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#6F756E" text-anchor="start"><tspan x="228" dy="0">name the stakes</tspan></text>
+<line x1="366" y1="318" x2="514" y2="318" stroke="#D8D4C8" stroke-width="4"/>
+<text data-role="label" x="366" y="344" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#3D6F63" text-anchor="start"><tspan x="366" dy="0">02</tspan></text>
+<text data-role="subheading" x="400" y="344" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#2F6259" text-anchor="start"><tspan x="400" dy="0">PROVE</tspan></text>
+<text data-role="annotation" x="400" y="364" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#6F756E" text-anchor="start"><tspan x="400" dy="0">show the mechanism</tspan></text>
+<line x1="538" y1="318" x2="686" y2="318" stroke="#D8D4C8" stroke-width="4"/>
+<text data-role="label" x="538" y="344" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#3D6F63" text-anchor="start"><tspan x="538" dy="0">03</tspan></text>
+<text data-role="subheading" x="572" y="344" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#2F6259" text-anchor="start"><tspan x="572" dy="0">DECIDE</tspan></text>
+<text data-role="annotation" x="572" y="364" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#6F756E" text-anchor="start"><tspan x="572" dy="0">assign the next move</tspan></text>
 <text data-role="source" x="724" y="392" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#6F756E" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
 </g>
 </svg>

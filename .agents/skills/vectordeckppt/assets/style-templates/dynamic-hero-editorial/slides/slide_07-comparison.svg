@@ -4,77 +4,121 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#070A11" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="0" fill="#0D111B" stroke="#303746" stroke-width="1"/>
-<polygon points="550,0 760,0 760,146" fill="#2A0A18"/>
-<polygon points="646,0 760,0 760,76" fill="#FF1748"/>
-<line x1="200" y1="8" x2="10" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="254" y1="8" x2="64" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="308" y1="8" x2="118" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="362" y1="8" x2="172" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="416" y1="8" x2="226" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="470" y1="8" x2="280" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="524" y1="8" x2="334" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="578" y1="8" x2="388" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="632" y1="8" x2="442" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="686" y1="8" x2="496" y2="400" stroke="#303746" stroke-width="0.7"/>
-<circle cx="610" cy="48" r="2" fill="#6B1830"/>
-<circle cx="628" cy="48" r="3" fill="#6B1830"/>
-<circle cx="646" cy="48" r="2" fill="#6B1830"/>
-<circle cx="664" cy="48" r="3" fill="#6B1830"/>
-<circle cx="682" cy="48" r="2" fill="#6B1830"/>
-<circle cx="700" cy="48" r="3" fill="#6B1830"/>
-<circle cx="718" cy="48" r="2" fill="#6B1830"/>
-<circle cx="610" cy="66" r="2" fill="#6B1830"/>
-<circle cx="628" cy="66" r="3" fill="#6B1830"/>
-<circle cx="646" cy="66" r="2" fill="#6B1830"/>
-<circle cx="664" cy="66" r="3" fill="#6B1830"/>
-<circle cx="682" cy="66" r="2" fill="#6B1830"/>
-<circle cx="700" cy="66" r="3" fill="#6B1830"/>
-<circle cx="718" cy="66" r="2" fill="#6B1830"/>
-<circle cx="610" cy="84" r="2" fill="#6B1830"/>
-<circle cx="628" cy="84" r="3" fill="#6B1830"/>
-<circle cx="646" cy="84" r="2" fill="#6B1830"/>
-<circle cx="664" cy="84" r="3" fill="#6B1830"/>
-<circle cx="682" cy="84" r="2" fill="#6B1830"/>
-<circle cx="700" cy="84" r="3" fill="#6B1830"/>
-<circle cx="718" cy="84" r="2" fill="#6B1830"/>
-<circle cx="610" cy="102" r="2" fill="#6B1830"/>
-<circle cx="628" cy="102" r="3" fill="#6B1830"/>
-<circle cx="646" cy="102" r="2" fill="#6B1830"/>
-<circle cx="664" cy="102" r="3" fill="#6B1830"/>
-<circle cx="682" cy="102" r="2" fill="#6B1830"/>
-<circle cx="700" cy="102" r="3" fill="#6B1830"/>
-<circle cx="718" cy="102" r="2" fill="#6B1830"/>
+<polygon points="524,0 760,0 760,210" fill="#280817"/>
+<polygon points="650,0 760,0 760,96" fill="#FF1748"/>
+<polygon points="610,400 760,270 760,400" fill="#150710"/>
+<line x1="130" y1="8" x2="-78" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="184" y1="8" x2="-24" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="238" y1="8" x2="30" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="292" y1="8" x2="84" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="346" y1="8" x2="138" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="400" y1="8" x2="192" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="454" y1="8" x2="246" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="508" y1="8" x2="300" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="562" y1="8" x2="354" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="616" y1="8" x2="408" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="670" y1="8" x2="462" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="724" y1="8" x2="516" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="778" y1="8" x2="570" y2="400" stroke="#303746" stroke-width="0.8"/>
+<circle cx="574" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="591" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="608" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="625" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="642" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="659" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="676" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="693" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="710" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="574" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="591" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="608" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="625" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="642" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="659" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="676" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="693" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="710" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="574" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="591" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="608" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="625" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="642" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="659" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="676" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="693" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="710" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="574" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="591" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="608" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="625" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="642" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="659" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="676" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="693" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="710" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="574" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="591" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="608" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="625" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="642" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="659" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="676" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="693" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="710" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="574" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="591" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="608" cy="127" r="2.2" fill="#7D1B38"/>
+<circle cx="625" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="642" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="659" cy="127" r="2.2" fill="#7D1B38"/>
+<circle cx="676" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="693" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="710" cy="127" r="2.2" fill="#7D1B38"/>
+<line x1="470" y1="226" x2="748" y2="124" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="245" x2="748" y2="152" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="264" x2="748" y2="180" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="283" x2="748" y2="208" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="302" x2="748" y2="236" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="321" x2="748" y2="264" stroke="#6C3143" stroke-width="0.8"/>
 <rect x="0" y="0" width="760" height="6" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
-<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">COMPARISON</tspan></text>
+<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">COMPARISON / TWO RESPONSE MODES</tspan></text>
 <text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#A6ADBC" text-anchor="end"><tspan x="714" dy="0">07</tspan></text>
-<text data-role="slide-title" x="34" y="82" font-family="Impact" font-size="26" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="34" dy="0">Make the tradeoff visible before naming the recommendation</tspan></text>
-<text data-role="caption" x="34" y="110" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="34" dy="0">Use shared criteria, direct labels, and sourced observations rather than decorative scores.</tspan></text>
-<text data-role="subheading" x="248" y="154" font-family="Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="middle"><tspan x="248" dy="0">OPTION A</tspan></text>
-<text data-role="subheading" x="492" y="154" font-family="Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="middle"><tspan x="492" dy="0">OPTION B</tspan></text>
-<text data-role="subheading" x="664" y="154" font-family="Arial" font-size="14" font-weight="700" fill="#FF1748" text-anchor="middle"><tspan x="664" dy="0">IMPLICATION</tspan></text>
-<text data-role="body" x="34" y="208" font-family="Arial" font-size="9" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="34" dy="0">Audience fit</tspan></text>
-<rect x="168" y="196" width="160" height="12" rx="0" fill="#171D28" stroke="#303746" stroke-width="1"/>
-<rect x="168" y="196" width="137.6" height="12" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
-<rect x="412" y="196" width="160" height="12" rx="0" fill="#171D28" stroke="#303746" stroke-width="1"/>
-<rect x="412" y="196" width="99.2" height="12" rx="0" fill="#7ACBFF" stroke="none" stroke-width="0"/>
-<text data-role="body" x="664" y="208" font-family="Arial" font-size="9" font-weight="400" fill="#F7F8FC" text-anchor="middle"><tspan x="664" dy="0">A leads</tspan></text>
-<line x1="34" y1="230" x2="720" y2="230" stroke="#303746" stroke-width="1"/>
-<text data-role="body" x="34" y="268" font-family="Arial" font-size="9" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="34" dy="0">Evidence strength</tspan></text>
-<rect x="168" y="256" width="160" height="12" rx="0" fill="#171D28" stroke="#303746" stroke-width="1"/>
-<rect x="168" y="256" width="108.8" height="12" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
-<rect x="412" y="256" width="160" height="12" rx="0" fill="#171D28" stroke="#303746" stroke-width="1"/>
-<rect x="412" y="256" width="134.4" height="12" rx="0" fill="#7ACBFF" stroke="none" stroke-width="0"/>
-<text data-role="body" x="664" y="268" font-family="Arial" font-size="9" font-weight="400" fill="#F7F8FC" text-anchor="middle"><tspan x="664" dy="0">B leads</tspan></text>
-<line x1="34" y1="290" x2="720" y2="290" stroke="#303746" stroke-width="1"/>
-<text data-role="body" x="34" y="328" font-family="Arial" font-size="9" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="34" dy="0">Execution effort</tspan></text>
-<rect x="168" y="316" width="160" height="12" rx="0" fill="#171D28" stroke="#303746" stroke-width="1"/>
-<rect x="168" y="316" width="83.2" height="12" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
-<rect x="412" y="316" width="160" height="12" rx="0" fill="#171D28" stroke="#303746" stroke-width="1"/>
-<rect x="412" y="316" width="124.8" height="12" rx="0" fill="#7ACBFF" stroke="none" stroke-width="0"/>
-<text data-role="body" x="664" y="328" font-family="Arial" font-size="9" font-weight="400" fill="#F7F8FC" text-anchor="middle"><tspan x="664" dy="0">A is lighter</tspan></text>
-<line x1="34" y1="350" x2="720" y2="350" stroke="#303746" stroke-width="1"/>
-<rect x="34" y="354" width="686" height="24" rx="12" fill="#FF1748" stroke="none" stroke-width="0"/>
-<text data-role="source" x="377" y="371" font-family="Arial" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="377" dy="0">RECOMMEND ONLY AFTER THE CRITERIA, EVIDENCE, AND CONSEQUENCES ARE EXPLICIT</tspan></text>
+<rect x="34" y="54" width="44" height="5" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
+<text data-role="slide-title" x="34" y="88" font-family="Impact, Microsoft YaHei, Arial" font-size="26" font-weight="900" fill="#F7F8FC" text-anchor="start"><tspan x="34" dy="0">同一事件，两种组织方式产生完全不同的结果</tspan></text>
+<text data-role="caption" x="34" y="116" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="34" dy="0">共享同一比较基线：信号入口、判断机制、责任归属和结果回传；示例文案需替换为项目事实。</tspan></text>
+<polygon points="34,146 354,132 330,358 34,372" fill="#141A26" stroke="#303746" stroke-width="1"/>
+<polygon points="372,132 720,146 720,372 348,358" fill="#0B2630" stroke="#7ACBFF" stroke-width="2"/>
+<text data-role="subheading" x="58" y="178" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="58" dy="0">传统响应</tspan></text>
+<text data-role="subheading" x="396" y="178" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#7ACBFF" text-anchor="start"><tspan x="396" dy="0">可视化响应</tspan></text>
+<text data-role="body" x="58" y="202" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="58" dy="0">依赖个人经验与临时沟通</tspan></text>
+<text data-role="body" x="396" y="202" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="396" dy="0">依赖共享证据与明确质量门</tspan></text>
+<text data-role="label" x="58" y="236" font-family="Microsoft YaHei, Arial" font-size="10" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="58" dy="0">信号入口</tspan></text>
+<text data-role="annotation" x="156" y="236" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="156" dy="0">多个渠道，口径不一</tspan></text>
+<text data-role="label" x="396" y="236" font-family="Microsoft YaHei, Arial" font-size="10" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="396" dy="0">信号入口</tspan></text>
+<text data-role="annotation" x="494" y="236" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#F7F8FC" text-anchor="start"><tspan x="494" dy="0">单一记录，保留来源</tspan></text>
+<line x1="58" y1="246" x2="322" y2="246" stroke="#303746" stroke-width="1"/>
+<line x1="396" y1="246" x2="690" y2="246" stroke="#285266" stroke-width="1"/>
+<text data-role="label" x="58" y="268" font-family="Microsoft YaHei, Arial" font-size="10" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="58" dy="0">判断机制</tspan></text>
+<text data-role="annotation" x="156" y="268" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="156" dy="0">先讨论，再寻找证据</tspan></text>
+<text data-role="label" x="396" y="268" font-family="Microsoft YaHei, Arial" font-size="10" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="396" dy="0">判断机制</tspan></text>
+<text data-role="annotation" x="494" y="268" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#F7F8FC" text-anchor="start"><tspan x="494" dy="0">先证据，再形成结论</tspan></text>
+<line x1="58" y1="278" x2="322" y2="278" stroke="#303746" stroke-width="1"/>
+<line x1="396" y1="278" x2="690" y2="278" stroke="#285266" stroke-width="1"/>
+<text data-role="label" x="58" y="300" font-family="Microsoft YaHei, Arial" font-size="10" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="58" dy="0">责任归属</tspan></text>
+<text data-role="annotation" x="156" y="300" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="156" dy="0">依赖临时协调</tspan></text>
+<text data-role="label" x="396" y="300" font-family="Microsoft YaHei, Arial" font-size="10" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="396" dy="0">责任归属</tspan></text>
+<text data-role="annotation" x="494" y="300" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#F7F8FC" text-anchor="start"><tspan x="494" dy="0">逐阶段指定负责人</tspan></text>
+<line x1="58" y1="310" x2="322" y2="310" stroke="#303746" stroke-width="1"/>
+<line x1="396" y1="310" x2="690" y2="310" stroke="#285266" stroke-width="1"/>
+<text data-role="label" x="58" y="332" font-family="Microsoft YaHei, Arial" font-size="10" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="58" dy="0">结果回传</tspan></text>
+<text data-role="annotation" x="156" y="332" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="156" dy="0">结论停留在会议</tspan></text>
+<text data-role="label" x="396" y="332" font-family="Microsoft YaHei, Arial" font-size="10" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="396" dy="0">结果回传</tspan></text>
+<text data-role="annotation" x="494" y="332" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#F7F8FC" text-anchor="start"><tspan x="494" dy="0">结论进入规则与复盘</tspan></text>
+<line x1="58" y1="342" x2="322" y2="342" stroke="#303746" stroke-width="1"/>
+<line x1="396" y1="342" x2="690" y2="342" stroke="#285266" stroke-width="1"/>
+<polygon points="320,138 376,132 348,366 296,372" fill="#FF1748"/>
+<text data-role="metric" x="348" y="266" font-family="Impact" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle"><tspan x="348" dy="0">VS</tspan></text>
+<text data-role="caption" x="382" y="392" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#F7F8FC" text-anchor="middle"><tspan x="382" dy="0">结论：高张力视觉必须服务于更清楚的比较，而不是掩盖比较。</tspan></text>
 <text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
 </g>
 </svg>

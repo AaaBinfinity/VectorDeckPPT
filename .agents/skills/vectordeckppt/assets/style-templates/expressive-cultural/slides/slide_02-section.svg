@@ -4,22 +4,59 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#111111" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="0" fill="#FFF4DE" stroke="#111111" stroke-width="1"/>
-<rect x="0" y="0" width="760" height="6" rx="0" fill="#2449E8" stroke="none" stroke-width="0"/>
+<polygon points="566,0 760,0 760,152" fill="#F44C3A"/>
+<polygon points="0,308 136,400 0,400" fill="#2449E8"/>
+<polygon points="642,400 760,246 760,400" fill="#F4B51D"/>
+<circle cx="520" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="520" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="520" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="520" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
 <text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="34" dy="0">SECTION / CHAPTER</tspan></text>
-<text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="714" dy="0">02</tspan></text>
-<polygon points="590,0 760,0 760,150" fill="#F44C3A"/>
-<polygon points="650,400 760,250 760,400" fill="#F4B51D"/>
-<text data-role="metric" x="34" y="154" font-family="Arial" font-size="108" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="34" dy="0">02</tspan></text>
-<text data-role="deck-title" x="210" y="146" font-family="Arial" font-size="46" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="210" dy="0">Turn the evidence</tspan><tspan x="210" dy="46.92">into a decision</tspan></text>
-<text data-role="subheading" x="214" y="246" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="214" dy="0">A chapter opener creates a deliberate change in pace without changing the design system.</tspan></text>
-<text data-role="body" x="214" y="282" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="214" dy="0">The display role may be expressive; ordinary slide titles remain locked and exact.</tspan></text>
-<line x1="214" y1="314" x2="704" y2="314" stroke="#111111" stroke-width="2"/>
-<line x1="446" y1="318" x2="486" y2="366" stroke="#2449E8" stroke-width="5"/>
-<line x1="488" y1="318" x2="528" y2="366" stroke="#F44C3A" stroke-width="5"/>
-<line x1="530" y1="318" x2="570" y2="366" stroke="#2449E8" stroke-width="5"/>
-<line x1="572" y1="318" x2="612" y2="366" stroke="#F44C3A" stroke-width="5"/>
-<line x1="614" y1="318" x2="654" y2="366" stroke="#2449E8" stroke-width="5"/>
-<line x1="656" y1="318" x2="696" y2="366" stroke="#F44C3A" stroke-width="5"/>
+<text data-role="page-number" x="718" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="718" dy="0">02</tspan></text>
+<text data-role="metric" x="34" y="196" font-family="Impact, Arial Black, Arial, sans-serif" font-size="112" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="34" dy="0">02</tspan></text>
+<text data-role="deck-title" x="190" y="142" font-family="Impact, Arial Black, Arial, sans-serif" font-size="44" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="190" dy="0">TURN ATTENTION</tspan><tspan x="190" dy="44">INTO PARTICIPATION</tspan></text>
+<text data-role="subheading" x="194" y="246" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="194" dy="0">A strong cultural idea must give the audience a role, not only a slogan.</tspan></text>
+<text data-role="body" x="194" y="274" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="194" dy="0">The chapter opener changes pace while the ordinary title and evidence tokens stay exact.</tspan></text>
+<line x1="194" y1="318" x2="342" y2="318" stroke="#2449E8" stroke-width="4"/>
+<text data-role="label" x="194" y="344" font-family="Arial" font-size="10" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="194" dy="0">01</tspan></text>
+<text data-role="subheading" x="228" y="344" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="228" dy="0">ORIENT</tspan></text>
+<text data-role="annotation" x="228" y="364" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="228" dy="0">name the stakes</tspan></text>
+<line x1="366" y1="318" x2="514" y2="318" stroke="#111111" stroke-width="4"/>
+<text data-role="label" x="366" y="344" font-family="Arial" font-size="10" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="366" dy="0">02</tspan></text>
+<text data-role="subheading" x="400" y="344" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="400" dy="0">PROVE</tspan></text>
+<text data-role="annotation" x="400" y="364" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="400" dy="0">show the mechanism</tspan></text>
+<line x1="538" y1="318" x2="686" y2="318" stroke="#111111" stroke-width="4"/>
+<text data-role="label" x="538" y="344" font-family="Arial" font-size="10" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="538" dy="0">03</tspan></text>
+<text data-role="subheading" x="572" y="344" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="572" dy="0">DECIDE</tspan></text>
+<text data-role="annotation" x="572" y="364" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="572" dy="0">assign the next move</tspan></text>
 <text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
 </g>
 </svg>

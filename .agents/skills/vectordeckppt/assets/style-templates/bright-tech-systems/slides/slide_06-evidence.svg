@@ -4,40 +4,53 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#DCEBFA" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="18" fill="#F8FBFF" stroke="#B9D0EC" stroke-width="1"/>
-<rect x="0" y="0" width="760" height="6" rx="18" fill="#1261D8" stroke="none" stroke-width="0"/>
-<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#1261D8" text-anchor="start"><tspan x="34" dy="0">EVIDENCE</tspan></text>
-<text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#526783" text-anchor="end"><tspan x="714" dy="0">06</tspan></text>
-<text data-role="slide-title" x="34" y="82" font-family="Arial" font-size="26" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="34" dy="0">The signal improves when the handoff becomes visible</tspan></text>
-<text data-role="caption" x="34" y="110" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="34" dy="0">Illustrative values demonstrate hierarchy only; replace every number and label.</tspan></text>
-<text data-role="metric" x="34" y="158" font-family="Arial" font-size="24" font-weight="700" fill="#1261D8" text-anchor="start"><tspan x="34" dy="0">84%</tspan></text>
-<text data-role="label" x="132" y="156" font-family="Arial" font-size="10" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="132" dy="0">workflow adoption</tspan></text>
-<text data-role="annotation" x="132" y="174" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="132" dy="0">Observed movement · sample period</tspan></text>
-<line x1="34" y1="186" x2="246" y2="186" stroke="#B9D0EC" stroke-width="1"/>
-<text data-role="metric" x="34" y="224" font-family="Arial" font-size="24" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="34" dy="0">2.4x</tspan></text>
-<text data-role="label" x="132" y="222" font-family="Arial" font-size="10" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="132" dy="0">faster review</tspan></text>
-<text data-role="annotation" x="132" y="240" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="132" dy="0">Observed movement · sample period</tspan></text>
-<line x1="34" y1="252" x2="246" y2="252" stroke="#B9D0EC" stroke-width="1"/>
-<text data-role="metric" x="34" y="290" font-family="Arial" font-size="24" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="34" dy="0">−31%</tspan></text>
-<text data-role="label" x="132" y="288" font-family="Arial" font-size="10" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="132" dy="0">handoff time</tspan></text>
-<text data-role="annotation" x="132" y="306" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="132" dy="0">Observed movement · sample period</tspan></text>
-<line x1="34" y1="318" x2="246" y2="318" stroke="#B9D0EC" stroke-width="1"/>
-<rect x="292" y="148" width="428" height="158" rx="18" fill="#FFFFFF" stroke="#B9D0EC" stroke-width="1"/>
-<text data-role="label" x="310" y="176" font-family="Arial" font-size="10" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="310" dy="0">TREND INDEX · BASE 100</tspan></text>
-<line x1="310" y1="202" x2="702" y2="202" stroke="#B9D0EC" stroke-width="1"/>
-<line x1="310" y1="228" x2="702" y2="228" stroke="#B9D0EC" stroke-width="1"/>
-<line x1="310" y1="254" x2="702" y2="254" stroke="#B9D0EC" stroke-width="1"/>
-<line x1="310" y1="280" x2="702" y2="280" stroke="#B9D0EC" stroke-width="1"/>
-<polyline points="316,274 374,260 432,266 490,236 548,226 606,200 684,186" fill="none" stroke="#1261D8" stroke-width="4"/>
-<circle cx="316" cy="274" r="5" fill="#1261D8"/>
-<circle cx="374" cy="260" r="5" fill="#1261D8"/>
-<circle cx="432" cy="266" r="5" fill="#1261D8"/>
-<circle cx="490" cy="236" r="5" fill="#1261D8"/>
-<circle cx="548" cy="226" r="5" fill="#1261D8"/>
-<circle cx="606" cy="200" r="5" fill="#1261D8"/>
-<circle cx="684" cy="186" r="5" fill="#1261D8"/>
-<rect x="292" y="326" width="428" height="42" rx="18" fill="#FFFFFF" stroke="#B9D0EC" stroke-width="1"/>
-<text data-role="label" x="310" y="352" font-family="Arial" font-size="10" font-weight="700" fill="#11A9CC" text-anchor="start"><tspan x="310" dy="0">INTERPRETATION</tspan></text>
-<text data-role="annotation" x="430" y="352" font-family="Arial" font-size="9" font-weight="400" fill="#0B1F44" text-anchor="start"><tspan x="430" dy="0">The largest gain appears after ownership and review criteria become explicit.</tspan></text>
+<polygon points="496,0 760,0 760,118" fill="#E2F5FF"/>
+<polygon points="614,0 760,0 760,62" fill="#1261D8" opacity="0.12"/>
+<circle cx="654" cy="206" r="104" fill="none" stroke="#1261D8" stroke-width="1" opacity="0.2"/>
+<circle cx="654" cy="206" r="72" fill="none" stroke="#11A9CC" stroke-width="2" opacity="0.28"/>
+<line x1="470" y1="292" x2="744" y2="224" stroke="#11A9CC" stroke-width="0.7"/>
+<line x1="470" y1="306" x2="744" y2="244" stroke="#11A9CC" stroke-width="0.7"/>
+<line x1="470" y1="320" x2="744" y2="264" stroke="#11A9CC" stroke-width="0.7"/>
+<line x1="470" y1="334" x2="744" y2="284" stroke="#11A9CC" stroke-width="0.7"/>
+<line x1="470" y1="348" x2="744" y2="304" stroke="#11A9CC" stroke-width="0.7"/>
+<line x1="470" y1="362" x2="744" y2="324" stroke="#11A9CC" stroke-width="0.7"/>
+<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#1261D8" text-anchor="start"><tspan x="34" dy="0">EVIDENCE / INTERPRETATION</tspan></text>
+<text data-role="page-number" x="718" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#526783" text-anchor="end"><tspan x="718" dy="0">06</tspan></text>
+<text data-role="slide-title" x="34" y="82" font-family="Arial Black, Arial, sans-serif" font-size="26" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="34" dy="0">The operating signal improves after the handoff is</tspan><tspan x="34" dy="27.3">visible</tspan></text>
+<text data-role="caption" x="34" y="136" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="34" dy="0">Illustrative values demonstrate visual hierarchy only; replace values, labels, units, source, and period.</tspan></text>
+<text data-role="metric" x="34" y="166" font-family="Arial Black, Arial, sans-serif" font-size="26" font-weight="700" fill="#1261D8" text-anchor="start"><tspan x="34" dy="0">84%</tspan></text>
+<text data-role="label" x="34" y="190" font-family="Arial" font-size="10" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="34" dy="0">workflow adoption</tspan></text>
+<text data-role="annotation" x="34" y="210" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="34" dy="0">sample · replace</tspan></text>
+<line x1="34" y1="222" x2="156" y2="222" stroke="#B9D0EC" stroke-width="1"/>
+<text data-role="metric" x="176" y="166" font-family="Arial Black, Arial, sans-serif" font-size="26" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="176" dy="0">2.4x</tspan></text>
+<text data-role="label" x="176" y="190" font-family="Arial" font-size="10" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="176" dy="0">faster review</tspan></text>
+<text data-role="annotation" x="176" y="210" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="176" dy="0">sample · replace</tspan></text>
+<line x1="176" y1="222" x2="298" y2="222" stroke="#B9D0EC" stroke-width="1"/>
+<text data-role="metric" x="318" y="166" font-family="Arial Black, Arial, sans-serif" font-size="26" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="318" dy="0">−31%</tspan></text>
+<text data-role="label" x="318" y="190" font-family="Arial" font-size="10" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="318" dy="0">handoff time</tspan></text>
+<text data-role="annotation" x="318" y="210" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="318" dy="0">sample · replace</tspan></text>
+<line x1="318" y1="222" x2="440" y2="222" stroke="#B9D0EC" stroke-width="1"/>
+<rect x="34" y="244" width="448" height="104" rx="10" fill="#FFFFFF" stroke="#B9D0EC" stroke-width="1"/>
+<text data-role="label" x="52" y="268" font-family="Arial" font-size="10" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="52" dy="0">DIRECTLY LABELED SIGNAL · BASE 100</tspan></text>
+<line x1="52" y1="286" x2="464" y2="286" stroke="#B9D0EC" stroke-width="0.8"/>
+<line x1="52" y1="310" x2="464" y2="310" stroke="#B9D0EC" stroke-width="0.8"/>
+<line x1="52" y1="334" x2="464" y2="334" stroke="#B9D0EC" stroke-width="0.8"/>
+<polyline points="60,323.12 124,314.84 188,317.6 252,302.88 316,298.28 380,282.64 444,275.28" fill="none" stroke="#1261D8" stroke-width="4"/>
+<circle cx="60" cy="323.12" r="4.5" fill="#1261D8"/>
+<circle cx="124" cy="314.84" r="4.5" fill="#1261D8"/>
+<circle cx="188" cy="317.6" r="4.5" fill="#1261D8"/>
+<circle cx="252" cy="302.88" r="4.5" fill="#1261D8"/>
+<circle cx="316" cy="298.28" r="4.5" fill="#1261D8"/>
+<circle cx="380" cy="282.64" r="4.5" fill="#1261D8"/>
+<circle cx="444" cy="275.28" r="4.5" fill="#1261D8"/>
+<rect x="508" y="142" width="208" height="206" rx="10" fill="#FFFFFF" stroke="#B9D0EC" stroke-width="1"/>
+<text data-role="label" x="528" y="168" font-family="Arial" font-size="10" font-weight="700" fill="#1261D8" text-anchor="start"><tspan x="528" dy="0">WHAT THE SIGNAL PROVES</tspan></text>
+<text data-role="subheading" x="528" y="204" font-family="Arial" font-size="14" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="528" dy="0">01  DRIVER</tspan></text>
+<text data-role="body" x="528" y="228" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="528" dy="0">The strongest movement appears after</tspan><tspan x="528" dy="12.15">ownership and review criteria align.</tspan></text>
+<text data-role="subheading" x="528" y="278" font-family="Arial" font-size="14" font-weight="700" fill="#0B1F44" text-anchor="start"><tspan x="528" dy="0">02  EXCEPTION</tspan></text>
+<text data-role="body" x="528" y="302" font-family="Arial" font-size="9" font-weight="400" fill="#526783" text-anchor="start"><tspan x="528" dy="0">One interval breaks the trend; inspect</tspan><tspan x="528" dy="12.15">cohort mix before claiming causality.</tspan></text>
+<rect x="34" y="364" width="682" height="24" rx="12" fill="#1261D8" stroke="none" stroke-width="0"/>
+<text data-role="source" x="375" y="381" font-family="Arial" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="375" dy="0">SOURCE · PERIOD · UNIT · SAMPLE · INTERPRETATION · NEXT CHECK</tspan></text>
 <text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#526783" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
 </g>
 </svg>

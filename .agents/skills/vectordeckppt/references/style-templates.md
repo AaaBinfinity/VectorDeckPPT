@@ -12,6 +12,8 @@
 
 Use the twelve bundled template families as art-direction references for deck-level visual systems. Each family lives in its own directory and contains an `overview.png`/`overview.svg` plus ten full-size page pairs under `slides/`: cover, section, narrative, context/problem, process, evidence, comparison, roadmap, decision, and close. The full-size SVG and PNG pages—not the overview montage—are the reusable visual references for actual deck planning. Every ordinary content page demonstrates a claim, explanation, concrete evidence/example structure, and implication/action; illustrative numbers must still be replaced with sourced content.
 
+A bundled family must be rich enough to evaluate as a system, not merely attractive as one thumbnail. Its ten pages must use ten distinguishable page-role silhouettes, a recognizable typographic voice, meaningful foreground/background depth, and content pages dense enough to test labels, evidence, interpretation, ownership, and action. The current library applies this rule to all twelve families and all 120 full-size page pairs—not only to Dynamic Hero Editorial. Family decks must also differ in narrative, geometry, art furniture, chart treatment, and pacing; palette substitution alone does not create another family. If a supplied reference reveals that a family is too flat or generic, update the complete family and generator together; if the user says the whole library is weak, regenerate and inspect every family rather than showcasing one repaired exception.
+
 The images are not finished slides and are not source material. Never paste a contact sheet into a presentation, trace its placeholder text, or use it as a full-slide background. Inspect the chosen asset with `view_image`, identify the design behavior that serves the user's content, then rebuild the deck as editable structured SVG.
 
 Apply these rules:
@@ -23,7 +25,9 @@ Apply these rules:
 - Preserve the chosen family's hierarchy, grid logic, typography voice, color behavior, image treatment, and pacing without cloning every pictured layout.
 - Treat the template typography as a role system. Define exact deck tokens before authoring; do not copy a size range or introduce one-off sizes.
 - Treat all pictured metrics as clearly labeled illustrative data. Replace them with sourced user content rather than carrying sample values into a deck.
+- When abstracting a supplied reference, record its dominant mass, typographic staging, counter-shapes, overlap/crop behavior, directional forces, texture or micro-rhythm, depth layers, and density curve. Color matching alone is not a faithful style translation.
 - Let content produce varied slide silhouettes. A template family is a grammar, not a repeated page shell.
+- Treat the ten page roles as ten authored compositions. A process, evidence, comparison, or close page may share semantic conventions across families, but its dominant mass, negative space, focal device, and reading path must express the selected family.
 - Keep the supported SVG/PPTX subset in mind. Recreate complex texture and photography as local `<image>` assets; rebuild structural elements with native text and basic shapes.
 - Extract abstract visual behaviors from references; never copy protected characters, logos, costumes, or identifying artwork into generated templates or decks.
 
@@ -183,7 +187,7 @@ Use for product or brand launches, campaign storytelling, event openings, creati
 - Visual thesis: heroic, kinetic, graphic, authored, and still evidence-readable.
 - Palette: near-black and graphite, hard white, scarce signal red, one cool micro-accent, and limited semantic status colors.
 - Typography: oversized compressed deck or section titles using a verified condensed display face such as Impact or a suitable local substitute, strong silhouette and stacking, exact ordinary title tokens, numbered labels, and compact evidence copy.
-- Composition: slanted title blocks, off-axis frames, controlled overlap, halftone clusters, cropped fields, arcs and diagonals, oversized abstract emblems, and varied visual depth.
+- Composition: layered Chinese/Latin hero type, slanted title stages, off-axis frames, controlled overlap, hand-built halftone clusters, speed lines, cropped fields, oversized original signal emblems, status metadata, and varied foreground/background depth. The bundled pages use an original “urban response archive” narrative to demonstrate these behaviors without borrowing a protected character.
 - Pacing: arresting proposition, sequenced mechanism, calmer evidence reveal, decisive response or resolution.
 - Avoid: protected characters or franchise identifiers, copied masks/costumes/logos, fake urgency metrics, sensationalism, unreadable novelty type, red on every object, and any use the confirmed professional setting does not support.
 

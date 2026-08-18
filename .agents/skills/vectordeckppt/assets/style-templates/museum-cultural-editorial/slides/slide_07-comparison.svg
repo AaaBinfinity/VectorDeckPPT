@@ -4,37 +4,42 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#201A17" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="0" fill="#2A211D" stroke="#5B493F" stroke-width="1"/>
-<rect x="0" y="0" width="760" height="6" rx="0" fill="#A43B2F" stroke="none" stroke-width="0"/>
-<text data-role="label" x="34" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="34" dy="0">COMPARISON</tspan></text>
-<text data-role="page-number" x="714" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#B8ACA0" text-anchor="end"><tspan x="714" dy="0">07</tspan></text>
-<text data-role="slide-title" x="34" y="82" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="34" dy="0">Make the tradeoff visible before naming the recommendation</tspan></text>
-<text data-role="caption" x="34" y="110" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="34" dy="0">Use shared criteria, direct labels, and sourced observations rather than decorative scores.</tspan></text>
-<text data-role="subheading" x="248" y="154" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="middle"><tspan x="248" dy="0">OPTION A</tspan></text>
-<text data-role="subheading" x="492" y="154" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="middle"><tspan x="492" dy="0">OPTION B</tspan></text>
-<text data-role="subheading" x="664" y="154" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#A43B2F" text-anchor="middle"><tspan x="664" dy="0">IMPLICATION</tspan></text>
-<text data-role="body" x="34" y="208" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="34" dy="0">Audience fit</tspan></text>
-<rect x="168" y="196" width="160" height="12" rx="0" fill="#F3EBDD" stroke="#5B493F" stroke-width="1"/>
-<rect x="168" y="196" width="137.6" height="12" rx="0" fill="#A43B2F" stroke="none" stroke-width="0"/>
-<rect x="412" y="196" width="160" height="12" rx="0" fill="#F3EBDD" stroke="#5B493F" stroke-width="1"/>
-<rect x="412" y="196" width="99.2" height="12" rx="0" fill="#C6A565" stroke="none" stroke-width="0"/>
-<text data-role="body" x="664" y="208" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#F5EFE4" text-anchor="middle"><tspan x="664" dy="0">A leads</tspan></text>
-<line x1="34" y1="230" x2="720" y2="230" stroke="#5B493F" stroke-width="1"/>
-<text data-role="body" x="34" y="268" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="34" dy="0">Evidence strength</tspan></text>
-<rect x="168" y="256" width="160" height="12" rx="0" fill="#F3EBDD" stroke="#5B493F" stroke-width="1"/>
-<rect x="168" y="256" width="108.8" height="12" rx="0" fill="#A43B2F" stroke="none" stroke-width="0"/>
-<rect x="412" y="256" width="160" height="12" rx="0" fill="#F3EBDD" stroke="#5B493F" stroke-width="1"/>
-<rect x="412" y="256" width="134.4" height="12" rx="0" fill="#C6A565" stroke="none" stroke-width="0"/>
-<text data-role="body" x="664" y="268" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#F5EFE4" text-anchor="middle"><tspan x="664" dy="0">B leads</tspan></text>
-<line x1="34" y1="290" x2="720" y2="290" stroke="#5B493F" stroke-width="1"/>
-<text data-role="body" x="34" y="328" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="34" dy="0">Execution effort</tspan></text>
-<rect x="168" y="316" width="160" height="12" rx="0" fill="#F3EBDD" stroke="#5B493F" stroke-width="1"/>
-<rect x="168" y="316" width="83.2" height="12" rx="0" fill="#A43B2F" stroke="none" stroke-width="0"/>
-<rect x="412" y="316" width="160" height="12" rx="0" fill="#F3EBDD" stroke="#5B493F" stroke-width="1"/>
-<rect x="412" y="316" width="124.8" height="12" rx="0" fill="#C6A565" stroke="none" stroke-width="0"/>
-<text data-role="body" x="664" y="328" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#F5EFE4" text-anchor="middle"><tspan x="664" dy="0">A is lighter</tspan></text>
-<line x1="34" y1="350" x2="720" y2="350" stroke="#5B493F" stroke-width="1"/>
-<rect x="34" y="354" width="686" height="24" rx="12" fill="#A43B2F" stroke="none" stroke-width="0"/>
-<text data-role="source" x="377" y="371" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="377" dy="0">RECOMMEND ONLY AFTER THE CRITERIA, EVIDENCE, AND CONSEQUENCES ARE EXPLICIT</tspan></text>
+<circle cx="642" cy="210" r="112" fill="#332722" stroke="#C6A565" stroke-width="1.5"/>
+<circle cx="642" cy="210" r="78" fill="#221A17" stroke="#6E5548" stroke-width="8"/>
+<polygon points="642,136 684,174 674,254 642,300 610,254 600,174" fill="#A43B2F" stroke="#C6A565" stroke-width="3"/>
+<line x1="42" y1="336" x2="420" y2="336" stroke="#5B493F" stroke-width="1"/>
+<text data-role="label" x="34" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="34" dy="0">COMPARISON / SHARED CRITERIA</tspan></text>
+<text data-role="page-number" x="718" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#B8ACA0" text-anchor="end"><tspan x="718" dy="0">07</tspan></text>
+<text data-role="slide-title" x="34" y="82" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="34" dy="0">比较不同解释路径带来的公共价值</tspan></text>
+<text data-role="caption" x="34" y="110" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="34" dy="0">Use direct labels, shared criteria, and sourced observations; illustrative bars are not real evidence.</tspan></text>
+<polygon points="34,144 370,132 346,344 34,358" fill="#F3EBDD" stroke="#5B493F" stroke-width="1"/>
+<polygon points="370,132 716,144 716,358 346,344" fill="#2A211D" stroke="#5B493F" stroke-width="1"/>
+<text data-role="subheading" x="58" y="176" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="58" dy="0">OPTION A / CURRENT</tspan></text>
+<text data-role="subheading" x="402" y="176" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="402" dy="0">OPTION B / RECOMMENDED</tspan></text>
+<text data-role="body" x="58" y="202" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="58" dy="0">Lower coordination cost</tspan><tspan x="58" dy="12.15">but evidence remains fragmented.</tspan></text>
+<text data-role="body" x="402" y="202" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="402" dy="0">Higher setup discipline</tspan><tspan x="402" dy="12.15">but decisions become reviewable.</tspan></text>
+<text data-role="label" x="58" y="258" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="58" dy="0">Audience fit</tspan></text>
+<rect x="156" y="248" width="152" height="10" rx="0" fill="#5B493F" stroke="none" stroke-width="0"/>
+<rect x="156" y="248" width="109.44" height="10" rx="0" fill="#C6A565" stroke="none" stroke-width="0"/>
+<text data-role="label" x="402" y="258" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="402" dy="0">Audience fit</tspan></text>
+<rect x="500" y="248" width="152" height="10" rx="0" fill="#5B493F" stroke="none" stroke-width="0"/>
+<rect x="500" y="248" width="133.76" height="10" rx="0" fill="#A43B2F" stroke="none" stroke-width="0"/>
+<text data-role="label" x="58" y="292" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="58" dy="0">Evidence strength</tspan></text>
+<rect x="156" y="282" width="152" height="10" rx="0" fill="#5B493F" stroke="none" stroke-width="0"/>
+<rect x="156" y="282" width="85.12" height="10" rx="0" fill="#C6A565" stroke="none" stroke-width="0"/>
+<text data-role="label" x="402" y="292" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="402" dy="0">Evidence strength</tspan></text>
+<rect x="500" y="282" width="152" height="10" rx="0" fill="#5B493F" stroke="none" stroke-width="0"/>
+<rect x="500" y="282" width="130.72" height="10" rx="0" fill="#A43B2F" stroke="none" stroke-width="0"/>
+<text data-role="label" x="58" y="326" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="58" dy="0">Execution load</tspan></text>
+<rect x="156" y="316" width="152" height="10" rx="0" fill="#5B493F" stroke="none" stroke-width="0"/>
+<rect x="156" y="316" width="112.48" height="10" rx="0" fill="#C6A565" stroke="none" stroke-width="0"/>
+<text data-role="label" x="402" y="326" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="402" dy="0">Execution load</tspan></text>
+<rect x="500" y="316" width="152" height="10" rx="0" fill="#5B493F" stroke="none" stroke-width="0"/>
+<rect x="500" y="316" width="94.24" height="10" rx="0" fill="#A43B2F" stroke="none" stroke-width="0"/>
+<circle cx="360" cy="248" r="30" fill="#A43B2F"/>
+<text data-role="metric" x="360" y="255" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="360" dy="0">VS</tspan></text>
+<rect x="228" y="366" width="316" height="22" rx="11" fill="#A43B2F" stroke="none" stroke-width="0"/>
+<text data-role="source" x="386" y="382" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="386" dy="0">RECOMMEND B AFTER SOURCE AND CONSEQUENCE REVIEW</tspan></text>
 <text data-role="source" x="724" y="392" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#B8ACA0" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
 </g>
 </svg>

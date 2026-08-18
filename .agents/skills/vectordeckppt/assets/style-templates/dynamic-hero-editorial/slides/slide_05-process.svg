@@ -4,78 +4,120 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#070A11" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="0" fill="#0D111B" stroke="#303746" stroke-width="1"/>
-<polygon points="550,0 760,0 760,146" fill="#2A0A18"/>
-<polygon points="646,0 760,0 760,76" fill="#FF1748"/>
-<line x1="200" y1="8" x2="10" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="254" y1="8" x2="64" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="308" y1="8" x2="118" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="362" y1="8" x2="172" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="416" y1="8" x2="226" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="470" y1="8" x2="280" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="524" y1="8" x2="334" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="578" y1="8" x2="388" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="632" y1="8" x2="442" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="686" y1="8" x2="496" y2="400" stroke="#303746" stroke-width="0.7"/>
-<circle cx="610" cy="48" r="2" fill="#6B1830"/>
-<circle cx="628" cy="48" r="3" fill="#6B1830"/>
-<circle cx="646" cy="48" r="2" fill="#6B1830"/>
-<circle cx="664" cy="48" r="3" fill="#6B1830"/>
-<circle cx="682" cy="48" r="2" fill="#6B1830"/>
-<circle cx="700" cy="48" r="3" fill="#6B1830"/>
-<circle cx="718" cy="48" r="2" fill="#6B1830"/>
-<circle cx="610" cy="66" r="2" fill="#6B1830"/>
-<circle cx="628" cy="66" r="3" fill="#6B1830"/>
-<circle cx="646" cy="66" r="2" fill="#6B1830"/>
-<circle cx="664" cy="66" r="3" fill="#6B1830"/>
-<circle cx="682" cy="66" r="2" fill="#6B1830"/>
-<circle cx="700" cy="66" r="3" fill="#6B1830"/>
-<circle cx="718" cy="66" r="2" fill="#6B1830"/>
-<circle cx="610" cy="84" r="2" fill="#6B1830"/>
-<circle cx="628" cy="84" r="3" fill="#6B1830"/>
-<circle cx="646" cy="84" r="2" fill="#6B1830"/>
-<circle cx="664" cy="84" r="3" fill="#6B1830"/>
-<circle cx="682" cy="84" r="2" fill="#6B1830"/>
-<circle cx="700" cy="84" r="3" fill="#6B1830"/>
-<circle cx="718" cy="84" r="2" fill="#6B1830"/>
-<circle cx="610" cy="102" r="2" fill="#6B1830"/>
-<circle cx="628" cy="102" r="3" fill="#6B1830"/>
-<circle cx="646" cy="102" r="2" fill="#6B1830"/>
-<circle cx="664" cy="102" r="3" fill="#6B1830"/>
-<circle cx="682" cy="102" r="2" fill="#6B1830"/>
-<circle cx="700" cy="102" r="3" fill="#6B1830"/>
-<circle cx="718" cy="102" r="2" fill="#6B1830"/>
+<polygon points="524,0 760,0 760,210" fill="#280817"/>
+<polygon points="650,0 760,0 760,96" fill="#FF1748"/>
+<polygon points="610,400 760,270 760,400" fill="#150710"/>
+<line x1="130" y1="8" x2="-78" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="184" y1="8" x2="-24" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="238" y1="8" x2="30" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="292" y1="8" x2="84" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="346" y1="8" x2="138" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="400" y1="8" x2="192" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="454" y1="8" x2="246" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="508" y1="8" x2="300" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="562" y1="8" x2="354" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="616" y1="8" x2="408" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="670" y1="8" x2="462" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="724" y1="8" x2="516" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="778" y1="8" x2="570" y2="400" stroke="#303746" stroke-width="0.8"/>
+<circle cx="574" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="591" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="608" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="625" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="642" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="659" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="676" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="693" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="710" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="574" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="591" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="608" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="625" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="642" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="659" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="676" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="693" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="710" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="574" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="591" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="608" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="625" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="642" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="659" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="676" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="693" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="710" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="574" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="591" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="608" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="625" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="642" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="659" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="676" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="693" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="710" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="574" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="591" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="608" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="625" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="642" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="659" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="676" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="693" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="710" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="574" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="591" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="608" cy="127" r="2.2" fill="#7D1B38"/>
+<circle cx="625" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="642" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="659" cy="127" r="2.2" fill="#7D1B38"/>
+<circle cx="676" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="693" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="710" cy="127" r="2.2" fill="#7D1B38"/>
+<line x1="470" y1="226" x2="748" y2="124" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="245" x2="748" y2="152" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="264" x2="748" y2="180" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="283" x2="748" y2="208" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="302" x2="748" y2="236" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="321" x2="748" y2="264" stroke="#6C3143" stroke-width="0.8"/>
 <rect x="0" y="0" width="760" height="6" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
-<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">OPERATING MODEL</tspan></text>
+<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">OPERATING MODEL / FIVE MOVES</tspan></text>
 <text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#A6ADBC" text-anchor="end"><tspan x="714" dy="0">05</tspan></text>
-<text data-role="slide-title" x="34" y="82" font-family="Impact" font-size="26" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="34" dy="0">FIVE MOVES BUILD MOMENTUM</tspan></text>
-<text data-role="caption" x="34" y="110" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="34" dy="0">A staggered sequence keeps each decision, handoff, and quality gate visible.</tspan></text>
-<polygon points="34,168 146,158 160,298 48,310" fill="#FF1748" stroke="#303746" stroke-width="1"/>
-<text data-role="metric" x="52" y="198" font-family="Impact" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="52" dy="0">01</tspan></text>
-<text data-role="subheading" x="52" y="230" font-family="Arial" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="52" dy="0">Frame</tspan></text>
-<text data-role="body" x="52" y="256" font-family="Arial" font-size="9" font-weight="400" fill="#FFFFFF" text-anchor="start"><tspan x="52" dy="0">Define the decision</tspan></text>
-<line x1="158" y1="234" x2="180" y2="218" stroke="#FF1748" stroke-width="3"/>
-<polygon points="172,152 284,142 298,282 186,294" fill="#171D28" stroke="#303746" stroke-width="1"/>
-<text data-role="metric" x="190" y="182" font-family="Impact" font-size="20" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="190" dy="0">02</tspan></text>
-<text data-role="subheading" x="190" y="214" font-family="Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="190" dy="0">Read</tspan></text>
-<text data-role="body" x="190" y="240" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="190" dy="0">Extract the evidence</tspan></text>
-<line x1="296" y1="218" x2="318" y2="240" stroke="#FF1748" stroke-width="3"/>
-<polygon points="310,174 422,164 436,304 324,316" fill="#171D28" stroke="#303746" stroke-width="1"/>
-<text data-role="metric" x="328" y="204" font-family="Impact" font-size="20" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="328" dy="0">03</tspan></text>
-<text data-role="subheading" x="328" y="236" font-family="Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="328" dy="0">Design</tspan></text>
-<text data-role="body" x="328" y="262" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="328" dy="0">Choose the clearest form</tspan></text>
-<line x1="434" y1="240" x2="456" y2="224" stroke="#FF1748" stroke-width="3"/>
-<polygon points="448,158 560,148 574,288 462,300" fill="#171D28" stroke="#303746" stroke-width="1"/>
-<text data-role="metric" x="466" y="188" font-family="Impact" font-size="20" font-weight="700" fill="#7ACBFF" text-anchor="start"><tspan x="466" dy="0">04</tspan></text>
-<text data-role="subheading" x="466" y="220" font-family="Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="466" dy="0">Verify</tspan></text>
-<text data-role="body" x="466" y="246" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="466" dy="0">Review fidelity</tspan></text>
-<line x1="572" y1="224" x2="594" y2="236" stroke="#FF1748" stroke-width="3"/>
-<polygon points="586,170 698,160 712,300 600,312" fill="#171D28" stroke="#303746" stroke-width="1"/>
-<text data-role="metric" x="604" y="200" font-family="Impact" font-size="20" font-weight="700" fill="#7ACBFF" text-anchor="start"><tspan x="604" dy="0">05</tspan></text>
-<text data-role="subheading" x="604" y="232" font-family="Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="604" dy="0">Act</tspan></text>
-<text data-role="body" x="604" y="258" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="604" dy="0">Set owner</tspan><tspan x="604" dy="12.15">and timing</tspan></text>
-<polygon points="34,336 704,314 720,362 48,378" fill="#090C13" stroke="#FF1748" stroke-width="2"/>
-<text data-role="label" x="64" y="354" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="64" dy="0">QUALITY GATE</tspan></text>
-<text data-role="caption" x="186" y="350" font-family="Arial" font-size="9" font-weight="400" fill="#F7F8FC" text-anchor="start"><tspan x="186" dy="0">Advance only when evidence, owner, and acceptance are explicit.</tspan></text>
+<rect x="34" y="54" width="44" height="5" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
+<text data-role="slide-title" x="34" y="88" font-family="Impact, Microsoft YaHei, Arial" font-size="26" font-weight="900" fill="#F7F8FC" text-anchor="start"><tspan x="34" dy="0">五个动作，把警报变成可执行响应</tspan></text>
+<text data-role="caption" x="34" y="116" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="34" dy="0">每一步都产出一个可验证对象，并在进入下一阶段前明确负责人、证据与通过条件。</tspan></text>
+<polygon points="34,162 152,152 164,326 46,338" fill="#FF1748" stroke="#303746" stroke-width="1"/>
+<text data-role="metric" x="52" y="196" font-family="Impact" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="start"><tspan x="52" dy="0">01</tspan></text>
+<text data-role="subheading" x="52" y="228" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="52" dy="0">定界</tspan></text>
+<text data-role="body" x="52" y="258" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#FFFFFF" text-anchor="start"><tspan x="52" dy="0">确认问题</tspan><tspan x="52" dy="12.15">与成功信号</tspan></text>
+<text data-role="annotation" x="52" y="310" font-family="Arial" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="52" dy="0">OWNER · LEAD</tspan></text>
+<line x1="162" y1="246" x2="180" y2="232" stroke="#FF1748" stroke-width="3"/>
+<polygon points="172,148 290,138 302,312 184,324" fill="#151B27" stroke="#303746" stroke-width="1"/>
+<text data-role="metric" x="190" y="182" font-family="Impact" font-size="24" font-weight="900" fill="#FF1748" text-anchor="start"><tspan x="190" dy="0">02</tspan></text>
+<text data-role="subheading" x="190" y="214" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="190" dy="0">取证</tspan></text>
+<text data-role="body" x="190" y="244" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="190" dy="0">提取事实</tspan><tspan x="190" dy="12.15">与关键约束</tspan></text>
+<text data-role="annotation" x="190" y="296" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="start"><tspan x="190" dy="0">OUTPUT · BRIEF</tspan></text>
+<line x1="300" y1="232" x2="318" y2="250" stroke="#FF1748" stroke-width="3"/>
+<polygon points="310,166 428,156 440,330 322,342" fill="#151B27" stroke="#303746" stroke-width="1"/>
+<text data-role="metric" x="328" y="200" font-family="Impact" font-size="24" font-weight="900" fill="#FF1748" text-anchor="start"><tspan x="328" dy="0">03</tspan></text>
+<text data-role="subheading" x="328" y="232" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="328" dy="0">判断</tspan></text>
+<text data-role="body" x="328" y="262" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="328" dy="0">选择最清晰</tspan><tspan x="328" dy="12.15">的解释框架</tspan></text>
+<text data-role="annotation" x="328" y="314" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="start"><tspan x="328" dy="0">GATE · REVIEW</tspan></text>
+<line x1="438" y1="250" x2="456" y2="236" stroke="#FF1748" stroke-width="3"/>
+<polygon points="448,152 566,142 578,316 460,328" fill="#151B27" stroke="#303746" stroke-width="1"/>
+<text data-role="metric" x="466" y="186" font-family="Impact" font-size="24" font-weight="900" fill="#7ACBFF" text-anchor="start"><tspan x="466" dy="0">04</tspan></text>
+<text data-role="subheading" x="466" y="218" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="466" dy="0">复核</tspan></text>
+<text data-role="body" x="466" y="248" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="466" dy="0">验证事实、</tspan><tspan x="466" dy="12.15">视觉与风险</tspan></text>
+<text data-role="annotation" x="466" y="300" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="start"><tspan x="466" dy="0">PROOF · RECORD</tspan></text>
+<line x1="576" y1="236" x2="594" y2="248" stroke="#FF1748" stroke-width="3"/>
+<polygon points="586,164 704,154 716,328 598,340" fill="#151B27" stroke="#303746" stroke-width="1"/>
+<text data-role="metric" x="604" y="198" font-family="Impact" font-size="24" font-weight="900" fill="#7ACBFF" text-anchor="start"><tspan x="604" dy="0">05</tspan></text>
+<text data-role="subheading" x="604" y="230" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="604" dy="0">行动</tspan></text>
+<text data-role="body" x="604" y="260" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="604" dy="0">锁定责任人</tspan><tspan x="604" dy="12.15">与下一节点</tspan></text>
+<text data-role="annotation" x="604" y="312" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="start"><tspan x="604" dy="0">NEXT · OWNER</tspan></text>
+<polygon points="34,354 704,338 720,382 48,396" fill="#080B12" stroke="#FF1748" stroke-width="2"/>
+<text data-role="label" x="62" y="376" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="62" dy="0">QUALITY GATE</tspan></text>
+<text data-role="annotation" x="190" y="375" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#F7F8FC" text-anchor="start"><tspan x="190" dy="0">证据、责任人、验收条件三项缺一，流程不得进入下一阶段。</tspan></text>
 <text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
 </g>
 </svg>

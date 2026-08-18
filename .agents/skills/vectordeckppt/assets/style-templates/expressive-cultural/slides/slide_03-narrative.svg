@@ -4,22 +4,58 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#111111" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="0" fill="#FFF4DE" stroke="#111111" stroke-width="1"/>
-<rect x="0" y="0" width="760" height="6" rx="0" fill="#2449E8" stroke="none" stroke-width="0"/>
+<polygon points="566,0 760,0 760,152" fill="#F44C3A"/>
+<polygon points="0,308 136,400 0,400" fill="#2449E8"/>
+<polygon points="642,400 760,246 760,400" fill="#F4B51D"/>
+<circle cx="520" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="520" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="520" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="520" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
 <text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="34" dy="0">NARRATIVE / ANNOTATION</tspan></text>
-<text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="714" dy="0">03</tspan></text>
-<polygon points="590,0 760,0 760,150" fill="#F44C3A"/>
-<polygon points="650,400 760,250 760,400" fill="#F4B51D"/>
-<text data-role="slide-title" x="34" y="82" font-family="Arial" font-size="26" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="34" dy="0">One story becomes credible through three kinds of proof</tspan></text>
-<text data-role="caption" x="34" y="110" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="34" dy="0">Combine a concrete scene, an observed detail, and an explicit implication.</tspan></text>
-<rect x="34" y="142" width="420" height="214" rx="0" fill="#F3E6CC" stroke="#111111" stroke-width="1"/>
-<polygon points="34,356 34,248 146,178 246,266 350,196 454,266 454,356" fill="#F44C3A" opacity="0.42"/>
-<polygon points="34,356 34,310 154,258 282,332 380,280 454,318 454,356" fill="#2449E8" opacity="0.72"/>
-<text data-role="subheading" x="488" y="170" font-family="Arial" font-size="14" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="488" dy="0">01  SCENE</tspan></text>
-<text data-role="body" x="488" y="194" font-family="Arial" font-size="9" font-weight="400" fill="#0A0A0A" text-anchor="start"><tspan x="488" dy="0">Show where the issue becomes visible, who experiences it,</tspan><tspan x="488" dy="12.15">and what is at stake in that specific setting.</tspan></text>
-<text data-role="subheading" x="488" y="246" font-family="Arial" font-size="14" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="488" dy="0">02  DETAIL</tspan></text>
-<text data-role="body" x="488" y="270" font-family="Arial" font-size="9" font-weight="400" fill="#0A0A0A" text-anchor="start"><tspan x="488" dy="0">Annotate an observation, quotation, artifact, or mechanism;</tspan><tspan x="488" dy="12.15">name the source and the limit of the evidence.</tspan></text>
-<text data-role="subheading" x="488" y="322" font-family="Arial" font-size="14" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="488" dy="0">03  MEANING</tspan></text>
-<text data-role="body" x="488" y="346" font-family="Arial" font-size="9" font-weight="400" fill="#0A0A0A" text-anchor="start"><tspan x="488" dy="0">State what the evidence changes, which choice it supports,</tspan><tspan x="488" dy="12.15">and what the audience should inspect next.</tspan></text>
+<text data-role="page-number" x="718" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="718" dy="0">03</tspan></text>
+<text data-role="slide-title" x="34" y="82" font-family="Impact, Arial Black, Arial, sans-serif" font-size="26" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="34" dy="0">Culture moves when people can see themselves</tspan></text>
+<text data-role="caption" x="34" y="110" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="34" dy="0">Connect a concrete scene, a sourced detail, an interpretation, and the decision it changes.</tspan></text>
+<rect x="34" y="144" width="402" height="196" rx="0" fill="#F3E6CC" stroke="#111111" stroke-width="1"/>
+<polygon points="34,340 34,170 182,212 280,162 436,232 436,340" fill="#2449E8"/>
+<polygon points="106,340 156,192 304,270 364,186 436,230 436,340" fill="#F44C3A" opacity="0.85"/>
+<text data-role="quote" x="58" y="290" font-family="Impact, Arial Black, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="58" dy="0">CULTURE / VOICE / MOMENT</tspan></text>
+<text data-role="label" x="52" y="316" font-family="Arial" font-size="10" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="52" dy="0">FIELD NOTE / ORIGINAL PLACEHOLDER</tspan></text>
+<text data-role="subheading" x="468" y="158" font-family="Arial" font-size="14" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="468" dy="0">01  SCENE</tspan></text>
+<text data-role="body" x="468" y="182" font-family="Arial" font-size="9" font-weight="400" fill="#0A0A0A" text-anchor="start"><tspan x="468" dy="0">Who experiences the issue,</tspan><tspan x="468" dy="12.15">where it occurs, and what is at stake.</tspan></text>
+<text data-role="subheading" x="468" y="236" font-family="Arial" font-size="14" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="468" dy="0">02  SOURCE</tspan></text>
+<text data-role="body" x="468" y="260" font-family="Arial" font-size="9" font-weight="400" fill="#0A0A0A" text-anchor="start"><tspan x="468" dy="0">Name the observation, artifact,</tspan><tspan x="468" dy="12.15">quotation, date, and evidence limit.</tspan></text>
+<text data-role="subheading" x="468" y="314" font-family="Arial" font-size="14" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="468" dy="0">03  MEANING</tspan></text>
+<text data-role="body" x="468" y="338" font-family="Arial" font-size="9" font-weight="400" fill="#0A0A0A" text-anchor="start"><tspan x="468" dy="0">State what changes now, who decides,</tspan><tspan x="468" dy="12.15">and which proof the audience should inspect.</tspan></text>
+<line x1="468" y1="366" x2="716" y2="366" stroke="#111111" stroke-width="1"/>
+<text data-role="source" x="716" y="384" font-family="Arial" font-size="9" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="716" dy="0">SCENE → SOURCE → MEANING → ACTION</tspan></text>
 <text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
 </g>
 </svg>

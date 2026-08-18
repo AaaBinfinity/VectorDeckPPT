@@ -4,29 +4,41 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#ECE9E1" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="0" fill="#FBFAF6" stroke="#D8D4C8" stroke-width="1"/>
-<rect x="0" y="0" width="760" height="6" rx="0" fill="#3D6F63" stroke="none" stroke-width="0"/>
+<polygon points="0,400 0,310 126,236 250,324 382,220 520,322 650,248 760,304 760,400" fill="#CBD7D1"/>
+<polygon points="0,400 0,352 134,306 266,370 422,296 564,366 692,316 760,346 760,400" fill="#3D6F63" opacity="0.72"/>
+<rect x="690" y="42" width="30" height="30" rx="0" fill="#A53D32" stroke="none" stroke-width="0"/>
+<text data-role="quote" x="705" y="63" font-family="STXingkai, FZShuTi, KaiTi, serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="705" dy="0">策</tspan></text>
+<polyline points="-8,326 138,292 286,338 430,286 590,332 768,300" fill="none" stroke="#C39B4B" stroke-width="5" opacity="0.7"/>
+<polyline points="-8,333 138,298 286,343 430,292 590,338 768,307" fill="none" stroke="#C39B4B" stroke-width="4.4" opacity="0.62"/>
+<polyline points="-8,340 138,304 286,348 430,298 590,344 768,314" fill="none" stroke="#C39B4B" stroke-width="3.8" opacity="0.54"/>
+<polyline points="-8,347 138,310 286,353 430,304 590,350 768,321" fill="none" stroke="#C39B4B" stroke-width="3.2" opacity="0.46"/>
+<polyline points="-8,354 138,316 286,358 430,310 590,356 768,328" fill="none" stroke="#C39B4B" stroke-width="2.6" opacity="0.38"/>
 <text data-role="label" x="34" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#3D6F63" text-anchor="start"><tspan x="34" dy="0">CONTEXT / PROBLEM</tspan></text>
-<text data-role="page-number" x="714" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#6F756E" text-anchor="end"><tspan x="714" dy="0">04</tspan></text>
-<text data-role="slide-title" x="34" y="82" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="26" font-weight="700" fill="#2F6259" text-anchor="start"><tspan x="34" dy="0">Three conditions create the visible symptom</tspan></text>
-<text data-role="caption" x="34" y="110" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#6F756E" text-anchor="start"><tspan x="34" dy="0">Separate what is observed, what drives it, and what the audience can change.</tspan></text>
-<rect x="34" y="146" width="212" height="164" rx="0" fill="#FFFFFF" stroke="#D8D4C8" stroke-width="1"/>
-<text data-role="metric" x="52" y="176" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" font-weight="700" fill="#3D6F63" text-anchor="start"><tspan x="52" dy="0">01</tspan></text>
-<text data-role="subheading" x="52" y="208" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#2F6259" text-anchor="start"><tspan x="52" dy="0">OBSERVED SIGNAL</tspan></text>
-<text data-role="body" x="52" y="236" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#6F756E" text-anchor="start"><tspan x="52" dy="0">Name the concrete symptom,</tspan><tspan x="52" dy="12.42">affected audience, timing,</tspan><tspan x="52" dy="12.42">and scale. Keep facts separate</tspan><tspan x="52" dy="12.42">from interpretation.</tspan></text>
-<line x1="246" y1="228" x2="264" y2="228" stroke="#3D6F63" stroke-width="3"/>
-<rect x="264" y="146" width="212" height="164" rx="0" fill="#FFFFFF" stroke="#D8D4C8" stroke-width="1"/>
-<text data-role="metric" x="282" y="176" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" font-weight="700" fill="#C39B4B" text-anchor="start"><tspan x="282" dy="0">02</tspan></text>
-<text data-role="subheading" x="282" y="208" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#2F6259" text-anchor="start"><tspan x="282" dy="0">UNDERLYING DRIVER</tspan></text>
-<text data-role="body" x="282" y="236" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#6F756E" text-anchor="start"><tspan x="282" dy="0">Explain the mechanism or</tspan><tspan x="282" dy="12.42">constraint that repeatedly</tspan><tspan x="282" dy="12.42">creates the signal. Show</tspan><tspan x="282" dy="12.42">directional evidence.</tspan></text>
-<line x1="476" y1="228" x2="494" y2="228" stroke="#3D6F63" stroke-width="3"/>
-<rect x="494" y="146" width="212" height="164" rx="0" fill="#FFFFFF" stroke="#D8D4C8" stroke-width="1"/>
-<text data-role="metric" x="512" y="176" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" font-weight="700" fill="#C39B4B" text-anchor="start"><tspan x="512" dy="0">03</tspan></text>
-<text data-role="subheading" x="512" y="208" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#2F6259" text-anchor="start"><tspan x="512" dy="0">DECISION LEVER</tspan></text>
-<text data-role="body" x="512" y="236" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#6F756E" text-anchor="start"><tspan x="512" dy="0">Identify the choice, owner,</tspan><tspan x="512" dy="12.42">and boundary the audience</tspan><tspan x="512" dy="12.42">can influence now. State</tspan><tspan x="512" dy="12.42">what proof is needed next.</tspan></text>
-<rect x="34" y="330" width="686" height="48" rx="0" fill="#FBFAF6" stroke="#D8D4C8" stroke-width="1"/>
-<text data-role="label" x="52" y="350" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#3D6F63" text-anchor="start"><tspan x="52" dy="0">IMPLICATION</tspan></text>
-<text data-role="annotation" x="148" y="350" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#2F6259" text-anchor="start"><tspan x="148" dy="0">The deck should prove the driver before asking the audience to approve the lever.</tspan></text>
-<text data-role="annotation" x="148" y="368" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#6F756E" text-anchor="start"><tspan x="148" dy="0">Replace every illustrative statement with sourced project facts, examples, or clearly marked unknowns.</tspan></text>
+<text data-role="page-number" x="718" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#6F756E" text-anchor="end"><tspan x="718" dy="0">04</tspan></text>
+<text data-role="slide-title" x="34" y="82" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="26" font-weight="700" fill="#2F6259" text-anchor="start"><tspan x="34" dy="0">三条文化线索，汇成一个品牌决策</tspan></text>
+<text data-role="caption" x="34" y="110" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#6F756E" text-anchor="start"><tspan x="34" dy="0">Separate the observed signal, the mechanism beneath it, and the lever the audience can influence.</tspan></text>
+<circle cx="382" cy="246" r="64" fill="#FFFFFF" stroke="#3D6F63" stroke-width="3"/>
+<text data-role="label" x="382" y="240" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#3D6F63" text-anchor="middle"><tspan x="382" dy="0">DECISION</tspan></text>
+<text data-role="metric" x="382" y="274" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="28" font-weight="700" fill="#2F6259" text-anchor="middle"><tspan x="382" dy="0">24h</tspan></text>
+<text data-role="annotation" x="382" y="294" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#6F756E" text-anchor="middle"><tspan x="382" dy="0">illustrative window</tspan></text>
+<line x1="214" y1="178" x2="316" y2="246" stroke="#C39B4B" stroke-width="2"/>
+<circle cx="126" cy="178" r="46" fill="#FFFFFF" stroke="#D8D4C8" stroke-width="1.5"/>
+<text data-role="metric" x="126" y="164" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="700" fill="#3D6F63" text-anchor="middle"><tspan x="126" dy="0">01</tspan></text>
+<text data-role="label" x="126" y="186" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#2F6259" text-anchor="middle"><tspan x="126" dy="0">OBSERVED SIGNAL</tspan></text>
+<text data-role="body" x="126" y="250" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#6F756E" text-anchor="middle"><tspan x="126" dy="0">Name the concrete symptom,</tspan><tspan x="126" dy="11.7">audience, scale, and timing.</tspan></text>
+<line x1="214" y1="310" x2="316" y2="246" stroke="#C39B4B" stroke-width="2"/>
+<circle cx="126" cy="310" r="46" fill="#FFFFFF" stroke="#D8D4C8" stroke-width="1.5"/>
+<text data-role="metric" x="126" y="296" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="700" fill="#3D6F63" text-anchor="middle"><tspan x="126" dy="0">02</tspan></text>
+<text data-role="label" x="126" y="318" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#2F6259" text-anchor="middle"><tspan x="126" dy="0">UNDERLYING DRIVER</tspan></text>
+<text data-role="body" x="126" y="382" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#6F756E" text-anchor="middle"><tspan x="126" dy="0">Show the mechanism, constraint,</tspan><tspan x="126" dy="11.7">or repeated handoff failure.</tspan></text>
+<line x1="550" y1="244" x2="448" y2="246" stroke="#C39B4B" stroke-width="2"/>
+<circle cx="638" cy="244" r="46" fill="#FFFFFF" stroke="#D8D4C8" stroke-width="1.5"/>
+<text data-role="metric" x="638" y="230" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="700" fill="#3D6F63" text-anchor="middle"><tspan x="638" dy="0">03</tspan></text>
+<text data-role="label" x="638" y="252" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#2F6259" text-anchor="middle"><tspan x="638" dy="0">DECISION LEVER</tspan></text>
+<text data-role="body" x="638" y="316" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#6F756E" text-anchor="middle"><tspan x="638" dy="0">State the choice, owner, boundary,</tspan><tspan x="638" dy="11.7">and next proof point.</tspan></text>
+<rect x="286" y="336" width="286" height="46" rx="0" fill="#FFFFFF" stroke="#D8D4C8" stroke-width="1"/>
+<text data-role="label" x="304" y="356" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#3D6F63" text-anchor="start"><tspan x="304" dy="0">IMPLICATION</tspan></text>
+<text data-role="annotation" x="404" y="352" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#2F6259" text-anchor="start"><tspan x="404" dy="0">Prove the driver before asking</tspan><tspan x="404" dy="11.25">for approval of the lever.</tspan></text>
 <text data-role="source" x="724" y="392" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#6F756E" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
 </g>
 </svg>

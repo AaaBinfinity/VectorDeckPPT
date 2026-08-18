@@ -4,34 +4,63 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#111111" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="0" fill="#FFF4DE" stroke="#111111" stroke-width="1"/>
-<rect x="0" y="0" width="760" height="6" rx="0" fill="#2449E8" stroke="none" stroke-width="0"/>
+<polygon points="566,0 760,0 760,152" fill="#F44C3A"/>
+<polygon points="0,308 136,400 0,400" fill="#2449E8"/>
+<polygon points="642,400 760,246 760,400" fill="#F4B51D"/>
+<circle cx="520" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="520" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="520" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="520" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
 <text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="34" dy="0">BRAND, CULTURE &amp; LAUNCH</tspan></text>
-<text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="714" dy="0">01</tspan></text>
-<polygon points="590,0 760,0 760,150" fill="#F44C3A"/>
-<polygon points="650,400 760,250 760,400" fill="#F4B51D"/>
-<text data-role="deck-title" x="34" y="96" font-family="Arial" font-size="36" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="34" dy="0">Make the idea</tspan><tspan x="34" dy="37.44">impossible</tspan><tspan x="34" dy="37.44">to ignore</tspan></text>
-<text data-role="caption" x="34" y="234" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="34" dy="0">A bold visual rhythm carries one cultural proposition through proof and action.</tspan></text>
-<text data-role="source" x="34" y="362" font-family="Arial" font-size="9" font-weight="700" fill="#534C44" text-anchor="start"><tspan x="34" dy="0">ILLUSTRATIVE TEMPLATE · REPLACE WITH SOURCED CONTENT</tspan></text>
-<rect x="418" y="88" width="92" height="196" rx="0" fill="#F3E6CC" stroke="#111111" stroke-width="1"/>
-<text data-role="metric" x="464" y="158" font-family="Arial" font-size="29" font-weight="700" fill="#2449E8" text-anchor="middle"><tspan x="464" dy="0">4</tspan></text>
-<text data-role="annotation" x="464" y="186" font-family="Arial" font-size="9" font-weight="600" fill="#534C44" text-anchor="middle"><tspan x="464" dy="0">audience moments</tspan></text>
-<line x1="436" y1="222" x2="492" y2="222" stroke="#111111" stroke-width="2"/>
-<line x1="436" y1="244" x2="492" y2="214" stroke="#F44C3A" stroke-width="4"/>
-<rect x="523" y="88" width="92" height="196" rx="0" fill="#F3E6CC" stroke="#111111" stroke-width="1"/>
-<text data-role="metric" x="569" y="158" font-family="Arial" font-size="29" font-weight="700" fill="#0A0A0A" text-anchor="middle"><tspan x="569" dy="0">62%</tspan></text>
-<text data-role="annotation" x="569" y="186" font-family="Arial" font-size="9" font-weight="600" fill="#534C44" text-anchor="middle"><tspan x="569" dy="0">earned reach</tspan></text>
-<line x1="541" y1="222" x2="597" y2="222" stroke="#111111" stroke-width="2"/>
-<line x1="541" y1="239" x2="597" y2="222" stroke="#F44C3A" stroke-width="4"/>
-<rect x="628" y="88" width="92" height="196" rx="0" fill="#F3E6CC" stroke="#111111" stroke-width="1"/>
-<text data-role="metric" x="674" y="158" font-family="Arial" font-size="29" font-weight="700" fill="#0A0A0A" text-anchor="middle"><tspan x="674" dy="0">3</tspan></text>
-<text data-role="annotation" x="674" y="186" font-family="Arial" font-size="9" font-weight="600" fill="#534C44" text-anchor="middle"><tspan x="674" dy="0">launch chapters</tspan></text>
-<line x1="646" y1="222" x2="702" y2="222" stroke="#111111" stroke-width="2"/>
-<line x1="646" y1="234" x2="702" y2="230" stroke="#F44C3A" stroke-width="4"/>
-<rect x="34" y="286" width="98" height="34" rx="17" fill="#F3E6CC" stroke="#111111" stroke-width="1"/>
-<text data-role="label" x="83" y="308" font-family="Arial" font-size="10" font-weight="700" fill="#0A0A0A" text-anchor="middle"><tspan x="83" dy="0">CLAIM</tspan></text>
-<rect x="146" y="286" width="98" height="34" rx="17" fill="#F3E6CC" stroke="#111111" stroke-width="1"/>
-<text data-role="label" x="195" y="308" font-family="Arial" font-size="10" font-weight="700" fill="#0A0A0A" text-anchor="middle"><tspan x="195" dy="0">PROOF</tspan></text>
-<rect x="258" y="286" width="98" height="34" rx="17" fill="#F3E6CC" stroke="#111111" stroke-width="1"/>
-<text data-role="label" x="307" y="308" font-family="Arial" font-size="10" font-weight="700" fill="#0A0A0A" text-anchor="middle"><tspan x="307" dy="0">ACTION</tspan></text>
+<text data-role="page-number" x="718" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="718" dy="0">01</tspan></text>
+<text data-role="deck-title" x="34" y="116" font-family="Impact, Arial Black, Arial, sans-serif" font-size="42" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="34" dy="0">Make the idea</tspan><tspan x="34" dy="42.42">impossible</tspan><tspan x="34" dy="42.42">to ignore</tspan></text>
+<text data-role="body" x="36" y="248" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="36" dy="0">A bold visual rhythm carries one cultural</tspan><tspan x="36" dy="12.78">proposition through proof and action.</tspan></text>
+<text data-role="label" x="36" y="294" font-family="Arial" font-size="10" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="36" dy="0">CLAIM  →  EVIDENCE  →  ACTION</tspan></text>
+<rect x="430" y="82" width="286" height="168" rx="0" fill="#F3E6CC" stroke="#111111" stroke-width="1"/>
+<polygon points="430,250 430,108 578,150 676,100 716,170 716,250" fill="#2449E8"/>
+<polygon points="502,250 552,130 700,208 760,124 716,168 716,250" fill="#F44C3A" opacity="0.85"/>
+<text data-role="quote" x="454" y="228" font-family="Impact, Arial Black, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="454" dy="0">CULTURE / VOICE / MOMENT</tspan></text>
+<line x1="34" y1="322" x2="240" y2="322" stroke="#111111" stroke-width="1"/>
+<text data-role="metric" x="34" y="352" font-family="Impact, Arial Black, Arial, sans-serif" font-size="24" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="34" dy="0">4</tspan></text>
+<text data-role="label" x="116" y="342" font-family="Arial" font-size="10" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="116" dy="0">audience moments</tspan></text>
+<text data-role="annotation" x="116" y="360" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="116" dy="0">illustrative signal · replace</tspan></text>
+<line x1="260" y1="322" x2="466" y2="322" stroke="#111111" stroke-width="1"/>
+<text data-role="metric" x="260" y="352" font-family="Impact, Arial Black, Arial, sans-serif" font-size="24" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="260" dy="0">62%</tspan></text>
+<text data-role="label" x="342" y="342" font-family="Arial" font-size="10" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="342" dy="0">earned reach</tspan></text>
+<text data-role="annotation" x="342" y="360" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="342" dy="0">illustrative signal · replace</tspan></text>
+<line x1="486" y1="322" x2="692" y2="322" stroke="#111111" stroke-width="1"/>
+<text data-role="metric" x="486" y="352" font-family="Impact, Arial Black, Arial, sans-serif" font-size="24" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="486" dy="0">3</tspan></text>
+<text data-role="label" x="568" y="342" font-family="Arial" font-size="10" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="568" dy="0">launch chapters</tspan></text>
+<text data-role="annotation" x="568" y="360" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="568" dy="0">illustrative signal · replace</tspan></text>
+<text data-role="source" x="714" y="386" font-family="Arial" font-size="9" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="714" dy="0">ORIGINAL VECTOR TEMPLATE · ALL SAMPLE DATA MUST BE REPLACED</tspan></text>
+<text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
 </g>
 </svg>

@@ -16,7 +16,7 @@ V1.2 在不改变“宿主 Agent 负责创作、确定性脚本负责执行”�
 - 普通内容页默认信息丰富，包含完整结论、解释、具体证据或例子和影响/行动；资料允许时，约三分之二的核心内容页应使用有意义的图表、图解、表格、流程、矩阵或标注图；不得伪造数字，内容超载时拆页；
 - 代表性样稿制作前必须把字号范围收敛为精确的字体角色表；所有普通页面标题使用同一个精确字号、字体、字重和行高，同一页的同级标题与标签也必须使用相同 token，不得为适配单个文本框临时缩小字号；
 - 每个可见 SVG `<text>` 必须使用 `data-role` 标明语义角色，并在编译前通过整套严格字体一致性审计；
-- 十二套内置风格按独立目录管理，每套包含总览与 10 张逐页 SVG/PNG 页面；内容页覆盖结论、解释、证据/例子和影响/行动，不得只是稀疏标签。示例数字必须替换为真实来源；艺术字属于命名的展示角色，主要用于封面、章节和少数关键结论，普通页标题与正文仍保持精确一致与可读；
+- 十二套内置风格按独立目录管理，每套包含总览与 10 张逐页 SVG/PNG 页面；当前 120 张正式页面全部按页面角色重构，每套十页必须有十个可区分的构图签名，十二套之间不得退化成同一骨架的换色副本。内容页覆盖结论、解释、证据/例子和影响/行动，不得只是稀疏标签。示例数字必须替换为真实来源；艺术字属于命名的展示角色，主要用于封面、章节和少数关键结论，普通页标题与正文仍保持精确一致与可读；
 - 需求合同必须确认视觉来源：用户选择内置方向、上传 PPT/PPTX/PDF/图片/截图/品牌参考、批准最多两种语法混合，或明确委托 Agent 代选。没有参考时 Agent 只推荐 3 个候选并说明取舍，不得静默选择自己偏好；
 - 默认 1600×900 画布下，SVG 字号按几何比例以 `0.6 pt/单位` 编译；
 - 直线段 `polygon`/`polyline` 编译为可编辑 PowerPoint freeform；复杂 path、marker、虚线、渐变、裁剪、旋转和斜切继续显式降级；
@@ -1904,7 +1904,7 @@ Skill 图标
 测试素材
 ```
 
-当前内置：Bright Tech Systems、Editorial Intelligence、Dark Engineered Systems、Human Documentary、Expressive Cultural、Data-Forward Clarity、Premium Restraint、Product Storytelling、Dynamic Hero Editorial、Forest Poetic Mosaic、Silk & Ink Strategy 和 Museum Cultural Editorial。它们是视觉语法参考，不是固定页壳：Agent 必须读取用户真实内容后提取可观察的字体、空间、颜色、图像、几何和节奏规则，再以结构化 SVG 重建。不得把参考 PNG 直接铺成整页背景，也不得为了套模板伪造图表或证据；图中的示例数字必须替换为真实来源。三套文化艺术方向使用经验证的书法字体作为封面/章节展示角色，但普通页标题与正文仍使用稳定可读的字体。Dynamic Hero Editorial 只提取英雄字体、编辑式不对称、裁切、斜切、层叠、弧线和视觉张力等抽象行为，不复制角色、Logo、服装或 IP 识别元素，并且在正式专业场合仅作为经用户确认的可选强度。
+当前内置：Bright Tech Systems、Editorial Intelligence、Dark Engineered Systems、Human Documentary、Expressive Cultural、Data-Forward Clarity、Premium Restraint、Product Storytelling、Dynamic Hero Editorial、Forest Poetic Mosaic、Silk & Ink Strategy 和 Museum Cultural Editorial。它们是视觉语法参考，不是固定页壳：Agent 必须读取用户真实内容后提取可观察的字体、空间、颜色、图像、几何和节奏规则，再以结构化 SVG 重建。每套十页参考必须为十个页面角色提供可区分的轮廓，并在叙事、问题、流程、证据、对比、路线图和决策页展示足以判断真实使用效果的内容密度；十二套之间不得只替换颜色、标题和装饰。不得用“标题 + 几张通用卡片”冒充完整模板。不得把参考 PNG 直接铺成整页背景，也不得为了套模板伪造图表或证据；图中的示例数字必须替换为真实来源。三套文化艺术方向使用经验证的书法字体作为封面/章节展示角色，但普通页标题与正文仍使用稳定可读的字体。Dynamic Hero Editorial 使用原创“城市响应档案”叙事展示多层英雄字、编辑式不对称、反形、裁切、斜切、层叠、手工网点、速度线、状态元数据与原创抽象徽记；它只是十二套完整系统之一，不作为“只修一套”的例外证明，并且在正式专业场合仅作为经用户确认的可选强度。
 
 Skill 核心仍然是：
 

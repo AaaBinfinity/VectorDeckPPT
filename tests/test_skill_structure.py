@@ -132,7 +132,7 @@ def test_style_template_core_pages_are_content_rich_and_art_type_is_scoped() -> 
             ]
             visible_text = " ".join("".join(node.itertext()) for node in text_nodes)
             assert len(visible_text) >= 250, source
-            assert len(text_nodes) >= 10, source
+            assert len(text_nodes) >= 13, source
 
     for family in ARTISTIC_STYLE_TEMPLATE_FAMILIES:
         slides_dir = asset_dir / family / "slides"
@@ -140,7 +140,79 @@ def test_style_template_core_pages_are_content_rich_and_art_type_is_scoped() -> 
         context = (slides_dir / "slide_04-context.svg").read_text(encoding="utf-8")
         assert "STXingkai, FZShuTi, KaiTi, serif" in cover
         assert "Microsoft YaHei" in context
-        assert "STXingkai, FZShuTi, KaiTi, serif" not in context
+        context_root = ET.fromstring(context)
+        ordinary_roles = {"slide-title", "subheading", "body", "label"}
+        for node in context_root.iter():
+            if node.tag.rsplit("}", 1)[-1] != "text":
+                continue
+            if node.attrib.get("data-role") not in ordinary_roles:
+                continue
+            assert "STXingkai, FZShuTi, KaiTi, serif" not in node.attrib.get(
+                "font-family", ""
+            )
+
+
+def test_every_style_family_has_ten_distinct_art_directed_page_silhouettes() -> None:
+    asset_dir = SKILL_DIR / "assets" / "style-templates"
+    family_signature_sequences: set[tuple[tuple[int, ...], ...]] = set()
+    family_narratives: set[str] = set()
+    shape_tags = ("rect", "circle", "line", "polygon", "polyline")
+    unsupported_tags = {"pattern", "filter", "mask", "clipPath", "foreignObject"}
+
+    for family in STYLE_TEMPLATE_FAMILIES:
+        slides_dir = asset_dir / family / "slides"
+        page_signatures: list[tuple[int, ...]] = []
+        narrative_parts: list[str] = []
+
+        for source in sorted(slides_dir.glob("*.svg")):
+            root = ET.fromstring(source.read_text(encoding="utf-8"))
+            tags = [node.tag.rsplit("}", 1)[-1] for node in root.iter()]
+            page_signatures.append(tuple(tags.count(tag) for tag in shape_tags))
+            assert not unsupported_tags.intersection(tags), source
+
+            text = " ".join(
+                "".join(node.itertext())
+                for node in root.iter()
+                if node.tag.rsplit("}", 1)[-1] == "text"
+            )
+            narrative_parts.append(text)
+
+        assert len(set(page_signatures)) == 10, family
+        family_signature_sequences.add(tuple(page_signatures))
+        family_narratives.add("\n".join(narrative_parts))
+
+    assert len(family_signature_sequences) == len(STYLE_TEMPLATE_FAMILIES)
+    assert len(family_narratives) == len(STYLE_TEMPLATE_FAMILIES)
+
+
+def test_dynamic_hero_family_has_authored_depth_without_borrowed_ip() -> None:
+    slides_dir = (
+        SKILL_DIR
+        / "assets"
+        / "style-templates"
+        / "dynamic-hero-editorial"
+        / "slides"
+    )
+    forbidden_reference_terms = {"SPIDER", "蜘蛛", "SPIDER-MAN"}
+
+    for source in slides_dir.glob("*.svg"):
+        source_text = source.read_text(encoding="utf-8")
+        root = ET.fromstring(source_text)
+        nodes = list(root.iter())
+        tags = [node.tag.rsplit("}", 1)[-1] for node in nodes]
+        text_nodes = [node for node in nodes if node.tag.rsplit("}", 1)[-1] == "text"]
+
+        assert len(text_nodes) >= 18, source
+        assert tags.count("polygon") >= 3, source
+        assert tags.count("line") >= 19, source
+        assert tags.count("circle") >= 50, source
+        assert not {"pattern", "filter", "mask", "clipPath"}.intersection(tags), source
+        assert all(term not in source_text.upper() for term in forbidden_reference_terms), source
+
+    cover = (slides_dir / "slide_01-cover.svg").read_text(encoding="utf-8")
+    assert "临界" in cover
+    assert "时刻" in cover
+    assert "ORIGINAL SIGNAL EMBLEM" in cover
 
 
 def test_skill_enforces_clarification_and_staged_approval() -> None:

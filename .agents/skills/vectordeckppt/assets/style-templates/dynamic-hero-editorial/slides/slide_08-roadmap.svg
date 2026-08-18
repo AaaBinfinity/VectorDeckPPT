@@ -4,74 +4,116 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#070A11" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="0" fill="#0D111B" stroke="#303746" stroke-width="1"/>
-<polygon points="550,0 760,0 760,146" fill="#2A0A18"/>
-<polygon points="646,0 760,0 760,76" fill="#FF1748"/>
-<line x1="200" y1="8" x2="10" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="254" y1="8" x2="64" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="308" y1="8" x2="118" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="362" y1="8" x2="172" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="416" y1="8" x2="226" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="470" y1="8" x2="280" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="524" y1="8" x2="334" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="578" y1="8" x2="388" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="632" y1="8" x2="442" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="686" y1="8" x2="496" y2="400" stroke="#303746" stroke-width="0.7"/>
-<circle cx="610" cy="48" r="2" fill="#6B1830"/>
-<circle cx="628" cy="48" r="3" fill="#6B1830"/>
-<circle cx="646" cy="48" r="2" fill="#6B1830"/>
-<circle cx="664" cy="48" r="3" fill="#6B1830"/>
-<circle cx="682" cy="48" r="2" fill="#6B1830"/>
-<circle cx="700" cy="48" r="3" fill="#6B1830"/>
-<circle cx="718" cy="48" r="2" fill="#6B1830"/>
-<circle cx="610" cy="66" r="2" fill="#6B1830"/>
-<circle cx="628" cy="66" r="3" fill="#6B1830"/>
-<circle cx="646" cy="66" r="2" fill="#6B1830"/>
-<circle cx="664" cy="66" r="3" fill="#6B1830"/>
-<circle cx="682" cy="66" r="2" fill="#6B1830"/>
-<circle cx="700" cy="66" r="3" fill="#6B1830"/>
-<circle cx="718" cy="66" r="2" fill="#6B1830"/>
-<circle cx="610" cy="84" r="2" fill="#6B1830"/>
-<circle cx="628" cy="84" r="3" fill="#6B1830"/>
-<circle cx="646" cy="84" r="2" fill="#6B1830"/>
-<circle cx="664" cy="84" r="3" fill="#6B1830"/>
-<circle cx="682" cy="84" r="2" fill="#6B1830"/>
-<circle cx="700" cy="84" r="3" fill="#6B1830"/>
-<circle cx="718" cy="84" r="2" fill="#6B1830"/>
-<circle cx="610" cy="102" r="2" fill="#6B1830"/>
-<circle cx="628" cy="102" r="3" fill="#6B1830"/>
-<circle cx="646" cy="102" r="2" fill="#6B1830"/>
-<circle cx="664" cy="102" r="3" fill="#6B1830"/>
-<circle cx="682" cy="102" r="2" fill="#6B1830"/>
-<circle cx="700" cy="102" r="3" fill="#6B1830"/>
-<circle cx="718" cy="102" r="2" fill="#6B1830"/>
+<polygon points="524,0 760,0 760,210" fill="#280817"/>
+<polygon points="650,0 760,0 760,96" fill="#FF1748"/>
+<polygon points="610,400 760,270 760,400" fill="#150710"/>
+<line x1="130" y1="8" x2="-78" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="184" y1="8" x2="-24" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="238" y1="8" x2="30" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="292" y1="8" x2="84" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="346" y1="8" x2="138" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="400" y1="8" x2="192" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="454" y1="8" x2="246" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="508" y1="8" x2="300" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="562" y1="8" x2="354" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="616" y1="8" x2="408" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="670" y1="8" x2="462" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="724" y1="8" x2="516" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="778" y1="8" x2="570" y2="400" stroke="#303746" stroke-width="0.8"/>
+<circle cx="574" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="591" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="608" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="625" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="642" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="659" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="676" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="693" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="710" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="574" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="591" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="608" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="625" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="642" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="659" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="676" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="693" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="710" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="574" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="591" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="608" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="625" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="642" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="659" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="676" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="693" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="710" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="574" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="591" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="608" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="625" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="642" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="659" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="676" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="693" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="710" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="574" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="591" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="608" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="625" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="642" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="659" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="676" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="693" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="710" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="574" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="591" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="608" cy="127" r="2.2" fill="#7D1B38"/>
+<circle cx="625" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="642" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="659" cy="127" r="2.2" fill="#7D1B38"/>
+<circle cx="676" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="693" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="710" cy="127" r="2.2" fill="#7D1B38"/>
+<line x1="470" y1="226" x2="748" y2="124" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="245" x2="748" y2="152" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="264" x2="748" y2="180" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="283" x2="748" y2="208" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="302" x2="748" y2="236" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="321" x2="748" y2="264" stroke="#6C3143" stroke-width="0.8"/>
 <rect x="0" y="0" width="760" height="6" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
-<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">ROADMAP / OWNERSHIP</tspan></text>
+<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">ROADMAP / READINESS PATH</tspan></text>
 <text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#A6ADBC" text-anchor="end"><tspan x="714" dy="0">08</tspan></text>
-<text data-role="slide-title" x="34" y="82" font-family="Impact" font-size="26" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="34" dy="0">Sequence work by proof, dependency, and owner</tspan></text>
-<text data-role="caption" x="34" y="110" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="34" dy="0">A useful roadmap shows what becomes true at each milestone, not only a list of activities.</tspan></text>
-<line x1="64" y1="214" x2="698" y2="214" stroke="#303746" stroke-width="4"/>
-<circle cx="74" cy="214" r="18" fill="#FF1748" stroke="#FF1748" stroke-width="3"/>
-<text data-role="page-number" x="74" y="219" font-family="Arial" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="74" dy="0">01</tspan></text>
-<text data-role="subheading" x="56" y="258" font-family="Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="56" dy="0">FRAME</tspan></text>
-<text data-role="body" x="56" y="284" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="56" dy="0">Confirm decision, baseline,</tspan><tspan x="56" dy="12.6">and success measure</tspan></text>
-<text data-role="annotation" x="56" y="338" font-family="Arial" font-size="9" font-weight="700" fill="#7ACBFF" text-anchor="start"><tspan x="56" dy="0">OWNER A · W1</tspan></text>
-<circle cx="244" cy="214" r="18" fill="#171D28" stroke="#FF1748" stroke-width="3"/>
-<text data-role="page-number" x="244" y="219" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="middle"><tspan x="244" dy="0">02</tspan></text>
-<text data-role="subheading" x="226" y="258" font-family="Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="226" dy="0">PROVE</tspan></text>
-<text data-role="body" x="226" y="284" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="226" dy="0">Test the critical mechanism</tspan><tspan x="226" dy="12.6">with visible evidence</tspan></text>
-<text data-role="annotation" x="226" y="338" font-family="Arial" font-size="9" font-weight="700" fill="#7ACBFF" text-anchor="start"><tspan x="226" dy="0">OWNER B · W2–3</tspan></text>
-<circle cx="414" cy="214" r="18" fill="#171D28" stroke="#FF1748" stroke-width="3"/>
-<text data-role="page-number" x="414" y="219" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="middle"><tspan x="414" dy="0">03</tspan></text>
-<text data-role="subheading" x="396" y="258" font-family="Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="396" dy="0">ENABLE</tspan></text>
-<text data-role="body" x="396" y="284" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="396" dy="0">Document workflow, roles,</tspan><tspan x="396" dy="12.6">and acceptance criteria</tspan></text>
-<text data-role="annotation" x="396" y="338" font-family="Arial" font-size="9" font-weight="700" fill="#7ACBFF" text-anchor="start"><tspan x="396" dy="0">OWNER C · W4</tspan></text>
-<circle cx="584" cy="214" r="18" fill="#171D28" stroke="#FF1748" stroke-width="3"/>
-<text data-role="page-number" x="584" y="219" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="middle"><tspan x="584" dy="0">04</tspan></text>
-<text data-role="subheading" x="566" y="258" font-family="Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="566" dy="0">SCALE</tspan></text>
-<text data-role="body" x="566" y="284" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="566" dy="0">Expand only after quality</tspan><tspan x="566" dy="12.6">and value signals hold</tspan></text>
-<text data-role="annotation" x="566" y="338" font-family="Arial" font-size="9" font-weight="700" fill="#7ACBFF" text-anchor="start"><tspan x="566" dy="0">OWNER D · Q+1</tspan></text>
-<rect x="34" y="354" width="686" height="24" rx="12" fill="#FF1748" stroke="none" stroke-width="0"/>
-<text data-role="source" x="377" y="371" font-family="Arial" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="377" dy="0">EACH PHASE ENDS WITH A REVIEWABLE ARTIFACT, A DECISION, AND A NAMED OWNER</tspan></text>
+<rect x="34" y="54" width="44" height="5" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
+<text data-role="slide-title" x="34" y="88" font-family="Impact, Microsoft YaHei, Arial" font-size="26" font-weight="900" fill="#F7F8FC" text-anchor="start"><tspan x="34" dy="0">四个阶段，逐步把不确定性压缩成行动</tspan></text>
+<text data-role="caption" x="34" y="116" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="34" dy="0">路线图不仅写时间，还要同时写清产出、负责人、验证信号和进入下一阶段的条件。</tspan></text>
+<line x1="74" y1="274" x2="690" y2="188" stroke="#FF1748" stroke-width="5"/>
+<polygon points="46,176 190,166 200,326 56,336" fill="#FF1748" stroke="#303746" stroke-width="1"/>
+<text data-role="metric" x="64" y="206" font-family="Impact" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="start"><tspan x="64" dy="0">01</tspan></text>
+<text data-role="subheading" x="64" y="236" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="64" dy="0">校准</tspan></text>
+<text data-role="body" x="64" y="260" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#FFFFFF" text-anchor="start"><tspan x="64" dy="0">统一问题与口径</tspan></text>
+<text data-role="annotation" x="64" y="288" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="64" dy="0">产出：事件简报</tspan></text>
+<text data-role="annotation" x="64" y="310" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#FFFFFF" text-anchor="start"><tspan x="64" dy="0">负责人：策略</tspan></text>
+<polygon points="212,156 356,146 366,306 222,316" fill="#171D28" stroke="#303746" stroke-width="1"/>
+<text data-role="metric" x="230" y="186" font-family="Impact" font-size="24" font-weight="900" fill="#7ACBFF" text-anchor="start"><tspan x="230" dy="0">02</tspan></text>
+<text data-role="subheading" x="230" y="216" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="230" dy="0">取证</tspan></text>
+<text data-role="body" x="230" y="240" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="230" dy="0">补齐事实与边界</tspan></text>
+<text data-role="annotation" x="230" y="268" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="230" dy="0">产出：证据清单</tspan></text>
+<text data-role="annotation" x="230" y="290" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="230" dy="0">负责人：研究</tspan></text>
+<polygon points="378,136 522,126 532,286 388,296" fill="#171D28" stroke="#303746" stroke-width="1"/>
+<text data-role="metric" x="396" y="166" font-family="Impact" font-size="24" font-weight="900" fill="#7ACBFF" text-anchor="start"><tspan x="396" dy="0">03</tspan></text>
+<text data-role="subheading" x="396" y="196" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="396" dy="0">试行</tspan></text>
+<text data-role="body" x="396" y="220" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="396" dy="0">验证流程与责任</tspan></text>
+<text data-role="annotation" x="396" y="248" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="396" dy="0">产出：响应记录</tspan></text>
+<text data-role="annotation" x="396" y="270" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="396" dy="0">负责人：运营</tspan></text>
+<polygon points="544,116 688,106 698,266 554,276" fill="#171D28" stroke="#303746" stroke-width="1"/>
+<text data-role="metric" x="562" y="146" font-family="Impact" font-size="24" font-weight="900" fill="#7ACBFF" text-anchor="start"><tspan x="562" dy="0">04</tspan></text>
+<text data-role="subheading" x="562" y="176" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="562" dy="0">固化</tspan></text>
+<text data-role="body" x="562" y="200" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="562" dy="0">进入规则与复盘</tspan></text>
+<text data-role="annotation" x="562" y="228" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="562" dy="0">产出：行动标准</tspan></text>
+<text data-role="annotation" x="562" y="250" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="562" dy="0">负责人：管理层</tspan></text>
+<rect x="48" y="356" width="672" height="32" rx="0" fill="#080B12" stroke="#303746" stroke-width="1"/>
+<text data-role="label" x="64" y="377" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="64" dy="0">READINESS CHECK</tspan></text>
+<text data-role="annotation" x="188" y="376" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#F7F8FC" text-anchor="start"><tspan x="188" dy="0">每个阶段必须保留来源、决策、负责人和下一次验证时间，才能形成真正的可追溯闭环。</tspan></text>
 <text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
 </g>
 </svg>

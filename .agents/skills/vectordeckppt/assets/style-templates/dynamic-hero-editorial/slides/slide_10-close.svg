@@ -4,61 +4,111 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#070A11" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="0" fill="#0D111B" stroke="#303746" stroke-width="1"/>
-<polygon points="550,0 760,0 760,146" fill="#2A0A18"/>
-<polygon points="646,0 760,0 760,76" fill="#FF1748"/>
-<line x1="200" y1="8" x2="10" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="254" y1="8" x2="64" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="308" y1="8" x2="118" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="362" y1="8" x2="172" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="416" y1="8" x2="226" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="470" y1="8" x2="280" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="524" y1="8" x2="334" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="578" y1="8" x2="388" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="632" y1="8" x2="442" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="686" y1="8" x2="496" y2="400" stroke="#303746" stroke-width="0.7"/>
-<circle cx="610" cy="48" r="2" fill="#6B1830"/>
-<circle cx="628" cy="48" r="3" fill="#6B1830"/>
-<circle cx="646" cy="48" r="2" fill="#6B1830"/>
-<circle cx="664" cy="48" r="3" fill="#6B1830"/>
-<circle cx="682" cy="48" r="2" fill="#6B1830"/>
-<circle cx="700" cy="48" r="3" fill="#6B1830"/>
-<circle cx="718" cy="48" r="2" fill="#6B1830"/>
-<circle cx="610" cy="66" r="2" fill="#6B1830"/>
-<circle cx="628" cy="66" r="3" fill="#6B1830"/>
-<circle cx="646" cy="66" r="2" fill="#6B1830"/>
-<circle cx="664" cy="66" r="3" fill="#6B1830"/>
-<circle cx="682" cy="66" r="2" fill="#6B1830"/>
-<circle cx="700" cy="66" r="3" fill="#6B1830"/>
-<circle cx="718" cy="66" r="2" fill="#6B1830"/>
-<circle cx="610" cy="84" r="2" fill="#6B1830"/>
-<circle cx="628" cy="84" r="3" fill="#6B1830"/>
-<circle cx="646" cy="84" r="2" fill="#6B1830"/>
-<circle cx="664" cy="84" r="3" fill="#6B1830"/>
-<circle cx="682" cy="84" r="2" fill="#6B1830"/>
-<circle cx="700" cy="84" r="3" fill="#6B1830"/>
-<circle cx="718" cy="84" r="2" fill="#6B1830"/>
-<circle cx="610" cy="102" r="2" fill="#6B1830"/>
-<circle cx="628" cy="102" r="3" fill="#6B1830"/>
-<circle cx="646" cy="102" r="2" fill="#6B1830"/>
-<circle cx="664" cy="102" r="3" fill="#6B1830"/>
-<circle cx="682" cy="102" r="2" fill="#6B1830"/>
-<circle cx="700" cy="102" r="3" fill="#6B1830"/>
-<circle cx="718" cy="102" r="2" fill="#6B1830"/>
+<polygon points="524,0 760,0 760,210" fill="#280817"/>
+<polygon points="650,0 760,0 760,96" fill="#FF1748"/>
+<polygon points="610,400 760,270 760,400" fill="#150710"/>
+<line x1="130" y1="8" x2="-78" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="184" y1="8" x2="-24" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="238" y1="8" x2="30" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="292" y1="8" x2="84" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="346" y1="8" x2="138" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="400" y1="8" x2="192" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="454" y1="8" x2="246" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="508" y1="8" x2="300" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="562" y1="8" x2="354" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="616" y1="8" x2="408" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="670" y1="8" x2="462" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="724" y1="8" x2="516" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="778" y1="8" x2="570" y2="400" stroke="#303746" stroke-width="0.8"/>
+<circle cx="574" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="591" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="608" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="625" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="642" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="659" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="676" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="693" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="710" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="574" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="591" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="608" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="625" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="642" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="659" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="676" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="693" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="710" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="574" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="591" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="608" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="625" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="642" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="659" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="676" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="693" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="710" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="574" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="591" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="608" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="625" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="642" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="659" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="676" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="693" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="710" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="574" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="591" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="608" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="625" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="642" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="659" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="676" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="693" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="710" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="574" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="591" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="608" cy="127" r="2.2" fill="#7D1B38"/>
+<circle cx="625" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="642" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="659" cy="127" r="2.2" fill="#7D1B38"/>
+<circle cx="676" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="693" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="710" cy="127" r="2.2" fill="#7D1B38"/>
+<line x1="470" y1="226" x2="748" y2="124" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="245" x2="748" y2="152" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="264" x2="748" y2="180" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="283" x2="748" y2="208" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="302" x2="748" y2="236" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="321" x2="748" y2="264" stroke="#6C3143" stroke-width="0.8"/>
 <rect x="0" y="0" width="760" height="6" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
-<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">RESOLUTION</tspan></text>
+<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">RESOLUTION / ACTION</tspan></text>
 <text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#A6ADBC" text-anchor="end"><tspan x="714" dy="0">10</tspan></text>
-<text data-role="deck-title" x="54" y="142" font-family="Impact" font-size="46" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="54" dy="0">End with one clear move</tspan></text>
-<text data-role="subheading" x="58" y="194" font-family="Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="58" dy="0">Resolve the argument into an owner, a milestone, and a visible next decision.</tspan></text>
-<line x1="58" y1="222" x2="704" y2="222" stroke="#303746" stroke-width="2"/>
-<text data-role="metric" x="58" y="274" font-family="Impact" font-size="24" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="58" dy="0">01</tspan></text>
-<text data-role="subheading" x="58" y="308" font-family="Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="58" dy="0">DECISION</tspan></text>
-<text data-role="body" x="58" y="334" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="58" dy="0">Name what must be approved</tspan></text>
-<text data-role="metric" x="274" y="274" font-family="Impact" font-size="24" font-weight="700" fill="#7ACBFF" text-anchor="start"><tspan x="274" dy="0">02</tspan></text>
-<text data-role="subheading" x="274" y="308" font-family="Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="274" dy="0">OWNER</tspan></text>
-<text data-role="body" x="274" y="334" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="274" dy="0">Make accountability visible</tspan></text>
-<text data-role="metric" x="490" y="274" font-family="Impact" font-size="24" font-weight="700" fill="#7ACBFF" text-anchor="start"><tspan x="490" dy="0">03</tspan></text>
-<text data-role="subheading" x="490" y="308" font-family="Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="490" dy="0">MILESTONE</tspan></text>
-<text data-role="body" x="490" y="334" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="490" dy="0">Define the next proof point</tspan></text>
-<text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
+<polygon points="28,90 444,54 468,252 62,286" fill="#D70C37" stroke="#02040A" stroke-width="10"/>
+<polygon points="44,96 428,66 450,234 70,268" fill="#090C13"/>
+<text data-role="deck-title" x="78" y="142" font-family="Impact, Microsoft YaHei, Arial" font-size="38" font-weight="900" fill="#02040A" text-anchor="start"><tspan x="78" dy="0">让每一次</tspan></text>
+<text data-role="deck-title" x="72" y="136" font-family="Impact, Microsoft YaHei, Arial" font-size="38" font-weight="900" fill="#F8FAFF" text-anchor="start"><tspan x="72" dy="0">让每一次</tspan></text>
+<text data-role="deck-title" x="112" y="202" font-family="Impact, Microsoft YaHei, Arial" font-size="52" font-weight="900" fill="#02040A" text-anchor="start"><tspan x="112" dy="0">临界时刻</tspan></text>
+<text data-role="deck-title" x="106" y="196" font-family="Impact, Microsoft YaHei, Arial" font-size="52" font-weight="900" fill="#FF1748" text-anchor="start"><tspan x="106" dy="0">临界时刻</tspan></text>
+<text data-role="deck-title" x="180" y="246" font-family="Impact, Microsoft YaHei, Arial" font-size="38" font-weight="900" fill="#7ACBFF" text-anchor="start"><tspan x="180" dy="0">都有答案</tspan></text>
+<text data-role="subheading" x="66" y="312" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="66" dy="0">结束页要把整套叙事收束成一个判断、一个负责人和一个可见的下一节点。</tspan></text>
+<text data-role="body" x="66" y="340" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="66" dy="0">高张力不是终点；让受众记住并采取正确行动，才是视觉系统的最终任务。</tspan></text>
+<circle cx="610" cy="198" r="142" fill="#04060B"/>
+<circle cx="610" cy="198" r="124" fill="#FF1748" stroke="#05070C" stroke-width="7"/>
+<circle cx="610" cy="198" r="88" fill="#121824" stroke="#F8FAFF" stroke-width="5"/>
+<polygon points="618,122 568,198 606,198 588,272 658,178 620,178" fill="#7ACBFF"/>
+<text data-role="metric" x="610" y="318" font-family="Impact" font-size="18" font-weight="900" fill="#F7F8FC" text-anchor="middle"><tspan x="610" dy="0">READY TO ACT</tspan></text>
+<text data-role="source" x="720" y="348" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="end"><tspan x="720" dy="0">ILLUSTRATIVE TEMPLATE · ORIGINAL SIGNAL EMBLEM</tspan></text>
+<rect x="64" y="360" width="198" height="28" rx="0" fill="#FF1748" stroke="#303746" stroke-width="1"/>
+<text data-role="label" x="76" y="379" font-family="Impact" font-size="10" font-weight="900" fill="#FFFFFF" text-anchor="start"><tspan x="76" dy="0">01</tspan></text>
+<text data-role="label" x="106" y="379" font-family="Arial" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="106" dy="0">DECISION</tspan></text>
+<text data-role="annotation" x="180" y="379" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#FFFFFF" text-anchor="start"><tspan x="180" dy="0">批准判断</tspan></text>
+<rect x="278" y="360" width="198" height="28" rx="0" fill="#171D28" stroke="#303746" stroke-width="1"/>
+<text data-role="label" x="290" y="379" font-family="Impact" font-size="10" font-weight="900" fill="#FF1748" text-anchor="start"><tspan x="290" dy="0">02</tspan></text>
+<text data-role="label" x="320" y="379" font-family="Arial" font-size="10" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="320" dy="0">OWNER</tspan></text>
+<text data-role="annotation" x="394" y="379" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="394" dy="0">指定负责人</tspan></text>
+<rect x="492" y="360" width="198" height="28" rx="0" fill="#171D28" stroke="#303746" stroke-width="1"/>
+<text data-role="label" x="504" y="379" font-family="Impact" font-size="10" font-weight="900" fill="#FF1748" text-anchor="start"><tspan x="504" dy="0">03</tspan></text>
+<text data-role="label" x="534" y="379" font-family="Arial" font-size="10" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="534" dy="0">MILESTONE</tspan></text>
+<text data-role="annotation" x="608" y="379" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="608" dy="0">锁定验证点</tspan></text>
 </g>
 </svg>

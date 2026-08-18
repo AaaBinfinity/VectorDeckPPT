@@ -3,169 +3,272 @@
 <desc>Four information-rich slide references with locked typography roles for DARK ENGINEERED SYSTEMS.</desc>
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#07111F" stroke="none" stroke-width="0"/>
 <rect x="24" y="24" width="760" height="400" rx="4" fill="#0B1728" stroke="#304259" stroke-width="1"/>
-<rect x="24" y="24" width="760" height="6" rx="4" fill="#20C4E8" stroke="none" stroke-width="0"/>
+<line x1="92" y1="76" x2="92" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="160" y1="76" x2="160" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="228" y1="76" x2="228" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="296" y1="76" x2="296" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="364" y1="76" x2="364" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="432" y1="76" x2="432" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="500" y1="76" x2="500" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="568" y1="76" x2="568" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="636" y1="76" x2="636" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="704" y1="76" x2="704" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="42" y1="116" x2="766" y2="116" stroke="#304259" stroke-width="0.45"/>
+<line x1="42" y1="174" x2="766" y2="174" stroke="#304259" stroke-width="0.45"/>
+<line x1="42" y1="232" x2="766" y2="232" stroke="#304259" stroke-width="0.45"/>
+<line x1="42" y1="290" x2="766" y2="290" stroke="#304259" stroke-width="0.45"/>
+<line x1="42" y1="348" x2="766" y2="348" stroke="#304259" stroke-width="0.45"/>
+<circle cx="514" cy="102" r="3" fill="#5077FF"/>
+<circle cx="552" cy="128" r="3" fill="#5077FF"/>
+<line x1="514" y1="102" x2="552" y2="128" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="590" cy="154" r="3" fill="#5077FF"/>
+<line x1="552" y1="128" x2="590" y2="154" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="628" cy="102" r="3" fill="#5077FF"/>
+<line x1="590" y1="154" x2="628" y2="102" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="666" cy="128" r="3" fill="#5077FF"/>
+<line x1="628" y1="102" x2="666" y2="128" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="704" cy="154" r="3" fill="#5077FF"/>
+<line x1="666" y1="128" x2="704" y2="154" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="742" cy="102" r="3" fill="#5077FF"/>
+<line x1="704" y1="154" x2="742" y2="102" stroke="#20C4E8" stroke-width="1.2"/>
+<line x1="46" y1="70" x2="46" y2="44" stroke="#20C4E8" stroke-width="3"/>
+<line x1="46" y1="44" x2="116" y2="44" stroke="#20C4E8" stroke-width="3"/>
 <text data-role="label" x="58" y="58" font-family="Arial" font-size="10" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="58" dy="0">ARCHITECTURE &amp; RELIABILITY</tspan></text>
-<text data-role="page-number" x="738" y="58" font-family="Arial" font-size="10" font-weight="700" fill="#8EA1B6" text-anchor="end"><tspan x="738" dy="0">01</tspan></text>
-<line x1="94" y1="82" x2="94" y2="398" stroke="#304259" stroke-width="0.5"/>
-<line x1="174" y1="82" x2="174" y2="398" stroke="#304259" stroke-width="0.5"/>
-<line x1="254" y1="82" x2="254" y2="398" stroke="#304259" stroke-width="0.5"/>
-<line x1="334" y1="82" x2="334" y2="398" stroke="#304259" stroke-width="0.5"/>
-<line x1="414" y1="82" x2="414" y2="398" stroke="#304259" stroke-width="0.5"/>
-<line x1="494" y1="82" x2="494" y2="398" stroke="#304259" stroke-width="0.5"/>
-<line x1="574" y1="82" x2="574" y2="398" stroke="#304259" stroke-width="0.5"/>
-<line x1="654" y1="82" x2="654" y2="398" stroke="#304259" stroke-width="0.5"/>
-<line x1="734" y1="82" x2="734" y2="398" stroke="#304259" stroke-width="0.5"/>
-<text data-role="deck-title" x="58" y="120" font-family="Arial" font-size="36" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="58" dy="0">Reliability is</tspan><tspan x="58" dy="37.44">a system</tspan><tspan x="58" dy="37.44">property</tspan></text>
-<text data-role="caption" x="58" y="258" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="58" dy="0">Expose dependencies, failure boundaries, controls, and ownership in one view.</tspan></text>
-<text data-role="source" x="58" y="386" font-family="Arial" font-size="9" font-weight="700" fill="#8EA1B6" text-anchor="start"><tspan x="58" dy="0">ILLUSTRATIVE TEMPLATE · REPLACE WITH SOURCED CONTENT</tspan></text>
-<rect x="442" y="112" width="92" height="196" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
-<text data-role="metric" x="488" y="182" font-family="Arial" font-size="29" font-weight="700" fill="#20C4E8" text-anchor="middle"><tspan x="488" dy="0">99.95%</tspan></text>
-<text data-role="annotation" x="488" y="210" font-family="Arial" font-size="9" font-weight="600" fill="#8EA1B6" text-anchor="middle"><tspan x="488" dy="0">service objective</tspan></text>
-<line x1="460" y1="246" x2="516" y2="246" stroke="#304259" stroke-width="2"/>
-<line x1="460" y1="268" x2="516" y2="238" stroke="#5077FF" stroke-width="4"/>
-<rect x="547" y="112" width="92" height="196" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
-<text data-role="metric" x="593" y="182" font-family="Arial" font-size="29" font-weight="700" fill="#E8F1FA" text-anchor="middle"><tspan x="593" dy="0">−42%</tspan></text>
-<text data-role="annotation" x="593" y="210" font-family="Arial" font-size="9" font-weight="600" fill="#8EA1B6" text-anchor="middle"><tspan x="593" dy="0">recovery time</tspan></text>
-<line x1="565" y1="246" x2="621" y2="246" stroke="#304259" stroke-width="2"/>
-<line x1="565" y1="263" x2="621" y2="246" stroke="#5077FF" stroke-width="4"/>
-<rect x="652" y="112" width="92" height="196" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
-<text data-role="metric" x="698" y="182" font-family="Arial" font-size="29" font-weight="700" fill="#E8F1FA" text-anchor="middle"><tspan x="698" dy="0">18</tspan></text>
-<text data-role="annotation" x="698" y="210" font-family="Arial" font-size="9" font-weight="600" fill="#8EA1B6" text-anchor="middle"><tspan x="698" dy="0">critical controls</tspan></text>
-<line x1="670" y1="246" x2="726" y2="246" stroke="#304259" stroke-width="2"/>
-<line x1="670" y1="258" x2="726" y2="254" stroke="#5077FF" stroke-width="4"/>
-<rect x="58" y="310" width="98" height="34" rx="17" fill="#101F33" stroke="#304259" stroke-width="1"/>
-<text data-role="label" x="107" y="332" font-family="Arial" font-size="10" font-weight="700" fill="#E8F1FA" text-anchor="middle"><tspan x="107" dy="0">CLAIM</tspan></text>
-<rect x="170" y="310" width="98" height="34" rx="17" fill="#101F33" stroke="#304259" stroke-width="1"/>
-<text data-role="label" x="219" y="332" font-family="Arial" font-size="10" font-weight="700" fill="#E8F1FA" text-anchor="middle"><tspan x="219" dy="0">PROOF</tspan></text>
-<rect x="282" y="310" width="98" height="34" rx="17" fill="#101F33" stroke="#304259" stroke-width="1"/>
-<text data-role="label" x="331" y="332" font-family="Arial" font-size="10" font-weight="700" fill="#E8F1FA" text-anchor="middle"><tspan x="331" dy="0">ACTION</tspan></text>
+<text data-role="page-number" x="742" y="58" font-family="Arial" font-size="10" font-weight="700" fill="#8EA1B6" text-anchor="end"><tspan x="742" dy="0">01</tspan></text>
+<text data-role="deck-title" x="58" y="140" font-family="Bahnschrift SemiCondensed, Arial Narrow, Arial, sans-serif" font-size="38" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="58" dy="0">Reliability is</tspan><tspan x="58" dy="38.38">a system</tspan><tspan x="58" dy="38.38">property</tspan></text>
+<text data-role="body" x="60" y="272" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="60" dy="0">Expose dependencies, failure boundaries,</tspan><tspan x="60" dy="12.78">controls, and ownership in one view.</tspan></text>
+<text data-role="label" x="60" y="318" font-family="Arial" font-size="10" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="60" dy="0">CLAIM  →  EVIDENCE  →  ACTION</tspan></text>
+<rect x="454" y="106" width="286" height="168" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
+<rect x="500" y="150" width="52" height="24" rx="3" fill="#0B1728" stroke="#304259" stroke-width="1"/>
+<rect x="590" y="150" width="52" height="24" rx="3" fill="#0B1728" stroke="#304259" stroke-width="1"/>
+<line x1="552" y1="162" x2="590" y2="162" stroke="#5077FF" stroke-width="1.5"/>
+<rect x="680" y="150" width="52" height="24" rx="3" fill="#0B1728" stroke="#304259" stroke-width="1"/>
+<line x1="642" y1="162" x2="680" y2="162" stroke="#5077FF" stroke-width="1.5"/>
+<rect x="770" y="150" width="52" height="24" rx="3" fill="#0B1728" stroke="#304259" stroke-width="1"/>
+<line x1="732" y1="162" x2="770" y2="162" stroke="#5077FF" stroke-width="1.5"/>
+<rect x="500" y="202" width="52" height="24" rx="3" fill="#0B1728" stroke="#20C4E8" stroke-width="1"/>
+<rect x="590" y="202" width="52" height="24" rx="3" fill="#0B1728" stroke="#20C4E8" stroke-width="1"/>
+<line x1="552" y1="214" x2="590" y2="214" stroke="#5077FF" stroke-width="1.5"/>
+<rect x="680" y="202" width="52" height="24" rx="3" fill="#0B1728" stroke="#20C4E8" stroke-width="1"/>
+<line x1="642" y1="214" x2="680" y2="214" stroke="#5077FF" stroke-width="1.5"/>
+<rect x="770" y="202" width="52" height="24" rx="3" fill="#0B1728" stroke="#20C4E8" stroke-width="1"/>
+<line x1="732" y1="214" x2="770" y2="214" stroke="#5077FF" stroke-width="1.5"/>
+<rect x="500" y="254" width="52" height="24" rx="3" fill="#0B1728" stroke="#304259" stroke-width="1"/>
+<rect x="590" y="254" width="52" height="24" rx="3" fill="#0B1728" stroke="#304259" stroke-width="1"/>
+<line x1="552" y1="266" x2="590" y2="266" stroke="#5077FF" stroke-width="1.5"/>
+<rect x="680" y="254" width="52" height="24" rx="3" fill="#0B1728" stroke="#304259" stroke-width="1"/>
+<line x1="642" y1="266" x2="680" y2="266" stroke="#5077FF" stroke-width="1.5"/>
+<rect x="770" y="254" width="52" height="24" rx="3" fill="#0B1728" stroke="#304259" stroke-width="1"/>
+<line x1="732" y1="266" x2="770" y2="266" stroke="#5077FF" stroke-width="1.5"/>
+<line x1="58" y1="346" x2="264" y2="346" stroke="#304259" stroke-width="1"/>
+<text data-role="metric" x="58" y="376" font-family="Bahnschrift SemiCondensed, Arial Narrow, Arial, sans-serif" font-size="24" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="58" dy="0">99.95%</tspan></text>
+<text data-role="label" x="140" y="366" font-family="Arial" font-size="10" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="140" dy="0">service objective</tspan></text>
+<text data-role="annotation" x="140" y="384" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="140" dy="0">illustrative signal · replace</tspan></text>
+<line x1="284" y1="346" x2="490" y2="346" stroke="#304259" stroke-width="1"/>
+<text data-role="metric" x="284" y="376" font-family="Bahnschrift SemiCondensed, Arial Narrow, Arial, sans-serif" font-size="24" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="284" dy="0">−42%</tspan></text>
+<text data-role="label" x="366" y="366" font-family="Arial" font-size="10" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="366" dy="0">recovery time</tspan></text>
+<text data-role="annotation" x="366" y="384" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="366" dy="0">illustrative signal · replace</tspan></text>
+<line x1="510" y1="346" x2="716" y2="346" stroke="#304259" stroke-width="1"/>
+<text data-role="metric" x="510" y="376" font-family="Bahnschrift SemiCondensed, Arial Narrow, Arial, sans-serif" font-size="24" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="510" dy="0">18</tspan></text>
+<text data-role="label" x="592" y="366" font-family="Arial" font-size="10" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="592" dy="0">critical controls</tspan></text>
+<text data-role="annotation" x="592" y="384" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="592" dy="0">illustrative signal · replace</tspan></text>
+<text data-role="source" x="738" y="410" font-family="Arial" font-size="9" font-weight="700" fill="#8EA1B6" text-anchor="end"><tspan x="738" dy="0">ORIGINAL VECTOR TEMPLATE · ALL SAMPLE DATA MUST BE REPLACED</tspan></text>
 <rect x="816" y="24" width="760" height="400" rx="4" fill="#0B1728" stroke="#304259" stroke-width="1"/>
-<rect x="816" y="24" width="760" height="6" rx="4" fill="#20C4E8" stroke="none" stroke-width="0"/>
-<text data-role="label" x="850" y="58" font-family="Arial" font-size="10" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="850" dy="0">OPERATING MODEL</tspan></text>
-<text data-role="page-number" x="1530" y="58" font-family="Arial" font-size="10" font-weight="700" fill="#8EA1B6" text-anchor="end"><tspan x="1530" dy="0">02</tspan></text>
-<line x1="886" y1="82" x2="886" y2="398" stroke="#304259" stroke-width="0.5"/>
-<line x1="966" y1="82" x2="966" y2="398" stroke="#304259" stroke-width="0.5"/>
-<line x1="1046" y1="82" x2="1046" y2="398" stroke="#304259" stroke-width="0.5"/>
-<line x1="1126" y1="82" x2="1126" y2="398" stroke="#304259" stroke-width="0.5"/>
-<line x1="1206" y1="82" x2="1206" y2="398" stroke="#304259" stroke-width="0.5"/>
-<line x1="1286" y1="82" x2="1286" y2="398" stroke="#304259" stroke-width="0.5"/>
-<line x1="1366" y1="82" x2="1366" y2="398" stroke="#304259" stroke-width="0.5"/>
-<line x1="1446" y1="82" x2="1446" y2="398" stroke="#304259" stroke-width="0.5"/>
-<line x1="1526" y1="82" x2="1526" y2="398" stroke="#304259" stroke-width="0.5"/>
-<text data-role="slide-title" x="850" y="106" font-family="Arial" font-size="26" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="850" dy="0">Five moves create an accountable delivery loop</tspan></text>
-<text data-role="caption" x="850" y="134" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="850" dy="0">Each phase produces a decision-ready artifact and a visible quality gate.</tspan></text>
-<rect x="850" y="166" width="126" height="156" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
-<text data-role="metric" x="866" y="198" font-family="Arial" font-size="20" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="866" dy="0">01</tspan></text>
-<text data-role="subheading" x="866" y="232" font-family="Arial" font-size="14" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="866" dy="0">Frame</tspan></text>
-<text data-role="body" x="866" y="258" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="866" dy="0">Define the decision</tspan><tspan x="866" dy="12.15">and success signal</tspan></text>
-<line x1="976" y1="244" x2="990" y2="244" stroke="#20C4E8" stroke-width="2"/>
-<rect x="990" y="166" width="126" height="156" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
-<text data-role="metric" x="1006" y="198" font-family="Arial" font-size="20" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="1006" dy="0">02</tspan></text>
-<text data-role="subheading" x="1006" y="232" font-family="Arial" font-size="14" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="1006" dy="0">Read</tspan></text>
-<text data-role="body" x="1006" y="258" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="1006" dy="0">Extract facts, constraints,</tspan><tspan x="1006" dy="12.15">and tensions</tspan></text>
-<line x1="1116" y1="244" x2="1130" y2="244" stroke="#20C4E8" stroke-width="2"/>
-<rect x="1130" y="166" width="126" height="156" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
-<text data-role="metric" x="1146" y="198" font-family="Arial" font-size="20" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="1146" dy="0">03</tspan></text>
-<text data-role="subheading" x="1146" y="232" font-family="Arial" font-size="14" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="1146" dy="0">Design</tspan></text>
-<text data-role="body" x="1146" y="258" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="1146" dy="0">Map evidence to the</tspan><tspan x="1146" dy="12.15">clearest visual form</tspan></text>
-<line x1="1256" y1="244" x2="1270" y2="244" stroke="#20C4E8" stroke-width="2"/>
-<rect x="1270" y="166" width="126" height="156" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
-<text data-role="metric" x="1286" y="198" font-family="Arial" font-size="20" font-weight="700" fill="#5077FF" text-anchor="start"><tspan x="1286" dy="0">04</tspan></text>
-<text data-role="subheading" x="1286" y="232" font-family="Arial" font-size="14" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="1286" dy="0">Verify</tspan></text>
-<text data-role="body" x="1286" y="258" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="1286" dy="0">Review fidelity, meaning,</tspan><tspan x="1286" dy="12.15">and exceptions</tspan></text>
-<line x1="1396" y1="244" x2="1410" y2="244" stroke="#20C4E8" stroke-width="2"/>
-<rect x="1410" y="166" width="126" height="156" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
-<text data-role="metric" x="1426" y="198" font-family="Arial" font-size="20" font-weight="700" fill="#5077FF" text-anchor="start"><tspan x="1426" dy="0">05</tspan></text>
-<text data-role="subheading" x="1426" y="232" font-family="Arial" font-size="14" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="1426" dy="0">Act</tspan></text>
-<text data-role="body" x="1426" y="258" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="1426" dy="0">Assign the next move, owner,</tspan><tspan x="1426" dy="12.15">and timing</tspan></text>
-<rect x="850" y="344" width="686" height="48" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
-<text data-role="label" x="870" y="374" font-family="Arial" font-size="10" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="870" dy="0">QUALITY GATE</tspan></text>
-<text data-role="caption" x="986" y="374" font-family="Arial" font-size="9" font-weight="400" fill="#E8F1FA" text-anchor="start"><tspan x="986" dy="0">No phase advances until its evidence, owner, and acceptance condition are explicit.</tspan></text>
+<line x1="884" y1="76" x2="884" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="952" y1="76" x2="952" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="1020" y1="76" x2="1020" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="1088" y1="76" x2="1088" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="1156" y1="76" x2="1156" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="1224" y1="76" x2="1224" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="1292" y1="76" x2="1292" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="1360" y1="76" x2="1360" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="1428" y1="76" x2="1428" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="1496" y1="76" x2="1496" y2="406" stroke="#304259" stroke-width="0.55"/>
+<line x1="834" y1="116" x2="1558" y2="116" stroke="#304259" stroke-width="0.45"/>
+<line x1="834" y1="174" x2="1558" y2="174" stroke="#304259" stroke-width="0.45"/>
+<line x1="834" y1="232" x2="1558" y2="232" stroke="#304259" stroke-width="0.45"/>
+<line x1="834" y1="290" x2="1558" y2="290" stroke="#304259" stroke-width="0.45"/>
+<line x1="834" y1="348" x2="1558" y2="348" stroke="#304259" stroke-width="0.45"/>
+<circle cx="1306" cy="102" r="3" fill="#5077FF"/>
+<circle cx="1344" cy="128" r="3" fill="#5077FF"/>
+<line x1="1306" y1="102" x2="1344" y2="128" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="1382" cy="154" r="3" fill="#5077FF"/>
+<line x1="1344" y1="128" x2="1382" y2="154" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="1420" cy="102" r="3" fill="#5077FF"/>
+<line x1="1382" y1="154" x2="1420" y2="102" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="1458" cy="128" r="3" fill="#5077FF"/>
+<line x1="1420" y1="102" x2="1458" y2="128" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="1496" cy="154" r="3" fill="#5077FF"/>
+<line x1="1458" y1="128" x2="1496" y2="154" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="1534" cy="102" r="3" fill="#5077FF"/>
+<line x1="1496" y1="154" x2="1534" y2="102" stroke="#20C4E8" stroke-width="1.2"/>
+<line x1="838" y1="70" x2="838" y2="44" stroke="#20C4E8" stroke-width="3"/>
+<line x1="838" y1="44" x2="908" y2="44" stroke="#20C4E8" stroke-width="3"/>
+<text data-role="label" x="850" y="58" font-family="Arial" font-size="10" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="850" dy="0">PROCESS / QUALITY GATES</tspan></text>
+<text data-role="page-number" x="1534" y="58" font-family="Arial" font-size="10" font-weight="700" fill="#8EA1B6" text-anchor="end"><tspan x="1534" dy="0">05</tspan></text>
+<text data-role="slide-title" x="850" y="106" font-family="Bahnschrift SemiCondensed, Arial Narrow, Arial, sans-serif" font-size="26" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="850" dy="0">Five controls turn a signal into a reliable</tspan><tspan x="850" dy="27.3">response</tspan></text>
+<text data-role="caption" x="850" y="160" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="850" dy="0">Every stage produces an artifact, a named owner, and a visible acceptance condition.</tspan></text>
+<polygon points="850,206 956,196 974,328 866,340" fill="#20C4E8" stroke="#304259" stroke-width="1.2"/>
+<text data-role="metric" x="868" y="234" font-family="Bahnschrift SemiCondensed, Arial Narrow, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="868" dy="0">01</tspan></text>
+<text data-role="subheading" x="868" y="266" font-family="Arial" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="868" dy="0">Frame</tspan></text>
+<text data-role="body" x="868" y="290" font-family="Arial" font-size="9" font-weight="400" fill="#FFFFFF" text-anchor="start"><tspan x="868" dy="0">Define the decision</tspan><tspan x="868" dy="11.88">and success signal</tspan></text>
+<text data-role="annotation" x="868" y="326" font-family="Arial" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="868" dy="0">OUTPUT 01</tspan></text>
+<line x1="974" y1="270" x2="996" y2="250" stroke="#5077FF" stroke-width="3"/>
+<polygon points="988,186 1094,176 1112,308 1004,320" fill="#101F33" stroke="#304259" stroke-width="1.2"/>
+<text data-role="metric" x="1006" y="214" font-family="Bahnschrift SemiCondensed, Arial Narrow, Arial, sans-serif" font-size="22" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="1006" dy="0">02</tspan></text>
+<text data-role="subheading" x="1006" y="246" font-family="Arial" font-size="14" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="1006" dy="0">Read</tspan></text>
+<text data-role="body" x="1006" y="270" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="1006" dy="0">Extract facts,</tspan><tspan x="1006" dy="11.88">constraints, and tensions</tspan></text>
+<text data-role="annotation" x="1006" y="306" font-family="Arial" font-size="9" font-weight="700" fill="#5077FF" text-anchor="start"><tspan x="1006" dy="0">OUTPUT 02</tspan></text>
+<line x1="1112" y1="250" x2="1134" y2="276" stroke="#5077FF" stroke-width="3"/>
+<polygon points="1126,212 1232,202 1250,334 1142,346" fill="#101F33" stroke="#304259" stroke-width="1.2"/>
+<text data-role="metric" x="1144" y="240" font-family="Bahnschrift SemiCondensed, Arial Narrow, Arial, sans-serif" font-size="22" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="1144" dy="0">03</tspan></text>
+<text data-role="subheading" x="1144" y="272" font-family="Arial" font-size="14" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="1144" dy="0">Design</tspan></text>
+<text data-role="body" x="1144" y="296" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="1144" dy="0">Map evidence to the</tspan><tspan x="1144" dy="11.88">clearest visual form</tspan></text>
+<text data-role="annotation" x="1144" y="332" font-family="Arial" font-size="9" font-weight="700" fill="#5077FF" text-anchor="start"><tspan x="1144" dy="0">OUTPUT 03</tspan></text>
+<line x1="1250" y1="276" x2="1272" y2="256" stroke="#5077FF" stroke-width="3"/>
+<polygon points="1264,192 1370,182 1388,314 1280,326" fill="#101F33" stroke="#304259" stroke-width="1.2"/>
+<text data-role="metric" x="1282" y="220" font-family="Bahnschrift SemiCondensed, Arial Narrow, Arial, sans-serif" font-size="22" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="1282" dy="0">04</tspan></text>
+<text data-role="subheading" x="1282" y="252" font-family="Arial" font-size="14" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="1282" dy="0">Verify</tspan></text>
+<text data-role="body" x="1282" y="276" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="1282" dy="0">Review fidelity,</tspan><tspan x="1282" dy="11.88">meaning, and exceptions</tspan></text>
+<text data-role="annotation" x="1282" y="312" font-family="Arial" font-size="9" font-weight="700" fill="#5077FF" text-anchor="start"><tspan x="1282" dy="0">OUTPUT 04</tspan></text>
+<line x1="1388" y1="256" x2="1410" y2="282" stroke="#5077FF" stroke-width="3"/>
+<polygon points="1402,218 1508,208 1526,340 1418,352" fill="#101F33" stroke="#304259" stroke-width="1.2"/>
+<text data-role="metric" x="1420" y="246" font-family="Bahnschrift SemiCondensed, Arial Narrow, Arial, sans-serif" font-size="22" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="1420" dy="0">05</tspan></text>
+<text data-role="subheading" x="1420" y="278" font-family="Arial" font-size="14" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="1420" dy="0">Act</tspan></text>
+<text data-role="body" x="1420" y="302" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="1420" dy="0">Assign the next</tspan><tspan x="1420" dy="11.88">move, owner, and timing</tspan></text>
+<text data-role="annotation" x="1420" y="338" font-family="Arial" font-size="9" font-weight="700" fill="#5077FF" text-anchor="start"><tspan x="1420" dy="0">OUTPUT 05</tspan></text>
+<polygon points="850,374 1520,354 1536,398 864,412" fill="#101F33" stroke="#20C4E8" stroke-width="2"/>
+<text data-role="label" x="880" y="393" font-family="Arial" font-size="10" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="880" dy="0">QUALITY GATE</tspan></text>
+<text data-role="source" x="1006" y="390" font-family="Arial" font-size="9" font-weight="400" fill="#E8F1FA" text-anchor="start"><tspan x="1006" dy="0">Evidence, owner, and acceptance condition must all be explicit before the next stage.</tspan></text>
 <rect x="24" y="460" width="760" height="400" rx="4" fill="#0B1728" stroke="#304259" stroke-width="1"/>
-<rect x="24" y="460" width="760" height="6" rx="4" fill="#20C4E8" stroke="none" stroke-width="0"/>
-<text data-role="label" x="58" y="494" font-family="Arial" font-size="10" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="58" dy="0">EVIDENCE</tspan></text>
-<text data-role="page-number" x="738" y="494" font-family="Arial" font-size="10" font-weight="700" fill="#8EA1B6" text-anchor="end"><tspan x="738" dy="0">03</tspan></text>
-<line x1="94" y1="518" x2="94" y2="834" stroke="#304259" stroke-width="0.5"/>
-<line x1="174" y1="518" x2="174" y2="834" stroke="#304259" stroke-width="0.5"/>
-<line x1="254" y1="518" x2="254" y2="834" stroke="#304259" stroke-width="0.5"/>
-<line x1="334" y1="518" x2="334" y2="834" stroke="#304259" stroke-width="0.5"/>
-<line x1="414" y1="518" x2="414" y2="834" stroke="#304259" stroke-width="0.5"/>
-<line x1="494" y1="518" x2="494" y2="834" stroke="#304259" stroke-width="0.5"/>
-<line x1="574" y1="518" x2="574" y2="834" stroke="#304259" stroke-width="0.5"/>
-<line x1="654" y1="518" x2="654" y2="834" stroke="#304259" stroke-width="0.5"/>
-<line x1="734" y1="518" x2="734" y2="834" stroke="#304259" stroke-width="0.5"/>
-<text data-role="slide-title" x="58" y="542" font-family="Arial" font-size="26" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="58" dy="0">The signal improves when the handoff becomes visible</tspan></text>
-<text data-role="caption" x="58" y="570" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="58" dy="0">Illustrative values demonstrate hierarchy only; replace every number and label.</tspan></text>
-<text data-role="metric" x="58" y="618" font-family="Arial" font-size="24" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="58" dy="0">99.95%</tspan></text>
-<text data-role="label" x="156" y="616" font-family="Arial" font-size="10" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="156" dy="0">service objective</tspan></text>
-<text data-role="annotation" x="156" y="634" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="156" dy="0">Observed movement · sample period</tspan></text>
-<line x1="58" y1="646" x2="270" y2="646" stroke="#304259" stroke-width="1"/>
-<text data-role="metric" x="58" y="684" font-family="Arial" font-size="24" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="58" dy="0">−42%</tspan></text>
-<text data-role="label" x="156" y="682" font-family="Arial" font-size="10" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="156" dy="0">recovery time</tspan></text>
-<text data-role="annotation" x="156" y="700" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="156" dy="0">Observed movement · sample period</tspan></text>
-<line x1="58" y1="712" x2="270" y2="712" stroke="#304259" stroke-width="1"/>
-<text data-role="metric" x="58" y="750" font-family="Arial" font-size="24" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="58" dy="0">18</tspan></text>
-<text data-role="label" x="156" y="748" font-family="Arial" font-size="10" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="156" dy="0">critical controls</tspan></text>
-<text data-role="annotation" x="156" y="766" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="156" dy="0">Observed movement · sample period</tspan></text>
-<line x1="58" y1="778" x2="270" y2="778" stroke="#304259" stroke-width="1"/>
-<rect x="316" y="608" width="428" height="158" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
-<text data-role="label" x="334" y="636" font-family="Arial" font-size="10" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="334" dy="0">TREND INDEX · BASE 100</tspan></text>
-<line x1="334" y1="662" x2="726" y2="662" stroke="#304259" stroke-width="1"/>
-<line x1="334" y1="688" x2="726" y2="688" stroke="#304259" stroke-width="1"/>
-<line x1="334" y1="714" x2="726" y2="714" stroke="#304259" stroke-width="1"/>
-<line x1="334" y1="740" x2="726" y2="740" stroke="#304259" stroke-width="1"/>
-<polyline points="340,734 398,720 456,726 514,696 572,686 630,660 708,646" fill="none" stroke="#20C4E8" stroke-width="4"/>
-<circle cx="340" cy="734" r="5" fill="#20C4E8"/>
-<circle cx="398" cy="720" r="5" fill="#20C4E8"/>
-<circle cx="456" cy="726" r="5" fill="#20C4E8"/>
-<circle cx="514" cy="696" r="5" fill="#20C4E8"/>
-<circle cx="572" cy="686" r="5" fill="#20C4E8"/>
-<circle cx="630" cy="660" r="5" fill="#20C4E8"/>
-<circle cx="708" cy="646" r="5" fill="#20C4E8"/>
-<rect x="316" y="786" width="428" height="42" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
-<text data-role="label" x="334" y="812" font-family="Arial" font-size="10" font-weight="700" fill="#5077FF" text-anchor="start"><tspan x="334" dy="0">INTERPRETATION</tspan></text>
-<text data-role="annotation" x="454" y="812" font-family="Arial" font-size="9" font-weight="400" fill="#E8F1FA" text-anchor="start"><tspan x="454" dy="0">The largest gain appears after ownership and review criteria become explicit.</tspan></text>
+<line x1="92" y1="512" x2="92" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="160" y1="512" x2="160" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="228" y1="512" x2="228" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="296" y1="512" x2="296" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="364" y1="512" x2="364" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="432" y1="512" x2="432" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="500" y1="512" x2="500" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="568" y1="512" x2="568" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="636" y1="512" x2="636" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="704" y1="512" x2="704" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="42" y1="552" x2="766" y2="552" stroke="#304259" stroke-width="0.45"/>
+<line x1="42" y1="610" x2="766" y2="610" stroke="#304259" stroke-width="0.45"/>
+<line x1="42" y1="668" x2="766" y2="668" stroke="#304259" stroke-width="0.45"/>
+<line x1="42" y1="726" x2="766" y2="726" stroke="#304259" stroke-width="0.45"/>
+<line x1="42" y1="784" x2="766" y2="784" stroke="#304259" stroke-width="0.45"/>
+<circle cx="514" cy="538" r="3" fill="#5077FF"/>
+<circle cx="552" cy="564" r="3" fill="#5077FF"/>
+<line x1="514" y1="538" x2="552" y2="564" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="590" cy="590" r="3" fill="#5077FF"/>
+<line x1="552" y1="564" x2="590" y2="590" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="628" cy="538" r="3" fill="#5077FF"/>
+<line x1="590" y1="590" x2="628" y2="538" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="666" cy="564" r="3" fill="#5077FF"/>
+<line x1="628" y1="538" x2="666" y2="564" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="704" cy="590" r="3" fill="#5077FF"/>
+<line x1="666" y1="564" x2="704" y2="590" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="742" cy="538" r="3" fill="#5077FF"/>
+<line x1="704" y1="590" x2="742" y2="538" stroke="#20C4E8" stroke-width="1.2"/>
+<line x1="46" y1="506" x2="46" y2="480" stroke="#20C4E8" stroke-width="3"/>
+<line x1="46" y1="480" x2="116" y2="480" stroke="#20C4E8" stroke-width="3"/>
+<text data-role="label" x="58" y="494" font-family="Arial" font-size="10" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="58" dy="0">EVIDENCE / INTERPRETATION</tspan></text>
+<text data-role="page-number" x="742" y="494" font-family="Arial" font-size="10" font-weight="700" fill="#8EA1B6" text-anchor="end"><tspan x="742" dy="0">06</tspan></text>
+<text data-role="slide-title" x="58" y="542" font-family="Bahnschrift SemiCondensed, Arial Narrow, Arial, sans-serif" font-size="26" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="58" dy="0">Recovery improves when controls and ownership stay</tspan><tspan x="58" dy="27.3">linked</tspan></text>
+<text data-role="caption" x="58" y="596" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="58" dy="0">Illustrative values demonstrate visual hierarchy only; replace values, labels, units, source, and period.</tspan></text>
+<text data-role="metric" x="58" y="626" font-family="Bahnschrift SemiCondensed, Arial Narrow, Arial, sans-serif" font-size="26" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="58" dy="0">99.95%</tspan></text>
+<text data-role="label" x="58" y="650" font-family="Arial" font-size="10" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="58" dy="0">service objective</tspan></text>
+<text data-role="annotation" x="58" y="670" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="58" dy="0">sample · replace</tspan></text>
+<line x1="58" y1="682" x2="180" y2="682" stroke="#304259" stroke-width="1"/>
+<text data-role="metric" x="200" y="626" font-family="Bahnschrift SemiCondensed, Arial Narrow, Arial, sans-serif" font-size="26" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="200" dy="0">−42%</tspan></text>
+<text data-role="label" x="200" y="650" font-family="Arial" font-size="10" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="200" dy="0">recovery time</tspan></text>
+<text data-role="annotation" x="200" y="670" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="200" dy="0">sample · replace</tspan></text>
+<line x1="200" y1="682" x2="322" y2="682" stroke="#304259" stroke-width="1"/>
+<text data-role="metric" x="342" y="626" font-family="Bahnschrift SemiCondensed, Arial Narrow, Arial, sans-serif" font-size="26" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="342" dy="0">18</tspan></text>
+<text data-role="label" x="342" y="650" font-family="Arial" font-size="10" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="342" dy="0">critical controls</tspan></text>
+<text data-role="annotation" x="342" y="670" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="342" dy="0">sample · replace</tspan></text>
+<line x1="342" y1="682" x2="464" y2="682" stroke="#304259" stroke-width="1"/>
+<rect x="58" y="704" width="448" height="104" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
+<text data-role="label" x="76" y="728" font-family="Arial" font-size="10" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="76" dy="0">DIRECTLY LABELED SIGNAL · BASE 100</tspan></text>
+<line x1="76" y1="746" x2="488" y2="746" stroke="#304259" stroke-width="0.8"/>
+<line x1="76" y1="770" x2="488" y2="770" stroke="#304259" stroke-width="0.8"/>
+<line x1="76" y1="794" x2="488" y2="794" stroke="#304259" stroke-width="0.8"/>
+<polyline points="84,783.12 148,774.84 212,777.6 276,762.88 340,758.28 404,742.64 468,735.28" fill="none" stroke="#20C4E8" stroke-width="4"/>
+<circle cx="84" cy="783.12" r="4.5" fill="#20C4E8"/>
+<circle cx="148" cy="774.84" r="4.5" fill="#20C4E8"/>
+<circle cx="212" cy="777.6" r="4.5" fill="#20C4E8"/>
+<circle cx="276" cy="762.88" r="4.5" fill="#20C4E8"/>
+<circle cx="340" cy="758.28" r="4.5" fill="#20C4E8"/>
+<circle cx="404" cy="742.64" r="4.5" fill="#20C4E8"/>
+<circle cx="468" cy="735.28" r="4.5" fill="#20C4E8"/>
+<rect x="532" y="602" width="208" height="206" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
+<text data-role="label" x="552" y="628" font-family="Arial" font-size="10" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="552" dy="0">WHAT THE SIGNAL PROVES</tspan></text>
+<text data-role="subheading" x="552" y="664" font-family="Arial" font-size="14" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="552" dy="0">01  DRIVER</tspan></text>
+<text data-role="body" x="552" y="688" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="552" dy="0">The strongest movement appears after</tspan><tspan x="552" dy="12.15">ownership and review criteria align.</tspan></text>
+<text data-role="subheading" x="552" y="738" font-family="Arial" font-size="14" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="552" dy="0">02  EXCEPTION</tspan></text>
+<text data-role="body" x="552" y="762" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="552" dy="0">One interval breaks the trend; inspect</tspan><tspan x="552" dy="12.15">cohort mix before claiming causality.</tspan></text>
+<rect x="58" y="824" width="682" height="24" rx="12" fill="#20C4E8" stroke="none" stroke-width="0"/>
+<text data-role="source" x="399" y="841" font-family="Arial" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="399" dy="0">SOURCE · PERIOD · UNIT · SAMPLE · INTERPRETATION · NEXT CHECK</tspan></text>
 <rect x="816" y="460" width="760" height="400" rx="4" fill="#0B1728" stroke="#304259" stroke-width="1"/>
-<rect x="816" y="460" width="760" height="6" rx="4" fill="#20C4E8" stroke="none" stroke-width="0"/>
-<text data-role="label" x="850" y="494" font-family="Arial" font-size="10" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="850" dy="0">SYNTHESIS</tspan></text>
-<text data-role="page-number" x="1530" y="494" font-family="Arial" font-size="10" font-weight="700" fill="#8EA1B6" text-anchor="end"><tspan x="1530" dy="0">04</tspan></text>
-<line x1="886" y1="518" x2="886" y2="834" stroke="#304259" stroke-width="0.5"/>
-<line x1="966" y1="518" x2="966" y2="834" stroke="#304259" stroke-width="0.5"/>
-<line x1="1046" y1="518" x2="1046" y2="834" stroke="#304259" stroke-width="0.5"/>
-<line x1="1126" y1="518" x2="1126" y2="834" stroke="#304259" stroke-width="0.5"/>
-<line x1="1206" y1="518" x2="1206" y2="834" stroke="#304259" stroke-width="0.5"/>
-<line x1="1286" y1="518" x2="1286" y2="834" stroke="#304259" stroke-width="0.5"/>
-<line x1="1366" y1="518" x2="1366" y2="834" stroke="#304259" stroke-width="0.5"/>
-<line x1="1446" y1="518" x2="1446" y2="834" stroke="#304259" stroke-width="0.5"/>
-<line x1="1526" y1="518" x2="1526" y2="834" stroke="#304259" stroke-width="0.5"/>
-<text data-role="slide-title" x="850" y="542" font-family="Arial" font-size="26" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="850" dy="0">Prioritize the changes that compound</tspan></text>
-<text data-role="caption" x="850" y="570" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="850" dy="0">Sequence decisions by value, confidence, dependency, and accountable ownership.</tspan></text>
-<rect x="850" y="604" width="374" height="54" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
-<rect x="850" y="604" width="8" height="54" rx="4" fill="#20C4E8" stroke="none" stroke-width="0"/>
-<text data-role="subheading" x="874" y="627" font-family="Arial" font-size="14" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="874" dy="0">Contain</tspan></text>
-<text data-role="annotation" x="874" y="646" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="874" dy="0">Owner: SRE · Now</tspan></text>
-<text data-role="metric" x="1200" y="635" font-family="Arial" font-size="18" font-weight="700" fill="#8EA1B6" text-anchor="end"><tspan x="1200" dy="0">01</tspan></text>
-<rect x="850" y="672" width="374" height="54" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
-<rect x="850" y="672" width="8" height="54" rx="4" fill="#5077FF" stroke="none" stroke-width="0"/>
-<text data-role="subheading" x="874" y="695" font-family="Arial" font-size="14" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="874" dy="0">Automate</tspan></text>
-<text data-role="annotation" x="874" y="714" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="874" dy="0">Owner: Infra · Q3</tspan></text>
-<text data-role="metric" x="1200" y="703" font-family="Arial" font-size="18" font-weight="700" fill="#8EA1B6" text-anchor="end"><tspan x="1200" dy="0">02</tspan></text>
-<rect x="850" y="740" width="374" height="54" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
-<rect x="850" y="740" width="8" height="54" rx="4" fill="#5077FF" stroke="none" stroke-width="0"/>
-<text data-role="subheading" x="874" y="763" font-family="Arial" font-size="14" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="874" dy="0">Harden</tspan></text>
-<text data-role="annotation" x="874" y="782" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="874" dy="0">Owner: Security · Q4</tspan></text>
-<text data-role="metric" x="1200" y="771" font-family="Arial" font-size="18" font-weight="700" fill="#8EA1B6" text-anchor="end"><tspan x="1200" dy="0">03</tspan></text>
-<text data-role="label" x="1262" y="592" font-family="Arial" font-size="10" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="1262" dy="0">VALUE / CONFIDENCE</tspan></text>
-<rect x="1262" y="604" width="274" height="190" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
-<line x1="1399" y1="616" x2="1399" y2="782" stroke="#304259" stroke-width="1"/>
-<line x1="1274" y1="699" x2="1524" y2="699" stroke="#304259" stroke-width="1"/>
-<text data-role="annotation" x="1282" y="632" font-family="Arial" font-size="9" font-weight="700" fill="#8EA1B6" text-anchor="start"><tspan x="1282" dy="0">EXPLORE</tspan></text>
-<text data-role="annotation" x="1419" y="632" font-family="Arial" font-size="9" font-weight="700" fill="#35C477" text-anchor="start"><tspan x="1419" dy="0">SCALE</tspan></text>
-<text data-role="annotation" x="1282" y="726" font-family="Arial" font-size="9" font-weight="700" fill="#8EA1B6" text-anchor="start"><tspan x="1282" dy="0">DEFER</tspan></text>
-<text data-role="annotation" x="1419" y="726" font-family="Arial" font-size="9" font-weight="700" fill="#F0B33A" text-anchor="start"><tspan x="1419" dy="0">PROVE</tspan></text>
-<circle cx="1466" cy="666" r="18" fill="#35C477"/>
-<circle cx="1442" cy="749" r="13" fill="#F0B33A"/>
-<circle cx="1346" cy="674" r="10" fill="#20C4E8"/>
-<rect x="850" y="814" width="686" height="24" rx="12" fill="#20C4E8" stroke="none" stroke-width="0"/>
-<text data-role="source" x="1193" y="831" font-family="Arial" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="1193" dy="0">ONE DECISION · THREE OWNERS · VISIBLE NEXT MILESTONE</tspan></text>
+<line x1="884" y1="512" x2="884" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="952" y1="512" x2="952" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="1020" y1="512" x2="1020" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="1088" y1="512" x2="1088" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="1156" y1="512" x2="1156" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="1224" y1="512" x2="1224" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="1292" y1="512" x2="1292" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="1360" y1="512" x2="1360" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="1428" y1="512" x2="1428" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="1496" y1="512" x2="1496" y2="842" stroke="#304259" stroke-width="0.55"/>
+<line x1="834" y1="552" x2="1558" y2="552" stroke="#304259" stroke-width="0.45"/>
+<line x1="834" y1="610" x2="1558" y2="610" stroke="#304259" stroke-width="0.45"/>
+<line x1="834" y1="668" x2="1558" y2="668" stroke="#304259" stroke-width="0.45"/>
+<line x1="834" y1="726" x2="1558" y2="726" stroke="#304259" stroke-width="0.45"/>
+<line x1="834" y1="784" x2="1558" y2="784" stroke="#304259" stroke-width="0.45"/>
+<circle cx="1306" cy="538" r="3" fill="#5077FF"/>
+<circle cx="1344" cy="564" r="3" fill="#5077FF"/>
+<line x1="1306" y1="538" x2="1344" y2="564" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="1382" cy="590" r="3" fill="#5077FF"/>
+<line x1="1344" y1="564" x2="1382" y2="590" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="1420" cy="538" r="3" fill="#5077FF"/>
+<line x1="1382" y1="590" x2="1420" y2="538" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="1458" cy="564" r="3" fill="#5077FF"/>
+<line x1="1420" y1="538" x2="1458" y2="564" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="1496" cy="590" r="3" fill="#5077FF"/>
+<line x1="1458" y1="564" x2="1496" y2="590" stroke="#20C4E8" stroke-width="1.2"/>
+<circle cx="1534" cy="538" r="3" fill="#5077FF"/>
+<line x1="1496" y1="590" x2="1534" y2="538" stroke="#20C4E8" stroke-width="1.2"/>
+<line x1="838" y1="506" x2="838" y2="480" stroke="#20C4E8" stroke-width="3"/>
+<line x1="838" y1="480" x2="908" y2="480" stroke="#20C4E8" stroke-width="3"/>
+<text data-role="label" x="850" y="494" font-family="Arial" font-size="10" font-weight="700" fill="#20C4E8" text-anchor="start"><tspan x="850" dy="0">DECISION / PRIORITY FIELD</tspan></text>
+<text data-role="page-number" x="1534" y="494" font-family="Arial" font-size="10" font-weight="700" fill="#8EA1B6" text-anchor="end"><tspan x="1534" dy="0">09</tspan></text>
+<text data-role="slide-title" x="850" y="542" font-family="Bahnschrift SemiCondensed, Arial Narrow, Arial, sans-serif" font-size="26" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="850" dy="0">Prioritize the changes that improve value, trust,</tspan><tspan x="850" dy="27.3">and execution</tspan></text>
+<text data-role="caption" x="850" y="596" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="850" dy="0">Illustrative priorities show hierarchy only; replace the recommendation, evidence, owner, milestone, and boundary.</tspan></text>
+<polygon points="850,612 1214,606 1224,656 860,662" fill="#101F33" stroke="#304259" stroke-width="1"/>
+<rect x="850" y="612" width="8" height="50" rx="0" fill="#20C4E8" stroke="none" stroke-width="0"/>
+<text data-role="subheading" x="874" y="634" font-family="Arial" font-size="14" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="874" dy="0">Contain</tspan></text>
+<text data-role="annotation" x="874" y="652" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="874" dy="0">Owner: SRE · Now</tspan></text>
+<text data-role="metric" x="1198" y="640" font-family="Bahnschrift SemiCondensed, Arial Narrow, Arial, sans-serif" font-size="18" font-weight="700" fill="#20C4E8" text-anchor="end"><tspan x="1198" dy="0">01</tspan></text>
+<polygon points="850,676 1214,670 1224,720 860,726" fill="#101F33" stroke="#304259" stroke-width="1"/>
+<rect x="850" y="676" width="8" height="50" rx="0" fill="#5077FF" stroke="none" stroke-width="0"/>
+<text data-role="subheading" x="874" y="698" font-family="Arial" font-size="14" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="874" dy="0">Automate</tspan></text>
+<text data-role="annotation" x="874" y="716" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="874" dy="0">Owner: Infra · Q3</tspan></text>
+<text data-role="metric" x="1198" y="704" font-family="Bahnschrift SemiCondensed, Arial Narrow, Arial, sans-serif" font-size="18" font-weight="700" fill="#20C4E8" text-anchor="end"><tspan x="1198" dy="0">02</tspan></text>
+<polygon points="850,740 1214,734 1224,784 860,790" fill="#101F33" stroke="#304259" stroke-width="1"/>
+<rect x="850" y="740" width="8" height="50" rx="0" fill="#5077FF" stroke="none" stroke-width="0"/>
+<text data-role="subheading" x="874" y="762" font-family="Arial" font-size="14" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="874" dy="0">Harden</tspan></text>
+<text data-role="annotation" x="874" y="780" font-family="Arial" font-size="9" font-weight="400" fill="#8EA1B6" text-anchor="start"><tspan x="874" dy="0">Owner: Security · Q4</tspan></text>
+<text data-role="metric" x="1198" y="768" font-family="Bahnschrift SemiCondensed, Arial Narrow, Arial, sans-serif" font-size="18" font-weight="700" fill="#20C4E8" text-anchor="end"><tspan x="1198" dy="0">03</tspan></text>
+<text data-role="label" x="1262" y="594" font-family="Arial" font-size="10" font-weight="700" fill="#E8F1FA" text-anchor="start"><tspan x="1262" dy="0">VALUE / CONFIDENCE</tspan></text>
+<rect x="1262" y="606" width="270" height="190" rx="4" fill="#101F33" stroke="#304259" stroke-width="1"/>
+<line x1="1397" y1="618" x2="1397" y2="784" stroke="#304259" stroke-width="1"/>
+<line x1="1274" y1="701" x2="1520" y2="701" stroke="#304259" stroke-width="1"/>
+<text data-role="annotation" x="1280" y="634" font-family="Arial" font-size="9" font-weight="700" fill="#8EA1B6" text-anchor="start"><tspan x="1280" dy="0">EXPLORE</tspan></text>
+<text data-role="annotation" x="1416" y="634" font-family="Arial" font-size="9" font-weight="700" fill="#35C477" text-anchor="start"><tspan x="1416" dy="0">SCALE</tspan></text>
+<text data-role="annotation" x="1280" y="726" font-family="Arial" font-size="9" font-weight="700" fill="#8EA1B6" text-anchor="start"><tspan x="1280" dy="0">DEFER</tspan></text>
+<text data-role="annotation" x="1416" y="726" font-family="Arial" font-size="9" font-weight="700" fill="#F0B33A" text-anchor="start"><tspan x="1416" dy="0">PROVE</tspan></text>
+<circle cx="1466" cy="668" r="20" fill="#35C477"/>
+<circle cx="1440" cy="751" r="14" fill="#F0B33A"/>
+<circle cx="1338" cy="676" r="10" fill="#20C4E8"/>
+<rect x="850" y="824" width="682" height="24" rx="12" fill="#20C4E8" stroke="none" stroke-width="0"/>
+<text data-role="source" x="1191" y="841" font-family="Arial" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="1191" dy="0">ONE DECISION · THREE OWNERS · ONE VISIBLE NEXT MILESTONE</tspan></text>
 </svg>

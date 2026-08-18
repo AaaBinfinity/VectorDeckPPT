@@ -4,80 +4,120 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#070A11" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="0" fill="#0D111B" stroke="#303746" stroke-width="1"/>
-<polygon points="550,0 760,0 760,146" fill="#2A0A18"/>
-<polygon points="646,0 760,0 760,76" fill="#FF1748"/>
-<line x1="200" y1="8" x2="10" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="254" y1="8" x2="64" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="308" y1="8" x2="118" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="362" y1="8" x2="172" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="416" y1="8" x2="226" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="470" y1="8" x2="280" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="524" y1="8" x2="334" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="578" y1="8" x2="388" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="632" y1="8" x2="442" y2="400" stroke="#303746" stroke-width="0.7"/>
-<line x1="686" y1="8" x2="496" y2="400" stroke="#303746" stroke-width="0.7"/>
-<circle cx="610" cy="48" r="2" fill="#6B1830"/>
-<circle cx="628" cy="48" r="3" fill="#6B1830"/>
-<circle cx="646" cy="48" r="2" fill="#6B1830"/>
-<circle cx="664" cy="48" r="3" fill="#6B1830"/>
-<circle cx="682" cy="48" r="2" fill="#6B1830"/>
-<circle cx="700" cy="48" r="3" fill="#6B1830"/>
-<circle cx="718" cy="48" r="2" fill="#6B1830"/>
-<circle cx="610" cy="66" r="2" fill="#6B1830"/>
-<circle cx="628" cy="66" r="3" fill="#6B1830"/>
-<circle cx="646" cy="66" r="2" fill="#6B1830"/>
-<circle cx="664" cy="66" r="3" fill="#6B1830"/>
-<circle cx="682" cy="66" r="2" fill="#6B1830"/>
-<circle cx="700" cy="66" r="3" fill="#6B1830"/>
-<circle cx="718" cy="66" r="2" fill="#6B1830"/>
-<circle cx="610" cy="84" r="2" fill="#6B1830"/>
-<circle cx="628" cy="84" r="3" fill="#6B1830"/>
-<circle cx="646" cy="84" r="2" fill="#6B1830"/>
-<circle cx="664" cy="84" r="3" fill="#6B1830"/>
-<circle cx="682" cy="84" r="2" fill="#6B1830"/>
-<circle cx="700" cy="84" r="3" fill="#6B1830"/>
-<circle cx="718" cy="84" r="2" fill="#6B1830"/>
-<circle cx="610" cy="102" r="2" fill="#6B1830"/>
-<circle cx="628" cy="102" r="3" fill="#6B1830"/>
-<circle cx="646" cy="102" r="2" fill="#6B1830"/>
-<circle cx="664" cy="102" r="3" fill="#6B1830"/>
-<circle cx="682" cy="102" r="2" fill="#6B1830"/>
-<circle cx="700" cy="102" r="3" fill="#6B1830"/>
-<circle cx="718" cy="102" r="2" fill="#6B1830"/>
+<polygon points="524,0 760,0 760,210" fill="#280817"/>
+<polygon points="650,0 760,0 760,96" fill="#FF1748"/>
+<polygon points="610,400 760,270 760,400" fill="#150710"/>
+<line x1="130" y1="8" x2="-78" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="184" y1="8" x2="-24" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="238" y1="8" x2="30" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="292" y1="8" x2="84" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="346" y1="8" x2="138" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="400" y1="8" x2="192" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="454" y1="8" x2="246" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="508" y1="8" x2="300" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="562" y1="8" x2="354" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="616" y1="8" x2="408" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="670" y1="8" x2="462" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="724" y1="8" x2="516" y2="400" stroke="#303746" stroke-width="0.8"/>
+<line x1="778" y1="8" x2="570" y2="400" stroke="#303746" stroke-width="0.8"/>
+<circle cx="574" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="591" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="608" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="625" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="642" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="659" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="676" cy="42" r="1.5" fill="#7D1B38"/>
+<circle cx="693" cy="42" r="2.2" fill="#7D1B38"/>
+<circle cx="710" cy="42" r="2.9" fill="#7D1B38"/>
+<circle cx="574" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="591" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="608" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="625" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="642" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="659" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="676" cy="59" r="2.2" fill="#7D1B38"/>
+<circle cx="693" cy="59" r="2.9" fill="#7D1B38"/>
+<circle cx="710" cy="59" r="1.5" fill="#7D1B38"/>
+<circle cx="574" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="591" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="608" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="625" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="642" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="659" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="676" cy="76" r="2.9" fill="#7D1B38"/>
+<circle cx="693" cy="76" r="1.5" fill="#7D1B38"/>
+<circle cx="710" cy="76" r="2.2" fill="#7D1B38"/>
+<circle cx="574" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="591" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="608" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="625" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="642" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="659" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="676" cy="93" r="1.5" fill="#7D1B38"/>
+<circle cx="693" cy="93" r="2.2" fill="#7D1B38"/>
+<circle cx="710" cy="93" r="2.9" fill="#7D1B38"/>
+<circle cx="574" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="591" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="608" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="625" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="642" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="659" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="676" cy="110" r="2.2" fill="#7D1B38"/>
+<circle cx="693" cy="110" r="2.9" fill="#7D1B38"/>
+<circle cx="710" cy="110" r="1.5" fill="#7D1B38"/>
+<circle cx="574" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="591" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="608" cy="127" r="2.2" fill="#7D1B38"/>
+<circle cx="625" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="642" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="659" cy="127" r="2.2" fill="#7D1B38"/>
+<circle cx="676" cy="127" r="2.9" fill="#7D1B38"/>
+<circle cx="693" cy="127" r="1.5" fill="#7D1B38"/>
+<circle cx="710" cy="127" r="2.2" fill="#7D1B38"/>
+<line x1="470" y1="226" x2="748" y2="124" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="245" x2="748" y2="152" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="264" x2="748" y2="180" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="283" x2="748" y2="208" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="302" x2="748" y2="236" stroke="#6C3143" stroke-width="0.8"/>
+<line x1="470" y1="321" x2="748" y2="264" stroke="#6C3143" stroke-width="0.8"/>
 <rect x="0" y="0" width="760" height="6" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
-<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">EVIDENCE</tspan></text>
+<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">EVIDENCE / SIGNAL BOARD</tspan></text>
 <text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#A6ADBC" text-anchor="end"><tspan x="714" dy="0">06</tspan></text>
-<text data-role="slide-title" x="34" y="82" font-family="Impact" font-size="26" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="34" dy="0">The signal improves when the handoff becomes visible</tspan></text>
-<text data-role="caption" x="34" y="110" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="34" dy="0">Illustrative values demonstrate hierarchy only; replace every number and label.</tspan></text>
-<text data-role="metric" x="34" y="158" font-family="Impact" font-size="24" font-weight="700" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">87%</tspan></text>
-<text data-role="label" x="132" y="156" font-family="Arial" font-size="10" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="132" dy="0">signal strength</tspan></text>
-<text data-role="annotation" x="132" y="174" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="132" dy="0">Observed movement · sample period</tspan></text>
-<line x1="34" y1="186" x2="246" y2="186" stroke="#303746" stroke-width="1"/>
-<text data-role="metric" x="34" y="224" font-family="Impact" font-size="24" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="34" dy="0">04</tspan></text>
-<text data-role="label" x="132" y="222" font-family="Arial" font-size="10" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="132" dy="0">critical moments</tspan></text>
-<text data-role="annotation" x="132" y="240" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="132" dy="0">Observed movement · sample period</tspan></text>
-<line x1="34" y1="252" x2="246" y2="252" stroke="#303746" stroke-width="1"/>
-<text data-role="metric" x="34" y="290" font-family="Impact" font-size="24" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="34" dy="0">24h</tspan></text>
-<text data-role="label" x="132" y="288" font-family="Arial" font-size="10" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="132" dy="0">response window</tspan></text>
-<text data-role="annotation" x="132" y="306" font-family="Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="132" dy="0">Observed movement · sample period</tspan></text>
-<line x1="34" y1="318" x2="246" y2="318" stroke="#303746" stroke-width="1"/>
-<rect x="292" y="148" width="428" height="158" rx="0" fill="#171D28" stroke="#303746" stroke-width="1"/>
-<text data-role="label" x="310" y="176" font-family="Arial" font-size="10" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="310" dy="0">TREND INDEX · BASE 100</tspan></text>
-<line x1="310" y1="202" x2="702" y2="202" stroke="#303746" stroke-width="1"/>
-<line x1="310" y1="228" x2="702" y2="228" stroke="#303746" stroke-width="1"/>
-<line x1="310" y1="254" x2="702" y2="254" stroke="#303746" stroke-width="1"/>
-<line x1="310" y1="280" x2="702" y2="280" stroke="#303746" stroke-width="1"/>
-<polyline points="316,274 374,260 432,266 490,236 548,226 606,200 684,186" fill="none" stroke="#FF1748" stroke-width="4"/>
-<circle cx="316" cy="274" r="5" fill="#FF1748"/>
-<circle cx="374" cy="260" r="5" fill="#FF1748"/>
-<circle cx="432" cy="266" r="5" fill="#FF1748"/>
-<circle cx="490" cy="236" r="5" fill="#FF1748"/>
-<circle cx="548" cy="226" r="5" fill="#FF1748"/>
-<circle cx="606" cy="200" r="5" fill="#FF1748"/>
-<circle cx="684" cy="186" r="5" fill="#FF1748"/>
-<rect x="292" y="326" width="428" height="42" rx="0" fill="#171D28" stroke="#303746" stroke-width="1"/>
-<text data-role="label" x="310" y="352" font-family="Arial" font-size="10" font-weight="700" fill="#7ACBFF" text-anchor="start"><tspan x="310" dy="0">INTERPRETATION</tspan></text>
-<text data-role="annotation" x="430" y="352" font-family="Arial" font-size="9" font-weight="400" fill="#F7F8FC" text-anchor="start"><tspan x="430" dy="0">The largest gain appears after ownership and review criteria become explicit.</tspan></text>
+<rect x="34" y="54" width="44" height="5" rx="0" fill="#FF1748" stroke="none" stroke-width="0"/>
+<text data-role="slide-title" x="34" y="88" font-family="Impact, Microsoft YaHei, Arial" font-size="26" font-weight="900" fill="#F7F8FC" text-anchor="start"><tspan x="34" dy="0">证据不是装饰：它必须改变下一步判断</tspan></text>
+<text data-role="caption" x="34" y="116" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="34" dy="0">以下数字仅用于演示信息层级；实际使用时必须替换为可追溯的真实数据、单位、时间和来源。</tspan></text>
+<text data-role="metric" x="34" y="178" font-family="Impact" font-size="28" font-weight="900" fill="#FF1748" text-anchor="start"><tspan x="34" dy="0">87%</tspan></text>
+<text data-role="label" x="128" y="170" font-family="Microsoft YaHei, Arial" font-size="10" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="128" dy="0">示例就绪度</tspan></text>
+<text data-role="annotation" x="128" y="192" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="128" dy="0">复核标准明确后，信号强度上升</tspan></text>
+<line x1="34" y1="208" x2="272" y2="208" stroke="#303746" stroke-width="1"/>
+<text data-role="metric" x="34" y="246" font-family="Impact" font-size="28" font-weight="900" fill="#F7F8FC" text-anchor="start"><tspan x="34" dy="0">04</tspan></text>
+<text data-role="label" x="128" y="238" font-family="Microsoft YaHei, Arial" font-size="10" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="128" dy="0">关键窗口</tspan></text>
+<text data-role="annotation" x="128" y="260" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="128" dy="0">需要人工确认的高风险节点</tspan></text>
+<line x1="34" y1="276" x2="272" y2="276" stroke="#303746" stroke-width="1"/>
+<text data-role="metric" x="34" y="314" font-family="Impact" font-size="28" font-weight="900" fill="#F7F8FC" text-anchor="start"><tspan x="34" dy="0">24h</tspan></text>
+<text data-role="label" x="128" y="306" font-family="Microsoft YaHei, Arial" font-size="10" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="128" dy="0">响应周期</tspan></text>
+<text data-role="annotation" x="128" y="328" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="128" dy="0">从识别到责任人确认的示例时间</tspan></text>
+<line x1="34" y1="344" x2="272" y2="344" stroke="#303746" stroke-width="1"/>
+<rect x="306" y="148" width="414" height="174" rx="0" fill="#121824" stroke="#303746" stroke-width="1"/>
+<text data-role="label" x="324" y="176" font-family="Arial" font-size="10" font-weight="700" fill="#F7F8FC" text-anchor="start"><tspan x="324" dy="0">RESPONSE SIGNAL · INDEXED EXAMPLE</tspan></text>
+<text data-role="annotation" x="702" y="176" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="end"><tspan x="702" dy="0">BASE 100</tspan></text>
+<line x1="324" y1="202" x2="702" y2="202" stroke="#303746" stroke-width="1"/>
+<line x1="324" y1="232" x2="702" y2="232" stroke="#303746" stroke-width="1"/>
+<line x1="324" y1="262" x2="702" y2="262" stroke="#303746" stroke-width="1"/>
+<line x1="324" y1="292" x2="702" y2="292" stroke="#303746" stroke-width="1"/>
+<polyline points="330,290 388,274 446,282 508,244 570,232 632,200 694,188" fill="none" stroke="#FF1748" stroke-width="5"/>
+<circle cx="330" cy="290" r="5" fill="#FF1748"/>
+<circle cx="388" cy="274" r="5" fill="#FF1748"/>
+<circle cx="446" cy="282" r="5" fill="#FF1748"/>
+<circle cx="508" cy="244" r="5" fill="#FF1748"/>
+<circle cx="570" cy="232" r="5" fill="#FF1748"/>
+<circle cx="632" cy="200" r="5" fill="#FF1748"/>
+<circle cx="694" cy="188" r="5" fill="#FF1748"/>
+<rect x="306" y="340" width="414" height="46" rx="0" fill="#080B12" stroke="#303746" stroke-width="1"/>
+<text data-role="label" x="324" y="360" font-family="Arial" font-size="10" font-weight="700" fill="#7ACBFF" text-anchor="start"><tspan x="324" dy="0">INTERPRETATION</tspan></text>
+<text data-role="annotation" x="430" y="354" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#F7F8FC" text-anchor="start"><tspan x="430" dy="0">责任人与复核条件同时明确，</tspan><tspan x="430" dy="11.25">响应信号出现最大改善。</tspan></text>
+<text data-role="label" x="324" y="378" font-family="Arial" font-size="10" font-weight="700" fill="#FFBF3C" text-anchor="start"><tspan x="324" dy="0">SOURCE / PERIOD</tspan></text>
+<text data-role="annotation" x="430" y="378" font-family="Microsoft YaHei, Arial" font-size="9" font-weight="400" fill="#A6ADBC" text-anchor="start"><tspan x="430" dy="0">补充真实来源、统计口径、样本范围与时间区间。</tspan></text>
 <text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#A6ADBC" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
 </g>
 </svg>

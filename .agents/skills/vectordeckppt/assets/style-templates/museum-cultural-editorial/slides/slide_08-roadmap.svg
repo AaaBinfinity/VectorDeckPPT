@@ -4,34 +4,37 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#201A17" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="0" fill="#2A211D" stroke="#5B493F" stroke-width="1"/>
-<rect x="0" y="0" width="760" height="6" rx="0" fill="#A43B2F" stroke="none" stroke-width="0"/>
+<circle cx="642" cy="210" r="112" fill="#332722" stroke="#C6A565" stroke-width="1.5"/>
+<circle cx="642" cy="210" r="78" fill="#221A17" stroke="#6E5548" stroke-width="8"/>
+<polygon points="642,136 684,174 674,254 642,300 610,254 600,174" fill="#A43B2F" stroke="#C6A565" stroke-width="3"/>
+<line x1="42" y1="336" x2="420" y2="336" stroke="#5B493F" stroke-width="1"/>
 <text data-role="label" x="34" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#A43B2F" text-anchor="start"><tspan x="34" dy="0">ROADMAP / OWNERSHIP</tspan></text>
-<text data-role="page-number" x="714" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#B8ACA0" text-anchor="end"><tspan x="714" dy="0">08</tspan></text>
-<text data-role="slide-title" x="34" y="82" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="34" dy="0">Sequence work by proof, dependency, and owner</tspan></text>
-<text data-role="caption" x="34" y="110" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="34" dy="0">A useful roadmap shows what becomes true at each milestone, not only a list of activities.</tspan></text>
-<line x1="64" y1="214" x2="698" y2="214" stroke="#5B493F" stroke-width="4"/>
-<circle cx="74" cy="214" r="18" fill="#A43B2F" stroke="#A43B2F" stroke-width="3"/>
-<text data-role="page-number" x="74" y="219" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="74" dy="0">01</tspan></text>
-<text data-role="subheading" x="56" y="258" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="56" dy="0">FRAME</tspan></text>
-<text data-role="body" x="56" y="284" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="56" dy="0">Confirm decision, baseline,</tspan><tspan x="56" dy="12.6">and success measure</tspan></text>
-<text data-role="annotation" x="56" y="338" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="56" dy="0">OWNER A · W1</tspan></text>
-<circle cx="244" cy="214" r="18" fill="#F3EBDD" stroke="#A43B2F" stroke-width="3"/>
-<text data-role="page-number" x="244" y="219" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#A43B2F" text-anchor="middle"><tspan x="244" dy="0">02</tspan></text>
-<text data-role="subheading" x="226" y="258" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="226" dy="0">PROVE</tspan></text>
-<text data-role="body" x="226" y="284" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="226" dy="0">Test the critical mechanism</tspan><tspan x="226" dy="12.6">with visible evidence</tspan></text>
-<text data-role="annotation" x="226" y="338" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="226" dy="0">OWNER B · W2–3</tspan></text>
-<circle cx="414" cy="214" r="18" fill="#F3EBDD" stroke="#A43B2F" stroke-width="3"/>
-<text data-role="page-number" x="414" y="219" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#A43B2F" text-anchor="middle"><tspan x="414" dy="0">03</tspan></text>
-<text data-role="subheading" x="396" y="258" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="396" dy="0">ENABLE</tspan></text>
-<text data-role="body" x="396" y="284" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="396" dy="0">Document workflow, roles,</tspan><tspan x="396" dy="12.6">and acceptance criteria</tspan></text>
-<text data-role="annotation" x="396" y="338" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="396" dy="0">OWNER C · W4</tspan></text>
-<circle cx="584" cy="214" r="18" fill="#F3EBDD" stroke="#A43B2F" stroke-width="3"/>
-<text data-role="page-number" x="584" y="219" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#A43B2F" text-anchor="middle"><tspan x="584" dy="0">04</tspan></text>
-<text data-role="subheading" x="566" y="258" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="566" dy="0">SCALE</tspan></text>
-<text data-role="body" x="566" y="284" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="566" dy="0">Expand only after quality</tspan><tspan x="566" dy="12.6">and value signals hold</tspan></text>
-<text data-role="annotation" x="566" y="338" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="566" dy="0">OWNER D · Q+1</tspan></text>
-<rect x="34" y="354" width="686" height="24" rx="12" fill="#A43B2F" stroke="none" stroke-width="0"/>
-<text data-role="source" x="377" y="371" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="377" dy="0">EACH PHASE ENDS WITH A REVIEWABLE ARTIFACT, A DECISION, AND A NAMED OWNER</tspan></text>
+<text data-role="page-number" x="718" y="34" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#B8ACA0" text-anchor="end"><tspan x="718" dy="0">08</tspan></text>
+<text data-role="slide-title" x="34" y="82" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="34" dy="0">从建档、解释到参与，形成公共路径</tspan></text>
+<text data-role="caption" x="34" y="110" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#B8ACA0" text-anchor="start"><tspan x="34" dy="0">Each phase ends with a reviewable artifact, a named owner, an acceptance condition, and a decision.</tspan></text>
+<polyline points="108,196 280,272 452,196 624,272" fill="none" stroke="#5B493F" stroke-width="5"/>
+<circle cx="108" cy="196" r="34" fill="#A43B2F" stroke="#A43B2F" stroke-width="3"/>
+<text data-role="metric" x="108" y="203" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="108" dy="0">01</tspan></text>
+<text data-role="subheading" x="68" y="254" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="68" dy="0">FRAME</tspan></text>
+<text data-role="body" x="68" y="278" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#F5EFE4" text-anchor="start"><tspan x="68" dy="0">Decision + baseline</tspan></text>
+<text data-role="annotation" x="68" y="300" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="68" dy="0">OWNER A · W1</tspan></text>
+<circle cx="280" cy="272" r="34" fill="#F3EBDD" stroke="#A43B2F" stroke-width="3"/>
+<text data-role="metric" x="280" y="279" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" font-weight="700" fill="#A43B2F" text-anchor="middle"><tspan x="280" dy="0">02</tspan></text>
+<text data-role="subheading" x="240" y="330" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="240" dy="0">PROVE</tspan></text>
+<text data-role="body" x="240" y="354" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#F5EFE4" text-anchor="start"><tspan x="240" dy="0">Critical mechanism</tspan></text>
+<text data-role="annotation" x="240" y="376" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="240" dy="0">OWNER B · W2–3</tspan></text>
+<circle cx="452" cy="196" r="34" fill="#F3EBDD" stroke="#A43B2F" stroke-width="3"/>
+<text data-role="metric" x="452" y="203" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" font-weight="700" fill="#A43B2F" text-anchor="middle"><tspan x="452" dy="0">03</tspan></text>
+<text data-role="subheading" x="412" y="254" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="412" dy="0">ENABLE</tspan></text>
+<text data-role="body" x="412" y="278" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#F5EFE4" text-anchor="start"><tspan x="412" dy="0">Workflow + criteria</tspan></text>
+<text data-role="annotation" x="412" y="300" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="412" dy="0">OWNER C · W4</tspan></text>
+<circle cx="624" cy="272" r="34" fill="#F3EBDD" stroke="#A43B2F" stroke-width="3"/>
+<text data-role="metric" x="624" y="279" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" font-weight="700" fill="#A43B2F" text-anchor="middle"><tspan x="624" dy="0">04</tspan></text>
+<text data-role="subheading" x="584" y="330" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#F5EFE4" text-anchor="start"><tspan x="584" dy="0">SCALE</tspan></text>
+<text data-role="body" x="584" y="354" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="400" fill="#F5EFE4" text-anchor="start"><tspan x="584" dy="0">Value + quality hold</tspan></text>
+<text data-role="annotation" x="584" y="376" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#C6A565" text-anchor="start"><tspan x="584" dy="0">OWNER D · Q+1</tspan></text>
+<rect x="34" y="364" width="682" height="24" rx="12" fill="#A43B2F" stroke="none" stroke-width="0"/>
+<text data-role="source" x="375" y="381" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="375" dy="0">ARTIFACT · OWNER · ACCEPTANCE · DECISION · NEXT DEPENDENCY</tspan></text>
 <text data-role="source" x="724" y="392" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#B8ACA0" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
 </g>
 </svg>

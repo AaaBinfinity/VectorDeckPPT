@@ -4,23 +4,58 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#111111" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="0" fill="#FFF4DE" stroke="#111111" stroke-width="1"/>
-<rect x="0" y="0" width="760" height="6" rx="0" fill="#2449E8" stroke="none" stroke-width="0"/>
-<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="34" dy="0">RESOLUTION</tspan></text>
-<text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="714" dy="0">10</tspan></text>
-<polygon points="590,0 760,0 760,150" fill="#F44C3A"/>
-<polygon points="650,400 760,250 760,400" fill="#F4B51D"/>
-<text data-role="deck-title" x="54" y="142" font-family="Arial" font-size="46" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="54" dy="0">End with one clear move</tspan></text>
-<text data-role="subheading" x="58" y="194" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="58" dy="0">Resolve the argument into an owner, a milestone, and a visible next decision.</tspan></text>
-<line x1="58" y1="222" x2="704" y2="222" stroke="#111111" stroke-width="2"/>
-<text data-role="metric" x="58" y="274" font-family="Arial" font-size="24" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="58" dy="0">01</tspan></text>
-<text data-role="subheading" x="58" y="308" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="58" dy="0">DECISION</tspan></text>
-<text data-role="body" x="58" y="334" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="58" dy="0">Name what must be approved</tspan></text>
-<text data-role="metric" x="274" y="274" font-family="Arial" font-size="24" font-weight="700" fill="#F44C3A" text-anchor="start"><tspan x="274" dy="0">02</tspan></text>
-<text data-role="subheading" x="274" y="308" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="274" dy="0">OWNER</tspan></text>
-<text data-role="body" x="274" y="334" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="274" dy="0">Make accountability visible</tspan></text>
-<text data-role="metric" x="490" y="274" font-family="Arial" font-size="24" font-weight="700" fill="#F44C3A" text-anchor="start"><tspan x="490" dy="0">03</tspan></text>
-<text data-role="subheading" x="490" y="308" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="490" dy="0">MILESTONE</tspan></text>
-<text data-role="body" x="490" y="334" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="490" dy="0">Define the next proof point</tspan></text>
+<polygon points="566,0 760,0 760,152" fill="#F44C3A"/>
+<polygon points="0,308 136,400 0,400" fill="#2449E8"/>
+<polygon points="642,400 760,246 760,400" fill="#F4B51D"/>
+<circle cx="520" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="520" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="520" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="520" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="34" dy="0">RESOLUTION / NEXT MOVE</tspan></text>
+<text data-role="page-number" x="718" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="718" dy="0">10</tspan></text>
+<text data-role="deck-title" x="54" y="126" font-family="Impact, Arial Black, Arial, sans-serif" font-size="42" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="54" dy="0">Make participation the final</tspan><tspan x="54" dy="42.84">visual</tspan></text>
+<text data-role="subheading" x="58" y="220" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="58" dy="0">Give the audience a role, a moment, and a reason to carry the idea</tspan><tspan x="58" dy="18.2">forward.</tspan></text>
+<line x1="58" y1="258" x2="704" y2="258" stroke="#2449E8" stroke-width="2"/>
+<text data-role="metric" x="58" y="298" font-family="Impact, Arial Black, Arial, sans-serif" font-size="24" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="58" dy="0">01</tspan></text>
+<text data-role="subheading" x="58" y="330" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="58" dy="0">ROLE</tspan></text>
+<text data-role="body" x="58" y="354" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="58" dy="0">What the audience can do</tspan></text>
+<line x1="58" y1="372" x2="236" y2="372" stroke="#111111" stroke-width="1"/>
+<text data-role="metric" x="274" y="298" font-family="Impact, Arial Black, Arial, sans-serif" font-size="24" font-weight="700" fill="#F44C3A" text-anchor="start"><tspan x="274" dy="0">02</tspan></text>
+<text data-role="subheading" x="274" y="330" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="274" dy="0">MOMENT</tspan></text>
+<text data-role="body" x="274" y="354" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="274" dy="0">Where participation begins</tspan></text>
+<line x1="274" y1="372" x2="452" y2="372" stroke="#111111" stroke-width="1"/>
+<text data-role="metric" x="490" y="298" font-family="Impact, Arial Black, Arial, sans-serif" font-size="24" font-weight="700" fill="#F44C3A" text-anchor="start"><tspan x="490" dy="0">03</tspan></text>
+<text data-role="subheading" x="490" y="330" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="490" dy="0">REASON</tspan></text>
+<text data-role="body" x="490" y="354" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="490" dy="0">Why the idea travels</tspan></text>
+<line x1="490" y1="372" x2="668" y2="372" stroke="#111111" stroke-width="1"/>
 <text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
 </g>
 </svg>

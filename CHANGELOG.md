@@ -4,6 +4,16 @@ All notable changes to VectorDeckPPT are documented in this file.
 
 ## [Unreleased]
 
+### Changed
+
+- Rebuilt all twelve bundled families and all 120 full-size template pages as richer role-specific systems rather than shared sparse layouts with palette swaps. Every family now has distinct cover, section, narrative, context, process, evidence, comparison, roadmap, decision, and close compositions.
+- Deepened each family's own visual grammar: luminous orbital systems, blueprint topology, editorial columns, expressive poster fields, documentary landscapes, measured data grids, restrained portfolio rings, product-interface stories, forest mosaics, silk-and-ink ribbons, museum object archives, and the original Dynamic Hero urban-response narrative.
+- Strengthened the template quality contract and regression tests: every family must keep ten distinguishable page silhouettes, family signature sequences and narratives must remain distinct, and the full library must pass strict typography and SVG validation.
+
+### Documentation
+
+- Expanded the Skill, template catalog, README, usage guide, and PRD with all-family scope rules, reference-abstraction criteria, 120-page richness requirements, typography consistency, and explicit intellectual-property boundaries.
+
 ## [1.2.0] - 2026-08-13
 
 ### Added

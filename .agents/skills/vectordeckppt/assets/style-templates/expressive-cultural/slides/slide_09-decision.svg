@@ -4,41 +4,73 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#111111" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="0" fill="#FFF4DE" stroke="#111111" stroke-width="1"/>
-<rect x="0" y="0" width="760" height="6" rx="0" fill="#2449E8" stroke="none" stroke-width="0"/>
-<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="34" dy="0">SYNTHESIS</tspan></text>
-<text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="714" dy="0">09</tspan></text>
-<polygon points="590,0 760,0 760,150" fill="#F44C3A"/>
-<polygon points="650,400 760,250 760,400" fill="#F4B51D"/>
-<text data-role="slide-title" x="34" y="82" font-family="Arial" font-size="26" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="34" dy="0">Prioritize the changes that compound</tspan></text>
-<text data-role="caption" x="34" y="110" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="34" dy="0">Sequence decisions by value, confidence, dependency, and accountable ownership.</tspan></text>
-<rect x="34" y="144" width="374" height="54" rx="0" fill="#F3E6CC" stroke="#111111" stroke-width="1"/>
-<rect x="34" y="144" width="8" height="54" rx="0" fill="#2449E8" stroke="none" stroke-width="0"/>
-<text data-role="subheading" x="58" y="167" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="58" dy="0">Reveal</tspan></text>
-<text data-role="annotation" x="58" y="186" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="58" dy="0">Story · Week 1</tspan></text>
-<text data-role="metric" x="384" y="175" font-family="Arial" font-size="18" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="384" dy="0">01</tspan></text>
-<rect x="34" y="212" width="374" height="54" rx="0" fill="#F3E6CC" stroke="#111111" stroke-width="1"/>
-<rect x="34" y="212" width="8" height="54" rx="0" fill="#F44C3A" stroke="none" stroke-width="0"/>
-<text data-role="subheading" x="58" y="235" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="58" dy="0">Mobilize</tspan></text>
-<text data-role="annotation" x="58" y="254" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="58" dy="0">Community · Week 2</tspan></text>
-<text data-role="metric" x="384" y="243" font-family="Arial" font-size="18" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="384" dy="0">02</tspan></text>
-<rect x="34" y="280" width="374" height="54" rx="0" fill="#F3E6CC" stroke="#111111" stroke-width="1"/>
-<rect x="34" y="280" width="8" height="54" rx="0" fill="#F44C3A" stroke="none" stroke-width="0"/>
-<text data-role="subheading" x="58" y="303" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="58" dy="0">Sustain</tspan></text>
-<text data-role="annotation" x="58" y="322" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="58" dy="0">Program · Week 4</tspan></text>
-<text data-role="metric" x="384" y="311" font-family="Arial" font-size="18" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="384" dy="0">03</tspan></text>
-<text data-role="label" x="446" y="132" font-family="Arial" font-size="10" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="446" dy="0">VALUE / CONFIDENCE</tspan></text>
-<rect x="446" y="144" width="274" height="190" rx="0" fill="#F3E6CC" stroke="#111111" stroke-width="1"/>
-<line x1="583" y1="156" x2="583" y2="322" stroke="#111111" stroke-width="1"/>
-<line x1="458" y1="239" x2="708" y2="239" stroke="#111111" stroke-width="1"/>
-<text data-role="annotation" x="466" y="172" font-family="Arial" font-size="9" font-weight="700" fill="#534C44" text-anchor="start"><tspan x="466" dy="0">EXPLORE</tspan></text>
-<text data-role="annotation" x="603" y="172" font-family="Arial" font-size="9" font-weight="700" fill="#1C8B63" text-anchor="start"><tspan x="603" dy="0">SCALE</tspan></text>
-<text data-role="annotation" x="466" y="266" font-family="Arial" font-size="9" font-weight="700" fill="#534C44" text-anchor="start"><tspan x="466" dy="0">DEFER</tspan></text>
-<text data-role="annotation" x="603" y="266" font-family="Arial" font-size="9" font-weight="700" fill="#F4B51D" text-anchor="start"><tspan x="603" dy="0">PROVE</tspan></text>
-<circle cx="650" cy="206" r="18" fill="#1C8B63"/>
-<circle cx="626" cy="289" r="13" fill="#F4B51D"/>
-<circle cx="530" cy="214" r="10" fill="#2449E8"/>
-<rect x="34" y="354" width="686" height="24" rx="12" fill="#2449E8" stroke="none" stroke-width="0"/>
-<text data-role="source" x="377" y="371" font-family="Arial" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="377" dy="0">ONE DECISION · THREE OWNERS · VISIBLE NEXT MILESTONE</tspan></text>
+<polygon points="566,0 760,0 760,152" fill="#F44C3A"/>
+<polygon points="0,308 136,400 0,400" fill="#2449E8"/>
+<polygon points="642,400 760,246 760,400" fill="#F4B51D"/>
+<circle cx="520" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="192" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="520" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="210" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="520" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="228" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="520" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="538" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="556" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="574" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="592" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="610" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="628" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<circle cx="646" cy="246" r="2" fill="#2449E8" opacity="0.45"/>
+<text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#2449E8" text-anchor="start"><tspan x="34" dy="0">DECISION / PRIORITY FIELD</tspan></text>
+<text data-role="page-number" x="718" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="718" dy="0">09</tspan></text>
+<text data-role="slide-title" x="34" y="82" font-family="Impact, Arial Black, Arial, sans-serif" font-size="26" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="34" dy="0">Prioritize the changes that improve value, trust,</tspan><tspan x="34" dy="27.3">and execution</tspan></text>
+<text data-role="caption" x="34" y="136" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="34" dy="0">Illustrative priorities show hierarchy only; replace the recommendation, evidence, owner, milestone, and boundary.</tspan></text>
+<polygon points="34,152 398,146 408,196 44,202" fill="#F3E6CC" stroke="#111111" stroke-width="1"/>
+<rect x="34" y="152" width="8" height="50" rx="0" fill="#2449E8" stroke="none" stroke-width="0"/>
+<text data-role="subheading" x="58" y="174" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="58" dy="0">Reveal</tspan></text>
+<text data-role="annotation" x="58" y="192" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="58" dy="0">Story · Week 1</tspan></text>
+<text data-role="metric" x="382" y="180" font-family="Impact, Arial Black, Arial, sans-serif" font-size="18" font-weight="700" fill="#2449E8" text-anchor="end"><tspan x="382" dy="0">01</tspan></text>
+<polygon points="34,216 398,210 408,260 44,266" fill="#F3E6CC" stroke="#111111" stroke-width="1"/>
+<rect x="34" y="216" width="8" height="50" rx="0" fill="#F44C3A" stroke="none" stroke-width="0"/>
+<text data-role="subheading" x="58" y="238" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="58" dy="0">Mobilize</tspan></text>
+<text data-role="annotation" x="58" y="256" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="58" dy="0">Community · Week 2</tspan></text>
+<text data-role="metric" x="382" y="244" font-family="Impact, Arial Black, Arial, sans-serif" font-size="18" font-weight="700" fill="#2449E8" text-anchor="end"><tspan x="382" dy="0">02</tspan></text>
+<polygon points="34,280 398,274 408,324 44,330" fill="#F3E6CC" stroke="#111111" stroke-width="1"/>
+<rect x="34" y="280" width="8" height="50" rx="0" fill="#F44C3A" stroke="none" stroke-width="0"/>
+<text data-role="subheading" x="58" y="302" font-family="Arial" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="58" dy="0">Sustain</tspan></text>
+<text data-role="annotation" x="58" y="320" font-family="Arial" font-size="9" font-weight="400" fill="#534C44" text-anchor="start"><tspan x="58" dy="0">Program · Week 4</tspan></text>
+<text data-role="metric" x="382" y="308" font-family="Impact, Arial Black, Arial, sans-serif" font-size="18" font-weight="700" fill="#2449E8" text-anchor="end"><tspan x="382" dy="0">03</tspan></text>
+<text data-role="label" x="446" y="134" font-family="Arial" font-size="10" font-weight="700" fill="#0A0A0A" text-anchor="start"><tspan x="446" dy="0">VALUE / CONFIDENCE</tspan></text>
+<rect x="446" y="146" width="270" height="190" rx="0" fill="#F3E6CC" stroke="#111111" stroke-width="1"/>
+<line x1="581" y1="158" x2="581" y2="324" stroke="#111111" stroke-width="1"/>
+<line x1="458" y1="241" x2="704" y2="241" stroke="#111111" stroke-width="1"/>
+<text data-role="annotation" x="464" y="174" font-family="Arial" font-size="9" font-weight="700" fill="#534C44" text-anchor="start"><tspan x="464" dy="0">EXPLORE</tspan></text>
+<text data-role="annotation" x="600" y="174" font-family="Arial" font-size="9" font-weight="700" fill="#1C8B63" text-anchor="start"><tspan x="600" dy="0">SCALE</tspan></text>
+<text data-role="annotation" x="464" y="266" font-family="Arial" font-size="9" font-weight="700" fill="#534C44" text-anchor="start"><tspan x="464" dy="0">DEFER</tspan></text>
+<text data-role="annotation" x="600" y="266" font-family="Arial" font-size="9" font-weight="700" fill="#F4B51D" text-anchor="start"><tspan x="600" dy="0">PROVE</tspan></text>
+<circle cx="650" cy="208" r="20" fill="#1C8B63"/>
+<circle cx="624" cy="291" r="14" fill="#F4B51D"/>
+<circle cx="522" cy="216" r="10" fill="#2449E8"/>
+<rect x="34" y="364" width="682" height="24" rx="12" fill="#2449E8" stroke="none" stroke-width="0"/>
+<text data-role="source" x="375" y="381" font-family="Arial" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="375" dy="0">ONE DECISION · THREE OWNERS · ONE VISIBLE NEXT MILESTONE</tspan></text>
 <text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#534C44" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
 </g>
 </svg>

@@ -4,20 +4,46 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#DFE7E5" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="10" fill="#F9FBFA" stroke="#B9CCCA" stroke-width="1"/>
-<rect x="0" y="0" width="760" height="6" rx="10" fill="#087F73" stroke="none" stroke-width="0"/>
+<line x1="54" y1="126" x2="54" y2="370" stroke="#B9CCCA" stroke-width="0.6"/>
+<line x1="130" y1="126" x2="130" y2="370" stroke="#B9CCCA" stroke-width="0.6"/>
+<line x1="206" y1="126" x2="206" y2="370" stroke="#B9CCCA" stroke-width="0.6"/>
+<line x1="282" y1="126" x2="282" y2="370" stroke="#B9CCCA" stroke-width="0.6"/>
+<line x1="358" y1="126" x2="358" y2="370" stroke="#B9CCCA" stroke-width="0.6"/>
+<line x1="434" y1="126" x2="434" y2="370" stroke="#B9CCCA" stroke-width="0.6"/>
+<line x1="510" y1="126" x2="510" y2="370" stroke="#B9CCCA" stroke-width="0.6"/>
+<line x1="586" y1="126" x2="586" y2="370" stroke="#B9CCCA" stroke-width="0.6"/>
+<line x1="662" y1="126" x2="662" y2="370" stroke="#B9CCCA" stroke-width="0.6"/>
+<line x1="32" y1="146" x2="730" y2="146" stroke="#B9CCCA" stroke-width="0.6"/>
+<line x1="32" y1="191" x2="730" y2="191" stroke="#B9CCCA" stroke-width="0.6"/>
+<line x1="32" y1="236" x2="730" y2="236" stroke="#B9CCCA" stroke-width="0.6"/>
+<line x1="32" y1="281" x2="730" y2="281" stroke="#B9CCCA" stroke-width="0.6"/>
+<line x1="32" y1="326" x2="730" y2="326" stroke="#B9CCCA" stroke-width="0.6"/>
+<line x1="32" y1="371" x2="730" y2="371" stroke="#B9CCCA" stroke-width="0.6"/>
+<rect x="718" y="54" width="12" height="314" rx="6" fill="#087F73" stroke="none" stroke-width="0"/>
 <text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#087F73" text-anchor="start"><tspan x="34" dy="0">NARRATIVE / ANNOTATION</tspan></text>
-<text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#58716E" text-anchor="end"><tspan x="714" dy="0">03</tspan></text>
-<text data-role="slide-title" x="34" y="82" font-family="Arial" font-size="26" font-weight="700" fill="#102C2A" text-anchor="start"><tspan x="34" dy="0">One story becomes credible through three kinds of proof</tspan></text>
-<text data-role="caption" x="34" y="110" font-family="Arial" font-size="9" font-weight="400" fill="#58716E" text-anchor="start"><tspan x="34" dy="0">Combine a concrete scene, an observed detail, and an explicit implication.</tspan></text>
-<rect x="34" y="142" width="420" height="214" rx="10" fill="#FFFFFF" stroke="#B9CCCA" stroke-width="1"/>
-<polygon points="34,356 34,248 146,178 246,266 350,196 454,266 454,356" fill="#2D62CC" opacity="0.42"/>
-<polygon points="34,356 34,310 154,258 282,332 380,280 454,318 454,356" fill="#087F73" opacity="0.72"/>
-<text data-role="subheading" x="488" y="170" font-family="Arial" font-size="14" font-weight="700" fill="#087F73" text-anchor="start"><tspan x="488" dy="0">01  SCENE</tspan></text>
-<text data-role="body" x="488" y="194" font-family="Arial" font-size="9" font-weight="400" fill="#102C2A" text-anchor="start"><tspan x="488" dy="0">Show where the issue becomes visible, who experiences it,</tspan><tspan x="488" dy="12.15">and what is at stake in that specific setting.</tspan></text>
-<text data-role="subheading" x="488" y="246" font-family="Arial" font-size="14" font-weight="700" fill="#087F73" text-anchor="start"><tspan x="488" dy="0">02  DETAIL</tspan></text>
-<text data-role="body" x="488" y="270" font-family="Arial" font-size="9" font-weight="400" fill="#102C2A" text-anchor="start"><tspan x="488" dy="0">Annotate an observation, quotation, artifact, or mechanism;</tspan><tspan x="488" dy="12.15">name the source and the limit of the evidence.</tspan></text>
-<text data-role="subheading" x="488" y="322" font-family="Arial" font-size="14" font-weight="700" fill="#087F73" text-anchor="start"><tspan x="488" dy="0">03  MEANING</tspan></text>
-<text data-role="body" x="488" y="346" font-family="Arial" font-size="9" font-weight="400" fill="#102C2A" text-anchor="start"><tspan x="488" dy="0">State what the evidence changes, which choice it supports,</tspan><tspan x="488" dy="12.15">and what the audience should inspect next.</tspan></text>
+<text data-role="page-number" x="718" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#58716E" text-anchor="end"><tspan x="718" dy="0">03</tspan></text>
+<text data-role="slide-title" x="34" y="82" font-family="Aptos Display, Arial, sans-serif" font-size="26" font-weight="700" fill="#102C2A" text-anchor="start"><tspan x="34" dy="0">One story explains what the metric cannot</tspan></text>
+<text data-role="caption" x="34" y="110" font-family="Arial" font-size="9" font-weight="400" fill="#58716E" text-anchor="start"><tspan x="34" dy="0">Connect a concrete scene, a sourced detail, an interpretation, and the decision it changes.</tspan></text>
+<rect x="34" y="144" width="402" height="196" rx="10" fill="#FFFFFF" stroke="#B9CCCA" stroke-width="1"/>
+<rect x="68" y="272" width="34" height="42" rx="6" fill="#2D62CC" stroke="none" stroke-width="0"/>
+<text data-role="annotation" x="85" y="330" font-family="Arial" font-size="9" font-weight="400" fill="#58716E" text-anchor="middle"><tspan x="85" dy="0">01</tspan></text>
+<rect x="134" y="242" width="34" height="72" rx="6" fill="#2D62CC" stroke="none" stroke-width="0"/>
+<text data-role="annotation" x="151" y="330" font-family="Arial" font-size="9" font-weight="400" fill="#58716E" text-anchor="middle"><tspan x="151" dy="0">02</tspan></text>
+<rect x="200" y="258" width="34" height="56" rx="6" fill="#2D62CC" stroke="none" stroke-width="0"/>
+<text data-role="annotation" x="217" y="330" font-family="Arial" font-size="9" font-weight="400" fill="#58716E" text-anchor="middle"><tspan x="217" dy="0">03</tspan></text>
+<rect x="266" y="210" width="34" height="104" rx="6" fill="#087F73" stroke="none" stroke-width="0"/>
+<text data-role="annotation" x="283" y="330" font-family="Arial" font-size="9" font-weight="400" fill="#58716E" text-anchor="middle"><tspan x="283" dy="0">04</tspan></text>
+<rect x="332" y="182" width="34" height="132" rx="6" fill="#2D62CC" stroke="none" stroke-width="0"/>
+<text data-role="annotation" x="349" y="330" font-family="Arial" font-size="9" font-weight="400" fill="#58716E" text-anchor="middle"><tspan x="349" dy="0">05</tspan></text>
+<text data-role="label" x="52" y="316" font-family="Arial" font-size="10" font-weight="700" fill="#102C2A" text-anchor="start"><tspan x="52" dy="0">FIELD NOTE / ORIGINAL PLACEHOLDER</tspan></text>
+<text data-role="subheading" x="468" y="158" font-family="Arial" font-size="14" font-weight="700" fill="#087F73" text-anchor="start"><tspan x="468" dy="0">01  SCENE</tspan></text>
+<text data-role="body" x="468" y="182" font-family="Arial" font-size="9" font-weight="400" fill="#102C2A" text-anchor="start"><tspan x="468" dy="0">Who experiences the issue,</tspan><tspan x="468" dy="12.15">where it occurs, and what is at stake.</tspan></text>
+<text data-role="subheading" x="468" y="236" font-family="Arial" font-size="14" font-weight="700" fill="#087F73" text-anchor="start"><tspan x="468" dy="0">02  SOURCE</tspan></text>
+<text data-role="body" x="468" y="260" font-family="Arial" font-size="9" font-weight="400" fill="#102C2A" text-anchor="start"><tspan x="468" dy="0">Name the observation, artifact,</tspan><tspan x="468" dy="12.15">quotation, date, and evidence limit.</tspan></text>
+<text data-role="subheading" x="468" y="314" font-family="Arial" font-size="14" font-weight="700" fill="#087F73" text-anchor="start"><tspan x="468" dy="0">03  MEANING</tspan></text>
+<text data-role="body" x="468" y="338" font-family="Arial" font-size="9" font-weight="400" fill="#102C2A" text-anchor="start"><tspan x="468" dy="0">State what changes now, who decides,</tspan><tspan x="468" dy="12.15">and which proof the audience should inspect.</tspan></text>
+<line x1="468" y1="366" x2="716" y2="366" stroke="#B9CCCA" stroke-width="1"/>
+<text data-role="source" x="716" y="384" font-family="Arial" font-size="9" font-weight="700" fill="#58716E" text-anchor="end"><tspan x="716" dy="0">SCENE → SOURCE → MEANING → ACTION</tspan></text>
 <text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#58716E" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
 </g>
 </svg>

@@ -4,32 +4,32 @@
 <rect x="0" y="0" width="1600" height="900" rx="0" fill="#151813" stroke="none" stroke-width="0"/>
 <g transform="translate(40 50) scale(2)">
 <rect x="0" y="0" width="760" height="400" rx="2" fill="#20231D" stroke="#55594D" stroke-width="1"/>
-<rect x="0" y="0" width="760" height="6" rx="2" fill="#C7A35A" stroke="none" stroke-width="0"/>
+<circle cx="650" cy="206" r="142" fill="none" stroke="#C7A35A" stroke-width="1" opacity="0.35"/>
+<circle cx="650" cy="206" r="102" fill="none" stroke="#8E9B78" stroke-width="1" opacity="0.28"/>
+<line x1="42" y1="356" x2="706" y2="356" stroke="#C7A35A" stroke-width="1.5"/>
 <text data-role="label" x="34" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#C7A35A" text-anchor="start"><tspan x="34" dy="0">EXECUTIVE &amp; PORTFOLIO</tspan></text>
-<text data-role="page-number" x="714" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#B8B2A5" text-anchor="end"><tspan x="714" dy="0">01</tspan></text>
-<text data-role="deck-title" x="34" y="96" font-family="Georgia" font-size="36" font-weight="700" fill="#F1EBDD" text-anchor="start"><tspan x="34" dy="0">Fewer priorities.</tspan><tspan x="34" dy="37.44">Stronger</tspan><tspan x="34" dy="37.44">compounding.</tspan></text>
-<text data-role="caption" x="34" y="234" font-family="Arial" font-size="9" font-weight="400" fill="#B8B2A5" text-anchor="start"><tspan x="34" dy="0">A restrained system gives the decisive evidence room to carry authority.</tspan></text>
-<text data-role="source" x="34" y="362" font-family="Arial" font-size="9" font-weight="700" fill="#B8B2A5" text-anchor="start"><tspan x="34" dy="0">ILLUSTRATIVE TEMPLATE · REPLACE WITH SOURCED CONTENT</tspan></text>
-<rect x="418" y="88" width="92" height="196" rx="2" fill="#292D25" stroke="#55594D" stroke-width="1"/>
-<text data-role="metric" x="464" y="158" font-family="Georgia" font-size="29" font-weight="700" fill="#C7A35A" text-anchor="middle"><tspan x="464" dy="0">3</tspan></text>
-<text data-role="annotation" x="464" y="186" font-family="Arial" font-size="9" font-weight="600" fill="#B8B2A5" text-anchor="middle"><tspan x="464" dy="0">portfolio bets</tspan></text>
-<line x1="436" y1="222" x2="492" y2="222" stroke="#55594D" stroke-width="2"/>
-<line x1="436" y1="244" x2="492" y2="214" stroke="#8E9B78" stroke-width="4"/>
-<rect x="523" y="88" width="92" height="196" rx="2" fill="#292D25" stroke="#55594D" stroke-width="1"/>
-<text data-role="metric" x="569" y="158" font-family="Georgia" font-size="29" font-weight="700" fill="#F1EBDD" text-anchor="middle"><tspan x="569" dy="0">68%</tspan></text>
-<text data-role="annotation" x="569" y="186" font-family="Arial" font-size="9" font-weight="600" fill="#B8B2A5" text-anchor="middle"><tspan x="569" dy="0">capital focused</tspan></text>
-<line x1="541" y1="222" x2="597" y2="222" stroke="#55594D" stroke-width="2"/>
-<line x1="541" y1="239" x2="597" y2="222" stroke="#8E9B78" stroke-width="4"/>
-<rect x="628" y="88" width="92" height="196" rx="2" fill="#292D25" stroke="#55594D" stroke-width="1"/>
-<text data-role="metric" x="674" y="158" font-family="Georgia" font-size="29" font-weight="700" fill="#F1EBDD" text-anchor="middle"><tspan x="674" dy="0">24m</tspan></text>
-<text data-role="annotation" x="674" y="186" font-family="Arial" font-size="9" font-weight="600" fill="#B8B2A5" text-anchor="middle"><tspan x="674" dy="0">value horizon</tspan></text>
-<line x1="646" y1="222" x2="702" y2="222" stroke="#55594D" stroke-width="2"/>
-<line x1="646" y1="234" x2="702" y2="230" stroke="#8E9B78" stroke-width="4"/>
-<rect x="34" y="286" width="98" height="34" rx="17" fill="#292D25" stroke="#55594D" stroke-width="1"/>
-<text data-role="label" x="83" y="308" font-family="Arial" font-size="10" font-weight="700" fill="#F1EBDD" text-anchor="middle"><tspan x="83" dy="0">CLAIM</tspan></text>
-<rect x="146" y="286" width="98" height="34" rx="17" fill="#292D25" stroke="#55594D" stroke-width="1"/>
-<text data-role="label" x="195" y="308" font-family="Arial" font-size="10" font-weight="700" fill="#F1EBDD" text-anchor="middle"><tspan x="195" dy="0">PROOF</tspan></text>
-<rect x="258" y="286" width="98" height="34" rx="17" fill="#292D25" stroke="#55594D" stroke-width="1"/>
-<text data-role="label" x="307" y="308" font-family="Arial" font-size="10" font-weight="700" fill="#F1EBDD" text-anchor="middle"><tspan x="307" dy="0">ACTION</tspan></text>
+<text data-role="page-number" x="718" y="34" font-family="Arial" font-size="10" font-weight="700" fill="#B8B2A5" text-anchor="end"><tspan x="718" dy="0">01</tspan></text>
+<text data-role="deck-title" x="34" y="116" font-family="Georgia" font-size="38" font-weight="700" fill="#F1EBDD" text-anchor="start"><tspan x="34" dy="0">Fewer priorities.</tspan><tspan x="34" dy="38.38">Stronger</tspan><tspan x="34" dy="38.38">compounding.</tspan></text>
+<text data-role="body" x="36" y="248" font-family="Arial" font-size="9" font-weight="400" fill="#B8B2A5" text-anchor="start"><tspan x="36" dy="0">A restrained system gives the decisive</tspan><tspan x="36" dy="12.78">evidence room to carry authority.</tspan></text>
+<text data-role="label" x="36" y="294" font-family="Arial" font-size="10" font-weight="700" fill="#C7A35A" text-anchor="start"><tspan x="36" dy="0">CLAIM  →  EVIDENCE  →  ACTION</tspan></text>
+<rect x="430" y="82" width="286" height="168" rx="2" fill="#292D25" stroke="#55594D" stroke-width="1"/>
+<circle cx="624" cy="170" r="64" fill="none" stroke="#C7A35A" stroke-width="2"/>
+<text data-role="metric" x="624" y="185" font-family="Georgia" font-size="46" font-weight="700" fill="#F1EBDD" text-anchor="middle"><tspan x="624" dy="0">01</tspan></text>
+<line x1="478" y1="226" x2="770" y2="226" stroke="#C7A35A" stroke-width="1"/>
+<text data-role="label" x="624" y="246" font-family="Arial" font-size="10" font-weight="700" fill="#B8B2A5" text-anchor="middle"><tspan x="624" dy="0">ONE PRECISE SIGNAL</tspan></text>
+<line x1="34" y1="322" x2="240" y2="322" stroke="#55594D" stroke-width="1"/>
+<text data-role="metric" x="34" y="352" font-family="Georgia" font-size="24" font-weight="700" fill="#C7A35A" text-anchor="start"><tspan x="34" dy="0">3</tspan></text>
+<text data-role="label" x="116" y="342" font-family="Arial" font-size="10" font-weight="700" fill="#F1EBDD" text-anchor="start"><tspan x="116" dy="0">portfolio bets</tspan></text>
+<text data-role="annotation" x="116" y="360" font-family="Arial" font-size="9" font-weight="400" fill="#B8B2A5" text-anchor="start"><tspan x="116" dy="0">illustrative signal · replace</tspan></text>
+<line x1="260" y1="322" x2="466" y2="322" stroke="#55594D" stroke-width="1"/>
+<text data-role="metric" x="260" y="352" font-family="Georgia" font-size="24" font-weight="700" fill="#F1EBDD" text-anchor="start"><tspan x="260" dy="0">68%</tspan></text>
+<text data-role="label" x="342" y="342" font-family="Arial" font-size="10" font-weight="700" fill="#F1EBDD" text-anchor="start"><tspan x="342" dy="0">capital focused</tspan></text>
+<text data-role="annotation" x="342" y="360" font-family="Arial" font-size="9" font-weight="400" fill="#B8B2A5" text-anchor="start"><tspan x="342" dy="0">illustrative signal · replace</tspan></text>
+<line x1="486" y1="322" x2="692" y2="322" stroke="#55594D" stroke-width="1"/>
+<text data-role="metric" x="486" y="352" font-family="Georgia" font-size="24" font-weight="700" fill="#F1EBDD" text-anchor="start"><tspan x="486" dy="0">24m</tspan></text>
+<text data-role="label" x="568" y="342" font-family="Arial" font-size="10" font-weight="700" fill="#F1EBDD" text-anchor="start"><tspan x="568" dy="0">value horizon</tspan></text>
+<text data-role="annotation" x="568" y="360" font-family="Arial" font-size="9" font-weight="400" fill="#B8B2A5" text-anchor="start"><tspan x="568" dy="0">illustrative signal · replace</tspan></text>
+<text data-role="source" x="714" y="386" font-family="Arial" font-size="9" font-weight="700" fill="#B8B2A5" text-anchor="end"><tspan x="714" dy="0">ORIGINAL VECTOR TEMPLATE · ALL SAMPLE DATA MUST BE REPLACED</tspan></text>
+<text data-role="source" x="724" y="392" font-family="Arial" font-size="9" font-weight="700" fill="#B8B2A5" text-anchor="end"><tspan x="724" dy="0">ILLUSTRATIVE TEMPLATE</tspan></text>
 </g>
 </svg>

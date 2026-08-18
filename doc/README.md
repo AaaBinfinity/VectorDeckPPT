@@ -17,7 +17,7 @@
 - [艺术方向](../.agents/skills/vectordeckppt/references/art-direction.md)：从受众、目标和证据定义视觉命题；
 - [设计系统](../.agents/skills/vectordeckppt/references/design-system.md)：字体、空间、色彩、图像和几何规则；
 - [页面设计](../.agents/skills/vectordeckppt/references/slide-design.md)：信息层级、构图和内容密度；
-- [视觉方向参考](../.agents/skills/vectordeckppt/references/style-templates.md)：十二套内置视觉语法，每套一个独立目录，包含总览与 10 页 SVG/PNG 源文件；
+- [视觉方向参考](../.agents/skills/vectordeckppt/references/style-templates.md)：十二套内置视觉语法、共 120 张逐页 SVG/PNG 源文件；全部按完整十页系统维护，不以单套强视觉模板代替全库质量；
 - [视觉复审](../.agents/skills/vectordeckppt/references/visual-review.md)：逐页 PNG 与最终 PPTX 检查方法。
 
 ### 我想保证字体和内容质量
